@@ -1,0 +1,45 @@
+Fiction Craft Skills: third-party notices
+
+The skill `prose-ai-tells` is a derivative of Humanizer, adapted for fiction.
+
+  Humanizer
+  https://github.com/blader/humanizer
+  Copyright (c) 2025 Siqi Chen
+  Licensed under the MIT License
+
+  MIT License
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+What was adapted: the idea of numbered, strongest-first patterns of machine-written
+prose, the "weak alone" rule for patterns that need company, and the structure of the
+pattern families. Pattern wording and all examples in this library are new and written
+for narrative fiction. Humanizer's patterns come from Wikipedia's "Signs of AI writing"
+(https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
+
+The craft frameworks in the plot, character, magic-worldbuilding, scene-craft, and
+foundations skills are restatements, in original words, of ideas taught in Brandon
+Sanderson's 2025 lecture series on writing science fiction and fantasy. No lecture text
+is included. This project is not affiliated with or endorsed by Brandon Sanderson.
+
+The Story project folder layout (a kb/ folder for settled story facts and a work/ folder
+for working documents) is compatible with the layout used by haowjy/creative-writing-skills
+(https://github.com/haowjy/creative-writing-skills, Apache License 2.0) so that projects
+built with that library can be adopted without being reorganized. No text or code from
+that library is included.

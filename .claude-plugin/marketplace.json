@@ -1,0 +1,17 @@
+{
+  "name": "fiction-craft-skills",
+  "owner": {
+    "name": "saigauthamr",
+    "url": "https://github.com/saigauthamr"
+  },
+  "description": "Skills for writing fiction with an AI, installable as a plugin.",
+  "plugins": [
+    {
+      "name": "fiction-craft-skills",
+      "source": "./",
+      "description": "Craft frameworks and a guided writing process for fiction: develop, plan, draft, check, and revise, with you choosing how much the AI writes.",
+      "category": "writing",
+      "keywords": ["fiction", "writing", "worldbuilding", "plot", "character"]
+    }
+  ]
+}

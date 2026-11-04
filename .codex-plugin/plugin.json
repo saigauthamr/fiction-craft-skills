@@ -1,0 +1,27 @@
+{
+  "name": "fiction-craft-skills",
+  "version": "0.1.0",
+  "description": "Skills for writing fiction with an AI: craft frameworks (plot, character, magic and worldbuilding, scene craft) plus a guided process from idea to revised chapter. You choose how much the AI writes, from everything to nothing.",
+  "author": {
+    "name": "saigauthamr",
+    "url": "https://github.com/saigauthamr"
+  },
+  "homepage": "https://github.com/saigauthamr/fiction-craft-skills",
+  "repository": "https://github.com/saigauthamr/fiction-craft-skills",
+  "license": "Apache-2.0",
+  "keywords": ["fiction", "writing", "novel", "worldbuilding", "plot", "character", "editing", "skills"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Fiction Craft Skills",
+    "shortDescription": "Craft frameworks and a guided process for writing fiction with an AI",
+    "longDescription": "Plot, character, magic and worldbuilding, and scene craft frameworks, plus a guided process: develop the idea, plan, draft, check, and revise. You choose who writes each stage, from the AI doing everything to the AI only checking your work.",
+    "developerName": "saigauthamr",
+    "category": "Writing",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": [
+      "Set up my story project.",
+      "What should I do next with this story?"
+    ],
+    "websiteURL": "https://github.com/saigauthamr/fiction-craft-skills"
+  }
+}

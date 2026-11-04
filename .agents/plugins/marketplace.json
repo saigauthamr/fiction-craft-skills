@@ -1,0 +1,20 @@
+{
+  "name": "fiction-craft-skills",
+  "interface": {
+    "displayName": "Fiction Craft Skills"
+  },
+  "plugins": [
+    {
+      "name": "fiction-craft-skills",
+      "source": {
+        "source": "url",
+        "url": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Writing"
+    }
+  ]
+}
