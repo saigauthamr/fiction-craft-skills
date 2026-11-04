@@ -23,12 +23,12 @@ Pick **one** route per tool. Installing the same skills two ways lists every ski
 
 | Tool | Route | Status |
 | --- | --- | --- |
-| Claude Code | Plugin (below) | Manifest validated, and 6 plain requests loaded the right skills from a local copy of the plugin. The marketplace command itself is not yet tested |
-| Claude Code, Codex, Gemini CLI, OpenCode, Cursor, Copilot | Clone and run `scripts/install.sh` (below) | Script and folders tested. 22 plain requests loaded the right skills in Claude Code; other tools untested |
-| Codex | Plugin marketplace (below) | Tested in a sandboxed Codex config from a local copy: the marketplace was accepted, the plugin installed with all 76 skills, and a plain request loaded the right skill |
-| GitHub Copilot | Plugin marketplace (below) | Not tested. Uses the same commands other skill repos use |
-| Gemini CLI | `gemini skills install` (below) | Not tested |
-| Cursor, OpenCode, and others | `npx skills add` (below) | Not tested |
+| Claude Code | Plugin (below) | Tested from this repo: `marketplace add` and `install` work, and 6 plain requests loaded the right skills |
+| Codex | Plugin marketplace (below) | Tested from this repo: `marketplace add` and `plugin add` install all 76 skills, and a plain request loaded the right skill |
+| Cursor, OpenCode, and others | `npx skills add` (below) | Tested for the Claude Code target: finds all 76 skills and copies them with their scripts. Other targets untested |
+| Any tool | Clone and run `scripts/install.sh` (below) | Script and folders tested. 22 plain requests loaded the right skills in Claude Code; other tools untested |
+| GitHub Copilot | Plugin marketplace (below) | Not tested |
+| Gemini CLI | `gemini skills install` (below) | Not tested; Gemini CLI was not available to test with |
 
 ### Claude Code: as a plugin
 
@@ -109,7 +109,7 @@ If your tool reads a different file, point it at `AGENTS.md`.
 
 Tools put every skill's name and description into the model's context, within a budget, and drop or shorten descriptions when there are too many. The 76 descriptions here total about 20,000 characters. Codex's docs give the list about 2% of the context window (8,000 characters when the window size is unknown) and say it shortens descriptions first; `skills.max_context_tokens` raises that, up to 10,000 tokens. Claude Code's docs describe dropping the descriptions of rarely used skills first when it runs short, with a setting to raise the budget (`skillListingBudgetFraction`). If a skill does not trigger from a plain request, raise the budget. The routing table that setup writes into your instructions file is a second path: it names the right skill for each kind of request, and it is what made loading reliable in testing.
 
-**Tested in Claude Code only.** The format follows the open standard and the paths above come from each tool's documentation, but every loading test (22 plain requests from project-local links, 6 from a local plugin copy) ran in Claude Code. Other tools are untested.
+**Loading was tested in Claude Code (22 plain requests from project-local links, 6 from the plugin) and Codex (1 plain request).** The format follows the open standard and the paths above come from each tool's documentation. Other tools are untested; if a skill does not appear in yours, please open an issue.
 
 ## Start here
 
