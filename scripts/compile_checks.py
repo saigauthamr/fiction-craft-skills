@@ -18,7 +18,7 @@ from pathlib import Path
 
 # Hubs whose framework skills must carry a Checks section. Extended hub by hub.
 CONTRACT_PREFIXES = ("plot-", "character-", "magic-", "worldbuilding-", "foundations-",
-                     "scene-and-sequel", "show-dont-tell", "viewpoint-and-tense", "prose-")
+                     "scene-", "show-dont-tell", "viewpoint-and-tense", "prose-")
 ID_RE = re.compile(r"^[a-z]+\.[a-z]+\.\d{2}$")
 ITEM_RE = re.compile(r"^- `([^`]+)` (.+)$")
 GEN_RE = re.compile(r"<!-- generated:checks:start(?: ([a-z-]+))? -->\n.*?<!-- generated:checks:end(?: \1)? -->\n?", re.S)
@@ -27,8 +27,8 @@ MAP_FILE = Path(__file__).resolve().parent / "check-map.txt"
 PREAMBLE = ("Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a "
             "short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: "
             "in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is "
-            "deliberate and do not push the story back toward the formula. Load the named skill only when you need its "
-            "full reasoning.")
+            "deliberate and do not push the story back toward the formula. Load the skill listed for a check's family "
+            "(after the list) only when you need its full reasoning.")
 
 
 def frontmatter(text):
@@ -72,6 +72,13 @@ def collect(skills_dir, errors):
                 errors.append(f"{skill}: duplicate check ID {cid} (also in {found[cid][1]})")
                 continue
             found[cid] = (m.group(2).strip(), skill)
+    # Each generated list names one skill per check family, so a family may not be split across skills.
+    owners = {}
+    for cid, (_, skill) in found.items():
+        owners.setdefault(family(cid), set()).add(skill)
+    for fam, skills in sorted(owners.items()):
+        if len(skills) > 1:
+            errors.append(f"check family {fam} is split across skills {', '.join(sorted(skills))}; one skill per family")
     return found
 
 
@@ -110,11 +117,20 @@ def expand(patterns, checks, where, errors):
     return ids
 
 
+def family(check_id):
+    return ".".join(check_id.split(".")[:2])
+
+
 def render(op, ids, checks):
     tag = f" {op}" if op else ""
     title = f"## Craft checks{': ' + op if op else ''} (generated)"
-    lines = "\n".join(f"- `{c}` {checks[c][0]} (`{checks[c][1]}`)" for c in ids)
-    return (f"<!-- generated:checks:start{tag} -->\n{title}\n\n{PREAMBLE}\n\n{lines}\n"
+    lines = "\n".join(f"- `{c}` {checks[c][0]}" for c in ids)
+    seen = {}
+    for c in ids:
+        seen.setdefault(family(c), checks[c][1])
+    skills = "; ".join(f"`{f}` {s}" for f, s in seen.items())
+    return (f"<!-- generated:checks:start{tag} -->\n{title}\n\n{PREAMBLE}\n\n{lines}\n\n"
+            f"Skill for each check family: {skills}.\n"
             f"<!-- generated:checks:end{tag} -->\n")
 
 

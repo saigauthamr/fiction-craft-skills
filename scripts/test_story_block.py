@@ -241,6 +241,36 @@ class InspectorTests(unittest.TestCase):
         self.write("work/drafts/001-a.md", "<!-- status: draft -->\nx")
         self.assertEqual(facts(self.root)["undrafted_beats"], "002-b.md")
 
+    def test_promises_are_counted_by_status_and_the_oldest_unpaid_is_named_with_its_age(self):
+        self.write("work/spec/promise-ledger.md",
+                   "# Promises\n\n- P01 | planted ch2 | open | the cargo is never explained\n- P02 | planted ch1 | paid | the marker holds\n"
+                   "- P03 | planted chapter 4 | advanced | Harl's letters\n* P04 | planted ch3 | dropped | cut on purpose\n")
+        for n in (1, 2, 3, 4, 5, 6, 7):
+            self.write(f"work/drafts/00{n}-c.md", "x")
+        f = facts(self.root)
+        self.assertEqual(f["promises"], "open=1 advanced=1 paid=1 dropped=1")
+        self.assertEqual(f["promises_oldest_unpaid"], "P01 (planted ch2, 5 chapters ago)")
+
+    def test_no_ledger_means_no_promises(self):
+        f = facts(self.root)
+        self.assertEqual((f["promises"], f["promises_oldest_unpaid"]), ("open=0 advanced=0 paid=0 dropped=0", "none"))
+
+    def test_a_projects_own_promise_format_is_ignored(self):
+        self.write("work/spec/promise-ledger.md", "| ID | Promise | Status |\n| --- | --- | --- |\n| 1 | the cargo | open |\n- Promise: the cargo (open)\n- P1: planted ch2, open\n")
+        self.assertEqual(facts(self.root)["promises"], "open=0 advanced=0 paid=0 dropped=0")
+
+    def test_all_paid_promises_leave_nothing_unpaid(self):
+        self.write("work/spec/promise-ledger.md", "- P01 | planted ch1 | paid | done\n")
+        self.assertEqual(facts(self.root)["promises_oldest_unpaid"], "none")
+
+    def test_the_age_is_left_out_when_there_are_no_chapters_yet(self):
+        self.write("work/spec/promise-ledger.md", "- P01 | planted ch2 | open | planned\n")
+        self.assertEqual(facts(self.root)["promises_oldest_unpaid"], "P01 (planted ch2)")
+
+    def test_promise_lines_inside_a_chapter_are_not_read(self):
+        self.write("work/drafts/001-a.md", "- P09 | planted ch1 | open | in the prose\n")
+        self.assertEqual(facts(self.root)["promises"], "open=0 advanced=0 paid=0 dropped=0")
+
     def test_inspection_changes_nothing(self):
         self.write("work/drafts/001-a.md", "<!-- status: draft -->\nx")
         before = tree_hash(self.root)
@@ -307,6 +337,32 @@ class NextStepTests(unittest.TestCase):
         step = self.project(**{"work__drafts__001-a.md": "<!-- status: accepted -->\nx"})
         self.assertNotIn(step[1], ("story-check", "story-revise"))
         self.assertEqual(facts(self.root)["chapters_trusted"], "1")
+
+    def test_a_trusted_chapter_edited_since_delivery_goes_to_story_edits(self):
+        step = self.project(**{"work__drafts__001-a.md": "The marker stood in the mud.\n\nShe left.\n",
+                               "work__drafts___delivered__001-a.md": "<!-- status: awaiting check-in -->\nThe marker stood in the mud.\n\nShe waited.\n"})
+        self.assertEqual(step[:3], ("learn from your edits", "story-edits", "ai"))
+        self.assertEqual(facts(self.root)["chapters_edited_since_delivery"], "001-a.md")
+
+    def test_removing_only_the_status_line_is_not_an_edit(self):
+        step = self.project(**{"work__drafts__001-a.md": "The marker stood in the mud.\n\nShe waited.\n",
+                               "work__drafts___delivered__001-a.md": "<!-- status: awaiting check-in -->\nThe marker stood in the mud.\n\nShe waited.\n"})
+        self.assertNotEqual(step[1], "story-edits")
+        self.assertEqual(facts(self.root)["chapters_edited_since_delivery"], "none")
+
+    def test_edits_wait_for_approval_while_the_chapter_is_still_marked(self):
+        step = self.project(**{"work__drafts__001-a.md": "<!-- status: awaiting check-in -->\nThe marker stood in the mud.\n\nShe left.\n",
+                               "work__drafts___delivered__001-a.md": "<!-- status: awaiting check-in -->\nThe marker stood in the mud.\n\nShe waited.\n"})
+        self.assertEqual(step[0], "check-in on drafted chapters")
+
+    def test_delivered_copies_are_not_counted_as_chapters(self):
+        self.project(**{"work__drafts__001-a.md": "x", "work__drafts___delivered__001-a.md": "y"})
+        self.assertEqual(facts(self.root)["draft_files"], "1")
+
+    def test_design_only_never_learns_from_edits(self):
+        step = self.project("design-only", **{"work__spec__spec.md": "s", "work__beats__001-a.md": "b",
+                                              "work__drafts__001-a.md": "new\n", "work__drafts___delivered__001-a.md": "old\n"})
+        self.assertNotEqual(step[1], "story-edits")
 
     def test_07_a_finding_kept_on_purpose_is_settled(self):
         step = self.project(**{"work__drafts__001-a.md": "# Chapter 1\n\nWritten by hand.\n",

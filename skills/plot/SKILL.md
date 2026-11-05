@@ -40,6 +40,8 @@ Plot has two jobs: it gives conflict something to happen in, and it gives the re
 
 **Planning**
 - `plot-outline-interwoven-cycles`: outlining several plotlines, for outline-first and discovery writers alike.
+- `plot-causal-bridges`: checking that each turn causes the next, through someone's choice.
+- `plot-reveal-boundaries`: separating what is true, who knows it, and when the reader learns it.
 
 ## Which child for which problem
 
@@ -60,6 +62,8 @@ Plot has two jobs: it gives conflict something to happen in, and it gives the re
 | "My best scene is in the middle" | `plot-climax-placement-aftermath` |
 | "How do I outline several plotlines?" / "I'm a discovery writer, can I outline?" | `plot-outline-interwoven-cycles` |
 | "A friendship needs to turn into a betrayal" / "combine genres" | `plot-archetypes` |
+| "Events happen but nothing causes anything" / "my outline is a list of incidents" / "this turn feels arbitrary" | `plot-causal-bridges` |
+| "When should readers learn the secret?" / "I'm explaining the magic before anyone cares" / "plan my mystery" | `plot-reveal-boundaries` |
 
 ## Notes
 

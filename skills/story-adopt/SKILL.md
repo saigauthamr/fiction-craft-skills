@@ -59,6 +59,10 @@ Offer this after an import when the writer has chapters but no plan. Ask first.
 4. Confirm one section at a time. Save nothing unconfirmed.
 5. Save the confirmed spec to `work/spec/spec.md` and the summaries as beats files in `work/beats/`, one per chapter, each marked "reconstructed from the draft".
 
+## Chapter cards (long stories)
+
+When the import brings in five or more chapters, offer to build a card for each (see Chapter cards in `story-continue`), so later work can read the story in tiers. Cards are derived and never change a chapter. Ask first.
+
 ## An established project
 
 If the plan shows a populated `kb/`, the project already exists. The plan may have nothing to import; applying it then only records the adoption in `work/adopt/provenance.md`, which lets `story-onboard` set the project up. Knowledge-base pages, style files, the open-questions register, tool folders, and git history are left alone. An existing `work/outline/` counts as the project's beats; do not move it.

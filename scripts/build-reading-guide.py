@@ -38,7 +38,7 @@ def first_sentence(desc):
 
 PARTS = [
     ("Part 1. Setting up and moving through a story", "Read these first. Onboarding decides who plans, drafts, and revises; the rest are the stages every story moves through, in order. Each stage adapts to those settings.",
-     ["story-onboard", "story-next", "story-adopt", "story-develop", "story-plan", "story-draft", "story-check", "story-revise", "story-steer", "story-continue", "story-learn"]),
+     ["story-onboard", "story-next", "story-adopt", "story-develop", "story-plan", "story-draft", "story-check", "story-revise", "story-edits", "story-steer", "story-continue", "story-learn"]),
     ("Part 2. Tools", "Design tools any writer can use, whoever writes the prose: a rules lab for magic and world rules, character build sheets, and voice demos.",
      ["story-worldbuild", "story-cast", "story-voice"]),
     ("Part 3. Process and mindset", "How a writer works, takes feedback, and revises.", ["foundations"] + children("foundations")),

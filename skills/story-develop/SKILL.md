@@ -27,7 +27,7 @@ Recommended: <your answer, and why>
 
 Wait for the answers, recompute the frontier, and ask the next round. If the writer discovers the story as they write, ask only what the story cannot do without (the premise, what the main character wants, what the opening promises) and record the rest as open.
 
-**When the AI owns planning: choices.** Run rounds of at most four choices, each with a recommended default and one line on what each option does to the story, so the writer can answer with a number or "go". The usual order is the idea (restate theirs, or offer three two-line premises), tone and how much danger is real, the main character, the central problem or power and what it costs, the opposing force with a plan of its own, and how the ending should feel. Skip any round they have already answered. Fill in what they do not care about (names, minor characters, texture) and list it under "Defaults I picked" for them to veto. Anything touching the plot, the rules, a motive, a relationship, or the ending needs their explicit choice. When they say "use the defaults", those are your choices, not theirs: mark them as yours.
+**When the AI owns planning: choices.** Run rounds of at most four choices, each with a recommended default and one line on what each option does to the story, so the writer can answer with a number or "go". Make the options in a round differ in kind, not only in detail, and label each as the usual pick, a less usual one, or an unusual one. Include at least one unusual option, so a round is never three variations of the obvious answer. The usual order is the idea (restate theirs, or offer three two-line premises), tone and how much danger is real, the main character, the central problem or power and what it costs, the opposing force with a plan of its own, and how the ending should feel. Skip any round they have already answered. Fill in what they do not care about (names, minor characters, texture) and list it under "Defaults I picked" for them to veto. Anything touching the plot, the rules, a motive, a relationship, or the ending needs their explicit choice. When they say "use the defaults", those are your choices, not theirs: mark them as yours.
 
 After a round about rules or characters, offer once: "Want to tinker with this? Say 'lab'." Send rules and powers to `story-worldbuild`, characters to `story-cast`. Never push it.
 
@@ -64,20 +64,24 @@ The session is done when the frontier is empty: every branch visited, nothing si
 <!-- generated:checks:start -->
 ## Craft checks (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `plot.bigp.01` State the Big P Plot in one or two sentences. If you cannot, the book is not focused yet. (`plot-big-p-little-p`)
-- `plot.promises.01` Which kinds of promise does the opening make (tone, plot, character, series), and which does it skip? Not every kind is required; mark each skip as deliberate or accidental. (`plot-kinds-of-promises`)
-- `plot.promises.03` Does the character promise show what the character wants, what they need, and why they cannot have it yet? (`plot-kinds-of-promises`)
-- `plot.progress.01` Name the kind of progress the story measures (information, relationship, skill, distance, or another) and check that the climax resolves that kind. (`plot-types-of-progress`)
-- `plot.progress.02` With several threads, name the soul of the story, the thread that drives the ending, and check that the climax turns on it and not on the trappings. (`plot-types-of-progress`)
-- `plot.archetypes.01` Name the archetypes the story layers, and which one carries the Big P Plot. (`plot-archetypes`)
-- `plot.archetypes.02` For each arc, has the story decided whether it heads for success or failure, and promised accordingly? (`plot-archetypes`)
-- `character.scales.01` Place the character low, middle, or high on proactive, relatable, and capable, per domain where it matters. (`character-proactive-relatable-capable`)
-- `character.motivation.01` Can you name what the character wants, why they cannot have it, what they need, and what they must sacrifice? (`character-motivation-discovery-questions`)
-- `character.weakness.01` For each weakness, is it a flaw, a restriction, or a limitation, and is it handled that way: an arc for a flaw, pressure scenes for a restriction, ingenuity for a limitation? (`character-flaws-restrictions-limitations`)
-- `magic.hardsoft.01` For each magical element, could a reader predict what it will do and what it cannot do? Place each element separately. (`magic-hard-and-soft`)
-- `worldbuilding.ideas.02` For each setting idea, is there a character or plot idea that presses on it? (`worldbuilding-idea-intersection`)
-- `worldbuilding.ideas.03` Is any idea just sitting there, affecting nothing else? Either connect it or save it for another book. (`worldbuilding-idea-intersection`)
-- `scene.pov.01` Does the viewpoint mode fit the cast size and the information the story needs to withhold? (`viewpoint-and-tense`)
+- `plot.bridges.01` For each major turn, can you name the pressure, the actor who interprets it, their goal, and their method?
+- `plot.reveals.01` For each secret, is the true fact written down apart from what the reader is told?
+- `plot.bigp.01` State the Big P Plot in one or two sentences. If you cannot, the book is not focused yet.
+- `plot.promises.01` Which kinds of promise does the opening make (tone, plot, character, series), and which does it skip? Not every kind is required; mark each skip as deliberate or accidental.
+- `plot.promises.03` Does the character promise show what the character wants, what they need, and why they cannot have it yet?
+- `plot.progress.01` Name the kind of progress the story measures (information, relationship, skill, distance, or another) and check that the climax resolves that kind.
+- `plot.progress.02` With several threads, name the soul of the story, the thread that drives the ending, and check that the climax turns on it and not on the trappings.
+- `plot.archetypes.01` Name the archetypes the story layers, and which one carries the Big P Plot.
+- `plot.archetypes.02` For each arc, has the story decided whether it heads for success or failure, and promised accordingly?
+- `character.scales.01` Place the character low, middle, or high on proactive, relatable, and capable, per domain where it matters.
+- `character.motivation.01` Can you name what the character wants, why they cannot have it, what they need, and what they must sacrifice?
+- `character.weakness.01` For each weakness, is it a flaw, a restriction, or a limitation, and is it handled that way: an arc for a flaw, pressure scenes for a restriction, ingenuity for a limitation?
+- `magic.hardsoft.01` For each magical element, could a reader predict what it will do and what it cannot do? Place each element separately.
+- `worldbuilding.ideas.02` For each setting idea, is there a character or plot idea that presses on it?
+- `worldbuilding.ideas.03` Is any idea just sitting there, affecting nothing else? Either connect it or save it for another book.
+- `scene.pov.01` Does the viewpoint mode fit the cast size and the information the story needs to withhold?
+
+Skill for each check family: `plot.bridges` plot-causal-bridges; `plot.reveals` plot-reveal-boundaries; `plot.bigp` plot-big-p-little-p; `plot.promises` plot-kinds-of-promises; `plot.progress` plot-types-of-progress; `plot.archetypes` plot-archetypes; `character.scales` character-proactive-relatable-capable; `character.motivation` character-motivation-discovery-questions; `character.weakness` character-flaws-restrictions-limitations; `magic.hardsoft` magic-hard-and-soft; `worldbuilding.ideas` worldbuilding-idea-intersection; `scene.pov` viewpoint-and-tense.
 <!-- generated:checks:end -->

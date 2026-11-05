@@ -15,6 +15,7 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 MAX_DESCRIPTION = 1024
 MAX_QUOTE_WORDS = 45
 MAX_QUOTE_SENTENCES = 2
@@ -266,6 +267,13 @@ def lint_plugin_manifests(root, errors):
         errors.append(".codex-plugin/plugin.json: skills must be './skills/'")
 
 
+def lint_budgets(skills, errors, advisories):
+    """Size is reported, never failed: see skill_sizes.py for what is measured and why."""
+    import skill_sizes
+    baseline = skill_sizes.load_baseline(skills.parent / "scripts" / "size-baseline.json")
+    advisories.extend(skill_sizes.advisories(skill_sizes.measure_all(skills), baseline))
+
+
 def lint_shared_copies(skills, errors):
     """Modules copied into several skills (so each stands alone) must stay identical."""
     copies = {}
@@ -277,7 +285,6 @@ def lint_shared_copies(skills, errors):
 
 def lint_checks(root, errors):
     """The knowledge contract: valid unique check IDs, a valid mapping, and no drift in generated sections."""
-    sys.path.insert(0, str(Path(__file__).resolve().parent))
     import compile_checks
     found, notices = [], []
     stale = compile_checks.compile_all(root, False, found, notices, require_all=True)
@@ -290,6 +297,7 @@ def main(argv):
     root = Path(argv[1]).resolve() if len(argv) > 1 else Path(__file__).resolve().parent.parent
     skills = root / "skills"
     errors = []
+    advisories = []
     if not skills.is_dir():
         print("no skills directory")
         return 1
@@ -298,6 +306,7 @@ def main(argv):
     for d in dirs:
         lint_skill(d, root, ends, errors)
     lint_shared_copies(skills, errors)
+    lint_budgets(skills, errors, advisories)
     lint_plugin_manifests(root, errors)
     lint_process_layer(root, errors)
     lint_checks(root, errors)
@@ -305,7 +314,10 @@ def main(argv):
     n_fix = lint_fixtures(root, errors)
     for e in errors:
         print(e)
-    print(f"{len(dirs)} skills, {n_ext} extractions, {n_fix} fixtures checked, {len(errors)} problems")
+    for a in advisories:
+        print(f"advisory: {a}")
+    note = f", {len(advisories)} advisories" if advisories else ""
+    print(f"{len(dirs)} skills, {n_ext} extractions, {n_fix} fixtures checked, {len(errors)} problems{note}")
     return 1 if errors else 0
 
 

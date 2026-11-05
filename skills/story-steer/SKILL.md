@@ -38,9 +38,11 @@ If a request contradicts something the writer already approved or a settled fact
 <!-- generated:checks:start -->
 ## Craft checks (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `plot.ppp.04` Has a promised thread been dropped for a more interesting subplot? If the progress is what you want to tell, revise the promise, not the middle. (`plot-promise-progress-payoff`)
-- `plot.progress.01` Name the kind of progress the story measures (information, relationship, skill, distance, or another) and check that the climax resolves that kind. (`plot-types-of-progress`)
-- `character.scales.03` Which scale does the character's arc move along, and is the movement shown on the page? (`character-proactive-relatable-capable`)
+- `plot.ppp.04` Has a promised thread been dropped for a more interesting subplot? If the progress is what you want to tell, revise the promise, not the middle.
+- `plot.progress.01` Name the kind of progress the story measures (information, relationship, skill, distance, or another) and check that the climax resolves that kind.
+- `character.scales.03` Which scale does the character's arc move along, and is the movement shown on the page?
+
+Skill for each check family: `plot.ppp` plot-promise-progress-payoff; `plot.progress` plot-types-of-progress; `character.scales` character-proactive-relatable-capable.
 <!-- generated:checks:end -->

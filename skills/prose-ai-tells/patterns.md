@@ -178,8 +178,9 @@ Habits that show up in machine-written scenes in particular. Patterns 13 to 15 a
 
 ### 18. Tag and gesture filler (*weak alone*)
 
-**Watch for:** "said softly", "whispered", "voice barely above a whisper" repeated across a page; nodded, smiled, sighed between every pair of lines.
-**Problem:** Beats that fill pauses without adding character. Cut them, or replace them with an action that belongs to the scene.
+**Watch for:** "said softly", "whispered", "voice barely above a whisper" repeated across a page; nodded, smiled, sighed, sipped, or looked away between every pair of lines; a scene whose only motion is handling props or doing a task.
+**Problem:** Decorative action (any character could do it without changing anything) and procedural action with no human pressure in it fill pauses without adding character. Cut them, or replace them with an action that changes the next beat: it reveals an agenda, forces a new tactic, or changes the situation.
+**Keep when:** the beat sits where something changes (information lands, a lie, a shift in power, a decision), or an untagged exchange is already clear without it. A plain "He said nothing" is a sentence, not a defect, and a flat exchange is not repaired by a gesture on every line.
 
 ### 19. Stacked similes (*weak alone*)
 

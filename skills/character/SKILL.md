@@ -25,6 +25,7 @@ Characters are read through what they want, how much they do about it, and how e
 
 **Presenting and understanding a character**
 - `character-iconic-characters`: series leads and detectives who do not change, and building on competence and cost.
+- `character-first-entry`: introducing an important character so readers can place them: role, link to the scene, first impression, one trait.
 - `character-presenting-a-character`: showing motivation, personality, and values without announcing them.
 - `character-motivation-discovery-questions`: a question set to run on your own character when you do not know why they act.
 - `character-writing-unfamiliar-backgrounds`: writing a character whose experience you have not lived.
@@ -37,6 +38,7 @@ Characters are read through what they want, how much they do about it, and how e
 
 | The writer says | Load |
 | --- | --- |
+| "Readers can't picture her" / "the villain walks in and nobody knows who he is" / "I introduced them but it doesn't land" | `character-first-entry` |
 | "My character is boring" / "readers don't care about him" / "she feels wooden" | `character-proactive-relatable-capable`, then `character-proactivity-toolkit` or `character-relatability-toolkit` |
 | "My hero is too perfect" / "too helpless" / "what should she be good at?" | `character-capability-design` |
 | "What weakness should I give him?" | `character-flaws-restrictions-limitations` |

@@ -1,0 +1,745 @@
+{
+ "about": "Words exclude frontmatter. Whole-file tokens include it; hand/generated tokens are encoded separately. Comparison tokens are not Claude usage.",
+ "tokens_measured_with": "tiktoken 0.14.0, cl100k_base, encode_ordinary",
+ "growth_warning": "more than 25% and more than 100 words beyond the baseline",
+ "skills": {
+  "character": {
+   "hand_words": 515,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "5fd2ce343bf154bddf2d506b3aabbc82307a1f76e3ad71173848029cc84dbf70",
+   "whole_tokens": 911,
+   "hand_tokens": 860,
+   "gen_tokens": 0
+  },
+  "character-arc-types": {
+   "hand_words": 749,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "098e981e1b9f5101f7e93929a25bfd6b8c2a68f44408b9b55e7a329a1030b22d",
+   "whole_tokens": 1020,
+   "hand_tokens": 930,
+   "gen_tokens": 0
+  },
+  "character-capability-design": {
+   "hand_words": 450,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "8109fa63730a5964b4c31786069cdeb27135cbd9664756a9e56f684cf2c5c297",
+   "whole_tokens": 677,
+   "hand_tokens": 605,
+   "gen_tokens": 0
+  },
+  "character-first-entry": {
+   "hand_words": 419,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "023333d8a497850ca471ce034fe3ba315379ae487977797c9978884e9d1da8cf",
+   "whole_tokens": 627,
+   "hand_tokens": 547,
+   "gen_tokens": 0
+  },
+  "character-flaws-restrictions-limitations": {
+   "hand_words": 559,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "405e94e673dc8828535f71c156b4420a9ab6ad8f0afc6de7613f8cdfc3ed210d",
+   "whole_tokens": 814,
+   "hand_tokens": 740,
+   "gen_tokens": 0
+  },
+  "character-floating-outline-for-dialogue": {
+   "hand_words": 367,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "852f1726cff6e8226ee8f2ff3132531d90a9265e676571af586bcbae98f67ff8",
+   "whole_tokens": 563,
+   "hand_tokens": 480,
+   "gen_tokens": 0
+  },
+  "character-iconic-characters": {
+   "hand_words": 543,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "5a463bde6957d80695cb1ae3e34a76dba034eb136ccfbe64f718f9c70e331098",
+   "whole_tokens": 780,
+   "hand_tokens": 706,
+   "gen_tokens": 0
+  },
+  "character-motivation-discovery-questions": {
+   "hand_words": 455,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "e088bb61b00de36cb056cf32728c02386fb4561814c2f7f856637c42f52e0cd6",
+   "whole_tokens": 662,
+   "hand_tokens": 584,
+   "gen_tokens": 0
+  },
+  "character-overused-trait-trap": {
+   "hand_words": 439,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "f7310acef24ac685b9e47b01297f1bc8c1052d2bc62b0ba17df0322e6e986859",
+   "whole_tokens": 668,
+   "hand_tokens": 591,
+   "gen_tokens": 0
+  },
+  "character-presenting-a-character": {
+   "hand_words": 565,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "b43221a465bfdd040a70615ef3329d0c188347066d2fd2b649ae27ef3c526d44",
+   "whole_tokens": 786,
+   "hand_tokens": 715,
+   "gen_tokens": 0
+  },
+  "character-proactive-relatable-capable": {
+   "hand_words": 591,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "177f4652c088b20d10fa6d4cb4b59d7f0cea62798bcf579c87f0fd93cd58b092",
+   "whole_tokens": 884,
+   "hand_tokens": 794,
+   "gen_tokens": 0
+  },
+  "character-proactivity-toolkit": {
+   "hand_words": 608,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "41390058fd9da4a2bf5a3c0dc572e534baed11c625b571163e0645a335e375d8",
+   "whole_tokens": 849,
+   "hand_tokens": 774,
+   "gen_tokens": 0
+  },
+  "character-relatability-toolkit": {
+   "hand_words": 498,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "15a2b42d40e44a4871d96cb1af3df293fcf495240274b54480970b06913f66d2",
+   "whole_tokens": 781,
+   "hand_tokens": 708,
+   "gen_tokens": 0
+  },
+  "character-villain-and-antihero-patterns": {
+   "hand_words": 471,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "75ef95065af80b5cceefdd4903091e7bebb9393630d7b619b607b72e9fc83fff",
+   "whole_tokens": 727,
+   "hand_tokens": 646,
+   "gen_tokens": 0
+  },
+  "character-writing-unfamiliar-backgrounds": {
+   "hand_words": 406,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "eed9f626a7fc16575e2e8f10daa04325c949b31a10ab324420ab9a53d9739ed5",
+   "whole_tokens": 576,
+   "hand_tokens": 504,
+   "gen_tokens": 0
+  },
+  "foundations": {
+   "hand_words": 237,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "fa2c75de62407877f6e4e67a8d39c82c593f086eac483fd3e42b0ef0bb067aac",
+   "whole_tokens": 431,
+   "hand_tokens": 380,
+   "gen_tokens": 0
+  },
+  "foundations-alpha-beta-readers": {
+   "hand_words": 372,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "8f52e178eb171ef5041fc12308292076aff8d8ce6d055c7344da31825b09955a",
+   "whole_tokens": 549,
+   "hand_tokens": 472,
+   "gen_tokens": 0
+  },
+  "foundations-artist-mindset": {
+   "hand_words": 419,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "930c766e431ad1c6959a68f4a77220aaa2aeeecfab6820e115cc0d9ef8f954bb",
+   "whole_tokens": 598,
+   "hand_tokens": 515,
+   "gen_tokens": 0
+  },
+  "foundations-chef-not-cook": {
+   "hand_words": 368,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "109724ebda5b11e73986d0b04fde0743d5858113de95302f9b20fbb5790b9266",
+   "whole_tokens": 559,
+   "hand_tokens": 479,
+   "gen_tokens": 0
+  },
+  "foundations-gardener-architect": {
+   "hand_words": 443,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "37ae60014669bd8d032d71c275089634a53a4914343bf64a90ab5cb3816899cc",
+   "whole_tokens": 628,
+   "hand_tokens": 542,
+   "gen_tokens": 0
+  },
+  "foundations-revision-guide": {
+   "hand_words": 452,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "ac93a2f95ba11e6924e62f89cea9920c9c3ebc94c224fb27624c484ae1420d29",
+   "whole_tokens": 677,
+   "hand_tokens": 598,
+   "gen_tokens": 0
+  },
+  "foundations-writing-group-rules": {
+   "hand_words": 506,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "633bd0107b58eaf0410d802828377ec1ed6a8709fc9dcbc96fd9671fd3eea724",
+   "whole_tokens": 735,
+   "hand_tokens": 658,
+   "gen_tokens": 0
+  },
+  "magic-first-law": {
+   "hand_words": 485,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "c9d4a950dd0884fca5dfcd1077e725949325b93e5f06cf736537d9bf0d920b2a",
+   "whole_tokens": 684,
+   "hand_tokens": 596,
+   "gen_tokens": 0
+  },
+  "magic-hard-and-soft": {
+   "hand_words": 500,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "7ae56133af68a0b37bef91e6ed7c400ea0837fde5ae8bade20ac2c028f6c55ef",
+   "whole_tokens": 711,
+   "hand_tokens": 634,
+   "gen_tokens": 0
+  },
+  "magic-internal-and-external-logic": {
+   "hand_words": 470,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "f75454d4c57e9f36e7aa536d838872212b288ff5e770c64196cab502985d122d",
+   "whole_tokens": 680,
+   "hand_tokens": 599,
+   "gen_tokens": 0
+  },
+  "magic-second-law": {
+   "hand_words": 417,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "203e23c3770fe67fabc7580bbfe74fc2072014de9b0e058986c70499413bd729",
+   "whole_tokens": 607,
+   "hand_tokens": 530,
+   "gen_tokens": 0
+  },
+  "magic-third-law": {
+   "hand_words": 345,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "22a0e5bffb4d8946c718ffff683a0f6229643dc49242a1e3c5ca4701f4b2b422",
+   "whole_tokens": 508,
+   "hand_tokens": 424,
+   "gen_tokens": 0
+  },
+  "magic-worldbuilding": {
+   "hand_words": 408,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "540e4e36619b4ce72a5d717bcded85a0cdf27c5f41fe8ef2cec8cc2c1eae5d8a",
+   "whole_tokens": 755,
+   "hand_tokens": 704,
+   "gen_tokens": 0
+  },
+  "magic-zeroth-law": {
+   "hand_words": 353,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "05d47bff12790b8bbf1cc870b1f479f7134125dff3f7f5de2659eccee1917cff",
+   "whole_tokens": 547,
+   "hand_tokens": 457,
+   "gen_tokens": 0
+  },
+  "plot": {
+   "hand_words": 653,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "10183802e3df427e703e8f73d8cca74ce3331a47f58e9d4ed0d7e1d796bf615b",
+   "whole_tokens": 1186,
+   "hand_tokens": 1129,
+   "gen_tokens": 0
+  },
+  "plot-archetypes": {
+   "hand_words": 651,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "8859a14c7ccbe93bc443d599b8ed1e6ef36ea0e3bdb780375d3e7a7cd10400a7",
+   "whole_tokens": 936,
+   "hand_tokens": 844,
+   "gen_tokens": 0
+  },
+  "plot-big-p-little-p": {
+   "hand_words": 315,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "d6ab47f4500a3b784f293241a8011f1edcd6c7220cc63eb4465ee4d10001270b",
+   "whole_tokens": 481,
+   "hand_tokens": 404,
+   "gen_tokens": 0
+  },
+  "plot-causal-bridges": {
+   "hand_words": 417,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "fbafb8f7c2f8be13722a65f521f63ac2644b33b173e2b7d89cdd4af98562cd57",
+   "whole_tokens": 665,
+   "hand_tokens": 584,
+   "gen_tokens": 0
+  },
+  "plot-cheer-moment-sanderlanche": {
+   "hand_words": 418,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "f5a27d8e5533b12e98cce425eddde40aeae39c62694acd5a4a393f0badd169e5",
+   "whole_tokens": 655,
+   "hand_tokens": 571,
+   "gen_tokens": 0
+  },
+  "plot-climax-placement-aftermath": {
+   "hand_words": 425,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "ce0cb3746d88c3d7846122e61667445be50c2447d3d93b70e9af2cbfbcd07226",
+   "whole_tokens": 636,
+   "hand_tokens": 557,
+   "gen_tokens": 0
+  },
+  "plot-cold-open-microcosm": {
+   "hand_words": 283,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "3dded0bf555299f8ffd85f828a9eea08a975f48387a2dcfb0a03a45645e8f33e",
+   "whole_tokens": 443,
+   "hand_tokens": 362,
+   "gen_tokens": 0
+  },
+  "plot-foreshadowing-twists": {
+   "hand_words": 542,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "655be8ea33a1d0c86f6ecc17ef5413a146ce34559ed52ae8109bb93b83661f23",
+   "whole_tokens": 797,
+   "hand_tokens": 719,
+   "gen_tokens": 0
+  },
+  "plot-kinds-of-promises": {
+   "hand_words": 449,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "a6756e32eac869d782c199933aa99fc176653a1654ee1cf11550a5dd301128b8",
+   "whole_tokens": 669,
+   "hand_tokens": 587,
+   "gen_tokens": 0
+  },
+  "plot-layering-conflict": {
+   "hand_words": 565,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "08f53c672f4fd1e12caf5fc0153f9e3335efab78ff9c665d55b0112dbe14d78e",
+   "whole_tokens": 797,
+   "hand_tokens": 718,
+   "gen_tokens": 0
+  },
+  "plot-outline-interwoven-cycles": {
+   "hand_words": 544,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "119a874eea5444804453eeedf81854a31c38a54b0408b75ea82d15f79ad6a02c",
+   "whole_tokens": 788,
+   "hand_tokens": 699,
+   "gen_tokens": 0
+  },
+  "plot-payoff-deniability-forgotten-promise": {
+   "hand_words": 456,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "18014347caa076dc7fcefdaad3c5d01ee64ed1455b8f92a7b0ed4c884a1f9f49",
+   "whole_tokens": 676,
+   "hand_tokens": 594,
+   "gen_tokens": 0
+  },
+  "plot-promise-progress-payoff": {
+   "hand_words": 559,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "2ee2f22460ccecc43d72417eefcdf48ec2b13fe3900cd97ff1ede3fb226bf423",
+   "whole_tokens": 783,
+   "hand_tokens": 712,
+   "gen_tokens": 0
+  },
+  "plot-reveal-boundaries": {
+   "hand_words": 362,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "e7bd9a4c0fe21285ce7146d188a7a98c4529d72b022e69fd8ab3b82991ad1c94",
+   "whole_tokens": 572,
+   "hand_tokens": 497,
+   "gen_tokens": 0
+  },
+  "plot-scale-of-plot": {
+   "hand_words": 402,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "9444eb699f3c7de33bfbe2d42c4a7bef6a4259d5790784f0d93b66a0589d1dd6",
+   "whole_tokens": 613,
+   "hand_tokens": 530,
+   "gen_tokens": 0
+  },
+  "plot-story-circle": {
+   "hand_words": 603,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "d32e8288f9e9638a1d69a44c1b1aea0715b1ed84a2aa5be1bc21871b6dee1935",
+   "whole_tokens": 850,
+   "hand_tokens": 768,
+   "gen_tokens": 0
+  },
+  "plot-structure-model": {
+   "hand_words": 434,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "f431218d84eaf8a1e1c1520c50ecf798c592a81e3d92d1b27c00d3c65927b51c",
+   "whole_tokens": 627,
+   "hand_tokens": 548,
+   "gen_tokens": 0
+  },
+  "plot-three-act-structure": {
+   "hand_words": 515,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "7fd662cc1b31060af510bdada3bfcc11147a8b9695a75a147eb19792f23f776b",
+   "whole_tokens": 764,
+   "hand_tokens": 679,
+   "gen_tokens": 0
+  },
+  "plot-try-fail-cycle": {
+   "hand_words": 522,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "943190c1ad812583a86dcc3d142ff912e694c6d02056e969ca6ec651d5722d5a",
+   "whole_tokens": 742,
+   "hand_tokens": 660,
+   "gen_tokens": 0
+  },
+  "plot-twists-promise-and-wish": {
+   "hand_words": 427,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "6e995b743101df1fed5fdcd60b456db08e3ee93f920a32af84248a7278c396aa",
+   "whole_tokens": 664,
+   "hand_tokens": 580,
+   "gen_tokens": 0
+  },
+  "plot-types-of-progress": {
+   "hand_words": 476,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "c63c2af6949f1d71e38295a3963b00bf868dde2afe5fc71ef512fb199f55c1fe",
+   "whole_tokens": 677,
+   "hand_tokens": 608,
+   "gen_tokens": 0
+  },
+  "plot-yes-but-no-and": {
+   "hand_words": 459,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "788a165223a695e3cdf49692354180d78cfb4b6a71fbb70096d67373b12996f1",
+   "whole_tokens": 673,
+   "hand_tokens": 600,
+   "gen_tokens": 0
+  },
+  "prose-ai-tells": {
+   "hand_words": 993,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "742e4b652202821dfa987ee66bd79430c3ae4fa723bd79b5fb1cf50fcdfca6e0",
+   "whole_tokens": 1509,
+   "hand_tokens": 1444,
+   "gen_tokens": 0
+  },
+  "scene-access-limits": {
+   "hand_words": 501,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "754a659e5190db17ab1071782afa63a9822ddf0fbf31a5707d69025df2497efc",
+   "whole_tokens": 765,
+   "hand_tokens": 678,
+   "gen_tokens": 0
+  },
+  "scene-and-sequel": {
+   "hand_words": 457,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "7f9fd43fdde1cb5d0ae21b5213d17e28c45f2cebdefd816abe826264f06a3185",
+   "whole_tokens": 676,
+   "hand_tokens": 596,
+   "gen_tokens": 0
+  },
+  "scene-craft": {
+   "hand_words": 333,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "35415fa5489a428cd87038f7474841b3d3dba7011f1f15ec7d700fb1cb1476e2",
+   "whole_tokens": 602,
+   "hand_tokens": 515,
+   "gen_tokens": 0
+  },
+  "scene-dialogue-behavior": {
+   "hand_words": 776,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "c2558a679898375be7adf51c5c6ed2dc39e6f7e4c87c43cf5e9e3d7fb09d6b7c",
+   "whole_tokens": 1083,
+   "hand_tokens": 1003,
+   "gen_tokens": 0
+  },
+  "show-dont-tell": {
+   "hand_words": 516,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "c44e1c03409b70cb9b6548378d5fa7b0dd1518b00d777485ff9eb4a01eed13ad",
+   "whole_tokens": 721,
+   "hand_tokens": 640,
+   "gen_tokens": 0
+  },
+  "story-adopt": {
+   "hand_words": 1005,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "4bab61ec9e35ac79376b2d11aa414aabe93f824a8a4508c530d98149af392ef0",
+   "whole_tokens": 1521,
+   "hand_tokens": 1427,
+   "gen_tokens": 0
+  },
+  "story-cast": {
+   "hand_words": 353,
+   "gen_words": 667,
+   "checks": 28,
+   "sha256": "237d0a1368c2231a2fe470e0a62dbf1b98374eecb751e4b0be4c7593a927feee",
+   "whole_tokens": 1601,
+   "hand_tokens": 459,
+   "gen_tokens": 1078
+  },
+  "story-check": {
+   "hand_words": 1165,
+   "gen_words": 3320,
+   "checks": 170,
+   "sha256": "cfee13f5eb940c913501c9a49979509ea37e9efe68b348b7dd130b4f4e00e793",
+   "whole_tokens": 6994,
+   "hand_tokens": 1509,
+   "gen_tokens": 5393
+  },
+  "story-continue": {
+   "hand_words": 774,
+   "gen_words": 257,
+   "checks": 7,
+   "sha256": "9e7eaf794b60afa3a10440313c267de9d1b1f63ba31ae94d3a5be1bfaf2d2ab8",
+   "whole_tokens": 1479,
+   "hand_tokens": 1015,
+   "gen_tokens": 406
+  },
+  "story-develop": {
+   "hand_words": 854,
+   "gen_words": 495,
+   "checks": 16,
+   "sha256": "323acaffb651b0e3111008af3998a6417e2526128b36e11115872e864c7ccd02",
+   "whole_tokens": 2032,
+   "hand_tokens": 1155,
+   "gen_tokens": 817
+  },
+  "story-draft": {
+   "hand_words": 2077,
+   "gen_words": 876,
+   "checks": 36,
+   "sha256": "8b877fb0bb51370499cf3514b7e82c2da1f2359458c1cfc67af7af503d8bdd3f",
+   "whole_tokens": 4270,
+   "hand_tokens": 2771,
+   "gen_tokens": 1399
+  },
+  "story-edits": {
+   "hand_words": 879,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "00181c3a46898b1f295116442aebe98d2e30f411dfbaffa7c2cc088f25ccecf5",
+   "whole_tokens": 1243,
+   "hand_tokens": 1137,
+   "gen_tokens": 0
+  },
+  "story-learn": {
+   "hand_words": 328,
+   "gen_words": 163,
+   "checks": 3,
+   "sha256": "7c832343ddd65405f9763584cfdb36201efc99e71a83ea6841d4d5f633110626",
+   "whole_tokens": 721,
+   "hand_tokens": 427,
+   "gen_tokens": 229
+  },
+  "story-next": {
+   "hand_words": 508,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "4f910bb2103d6f40b4a602f9e3cef0892d75f01e95a99320894ff2a72ba08d18",
+   "whole_tokens": 811,
+   "hand_tokens": 723,
+   "gen_tokens": 0
+  },
+  "story-onboard": {
+   "hand_words": 950,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "2a6d30151d255675fb42ae063825900c26d12728a07bd8aa0dc8245e2ea02563",
+   "whole_tokens": 1424,
+   "hand_tokens": 1323,
+   "gen_tokens": 0
+  },
+  "story-plan": {
+   "hand_words": 912,
+   "gen_words": 2869,
+   "checks": 131,
+   "sha256": "d81b063fd28e101ea6494cc2319a9ee36ba2251686f65e346e302290ffce43ed",
+   "whole_tokens": 5961,
+   "hand_tokens": 1229,
+   "gen_tokens": 4673
+  },
+  "story-revise": {
+   "hand_words": 838,
+   "gen_words": 495,
+   "checks": 28,
+   "sha256": "31be0c9ba67773e6c63e6bd428a71b51f3fa5dac546d043ed265a19e1885734a",
+   "whole_tokens": 2029,
+   "hand_tokens": 1124,
+   "gen_tokens": 841
+  },
+  "story-steer": {
+   "hand_words": 450,
+   "gen_words": 193,
+   "checks": 3,
+   "sha256": "2c948f0a6ea3d71b82d312c94d112fe803b835686ba35e012a43fc9afabf5e27",
+   "whole_tokens": 928,
+   "hand_tokens": 585,
+   "gen_tokens": 282
+  },
+  "story-voice": {
+   "hand_words": 367,
+   "gen_words": 175,
+   "checks": 3,
+   "sha256": "080221c3434c28e21b1517fde4b49d6ff55ec4bff31090d3ac3cced8c4235ae7",
+   "whole_tokens": 790,
+   "hand_tokens": 486,
+   "gen_tokens": 247
+  },
+  "story-worldbuild": {
+   "hand_words": 499,
+   "gen_words": 917,
+   "checks": 39,
+   "sha256": "5ee6c114bd0c9bbdbd484d328759c14845cda4f0b00aeb34ff6f3b968b59d335",
+   "whole_tokens": 2121,
+   "hand_tokens": 639,
+   "gen_tokens": 1423
+  },
+  "viewpoint-and-tense": {
+   "hand_words": 669,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "77b267fa9aecbbef37e4484bf033d24c13a394473a3acd6f153b8e63ab4bc7c0",
+   "whole_tokens": 977,
+   "hand_tokens": 890,
+   "gen_tokens": 0
+  },
+  "worldbuilding-gorilla-in-the-phone-booth": {
+   "hand_words": 445,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "4d3208d47a50363ea3539b349b43326ffd5bc5c64f838e2af840d44511c426b4",
+   "whole_tokens": 669,
+   "hand_tokens": 585,
+   "gen_tokens": 0
+  },
+  "worldbuilding-hollow-iceberg": {
+   "hand_words": 512,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "df9179717c18a85594785c1dc70cc13a01e0d62518ec4cc8aee81136aa4f1d26",
+   "whole_tokens": 745,
+   "hand_tokens": 657,
+   "gen_tokens": 0
+  },
+  "worldbuilding-idea-intersection": {
+   "hand_words": 454,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "6d19504dae1b15bded3d9316596c2b2e987f0f7adbffa3f25feb45b7f055caa7",
+   "whole_tokens": 686,
+   "hand_tokens": 597,
+   "gen_tokens": 0
+  },
+  "worldbuilding-learning-curve-and-exposition": {
+   "hand_words": 460,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "751226ad5f0aa0b06db35d2cfa622788e803683bd3b04f3cc19cba62000b54eb",
+   "whole_tokens": 700,
+   "hand_tokens": 612,
+   "gen_tokens": 0
+  },
+  "worldbuilding-naming": {
+   "hand_words": 404,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "71af924023d030b28d69a64eaafe806c73f890d1dc366e832a20f0f23c037e79",
+   "whole_tokens": 602,
+   "hand_tokens": 529,
+   "gen_tokens": 0
+  },
+  "worldbuilding-pyramid-of-abstraction": {
+   "hand_words": 443,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "4a55f0a0548c23a7a526bd999defae1b504a3188f67295c1ba6a48bff59c6b0b",
+   "whole_tokens": 692,
+   "hand_tokens": 609,
+   "gen_tokens": 0
+  },
+  "worldbuilding-three-part-split": {
+   "hand_words": 468,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "ddbf23bb36dc58cb1f596bc7dc07c3c1a2d5f816911f297dbe73a0f66e76be38",
+   "whole_tokens": 711,
+   "hand_tokens": 622,
+   "gen_tokens": 0
+  },
+  "worldbuilding-viewpoint-filtered-description": {
+   "hand_words": 437,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "2c807bae17424e7bc7a543985949e50a2c9a7f93c8fcbfc6eedca15867b9c8b8",
+   "whole_tokens": 657,
+   "hand_tokens": 574,
+   "gen_tokens": 0
+  },
+  "worldbuilding-worldbuilders-disease": {
+   "hand_words": 443,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "ea7c2b0dc8478196f05857007f80c069aeb400696e903f1d4932b673d1093c45",
+   "whole_tokens": 659,
+   "hand_tokens": 576,
+   "gen_tokens": 0
+  }
+ }
+}

@@ -44,5 +44,6 @@ The inspector's `next_owner` line says who acts.
 ## Rules
 
 - One recommendation. Mention an alternative only if the writer's own words point to it.
+- If `promises_oldest_unpaid` names a promise and the step is to plan or draft, add one line naming it in plain words and how long it has waited. Skip it otherwise.
 - Use the inspector's facts; do not guess at things the files can't show.
 - Change nothing in the project.

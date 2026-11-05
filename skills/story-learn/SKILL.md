@@ -30,9 +30,11 @@ The writer is here to learn. Teach well, then get out of the way. Do not write t
 <!-- generated:checks:start -->
 ## Craft checks (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `foundations.chef.01` What is this rule or technique trying to make happen for the reader? (`foundations-chef-not-cook`)
-- `foundations.chef.02` Is that effect something this story needs right now? (`foundations-chef-not-cook`)
-- `foundations.chef.03` If the story breaks the rule, what does it do to get the effect another way? (`foundations-chef-not-cook`)
+- `foundations.chef.01` What is this rule or technique trying to make happen for the reader?
+- `foundations.chef.02` Is that effect something this story needs right now?
+- `foundations.chef.03` If the story breaks the rule, what does it do to get the effect another way?
+
+Skill for each check family: `foundations.chef` foundations-chef-not-cook.
 <!-- generated:checks:end -->

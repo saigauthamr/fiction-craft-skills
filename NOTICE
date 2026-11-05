@@ -43,3 +43,24 @@ for working documents) is compatible with the layout used by haowjy/creative-wri
 (https://github.com/haowjy/creative-writing-skills, Apache License 2.0) so that projects
 built with that library can be adopted without being reorganized. No text or code from
 that library is included.
+
+Several ideas were adapted, as ideas, from wgwtest/novel-writing
+(https://github.com/wgwtest/novel-writing, MIT License, Copyright (c) 2026 wgwtest):
+separating action that changes a scene from decorative and procedural motion in dialogue,
+a deterministic text-hygiene check, protecting style-bearing material during revision,
+first-entry anchors for important characters, learning from the writer's own edits, short
+chapter cards with tiered reading, causal bridges and reveal boundaries in planning, and
+limits on what a character can know in a scene. All wording, examples, and code in this
+library are new. No text or code from that project is included.
+
+Further ideas were adapted, as ideas, from three other MIT-licensed projects:
+- xbraindance/Creative-writing-skill (https://github.com/xbraindance/Creative-writing-skill):
+  offering options that differ in kind, after the Verbalized Sampling paper it cites
+  (Zhang et al., arXiv 2510.01171).
+- zenstory-ai/oh-story-claudecode (https://github.com/zenstory-ai/oh-story-claudecode):
+  deterministic checks on a draft for a cut-off ending, repetition loops, and length against a
+  target; foreshadowing tracked with IDs and payoff status; a size budget for skills.
+- danjdewhurst/story-skills (https://github.com/danjdewhurst/story-skills): the question of what
+  a continuity check can find reliably, and the idea of a promise ledger the tools can read.
+All wording, examples, and code in this library are new. No text or code from those projects is
+included.

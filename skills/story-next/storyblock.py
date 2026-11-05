@@ -52,6 +52,8 @@ LAYOUT = """Facts the story has committed to live in `kb/`. Working documents li
 - `kb/vocab.md`: canonical story terms, aliases, and terms to avoid
 - `work/spec/`, `work/beats/`: the approved spec and chapter beats, saved only after the writer approves them
 - `work/drafts/`: chapters; `work/critique-reports/`: check reports; `work/brainstorm/`: undecided notes
+- `work/cards/`: short derived summaries of chapters, rebuilt from the chapters, so safe to delete
+- `work/drafts/_previous/`: earlier versions of a chapter the AI revised; `work/drafts/_delivered/`: the exact text the AI handed over, kept only until the writer's edits have been learned from
 
 Trust is the default: anything unmarked is trusted, and only untrusted material carries a marker. When the writer approves something, its marker is removed, and nothing records who approved it or when.
 
@@ -69,17 +71,18 @@ ROUTES = [
     ("wants a chapter or scene written, or says \"go\"", "story-draft"),
     ("wants a chapter checked or reviewed, or asks whether it is any good", "story-check"),
     ("wants a chapter revised, or a check report's findings fixed", "story-revise"),
+    ("has edited a chapter the AI drafted and wants the AI to learn from those edits", "story-edits"),
     ("wants to change the story in plain words (\"darker\", \"slower\", \"I don't like this character\")", "story-steer"),
     ("wants the next chapter of a serial written from what is already on the page", "story-continue"),
     ("wants to learn a craft technique, without writing anything", "story-learn"),
     ("wants magic, powers, or the rules of the world designed or stress-tested", "story-worldbuild"),
     ("wants characters, a villain, or relationships designed", "story-cast"),
     ("wants to choose how the story sounds", "story-voice"),
-    ("asks about plot, pacing, a dragging middle, an opening, or a payoff", "plot"),
+    ("asks about plot, pacing, a dragging middle, an opening, a payoff, events that do not cause each other, or when readers should learn a secret", "plot"),
     ("asks about a character: flat, passive, villain, motivation, arc, or writing someone they have not lived", "character"),
     ("asks about magic, worldbuilding, naming, or how much of the world to explain", "magic-worldbuilding"),
     ("asks about outlining versus discovery writing, feedback, revision, or early readers", "foundations"),
-    ("asks how a scene is built or told: point of view, tense, showing versus telling, scene structure", "scene-craft"),
+    ("asks how a scene is built or told: point of view, tense, showing versus telling, dialogue behavior, or what a character could plausibly know, see, or infer in a scene", "scene-craft"),
     ("asks to find or fix prose that sounds machine-written", "prose-ai-tells"),
 ]
 

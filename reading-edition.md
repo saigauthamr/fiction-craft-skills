@@ -13,86 +13,92 @@ Every skill, in reading order, in one file. Generated from `skills/`; do not edi
 - [6. story-draft](#6-story-draft)
 - [7. story-check](#7-story-check)
 - [8. story-revise](#8-story-revise)
-- [9. story-steer](#9-story-steer)
-- [10. story-continue](#10-story-continue)
-- [11. story-learn](#11-story-learn)
+- [9. story-edits](#9-story-edits)
+- [10. story-steer](#10-story-steer)
+- [11. story-continue](#11-story-continue)
+- [12. story-learn](#12-story-learn)
 
 **Part 2. Tools**
-- [12. story-worldbuild](#12-story-worldbuild)
-- [13. story-cast](#13-story-cast)
-- [14. story-voice](#14-story-voice)
+- [13. story-worldbuild](#13-story-worldbuild)
+- [14. story-cast](#14-story-cast)
+- [15. story-voice](#15-story-voice)
 
 **Part 3. Process and mindset**
-- [15. foundations](#15-foundations)
-- [16. foundations-chef-not-cook](#16-foundations-chef-not-cook)
-- [17. foundations-gardener-architect](#17-foundations-gardener-architect)
-- [18. foundations-artist-mindset](#18-foundations-artist-mindset)
-- [19. foundations-writing-group-rules](#19-foundations-writing-group-rules)
-- [20. foundations-revision-guide](#20-foundations-revision-guide)
-- [21. foundations-alpha-beta-readers](#21-foundations-alpha-beta-readers)
+- [16. foundations](#16-foundations)
+- [17. foundations-chef-not-cook](#17-foundations-chef-not-cook)
+- [18. foundations-gardener-architect](#18-foundations-gardener-architect)
+- [19. foundations-artist-mindset](#19-foundations-artist-mindset)
+- [20. foundations-writing-group-rules](#20-foundations-writing-group-rules)
+- [21. foundations-revision-guide](#21-foundations-revision-guide)
+- [22. foundations-alpha-beta-readers](#22-foundations-alpha-beta-readers)
 
 **Part 4. Plot**
-- [22. plot](#22-plot)
-- [23. plot-promise-progress-payoff](#23-plot-promise-progress-payoff)
-- [24. plot-kinds-of-promises](#24-plot-kinds-of-promises)
-- [25. plot-types-of-progress](#25-plot-types-of-progress)
-- [26. plot-cold-open-microcosm](#26-plot-cold-open-microcosm)
-- [27. plot-big-p-little-p](#27-plot-big-p-little-p)
-- [28. plot-story-circle](#28-plot-story-circle)
-- [29. plot-three-act-structure](#29-plot-three-act-structure)
-- [30. plot-structure-model](#30-plot-structure-model)
-- [31. plot-archetypes](#31-plot-archetypes)
-- [32. plot-scale-of-plot](#32-plot-scale-of-plot)
-- [33. plot-try-fail-cycle](#33-plot-try-fail-cycle)
-- [34. plot-yes-but-no-and](#34-plot-yes-but-no-and)
-- [35. plot-layering-conflict](#35-plot-layering-conflict)
-- [36. plot-twists-promise-and-wish](#36-plot-twists-promise-and-wish)
-- [37. plot-payoff-deniability-forgotten-promise](#37-plot-payoff-deniability-forgotten-promise)
-- [38. plot-cheer-moment-sanderlanche](#38-plot-cheer-moment-sanderlanche)
-- [39. plot-climax-placement-aftermath](#39-plot-climax-placement-aftermath)
-- [40. plot-foreshadowing-twists](#40-plot-foreshadowing-twists)
-- [41. plot-outline-interwoven-cycles](#41-plot-outline-interwoven-cycles)
+- [23. plot](#23-plot)
+- [24. plot-promise-progress-payoff](#24-plot-promise-progress-payoff)
+- [25. plot-kinds-of-promises](#25-plot-kinds-of-promises)
+- [26. plot-types-of-progress](#26-plot-types-of-progress)
+- [27. plot-cold-open-microcosm](#27-plot-cold-open-microcosm)
+- [28. plot-big-p-little-p](#28-plot-big-p-little-p)
+- [29. plot-story-circle](#29-plot-story-circle)
+- [30. plot-three-act-structure](#30-plot-three-act-structure)
+- [31. plot-structure-model](#31-plot-structure-model)
+- [32. plot-archetypes](#32-plot-archetypes)
+- [33. plot-scale-of-plot](#33-plot-scale-of-plot)
+- [34. plot-try-fail-cycle](#34-plot-try-fail-cycle)
+- [35. plot-yes-but-no-and](#35-plot-yes-but-no-and)
+- [36. plot-layering-conflict](#36-plot-layering-conflict)
+- [37. plot-twists-promise-and-wish](#37-plot-twists-promise-and-wish)
+- [38. plot-payoff-deniability-forgotten-promise](#38-plot-payoff-deniability-forgotten-promise)
+- [39. plot-cheer-moment-sanderlanche](#39-plot-cheer-moment-sanderlanche)
+- [40. plot-climax-placement-aftermath](#40-plot-climax-placement-aftermath)
+- [41. plot-foreshadowing-twists](#41-plot-foreshadowing-twists)
+- [42. plot-outline-interwoven-cycles](#42-plot-outline-interwoven-cycles)
+- [43. plot-causal-bridges](#43-plot-causal-bridges)
+- [44. plot-reveal-boundaries](#44-plot-reveal-boundaries)
 
 **Part 5. Character**
-- [42. character](#42-character)
-- [43. character-proactive-relatable-capable](#43-character-proactive-relatable-capable)
-- [44. character-proactivity-toolkit](#44-character-proactivity-toolkit)
-- [45. character-relatability-toolkit](#45-character-relatability-toolkit)
-- [46. character-capability-design](#46-character-capability-design)
-- [47. character-flaws-restrictions-limitations](#47-character-flaws-restrictions-limitations)
-- [48. character-villain-and-antihero-patterns](#48-character-villain-and-antihero-patterns)
-- [49. character-overused-trait-trap](#49-character-overused-trait-trap)
-- [50. character-iconic-characters](#50-character-iconic-characters)
-- [51. character-presenting-a-character](#51-character-presenting-a-character)
-- [52. character-motivation-discovery-questions](#52-character-motivation-discovery-questions)
-- [53. character-writing-unfamiliar-backgrounds](#53-character-writing-unfamiliar-backgrounds)
-- [54. character-arc-types](#54-character-arc-types)
-- [55. character-floating-outline-for-dialogue](#55-character-floating-outline-for-dialogue)
+- [45. character](#45-character)
+- [46. character-proactive-relatable-capable](#46-character-proactive-relatable-capable)
+- [47. character-proactivity-toolkit](#47-character-proactivity-toolkit)
+- [48. character-relatability-toolkit](#48-character-relatability-toolkit)
+- [49. character-capability-design](#49-character-capability-design)
+- [50. character-flaws-restrictions-limitations](#50-character-flaws-restrictions-limitations)
+- [51. character-villain-and-antihero-patterns](#51-character-villain-and-antihero-patterns)
+- [52. character-overused-trait-trap](#52-character-overused-trait-trap)
+- [53. character-iconic-characters](#53-character-iconic-characters)
+- [54. character-first-entry](#54-character-first-entry)
+- [55. character-presenting-a-character](#55-character-presenting-a-character)
+- [56. character-motivation-discovery-questions](#56-character-motivation-discovery-questions)
+- [57. character-writing-unfamiliar-backgrounds](#57-character-writing-unfamiliar-backgrounds)
+- [58. character-arc-types](#58-character-arc-types)
+- [59. character-floating-outline-for-dialogue](#59-character-floating-outline-for-dialogue)
 
 **Part 6. Magic and worldbuilding**
-- [56. magic-worldbuilding](#56-magic-worldbuilding)
-- [57. magic-hard-and-soft](#57-magic-hard-and-soft)
-- [58. magic-internal-and-external-logic](#58-magic-internal-and-external-logic)
-- [59. magic-zeroth-law](#59-magic-zeroth-law)
-- [60. magic-first-law](#60-magic-first-law)
-- [61. magic-second-law](#61-magic-second-law)
-- [62. magic-third-law](#62-magic-third-law)
-- [63. worldbuilding-idea-intersection](#63-worldbuilding-idea-intersection)
-- [64. worldbuilding-three-part-split](#64-worldbuilding-three-part-split)
-- [65. worldbuilding-worldbuilders-disease](#65-worldbuilding-worldbuilders-disease)
-- [66. worldbuilding-hollow-iceberg](#66-worldbuilding-hollow-iceberg)
-- [67. worldbuilding-pyramid-of-abstraction](#67-worldbuilding-pyramid-of-abstraction)
-- [68. worldbuilding-naming](#68-worldbuilding-naming)
-- [69. worldbuilding-learning-curve-and-exposition](#69-worldbuilding-learning-curve-and-exposition)
-- [70. worldbuilding-gorilla-in-the-phone-booth](#70-worldbuilding-gorilla-in-the-phone-booth)
-- [71. worldbuilding-viewpoint-filtered-description](#71-worldbuilding-viewpoint-filtered-description)
+- [60. magic-worldbuilding](#60-magic-worldbuilding)
+- [61. magic-hard-and-soft](#61-magic-hard-and-soft)
+- [62. magic-internal-and-external-logic](#62-magic-internal-and-external-logic)
+- [63. magic-zeroth-law](#63-magic-zeroth-law)
+- [64. magic-first-law](#64-magic-first-law)
+- [65. magic-second-law](#65-magic-second-law)
+- [66. magic-third-law](#66-magic-third-law)
+- [67. worldbuilding-idea-intersection](#67-worldbuilding-idea-intersection)
+- [68. worldbuilding-three-part-split](#68-worldbuilding-three-part-split)
+- [69. worldbuilding-worldbuilders-disease](#69-worldbuilding-worldbuilders-disease)
+- [70. worldbuilding-hollow-iceberg](#70-worldbuilding-hollow-iceberg)
+- [71. worldbuilding-pyramid-of-abstraction](#71-worldbuilding-pyramid-of-abstraction)
+- [72. worldbuilding-naming](#72-worldbuilding-naming)
+- [73. worldbuilding-learning-curve-and-exposition](#73-worldbuilding-learning-curve-and-exposition)
+- [74. worldbuilding-gorilla-in-the-phone-booth](#74-worldbuilding-gorilla-in-the-phone-booth)
+- [75. worldbuilding-viewpoint-filtered-description](#75-worldbuilding-viewpoint-filtered-description)
 
 **Part 7. Scene craft and prose**
-- [72. scene-craft](#72-scene-craft)
-- [73. scene-and-sequel](#73-scene-and-sequel)
-- [74. show-dont-tell](#74-show-dont-tell)
-- [75. viewpoint-and-tense](#75-viewpoint-and-tense)
-- [76. prose-ai-tells](#76-prose-ai-tells)
+- [76. scene-craft](#76-scene-craft)
+- [77. scene-and-sequel](#77-scene-and-sequel)
+- [78. show-dont-tell](#78-show-dont-tell)
+- [79. viewpoint-and-tense](#79-viewpoint-and-tense)
+- [80. scene-access-limits](#80-scene-access-limits)
+- [81. scene-dialogue-behavior](#81-scene-dialogue-behavior)
+- [82. prose-ai-tells](#82-prose-ai-tells)
 
 
 ---
@@ -198,6 +204,7 @@ The inspector's `next_owner` line says who acts.
 #### Rules
 
 - One recommendation. Mention an alternative only if the writer's own words point to it.
+- If `promises_oldest_unpaid` names a promise and the step is to plan or draft, add one line naming it in plain words and how long it has waited. Skip it otherwise.
 - Use the inspector's facts; do not guess at things the files can't show.
 - Change nothing in the project.
 
@@ -255,6 +262,10 @@ Offer this after an import when the writer has chapters but no plan. Ask first.
 4. Confirm one section at a time. Save nothing unconfirmed.
 5. Save the confirmed spec to `work/spec/spec.md` and the summaries as beats files in `work/beats/`, one per chapter, each marked "reconstructed from the draft".
 
+#### Chapter cards (long stories)
+
+When the import brings in five or more chapters, offer to build a card for each (see Chapter cards in `story-continue`), so later work can read the story in tiers. Cards are derived and never change a chapter. Ask first.
+
 #### An established project
 
 If the plan shows a populated `kb/`, the project already exists. The plan may have nothing to import; applying it then only records the adoption in `work/adopt/provenance.md`, which lets `story-onboard` set the project up. Knowledge-base pages, style files, the open-questions register, tool folders, and git history are left alone. An existing `work/outline/` counts as the project's beats; do not move it.
@@ -286,7 +297,7 @@ Recommended: <your answer, and why>
 
 Wait for the answers, recompute the frontier, and ask the next round. If the writer discovers the story as they write, ask only what the story cannot do without (the premise, what the main character wants, what the opening promises) and record the rest as open.
 
-**When the AI owns planning: choices.** Run rounds of at most four choices, each with a recommended default and one line on what each option does to the story, so the writer can answer with a number or "go". The usual order is the idea (restate theirs, or offer three two-line premises), tone and how much danger is real, the main character, the central problem or power and what it costs, the opposing force with a plan of its own, and how the ending should feel. Skip any round they have already answered. Fill in what they do not care about (names, minor characters, texture) and list it under "Defaults I picked" for them to veto. Anything touching the plot, the rules, a motive, a relationship, or the ending needs their explicit choice. When they say "use the defaults", those are your choices, not theirs: mark them as yours.
+**When the AI owns planning: choices.** Run rounds of at most four choices, each with a recommended default and one line on what each option does to the story, so the writer can answer with a number or "go". Make the options in a round differ in kind, not only in detail, and label each as the usual pick, a less usual one, or an unusual one. Include at least one unusual option, so a round is never three variations of the obvious answer. The usual order is the idea (restate theirs, or offer three two-line premises), tone and how much danger is real, the main character, the central problem or power and what it costs, the opposing force with a plan of its own, and how the ending should feel. Skip any round they have already answered. Fill in what they do not care about (names, minor characters, texture) and list it under "Defaults I picked" for them to veto. Anything touching the plot, the rules, a motive, a relationship, or the ending needs their explicit choice. When they say "use the defaults", those are your choices, not theirs: mark them as yours.
 
 After a round about rules or characters, offer once: "Want to tinker with this? Say 'lab'." Send rules and powers to `story-worldbuild`, characters to `story-cast`. Never push it.
 
@@ -323,22 +334,26 @@ The session is done when the frontier is empty: every branch visited, nothing si
 <!-- generated:checks:start -->
 #### Craft checks (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `plot.bigp.01` State the Big P Plot in one or two sentences. If you cannot, the book is not focused yet. (`plot-big-p-little-p`)
-- `plot.promises.01` Which kinds of promise does the opening make (tone, plot, character, series), and which does it skip? Not every kind is required; mark each skip as deliberate or accidental. (`plot-kinds-of-promises`)
-- `plot.promises.03` Does the character promise show what the character wants, what they need, and why they cannot have it yet? (`plot-kinds-of-promises`)
-- `plot.progress.01` Name the kind of progress the story measures (information, relationship, skill, distance, or another) and check that the climax resolves that kind. (`plot-types-of-progress`)
-- `plot.progress.02` With several threads, name the soul of the story, the thread that drives the ending, and check that the climax turns on it and not on the trappings. (`plot-types-of-progress`)
-- `plot.archetypes.01` Name the archetypes the story layers, and which one carries the Big P Plot. (`plot-archetypes`)
-- `plot.archetypes.02` For each arc, has the story decided whether it heads for success or failure, and promised accordingly? (`plot-archetypes`)
-- `character.scales.01` Place the character low, middle, or high on proactive, relatable, and capable, per domain where it matters. (`character-proactive-relatable-capable`)
-- `character.motivation.01` Can you name what the character wants, why they cannot have it, what they need, and what they must sacrifice? (`character-motivation-discovery-questions`)
-- `character.weakness.01` For each weakness, is it a flaw, a restriction, or a limitation, and is it handled that way: an arc for a flaw, pressure scenes for a restriction, ingenuity for a limitation? (`character-flaws-restrictions-limitations`)
-- `magic.hardsoft.01` For each magical element, could a reader predict what it will do and what it cannot do? Place each element separately. (`magic-hard-and-soft`)
-- `worldbuilding.ideas.02` For each setting idea, is there a character or plot idea that presses on it? (`worldbuilding-idea-intersection`)
-- `worldbuilding.ideas.03` Is any idea just sitting there, affecting nothing else? Either connect it or save it for another book. (`worldbuilding-idea-intersection`)
-- `scene.pov.01` Does the viewpoint mode fit the cast size and the information the story needs to withhold? (`viewpoint-and-tense`)
+- `plot.bridges.01` For each major turn, can you name the pressure, the actor who interprets it, their goal, and their method?
+- `plot.reveals.01` For each secret, is the true fact written down apart from what the reader is told?
+- `plot.bigp.01` State the Big P Plot in one or two sentences. If you cannot, the book is not focused yet.
+- `plot.promises.01` Which kinds of promise does the opening make (tone, plot, character, series), and which does it skip? Not every kind is required; mark each skip as deliberate or accidental.
+- `plot.promises.03` Does the character promise show what the character wants, what they need, and why they cannot have it yet?
+- `plot.progress.01` Name the kind of progress the story measures (information, relationship, skill, distance, or another) and check that the climax resolves that kind.
+- `plot.progress.02` With several threads, name the soul of the story, the thread that drives the ending, and check that the climax turns on it and not on the trappings.
+- `plot.archetypes.01` Name the archetypes the story layers, and which one carries the Big P Plot.
+- `plot.archetypes.02` For each arc, has the story decided whether it heads for success or failure, and promised accordingly?
+- `character.scales.01` Place the character low, middle, or high on proactive, relatable, and capable, per domain where it matters.
+- `character.motivation.01` Can you name what the character wants, why they cannot have it, what they need, and what they must sacrifice?
+- `character.weakness.01` For each weakness, is it a flaw, a restriction, or a limitation, and is it handled that way: an arc for a flaw, pressure scenes for a restriction, ingenuity for a limitation?
+- `magic.hardsoft.01` For each magical element, could a reader predict what it will do and what it cannot do? Place each element separately.
+- `worldbuilding.ideas.02` For each setting idea, is there a character or plot idea that presses on it?
+- `worldbuilding.ideas.03` Is any idea just sitting there, affecting nothing else? Either connect it or save it for another book.
+- `scene.pov.01` Does the viewpoint mode fit the cast size and the information the story needs to withhold?
+
+Skill for each check family: `plot.bridges` plot-causal-bridges; `plot.reveals` plot-reveal-boundaries; `plot.bigp` plot-big-p-little-p; `plot.promises` plot-kinds-of-promises; `plot.progress` plot-types-of-progress; `plot.archetypes` plot-archetypes; `character.scales` character-proactive-relatable-capable; `character.motivation` character-motivation-discovery-questions; `character.weakness` character-flaws-restrictions-limitations; `magic.hardsoft` magic-hard-and-soft; `worldbuilding.ideas` worldbuilding-idea-intersection; `scene.pov` viewpoint-and-tense.
 <!-- generated:checks:end -->
 
 ## 5. story-plan
@@ -371,7 +386,7 @@ Every line is one of three kinds:
 
 Never present a proposal as settled, and never fill a gap to make a section look complete.
 
-**The promise ledger.** With the spec, keep `work/spec/promise-ledger.md`: one row per promise the story makes, with where it is made, where it advances, and where it pays off. A promise with no payoff is either a gap to list or a deliberate choice to note.
+**The promise ledger.** With the spec, keep `work/spec/promise-ledger.md`: one entry per promise the story makes, with where it is made, where it advances, and where it pays off. If the project already tracks promises its own way, follow that and skip the format below. Otherwise write one line per promise: `- P03 | planted ch2 | open | the promise in a few words`. The status is `open` (made, not yet moved), `advanced` (moved on the page, not paid), `paid`, or `dropped` (given up on purpose, with the reason in the text). `planted` is the chapter that makes it, or for a promise not yet written the chapter the beats plan it for. A promise with no payoff is either a gap to list or a deliberate choice to note as `dropped`, with why.
 
 #### The beats
 
@@ -386,6 +401,8 @@ Ask how far to plan: the whole book, one part, or the next few chapters (the def
 - **Hook out**.
 - **Facts to check**: the `kb/` pages the draft will lean on.
 - **Checks applied**: one line per applicable check from the beats list below, `<id>: <what it found in this chapter>`, or `<id>: n/a, <reason>`, or `<id>: deliberate, <what the story is doing instead>`.
+
+In saved files, spell out each complete check ID on its own line; do not use ranges or family-only labels.
 
 Keep a chapter's beats to about a page. Update the promise ledger as beats are planned.
 
@@ -402,129 +419,150 @@ Say what comes next (beats after a spec, drafting after beats) and stop.
 <!-- generated:checks:start spec -->
 #### Craft checks: spec (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `plot.bigp.01` State the Big P Plot in one or two sentences. If you cannot, the book is not focused yet. (`plot-big-p-little-p`)
-- `plot.bigp.03` Where does the story's emotional core actually live, in the headline plot or in a little p thread, and do the signposts follow it? (`plot-big-p-little-p`)
-- `plot.promises.01` Which kinds of promise does the opening make (tone, plot, character, series), and which does it skip? Not every kind is required; mark each skip as deliberate or accidental. (`plot-kinds-of-promises`)
-- `plot.promises.02` From the first pages, could a reader say what feel to expect and what the main character wants? (`plot-kinds-of-promises`)
-- `plot.promises.03` Does the character promise show what the character wants, what they need, and why they cannot have it yet? (`plot-kinds-of-promises`)
-- `plot.promises.04` If the tone will switch (for example from thriller to travelogue), is the second tone promised at the start? (`plot-kinds-of-promises`)
-- `plot.promises.05` Does each new character, sequence, or chapter make its own small promise, and does the chapter signal it was delivered? (`plot-kinds-of-promises`)
-- `plot.progress.01` Name the kind of progress the story measures (information, relationship, skill, distance, or another) and check that the climax resolves that kind. (`plot-types-of-progress`)
-- `plot.progress.02` With several threads, name the soul of the story, the thread that drives the ending, and check that the climax turns on it and not on the trappings. (`plot-types-of-progress`)
-- `plot.archetypes.01` Name the archetypes the story layers, and which one carries the Big P Plot. (`plot-archetypes`)
-- `plot.archetypes.02` For each arc, has the story decided whether it heads for success or failure, and promised accordingly? (`plot-archetypes`)
-- `plot.archetypes.03` If the dominant archetype shifts midway, is the shift foreshadowed, and does it reuse the earlier archetype's setup? (`plot-archetypes`)
-- `plot.archetypes.04` For a betrayal, list the three or four moments where the betrayer's goal visibly diverges. Each should read as innocent on a first pass and damning on a second. (`plot-archetypes`)
-- `plot.scale.01` Does the central conflict fit the word count for the format and genre? (`plot-scale-of-plot`)
-- `plot.scale.02` If the book is long, where does the scope widen, and is the widening signposted? (`plot-scale-of-plot`)
-- `plot.cheer.01` Name the promise this cheer moment pays off, and where it was made. (`plot-cheer-moment-sanderlanche`)
-- `plot.layering.02` Where was the change promised, and where is the first serious failure caused by the flaw? (`plot-layering-conflict`)
-- `plot.cycles.01` Does every cycle have a payoff, with visible progress between its promise and its payoff? (`plot-outline-interwoven-cycles`)
-- `plot.cycles.04` Is every promised thread present in the merged outline? (`plot-outline-interwoven-cycles`)
-- `plot.payoff.01` Which promise is being paid off, and where was it planted? (`plot-payoff-deniability-forgotten-promise`)
-- `plot.twist.01` What exactly did the story promise, and in which scene? (`plot-twists-promise-and-wish`)
-- `plot.circle.01` Mark which steps of the circle are present. For each missing step, decide whether it is missing on purpose. (`plot-story-circle`)
-- `plot.circle.02` Name the character's growth circle separately from the external goal, and check that the signposts track the growth. (`plot-story-circle`)
-- `plot.circle.03` If a step stopped fitting the story, was it dropped instead of forced? (`plot-story-circle`)
-- `plot.circle.04` If the story ends tragically, which step does the character refuse, and what flaw drives the refusal? (`plot-story-circle`)
-- `character.scales.01` Place the character low, middle, or high on proactive, relatable, and capable, per domain where it matters. (`character-proactive-relatable-capable`)
-- `character.scales.02` Which scale is lowest? A passive character needs a want and a first action, a cold one a reason to be liked, an unimpressive one something they are visibly good at. (`character-proactive-relatable-capable`)
-- `character.scales.03` Which scale does the character's arc move along, and is the movement shown on the page? (`character-proactive-relatable-capable`)
-- `character.scales.04` Is any character high on all three scales with nowhere left to go? (`character-proactive-relatable-capable`)
-- `character.motivation.01` Can you name what the character wants, why they cannot have it, what they need, and what they must sacrifice? (`character-motivation-discovery-questions`)
-- `character.motivation.02` Does each choice on the page follow the pattern of those answers, and where it breaks, does the text show why? (`character-motivation-discovery-questions`)
-- `character.motivation.03` Do at least two of the character's answers conflict, giving scenes something to turn on? (`character-motivation-discovery-questions`)
-- `character.arc.04` Can you name which of the four shapes each major character is on, or say that they have none? (`character-arc-types`)
-- `character.villain.01` Where does the villain sit on each scale? If low on proactive, why would they threaten anyone? (`character-villain-and-antihero-patterns`)
-- `character.villain.02` Does the reader understand any of the villain's want? (`character-villain-and-antihero-patterns`)
-- `character.villain.03` For an antihero, who is worse than them, and does the story show it? (`character-villain-and-antihero-patterns`)
-- `character.weakness.01` For each weakness, is it a flaw, a restriction, or a limitation, and is it handled that way: an arc for a flaw, pressure scenes for a restriction, ingenuity for a limitation? (`character-flaws-restrictions-limitations`)
-- `character.weakness.02` Is a limitation ever treated as a flaw the character should simply get over? (`character-flaws-restrictions-limitations`)
-- `character.weakness.03` Does an unaddressed flaw block progress so long that readers lose patience? (`character-flaws-restrictions-limitations`)
-- `character.weakness.04` For a very strong character, which restriction or limitation bears on what the plot demands? (`character-flaws-restrictions-limitations`)
-- `character.capability.01` Name the one or two things this character does better than anyone else in the story. Where does the plot use them? (`character-capability-design`)
-- `character.capability.02` Name two things they do badly. Where does the plot punish that? (`character-capability-design`)
-- `character.iconic.01` Can a new reader start with this installment and follow the character? If yes, the traits are stable and clear enough. (`character-iconic-characters`)
-- `character.iconic.02` Is the tension coming from a capable opponent or a real cost? If neither, the story has no engine, since the arc was removed. (`character-iconic-characters`)
-- `character.iconic.03` Is any small arc inside this one story kept from becoming central to who the character is? (`character-iconic-characters`)
-- `character.iconic.04` Is the lead memorable through a clear trait, voice, or signature skill? (`character-iconic-characters`)
-- `magic.first.01` Name the emotion the resolution should give, and ask whether the reader's understanding of the magic can support it. (`magic-first-law`)
-- `magic.second.01` List what the magic can do, what it costs the user, and what stops it, including who or what is stronger. (`magic-second-law`)
-- `magic.second.02` If the first list is long and the others short, does the magic solve problems too easily? (`magic-second-law`)
-- `magic.second.03` Do the most interesting scenes come from the costs and the limits? (`magic-second-law`)
-- `magic.second.04` Is each power described with rules specific enough to make a tactical puzzle, not a generic effect? (`magic-second-law`)
-- `magic.hardsoft.01` For each magical element, could a reader predict what it will do and what it cannot do? Place each element separately. (`magic-hard-and-soft`)
-- `magic.hardsoft.02` Does each element's place on the spectrum fit its job: problem-solving and training for hard magic, wonder and lack of control for soft? (`magic-hard-and-soft`)
-- `magic.hardsoft.03` Across a series, are earlier inventions' consequences remembered, or is the drift toward softness chosen on purpose? (`magic-hard-and-soft`)
-- `worldbuilding.curve.03` Is the learning curve steep on purpose, and does the opening promise that? (`worldbuilding-learning-curve-and-exposition`)
-- `scene.pov.01` Does the viewpoint mode fit the cast size and the information the story needs to withhold? (`viewpoint-and-tense`)
-- `scene.pov.03` In true omniscient, is information withheld in a way that will feel like a cheat? Lean on suspense instead. (`viewpoint-and-tense`)
+- `plot.bridges.01` For each major turn, can you name the pressure, the actor who interprets it, their goal, and their method?
+- `plot.bridges.02` Why this person, why now, and why this method?
+- `plot.bridges.05` Is every place, group, or person established before it carries an event?
+- `plot.reveals.01` For each secret, is the true fact written down apart from what the reader is told?
+- `plot.reveals.02` For each secret, can you name who knows it, who is wrong about it, where the reader gets the first clue, and where they learn it?
+- `plot.reveals.03` Does any reveal come before its setup, or any setup go unrewarded?
+- `plot.reveals.04` Does narration leak author truth the viewpoint character could not know?
+- `plot.reveals.05` Does the outline tell the causal story before explaining the hidden system?
+- `plot.bigp.01` State the Big P Plot in one or two sentences. If you cannot, the book is not focused yet.
+- `plot.bigp.03` Where does the story's emotional core actually live, in the headline plot or in a little p thread, and do the signposts follow it?
+- `plot.promises.01` Which kinds of promise does the opening make (tone, plot, character, series), and which does it skip? Not every kind is required; mark each skip as deliberate or accidental.
+- `plot.promises.02` From the first pages, could a reader say what feel to expect and what the main character wants?
+- `plot.promises.03` Does the character promise show what the character wants, what they need, and why they cannot have it yet?
+- `plot.promises.04` If the tone will switch (for example from thriller to travelogue), is the second tone promised at the start?
+- `plot.promises.05` Does each new character, sequence, or chapter make its own small promise, and does the chapter signal it was delivered?
+- `plot.progress.01` Name the kind of progress the story measures (information, relationship, skill, distance, or another) and check that the climax resolves that kind.
+- `plot.progress.02` With several threads, name the soul of the story, the thread that drives the ending, and check that the climax turns on it and not on the trappings.
+- `plot.archetypes.01` Name the archetypes the story layers, and which one carries the Big P Plot.
+- `plot.archetypes.02` For each arc, has the story decided whether it heads for success or failure, and promised accordingly?
+- `plot.archetypes.03` If the dominant archetype shifts midway, is the shift foreshadowed, and does it reuse the earlier archetype's setup?
+- `plot.archetypes.04` For a betrayal, list the three or four moments where the betrayer's goal visibly diverges. Each should read as innocent on a first pass and damning on a second.
+- `plot.scale.01` Does the central conflict fit the word count for the format and genre?
+- `plot.scale.02` If the book is long, where does the scope widen, and is the widening signposted?
+- `plot.cheer.01` Name the promise this cheer moment pays off, and where it was made.
+- `plot.layering.02` Where was the change promised, and where is the first serious failure caused by the flaw?
+- `plot.cycles.01` Does every cycle have a payoff, with visible progress between its promise and its payoff?
+- `plot.cycles.04` Is every promised thread present in the merged outline?
+- `plot.payoff.01` Which promise is being paid off, and where was it planted?
+- `plot.twist.01` What exactly did the story promise, and in which scene?
+- `plot.circle.01` Mark which steps of the circle are present. For each missing step, decide whether it is missing on purpose.
+- `plot.circle.02` Name the character's growth circle separately from the external goal, and check that the signposts track the growth.
+- `plot.circle.03` If a step stopped fitting the story, was it dropped instead of forced?
+- `plot.circle.04` If the story ends tragically, which step does the character refuse, and what flaw drives the refusal?
+- `character.scales.01` Place the character low, middle, or high on proactive, relatable, and capable, per domain where it matters.
+- `character.scales.02` Which scale is lowest? A passive character needs a want and a first action, a cold one a reason to be liked, an unimpressive one something they are visibly good at.
+- `character.scales.03` Which scale does the character's arc move along, and is the movement shown on the page?
+- `character.scales.04` Is any character high on all three scales with nowhere left to go?
+- `character.motivation.01` Can you name what the character wants, why they cannot have it, what they need, and what they must sacrifice?
+- `character.motivation.02` Does each choice on the page follow the pattern of those answers, and where it breaks, does the text show why?
+- `character.motivation.03` Do at least two of the character's answers conflict, giving scenes something to turn on?
+- `character.arc.04` Can you name which of the four shapes each major character is on, or say that they have none?
+- `character.villain.01` Where does the villain sit on each scale? If low on proactive, why would they threaten anyone?
+- `character.villain.02` Does the reader understand any of the villain's want?
+- `character.villain.03` For an antihero, who is worse than them, and does the story show it?
+- `character.weakness.01` For each weakness, is it a flaw, a restriction, or a limitation, and is it handled that way: an arc for a flaw, pressure scenes for a restriction, ingenuity for a limitation?
+- `character.weakness.02` Is a limitation ever treated as a flaw the character should simply get over?
+- `character.weakness.03` Does an unaddressed flaw block progress so long that readers lose patience?
+- `character.weakness.04` For a very strong character, which restriction or limitation bears on what the plot demands?
+- `character.capability.01` Name the one or two things this character does better than anyone else in the story. Where does the plot use them?
+- `character.capability.02` Name two things they do badly. Where does the plot punish that?
+- `character.iconic.01` Can a new reader start with this installment and follow the character? If yes, the traits are stable and clear enough.
+- `character.iconic.02` Is the tension coming from a capable opponent or a real cost? If neither, the story has no engine, since the arc was removed.
+- `character.iconic.03` Is any small arc inside this one story kept from becoming central to who the character is?
+- `character.iconic.04` Is the lead memorable through a clear trait, voice, or signature skill?
+- `magic.first.01` Name the emotion the resolution should give, and ask whether the reader's understanding of the magic can support it.
+- `magic.second.01` List what the magic can do, what it costs the user, and what stops it, including who or what is stronger.
+- `magic.second.02` If the first list is long and the others short, does the magic solve problems too easily?
+- `magic.second.03` Do the most interesting scenes come from the costs and the limits?
+- `magic.second.04` Is each power described with rules specific enough to make a tactical puzzle, not a generic effect?
+- `magic.hardsoft.01` For each magical element, could a reader predict what it will do and what it cannot do? Place each element separately.
+- `magic.hardsoft.02` Does each element's place on the spectrum fit its job: problem-solving and training for hard magic, wonder and lack of control for soft?
+- `magic.hardsoft.03` Across a series, are earlier inventions' consequences remembered, or is the drift toward softness chosen on purpose?
+- `worldbuilding.curve.03` Is the learning curve steep on purpose, and does the opening promise that?
+- `scene.pov.01` Does the viewpoint mode fit the cast size and the information the story needs to withhold?
+- `scene.pov.03` In true omniscient, is information withheld in a way that will feel like a cheat? Lean on suspense instead.
+
+Skill for each check family: `plot.bridges` plot-causal-bridges; `plot.reveals` plot-reveal-boundaries; `plot.bigp` plot-big-p-little-p; `plot.promises` plot-kinds-of-promises; `plot.progress` plot-types-of-progress; `plot.archetypes` plot-archetypes; `plot.scale` plot-scale-of-plot; `plot.cheer` plot-cheer-moment-sanderlanche; `plot.layering` plot-layering-conflict; `plot.cycles` plot-outline-interwoven-cycles; `plot.payoff` plot-payoff-deniability-forgotten-promise; `plot.twist` plot-twists-promise-and-wish; `plot.circle` plot-story-circle; `character.scales` character-proactive-relatable-capable; `character.motivation` character-motivation-discovery-questions; `character.arc` character-arc-types; `character.villain` character-villain-and-antihero-patterns; `character.weakness` character-flaws-restrictions-limitations; `character.capability` character-capability-design; `character.iconic` character-iconic-characters; `magic.first` magic-first-law; `magic.second` magic-second-law; `magic.hardsoft` magic-hard-and-soft; `worldbuilding.curve` worldbuilding-learning-curve-and-exposition; `scene.pov` viewpoint-and-tense.
 <!-- generated:checks:end spec -->
 
 <!-- generated:checks:start beats -->
 #### Craft checks: beats (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `plot.ppp.02` For this stretch, name what tells the reader the story is moving toward one of those promises. A stretch with no signpost reads as a stall. (`plot-promise-progress-payoff`)
-- `plot.bigp.02` For each chapter, name its little p plot and whether it advances a Big P promise or makes a promise of its own that the book keeps. (`plot-big-p-little-p`)
-- `plot.progress.03` For this sequence, what does the reader think it is moving toward, and what signals tell them so? (`plot-types-of-progress`)
-- `plot.progress.04` Does the pace vary, with breathers between pushes, and are time skips set up at a structural break? (`plot-types-of-progress`)
-- `plot.coldopen.01` Can the opening be described as a small version of the book's central conflict? If not, are a tone promise and a likable character with a hard problem doing that work instead? (`plot-cold-open-microcosm`)
-- `plot.coldopen.02` Does the full book echo the opening's shape, or deliberately break it? (`plot-cold-open-microcosm`)
-- `plot.coldopen.03` Does the opening make a promise the book keeps? (`plot-cold-open-microcosm`)
-- `plot.threeact.01` Write the major dramatic question in one sentence. Is it posed by the end of Act I, and does the climax answer it? (`plot-three-act-structure`)
-- `plot.threeact.02` Name the point after which the character cannot go back. (`plot-three-act-structure`)
-- `plot.threeact.03` Does the midpoint change what the reader believes the story is about, escalate it, or make it personal? (`plot-three-act-structure`)
-- `plot.threeact.04` Does each attempt in the second act make things worse, or do the attempts merely repeat? (`plot-three-act-structure`)
-- `plot.threeact.05` Is there a low point that the last realization climbs out of? (`plot-three-act-structure`)
-- `plot.tryfail.01` For each major success, what failed before it, and did the failure cost something or teach something? (`plot-try-fail-cycle`)
-- `plot.tryfail.02` Is any big problem solved on the first clever attempt? (`plot-try-fail-cycle`)
-- `plot.tryfail.03` Is it visible whether each failure comes from the character, the opposition, or both? (`plot-try-fail-cycle`)
-- `plot.tryfail.05` If successes run in a long streak, are the stakes, the danger, and the competence strong enough to carry it? (`plot-try-fail-cycle`)
-- `plot.yesbut.01` Does each "but" or "and" grow out of the specific event before it? (`plot-yes-but-no-and`)
-- `plot.yesbut.02` Do the complications escalate in cost, or only change in kind? (`plot-yes-but-no-and`)
-- `plot.cheer.02` What internal decision comes before the external win? The reverse order is fine when it reads better. (`plot-cheer-moment-sanderlanche`)
-- `plot.cheer.03` If several plotlines resolve in one scene, does each get its own distinct beat? (`plot-cheer-moment-sanderlanche`)
-- `plot.cheer.04` Is each payoff in a cascade larger than or different from the last, and not only louder? (`plot-cheer-moment-sanderlanche`)
-- `plot.climax.01` Name each climax and what it pays off. Is an early one a plot payoff and the late one an emotional payoff? (`plot-climax-placement-aftermath`)
-- `plot.climax.02` If one viewpoint or plotline is far stronger than another, is strengthening the weaker one the fix? (`plot-climax-placement-aftermath`)
-- `plot.climax.04` Does the aftermath fit the format and deliver the last small promises? (`plot-climax-placement-aftermath`)
-- `plot.foreshadow.01` For each reveal that must feel earned, where does the reader get the first clue, and how many clues are there? (`plot-foreshadowing-twists`)
-- `plot.foreshadow.02` Is the likely guess point a page or a paragraph before the reveal, and not "never" or "the first act"? (`plot-foreshadowing-twists`)
-- `plot.foreshadow.03` If readers guess too early, would turning the twist into suspense serve better than hiding it harder? (`plot-foreshadowing-twists`)
-- `plot.layering.01` For each important scene, name the outer goal and the inner struggle. Does the outer obstacle press on the inner flaw? (`plot-layering-conflict`)
-- `plot.layering.03` How many chapters pass between inner-conflict beats? Look for long gaps. (`plot-layering-conflict`)
-- `plot.layering.04` Does the climax return to the early problem in a larger form? (`plot-layering-conflict`)
-- `plot.cycles.02` Do the big payoffs land one after another, not all at once? (`plot-outline-interwoven-cycles`)
-- `plot.cycles.03` Is any minor character's cycle better resolved earlier, so it does not compete with the lead at the climax? (`plot-outline-interwoven-cycles`)
-- `plot.payoff.01` Which promise is being paid off, and where was it planted? (`plot-payoff-deniability-forgotten-promise`)
-- `plot.payoff.02` At the moment of payoff, what does the reader currently believe will happen? If the answer is "exactly this", add deniability or let the promise fade first. (`plot-payoff-deniability-forgotten-promise`)
-- `plot.payoff.03` If the promise is meant to be forgotten, is it planted clearly enough that it still reads as inevitable? (`plot-payoff-deniability-forgotten-promise`)
-- `plot.payoff.04` Are the obstacles that create doubt honest, and not tricks that make the outcome impossible or the hero foolish? (`plot-payoff-deniability-forgotten-promise`)
-- `plot.twist.01` What exactly did the story promise, and in which scene? (`plot-twists-promise-and-wish`)
-- `plot.twist.02` Where does the reader start to prefer the alternative? If nowhere, the twist is a surprise and not a swap. (`plot-twists-promise-and-wish`)
-- `plot.twist.03` Can you name two earlier moments that point to the real outcome? (`plot-twists-promise-and-wish`)
-- `plot.twist.04` Does the new outcome serve the theme and the character, or only startle? (`plot-twists-promise-and-wish`)
-- `plot.scale.03` Where can a reader put the book down, and what pulls them back? (`plot-scale-of-plot`)
-- `character.arc.01` Does the reader see the flaw hurting the character before the lesson arrives? (`character-arc-types`)
-- `character.arc.02` Is the decisive choice explained by who the character has become, not by how many times they have tried? (`character-arc-types`)
-- `character.proactive.03` For a reluctant hero, where does the push land, and what small act of initiative comes before it? (`character-proactivity-toolkit`)
-- `character.proactive.04` Is the villain driving events while the hero only reacts? (`character-proactivity-toolkit`)
-- `character.dialogue.01` Can you say in one sentence what each speaker wants from the other? (`character-floating-outline-for-dialogue`)
-- `magic.first.02` At the climax, could a reader have predicted the move from what they were shown? If they learn the rule only as it is used, expect a cheat reaction. (`magic-first-law`)
-- `magic.first.03` If the magic is soft, does the resolution rest on what the characters do and want, not on the magic saving the day? (`magic-first-law`)
-- `magic.first.04` If the magic is hard, were its pieces seeded earlier as tools that the characters now combine? (`magic-first-law`)
-- `worldbuilding.gorilla.01` List the most exciting elements in the book (a creature, a magic, a faction). Where does each first appear? (`worldbuilding-gorilla-in-the-phone-booth`)
-- `worldbuilding.gorilla.02` At that point, what thread is the reader following, and is the new element stronger than that thread? If so, raise the main thread, move the element, or cut it. (`worldbuilding-gorilla-in-the-phone-booth`)
-- `worldbuilding.gorilla.03` Does the new element serve the promise the reader is already holding, or create a rival one? (`worldbuilding-gorilla-in-the-phone-booth`)
-- `worldbuilding.gorilla.04` In the last quarter, does anything arrive that nobody has mentioned? A long-foreshadowed threat is fine; an unforeshadowed new problem is not. (`worldbuilding-gorilla-in-the-phone-booth`)
-- `scene.sequel.01` After each scene that ends with a change, is there a sequel where the characters take in the result, sized to the pace you want? (`scene-and-sequel`)
-- `scene.sequel.02` Is a dragging stretch a run of sequels with no scene between them? (`scene-and-sequel`)
-- `scene.sequel.03` Is a numbing stretch a run of scenes with no sequel to feel the consequences? (`scene-and-sequel`)
-- `scene.sequel.04` Does each sequel carry something (a revelation, a joke, a relationship beat), and does its decision launch the next scene? (`scene-and-sequel`)
+- `plot.bridges.01` For each major turn, can you name the pressure, the actor who interprets it, their goal, and their method?
+- `plot.bridges.02` Why this person, why now, and why this method?
+- `plot.bridges.03` If this event were removed, would the next decision change? If not, it is off the spine or a bridge is missing.
+- `plot.bridges.04` Does any turn rest on a summary jump (A happened, so B) with no one choosing?
+- `plot.bridges.05` Is every place, group, or person established before it carries an event?
+- `scene.access.04` Is each consequential choice made by the character who owns that decision, and does it follow from what they perceived or misread?
+- `character.entry.01` At first entry, has the prose shown the character's role or identity, or has only the author known it?
+- `character.entry.02` Is the character's link to the current event or to the viewpoint character clear?
+- `scene.dialogue.03` Is any procedural action (opening, reading, moving things) connected to human pressure, or is the scene static with props?
+- `plot.ppp.02` For this stretch, name what tells the reader the story is moving toward one of those promises. A stretch with no signpost reads as a stall.
+- `plot.bigp.02` For each chapter, name its little p plot and whether it advances a Big P promise or makes a promise of its own that the book keeps.
+- `plot.progress.03` For this sequence, what does the reader think it is moving toward, and what signals tell them so?
+- `plot.progress.04` Does the pace vary, with breathers between pushes, and are time skips set up at a structural break?
+- `plot.coldopen.01` Can the opening be described as a small version of the book's central conflict? If not, are a tone promise and a likable character with a hard problem doing that work instead?
+- `plot.coldopen.02` Does the full book echo the opening's shape, or deliberately break it?
+- `plot.coldopen.03` Does the opening make a promise the book keeps?
+- `plot.threeact.01` Write the major dramatic question in one sentence. Is it posed by the end of Act I, and does the climax answer it?
+- `plot.threeact.02` Name the point after which the character cannot go back.
+- `plot.threeact.03` Does the midpoint change what the reader believes the story is about, escalate it, or make it personal?
+- `plot.threeact.04` Does each attempt in the second act make things worse, or do the attempts merely repeat?
+- `plot.threeact.05` Is there a low point that the last realization climbs out of?
+- `plot.tryfail.01` For each major success, what failed before it, and did the failure cost something or teach something?
+- `plot.tryfail.02` Is any big problem solved on the first clever attempt?
+- `plot.tryfail.03` Is it visible whether each failure comes from the character, the opposition, or both?
+- `plot.tryfail.05` If successes run in a long streak, are the stakes, the danger, and the competence strong enough to carry it?
+- `plot.yesbut.01` Does each "but" or "and" grow out of the specific event before it?
+- `plot.yesbut.02` Do the complications escalate in cost, or only change in kind?
+- `plot.cheer.02` What internal decision comes before the external win? The reverse order is fine when it reads better.
+- `plot.cheer.03` If several plotlines resolve in one scene, does each get its own distinct beat?
+- `plot.cheer.04` Is each payoff in a cascade larger than or different from the last, and not only louder?
+- `plot.climax.01` Name each climax and what it pays off. Is an early one a plot payoff and the late one an emotional payoff?
+- `plot.climax.02` If one viewpoint or plotline is far stronger than another, is strengthening the weaker one the fix?
+- `plot.climax.04` Does the aftermath fit the format and deliver the last small promises?
+- `plot.foreshadow.01` For each reveal that must feel earned, where does the reader get the first clue, and how many clues are there?
+- `plot.foreshadow.02` Is the likely guess point a page or a paragraph before the reveal, and not "never" or "the first act"?
+- `plot.foreshadow.03` If readers guess too early, would turning the twist into suspense serve better than hiding it harder?
+- `plot.layering.01` For each important scene, name the outer goal and the inner struggle. Does the outer obstacle press on the inner flaw?
+- `plot.layering.03` How many chapters pass between inner-conflict beats? Look for long gaps.
+- `plot.layering.04` Does the climax return to the early problem in a larger form?
+- `plot.cycles.02` Do the big payoffs land one after another, not all at once?
+- `plot.cycles.03` Is any minor character's cycle better resolved earlier, so it does not compete with the lead at the climax?
+- `plot.payoff.01` Which promise is being paid off, and where was it planted?
+- `plot.payoff.02` At the moment of payoff, what does the reader currently believe will happen? If the answer is "exactly this", add deniability or let the promise fade first.
+- `plot.payoff.03` If the promise is meant to be forgotten, is it planted clearly enough that it still reads as inevitable?
+- `plot.payoff.04` Are the obstacles that create doubt honest, and not tricks that make the outcome impossible or the hero foolish?
+- `plot.twist.01` What exactly did the story promise, and in which scene?
+- `plot.twist.02` Where does the reader start to prefer the alternative? If nowhere, the twist is a surprise and not a swap.
+- `plot.twist.03` Can you name two earlier moments that point to the real outcome?
+- `plot.twist.04` Does the new outcome serve the theme and the character, or only startle?
+- `plot.scale.03` Where can a reader put the book down, and what pulls them back?
+- `character.arc.01` Does the reader see the flaw hurting the character before the lesson arrives?
+- `character.arc.02` Is the decisive choice explained by who the character has become, not by how many times they have tried?
+- `character.proactive.03` For a reluctant hero, where does the push land, and what small act of initiative comes before it?
+- `character.proactive.04` Is the villain driving events while the hero only reacts?
+- `character.dialogue.01` Can you say in one sentence what each speaker wants from the other?
+- `magic.first.02` At the climax, could a reader have predicted the move from what they were shown? If they learn the rule only as it is used, expect a cheat reaction.
+- `magic.first.03` If the magic is soft, does the resolution rest on what the characters do and want, not on the magic saving the day?
+- `magic.first.04` If the magic is hard, were its pieces seeded earlier as tools that the characters now combine?
+- `worldbuilding.gorilla.01` List the most exciting elements in the book (a creature, a magic, a faction). Where does each first appear?
+- `worldbuilding.gorilla.02` At that point, what thread is the reader following, and is the new element stronger than that thread? If so, raise the main thread, move the element, or cut it.
+- `worldbuilding.gorilla.03` Does the new element serve the promise the reader is already holding, or create a rival one?
+- `worldbuilding.gorilla.04` In the last quarter, does anything arrive that nobody has mentioned? A long-foreshadowed threat is fine; an unforeshadowed new problem is not.
+- `scene.sequel.01` After each scene that ends with a change, is there a sequel where the characters take in the result, sized to the pace you want?
+- `scene.sequel.02` Is a dragging stretch a run of sequels with no scene between them?
+- `scene.sequel.03` Is a numbing stretch a run of scenes with no sequel to feel the consequences?
+- `scene.sequel.04` Does each sequel carry something (a revelation, a joke, a relationship beat), and does its decision launch the next scene?
+
+Skill for each check family: `plot.bridges` plot-causal-bridges; `scene.access` scene-access-limits; `character.entry` character-first-entry; `scene.dialogue` scene-dialogue-behavior; `plot.ppp` plot-promise-progress-payoff; `plot.bigp` plot-big-p-little-p; `plot.progress` plot-types-of-progress; `plot.coldopen` plot-cold-open-microcosm; `plot.threeact` plot-three-act-structure; `plot.tryfail` plot-try-fail-cycle; `plot.yesbut` plot-yes-but-no-and; `plot.cheer` plot-cheer-moment-sanderlanche; `plot.climax` plot-climax-placement-aftermath; `plot.foreshadow` plot-foreshadowing-twists; `plot.layering` plot-layering-conflict; `plot.cycles` plot-outline-interwoven-cycles; `plot.payoff` plot-payoff-deniability-forgotten-promise; `plot.twist` plot-twists-promise-and-wish; `plot.scale` plot-scale-of-plot; `character.arc` character-arc-types; `character.proactive` character-proactivity-toolkit; `character.dialogue` character-floating-outline-for-dialogue; `magic.first` magic-first-law; `worldbuilding.gorilla` worldbuilding-gorilla-in-the-phone-booth; `scene.sequel` scene-and-sequel.
 <!-- generated:checks:end beats -->
 
 ## 6. story-draft
@@ -554,6 +592,18 @@ Write prose only when the settings say the AI drafts. The draft is working mater
 - **Nothing exists at all:** ask one question about the story and offer `story-develop`.
 - **No voice or style file, and no earlier chapters:** ask for a paragraph of the writer's own writing or the voice they want, or offer `story-voice`, and wait.
 
+#### Reading a long story
+
+Once the story has five or more chapters, read it in tiers instead of loading every chapter:
+
+1. The chapter in hand and its beats, in full.
+2. The chapters just before and just after it, in full.
+3. Every other chapter as its card in `work/cards/`. Open the prose only when a card is missing or stale, when the task needs the exact wording, or when a card disagrees with another source. The prose wins: correct the card from it.
+
+Run `cards.py report <project folder>` from the `story-continue` skill folder (full path, no `cd`) to see missing and stale cards. A card that agrees with everything else is enough: do not open its chapter just to be thorough. A card points to its chapter; a fact that is only on a card is not settled.
+
+Writing a card is housekeeping, not a fix. When you had to open a chapter because its card was missing or stale, rewrite the card from the chapter and stamp it (see Chapter cards in `story-continue`), and say so in one line. Never change a chapter to match its card.
+
 #### Drafting a chapter
 
 - Follow the beats in order: the goal, each scene and how it turns out, the hook out. If a beat does not work on the page, say so and propose a change; do not skip it quietly.
@@ -572,7 +622,8 @@ Drafted dialogue fails in one predictable way: everyone takes turns delivering c
 - **Each speaker sounds like themself.** Give them their own vocabulary, sentence length, and things they avoid saying. Cover the names: you should still know who is talking.
 - **Facts come out contested and in fragments**, as accusations, half-denials, and slips, never as a briefing for the reader. If the reader must learn how something works, let it arrive in pieces that someone is fighting over.
 - **Nobody states the subtext.** "I feel betrayed because you promised" becomes "You said you'd stay."
-- **Tags:** "said", or none. Put an action between lines instead of an adverb.
+- **Tags:** "said", or none. Rapid exchanges can stay untagged when the voices and pressure are clear.
+- **Action only where it does work.** Put an action between lines where something changes: information lands, a lie is tested, power shifts, restraint fails, or a decision turns. It earns its place when the reaction changes the next beat. A nod, sip, or look away that anyone could do, or a task step with no human pressure in it, is filler. Do not spread beats evenly, and do not "fix" flat dialogue by adding a gesture or an emotion label to every line. A plain "He said nothing" is fine.
 
 #### Leave the meaning to the reader
 
@@ -585,7 +636,7 @@ Drafted dialogue fails in one predictable way: everyone takes turns delivering c
 When the settings give the AI both drafting and revising, keep going chapter by chapter until the check-in the settings name (`check-in`: every chapter, every three chapters, or every part of the book). For each chapter:
 
 1. **Draft** it as above.
-2. **Check it silently** following `story-check`, including the dialogue and over-explanation pass. Keep the findings as a working note in `work/critique-reports/`; do not show the raw report.
+2. **Check it silently** following `story-check`, including the dialogue and over-explanation pass and the text checker (`check_text.py` in the `story-check` skill folder, run with its full path on your chapter, adding `--words MIN-MAX` when the beats or the project's rules state a length range; fix real slips such as leaked wrapper text, an unclosed quote, a duplicated paragraph, a last line that stops mid-sentence, or a loop of repeated text, and bring a chapter that misses the stated length back into range). Keep the findings as a working note in `work/critique-reports/`; do not show the raw report.
 3. **Revise** what must be fixed, following `story-revise`, and delete each finding from the working note once fixed, or mark it `[resolved] declined: <reason>` when you keep the text on purpose: keep the earlier version in `work/drafts/_previous/`, change as little as each finding needs, and re-check your own new text so one habit is not swapped for another. At most two passes.
 4. **Continuity**: compare the chapter with `kb/` and the earlier chapters. If it contradicts a settled fact and you cannot fix it inside the chapter, stop and ask.
 5. **Queue the new facts** as pending, major or minor, as described below.
@@ -599,10 +650,17 @@ You may draft later chapters on top of pending **minor** facts; list those depen
 - An approved fact goes into its `kb/` page, and its queue line is removed.
 - A rejected fact: change its queue line to start with `[rejected]` (it is never proposed again), and set every chapter that used it to `<!-- status: needs revision: <the rejected fact> -->`. Revising those comes first, through `story-revise`.
 - An accepted chapter is trusted, and trust is the default, so accepting it means deleting its status line and deleting its open findings from the check report (or marking a kept one `[resolved] declined: accepted as is`), and deleting the report file when nothing is left in it. Do this only on the writer's word, and record nothing else: no date, no "accepted by".
+- If `work/drafts/_delivered/` holds a copy of that chapter, compare it with the accepted chapter using `diff_chapter.py` in the `story-edits` skill folder (full path, no `cd`). Unchanged: delete the copy now. Edited: keep it, because `story-edits` learns from the writer's changes and then deletes it.
 
 #### Saving and handing over
 
 Save the chapter to `work/drafts/` with the project's naming, or the beats file's `NNN-slug.md`. Its first line is `<!-- status: draft -->`. Never remove that line yourself; only the writer's approval does, and a chapter with no status line is trusted.
+
+Also save an exact copy of the chapter, as handed over, to `work/drafts/_delivered/` under the same file name, replacing any earlier copy. It is how the writer's later edits can be told from your text. Keep it only until those edits have been learned from or the chapter is accepted unchanged.
+
+Then write or refresh the chapter's card (see Chapter cards in `story-continue`) when the story has five or more chapters or the chapter already has a card.
+
+If the project keeps a promise ledger, update it: mark each promise the chapter moved `advanced` or `paid`, and add a line for each new promise the chapter made (the line format is in `story-plan`). Change nothing else in it.
 
 Then tell the writer, in the craft language the settings name:
 
@@ -618,31 +676,46 @@ Never describe the chapter as finished or good. Describe what you did.
 <!-- generated:checks:start -->
 #### Craft checks (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `plot.ppp.02` For this stretch, name what tells the reader the story is moving toward one of those promises. A stretch with no signpost reads as a stall. (`plot-promise-progress-payoff`)
-- `plot.promises.05` Does each new character, sequence, or chapter make its own small promise, and does the chapter signal it was delivered? (`plot-kinds-of-promises`)
-- `plot.layering.01` For each important scene, name the outer goal and the inner struggle. Does the outer obstacle press on the inner flaw? (`plot-layering-conflict`)
-- `character.dialogue.02` Does the refusal, or the compromise, come from the character's own nature, so a different character would have answered differently? (`character-floating-outline-for-dialogue`)
-- `character.dialogue.03` Does each reveal about a character come through what they say and how they push, not through the narrator explaining? (`character-floating-outline-for-dialogue`)
-- `character.presenting.02` Does any character state their own motive to someone who already knows it? (`character-presenting-a-character`)
-- `character.presenting.03` With dialogue tags and setting removed, could a reader tell who is speaking from the lines alone? (`character-presenting-a-character`)
-- `character.relatable.02` Does a trait carry the reader's sympathy, or is the narration telling them to feel it? (`character-relatability-toolkit`)
-- `worldbuilding.filtered.02` Is each description a catalog of what exists, or a record of what this person notices? (`worldbuilding-viewpoint-filtered-description`)
-- `worldbuilding.pyramid.01` Find the most abstract paragraph (an explanation, a reflection, a cosmology). What concrete detail sits in the paragraphs just before and after it? (`worldbuilding-pyramid-of-abstraction`)
-- `worldbuilding.pyramid.04` Is a figure of speech colliding with the world, such as "he flew across the room" where people really fly? (`worldbuilding-pyramid-of-abstraction`)
-- `worldbuilding.curve.02` For each paragraph of explanation, who is thinking it, and why now? (`worldbuilding-learning-curve-and-exposition`)
-- `scene.show.01` For each stated trait or emotion, does it matter enough to the story to be shown? If yes, find one specific action or detail; if no, leave the plain statement. (`show-dont-tell`)
-- `scene.pov.02` Within a scene, does the narration stay in one head, and is any switch deliberate and clear to the reader? (`viewpoint-and-tense`)
-- `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed. (`prose-ai-tells`)
-- `prose.tells.02` A closer that explains the beat the scene already showed. (`prose-ai-tells`)
-- `prose.tells.03` An aphorism in the narration in place of the character's actual state. (`prose-ai-tells`)
-- `prose.tells.09` Narrated significance: the narration announces that a moment matters instead of showing its consequence. (`prose-ai-tells`)
-- `prose.tells.10` Reaction riders: an appended clause that tells the reader what to feel about a simple action. (`prose-ai-tells`)
-- `prose.tells.13` An emotion named right after it is shown. (`prose-ai-tells`)
-- `prose.tells.15` Dialogue that states its own subtext. (`prose-ai-tells`)
-- `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording. (`prose-ai-tells`)
-- `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader. (`prose-ai-tells`)
+- `character.entry.01` At first entry, has the prose shown the character's role or identity, or has only the author known it?
+- `character.entry.02` Is the character's link to the current event or to the viewpoint character clear?
+- `character.entry.03` Does the reader get a first impression the viewpoint character would actually form?
+- `character.entry.04` For a villain, love interest, rival, or core ally: is there at least one recognizable trait (appearance, clothing, posture, voice, a habitual gesture, or how others react)?
+- `character.entry.05` Is anything about this character, their place, or their relationships assumed because the author knows it, and not shown?
+- `scene.access.01` For each thing a character acts on, which of seeing, hearing, reaching, or inferring gave it to them in this scene?
+- `scene.access.02` Does any character understand something they only saw, or inspect something they only passed once?
+- `scene.access.03` Are shared, specialized, and private knowledge kept apart (an expert's judgment does not leak to a layperson, and a private motive is not known to others)?
+- `scene.access.05` When a character states a fact, is it clear whether it is an observation, a report, a judgment, an intention, or a mistake?
+- `scene.dialogue.01` For each action beat in a sustained exchange, does the reaction change the next line, tactic, or situation? If not, it is decorative or procedural.
+- `scene.dialogue.02` Are beats placed where something changes (information lands, a lie, a shift in power, a decision) and not spread evenly or attached to every line?
+- `scene.dialogue.04` Was a flat exchange "fixed" by adding emotion labels or a gesture to every line? Untagged rapid dialogue and plain stated silence are fine when voices and pressure are clear.
+- `scene.dialogue.05` Does the viewpoint character notice only what they would under this pressure, instead of the scene cutting to every participant's reaction?
+- `plot.ppp.02` For this stretch, name what tells the reader the story is moving toward one of those promises. A stretch with no signpost reads as a stall.
+- `plot.promises.05` Does each new character, sequence, or chapter make its own small promise, and does the chapter signal it was delivered?
+- `plot.layering.01` For each important scene, name the outer goal and the inner struggle. Does the outer obstacle press on the inner flaw?
+- `character.dialogue.02` Does the refusal, or the compromise, come from the character's own nature, so a different character would have answered differently?
+- `character.dialogue.03` Does each reveal about a character come through what they say and how they push, not through the narrator explaining?
+- `character.presenting.02` Does any character state their own motive to someone who already knows it?
+- `character.presenting.03` With dialogue tags and setting removed, could a reader tell who is speaking from the lines alone?
+- `character.relatable.02` Does a trait carry the reader's sympathy, or is the narration telling them to feel it?
+- `worldbuilding.filtered.02` Is each description a catalog of what exists, or a record of what this person notices?
+- `worldbuilding.pyramid.01` Find the most abstract paragraph (an explanation, a reflection, a cosmology). What concrete detail sits in the paragraphs just before and after it?
+- `worldbuilding.pyramid.04` Is a figure of speech colliding with the world, such as "he flew across the room" where people really fly?
+- `worldbuilding.curve.02` For each paragraph of explanation, who is thinking it, and why now?
+- `scene.show.01` For each stated trait or emotion, does it matter enough to the story to be shown? If yes, find one specific action or detail; if no, leave the plain statement.
+- `scene.pov.02` Within a scene, does the narration stay in one head, and is any switch deliberate and clear to the reader?
+- `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
+- `prose.tells.02` A closer that explains the beat the scene already showed.
+- `prose.tells.03` An aphorism in the narration in place of the character's actual state.
+- `prose.tells.09` Narrated significance: the narration announces that a moment matters instead of showing its consequence.
+- `prose.tells.10` Reaction riders: an appended clause that tells the reader what to feel about a simple action.
+- `prose.tells.13` An emotion named right after it is shown.
+- `prose.tells.15` Dialogue that states its own subtext.
+- `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording.
+- `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader.
+
+Skill for each check family: `character.entry` character-first-entry; `scene.access` scene-access-limits; `scene.dialogue` scene-dialogue-behavior; `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.layering` plot-layering-conflict; `character.dialogue` character-floating-outline-for-dialogue; `character.presenting` character-presenting-a-character; `character.relatable` character-relatability-toolkit; `worldbuilding.filtered` worldbuilding-viewpoint-filtered-description; `worldbuilding.pyramid` worldbuilding-pyramid-of-abstraction; `worldbuilding.curve` worldbuilding-learning-curve-and-exposition; `scene.show` show-dont-tell; `scene.pov` viewpoint-and-tense; `prose.tells` prose-ai-tells.
 <!-- generated:checks:end -->
 
 ## 7. story-check
@@ -656,7 +729,20 @@ Find what is not working and say where, with evidence. Never fix anything here. 
 1. **Read the settings** in the project's Story project block, for the craft language to use. No valid block: use full terms.
 2. **Read the project's own rules.** Any review checklist, voice rules, chapter format, or length range it names is part of the check. Where it names several voice files (for example one per part of the book), use the one that applies to this chapter.
 3. **Read the chapter, its beats, the spec, and the `kb/` pages the beats name.** Without a spec or beats, check against the frameworks, the prose patterns, and the chapter's own internal consistency, and say what you could not check.
-4. **Read the whole chapter before noting anything.**
+4. **Run the text checker first**, with its full path and the chapter file or the folder of chapters: `python3 check_text.py <chapter or folder>`. If the beats or the project's own rules state a length range for a chapter, add `--words MIN-MAX` (for example `--words 1800-2500`). It reports leaked assistant text, stray formatting, unbalanced quotes, duplicated paragraphs, encoding damage, whitespace problems, a last line that stops mid-sentence, a long phrase repeated three or more times, and a chapter outside the stated length, with line numbers. Treat each warning as something to look at, not a verdict: a real slip becomes a finding, a deliberate choice does not. A chapter that stops mid-sentence is probably cut off, so say that first. A repeated phrase may be a deliberate refrain, song, or repeated document header. A length warning is a mismatch with the plan, not a flaw in the prose: say which one the writer should change.
+5. **Read the whole chapter before noting anything.**
+
+#### Reading a long story
+
+Once the story has five or more chapters, read it in tiers instead of loading every chapter:
+
+1. The chapter in hand and its beats, in full.
+2. The chapters just before and just after it, in full.
+3. Every other chapter as its card in `work/cards/`. Open the prose only when a card is missing or stale, when the task needs the exact wording, or when a card disagrees with another source. The prose wins: correct the card from it.
+
+Run `cards.py report <project folder>` from the `story-continue` skill folder (full path, no `cd`) to see missing and stale cards. A card that agrees with everything else is enough: do not open its chapter just to be thorough. A card points to its chapter; a fact that is only on a card is not settled.
+
+Writing a card is housekeeping, not a fix. When you had to open a chapter because its card was missing or stale, rewrite the card from the chapter and stamp it (see Chapter cards in `story-continue`), and say so in one line. Never change a chapter to match its card.
 
 #### Two kinds of report
 
@@ -666,7 +752,7 @@ Find what is not working and say where, with evidence. Never fix anything here. 
 - [open] <must fix | should fix | note>: <short title>. Check: <id>. Where: <chapter, scene or paragraph>. Evidence: "<short quote>". Fix: <what to do, in a sentence or two>.
 ```
 
-Two kinds of finding have no framework check: a contradiction with `kb/` or an earlier chapter uses `Check: continuity`, and a gap between the chapter and its beats or spec uses `Check: plan`. Never borrow an unrelated ID to fill the field.
+Three kinds of finding have no framework check: a contradiction with `kb/` or an earlier chapter uses `Check: continuity`, a gap between the chapter and its beats or spec uses `Check: plan`, and a real warning from the text checker uses `Check: text`. Never borrow an unrelated ID to fill the field.
 
 Rank findings by how much they hurt the chapter. End with the top three priorities and one thing the chapter does well that should be kept. A finding is removed from the report when it is fixed; one kept on purpose becomes `[resolved] declined: <reason>`, handled by `story-revise`.
 
@@ -676,7 +762,7 @@ Rank findings by how much they hurt the chapter. End with the top three prioriti
 
 Give these their own pass, because they are what makes drafted fiction read as machine-written.
 
-- **Dialogue.** Do lines answer each other in tidy pairs, or echo each other's wording? Does a cornered character explain their position in a tidy speech? Does anyone dodge, interrupt, change the subject, or leave a question unanswered? Do the speakers sound different from each other? Does a line state its own subtext?
+- **Dialogue.** Do lines answer each other in tidy pairs, or echo each other's wording? Does a cornered character explain their position in a tidy speech? Does anyone dodge, interrupt, change the subject, or leave a question unanswered? Do the speakers sound different from each other? Does a line state its own subtext? Does the action between lines change the next beat, or is it a nod, sip, or look away that anyone could do, or a task step with no pressure in it? Do not flag untagged rapid dialogue that is clear, or a plain stated silence, as defects.
 - **Over-explanation.** Does the narration say what a beat means after showing it, name an emotion right after showing it, announce that a moment matters, or close a scene by explaining it? Does a beat's planned turn appear in the prose as a sentence, when it should only shape the scene?
 
 Use the matching prose-pattern checks for each finding. Quote the line.
@@ -692,158 +778,186 @@ Use the matching prose-pattern checks for each finding. Quote the line.
 - Quote briefly. Do not paste paragraphs.
 - Separate a problem in the chapter from a disagreement with the beats or spec; say which it is.
 - Never edit the chapter, the plan, or `kb/`. The only file you write is the report.
+- Do not propose cutting style-bearing material (dialogue and its rhythm, inner thoughts, observational detail, deliberate ambiguity or silence, rhythm-bearing repetition) unless you can say what it fails to do. Slack is not a finding just because it is not plot.
 - No scores and no flattery. Say plainly what you could not check.
 
 <!-- generated:checks:start -->
 #### Craft checks (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `plot.ppp.01` Name what the story has promised by this point: its tone, its central conflict, and what the main character wants. (`plot-promise-progress-payoff`)
-- `plot.ppp.02` For this stretch, name what tells the reader the story is moving toward one of those promises. A stretch with no signpost reads as a stall. (`plot-promise-progress-payoff`)
-- `plot.ppp.03` Does the payoff deliver what was promised, in a way that feels surprising yet inevitable, or something the reader was never led to want? (`plot-promise-progress-payoff`)
-- `plot.ppp.04` Has a promised thread been dropped for a more interesting subplot? If the progress is what you want to tell, revise the promise, not the middle. (`plot-promise-progress-payoff`)
-- `plot.promises.01` Which kinds of promise does the opening make (tone, plot, character, series), and which does it skip? Not every kind is required; mark each skip as deliberate or accidental. (`plot-kinds-of-promises`)
-- `plot.promises.02` From the first pages, could a reader say what feel to expect and what the main character wants? (`plot-kinds-of-promises`)
-- `plot.promises.03` Does the character promise show what the character wants, what they need, and why they cannot have it yet? (`plot-kinds-of-promises`)
-- `plot.promises.04` If the tone will switch (for example from thriller to travelogue), is the second tone promised at the start? (`plot-kinds-of-promises`)
-- `plot.promises.05` Does each new character, sequence, or chapter make its own small promise, and does the chapter signal it was delivered? (`plot-kinds-of-promises`)
-- `plot.bigp.02` For each chapter, name its little p plot and whether it advances a Big P promise or makes a promise of its own that the book keeps. (`plot-big-p-little-p`)
-- `plot.bigp.03` Where does the story's emotional core actually live, in the headline plot or in a little p thread, and do the signposts follow it? (`plot-big-p-little-p`)
-- `plot.progress.03` For this sequence, what does the reader think it is moving toward, and what signals tell them so? (`plot-types-of-progress`)
-- `plot.coldopen.01` Can the opening be described as a small version of the book's central conflict? If not, are a tone promise and a likable character with a hard problem doing that work instead? (`plot-cold-open-microcosm`)
-- `plot.threeact.01` Write the major dramatic question in one sentence. Is it posed by the end of Act I, and does the climax answer it? (`plot-three-act-structure`)
-- `plot.threeact.02` Name the point after which the character cannot go back. (`plot-three-act-structure`)
-- `plot.threeact.03` Does the midpoint change what the reader believes the story is about, escalate it, or make it personal? (`plot-three-act-structure`)
-- `plot.threeact.04` Does each attempt in the second act make things worse, or do the attempts merely repeat? (`plot-three-act-structure`)
-- `plot.threeact.05` Is there a low point that the last realization climbs out of? (`plot-three-act-structure`)
-- `plot.tryfail.01` For each major success, what failed before it, and did the failure cost something or teach something? (`plot-try-fail-cycle`)
-- `plot.tryfail.02` Is any big problem solved on the first clever attempt? (`plot-try-fail-cycle`)
-- `plot.tryfail.03` Is it visible whether each failure comes from the character, the opposition, or both? (`plot-try-fail-cycle`)
-- `plot.tryfail.04` Do the failures differ in kind, not only in number? (`plot-try-fail-cycle`)
-- `plot.tryfail.05` If successes run in a long streak, are the stakes, the danger, and the competence strong enough to carry it? (`plot-try-fail-cycle`)
-- `plot.yesbut.01` Does each "but" or "and" grow out of the specific event before it? (`plot-yes-but-no-and`)
-- `plot.yesbut.02` Do the complications escalate in cost, or only change in kind? (`plot-yes-but-no-and`)
-- `plot.yesbut.03` Does each answer tell the reader something new about the character? (`plot-yes-but-no-and`)
-- `plot.yesbut.04` Are several plain wins in a row creating a lull? (`plot-yes-but-no-and`)
-- `plot.cheer.01` Name the promise this cheer moment pays off, and where it was made. (`plot-cheer-moment-sanderlanche`)
-- `plot.cheer.02` What internal decision comes before the external win? The reverse order is fine when it reads better. (`plot-cheer-moment-sanderlanche`)
-- `plot.cheer.03` If several plotlines resolve in one scene, does each get its own distinct beat? (`plot-cheer-moment-sanderlanche`)
-- `plot.cheer.04` Is each payoff in a cascade larger than or different from the last, and not only louder? (`plot-cheer-moment-sanderlanche`)
-- `plot.climax.01` Name each climax and what it pays off. Is an early one a plot payoff and the late one an emotional payoff? (`plot-climax-placement-aftermath`)
-- `plot.climax.02` If one viewpoint or plotline is far stronger than another, is strengthening the weaker one the fix? (`plot-climax-placement-aftermath`)
-- `plot.climax.03` Did early readers feel the real ending where you intended it? (`plot-climax-placement-aftermath`)
-- `plot.climax.04` Does the aftermath fit the format and deliver the last small promises? (`plot-climax-placement-aftermath`)
-- `plot.foreshadow.01` For each reveal that must feel earned, where does the reader get the first clue, and how many clues are there? (`plot-foreshadowing-twists`)
-- `plot.foreshadow.02` Is the likely guess point a page or a paragraph before the reveal, and not "never" or "the first act"? (`plot-foreshadowing-twists`)
-- `plot.foreshadow.03` If readers guess too early, would turning the twist into suspense serve better than hiding it harder? (`plot-foreshadowing-twists`)
-- `plot.foreshadow.04` Does a shocking event serve theme, character, and plot, or only shock? (`plot-foreshadowing-twists`)
-- `plot.layering.01` For each important scene, name the outer goal and the inner struggle. Does the outer obstacle press on the inner flaw? (`plot-layering-conflict`)
-- `plot.layering.02` Where was the change promised, and where is the first serious failure caused by the flaw? (`plot-layering-conflict`)
-- `plot.layering.03` How many chapters pass between inner-conflict beats? Look for long gaps. (`plot-layering-conflict`)
-- `plot.layering.04` Does the climax return to the early problem in a larger form? (`plot-layering-conflict`)
-- `plot.layering.05` Would a reader understand why the character behaves this way, in terms they recognize from real people? (`plot-layering-conflict`)
-- `plot.payoff.01` Which promise is being paid off, and where was it planted? (`plot-payoff-deniability-forgotten-promise`)
-- `plot.payoff.02` At the moment of payoff, what does the reader currently believe will happen? If the answer is "exactly this", add deniability or let the promise fade first. (`plot-payoff-deniability-forgotten-promise`)
-- `plot.payoff.03` If the promise is meant to be forgotten, is it planted clearly enough that it still reads as inevitable? (`plot-payoff-deniability-forgotten-promise`)
-- `plot.payoff.04` Are the obstacles that create doubt honest, and not tricks that make the outcome impossible or the hero foolish? (`plot-payoff-deniability-forgotten-promise`)
-- `plot.twist.01` What exactly did the story promise, and in which scene? (`plot-twists-promise-and-wish`)
-- `plot.twist.02` Where does the reader start to prefer the alternative? If nowhere, the twist is a surprise and not a swap. (`plot-twists-promise-and-wish`)
-- `plot.twist.03` Can you name two earlier moments that point to the real outcome? (`plot-twists-promise-and-wish`)
-- `plot.twist.04` Does the new outcome serve the theme and the character, or only startle? (`plot-twists-promise-and-wish`)
-- `character.scales.02` Which scale is lowest? A passive character needs a want and a first action, a cold one a reason to be liked, an unimpressive one something they are visibly good at. (`character-proactive-relatable-capable`)
-- `character.proactive.01` What does the character want in their first scene, and does an action follow from it? (`character-proactivity-toolkit`)
-- `character.proactive.02` If the character reads as wooden, has the reader been shown what they want before the dialogue is blamed? (`character-proactivity-toolkit`)
-- `character.proactive.03` For a reluctant hero, where does the push land, and what small act of initiative comes before it? (`character-proactivity-toolkit`)
-- `character.proactive.04` Is the villain driving events while the hero only reacts? (`character-proactivity-toolkit`)
-- `character.proactive.05` When a motivation changes, is the new one established on the page? (`character-proactivity-toolkit`)
-- `character.relatable.01` Within the first chapters, what does the reader learn that makes them like or pity this character? (`character-relatability-toolkit`)
-- `character.relatable.02` Does a trait carry the reader's sympathy, or is the narration telling them to feel it? (`character-relatability-toolkit`)
-- `character.relatable.03` Is the likeable trait shown by action? (`character-relatability-toolkit`)
-- `character.villain.01` Where does the villain sit on each scale? If low on proactive, why would they threaten anyone? (`character-villain-and-antihero-patterns`)
-- `character.villain.02` Does the reader understand any of the villain's want? (`character-villain-and-antihero-patterns`)
-- `character.villain.03` For an antihero, who is worse than them, and does the story show it? (`character-villain-and-antihero-patterns`)
-- `character.dialogue.01` Can you say in one sentence what each speaker wants from the other? (`character-floating-outline-for-dialogue`)
-- `character.dialogue.02` Does the refusal, or the compromise, come from the character's own nature, so a different character would have answered differently? (`character-floating-outline-for-dialogue`)
-- `character.dialogue.03` Does each reveal about a character come through what they say and how they push, not through the narrator explaining? (`character-floating-outline-for-dialogue`)
-- `character.dialogue.04` Is there something here for a side character to do beyond listening? (`character-floating-outline-for-dialogue`)
-- `character.presenting.01` Can you name the character's motivation, how their personality goes after it, and what they will give up for it? (`character-presenting-a-character`)
-- `character.presenting.02` Does any character state their own motive to someone who already knows it? (`character-presenting-a-character`)
-- `character.presenting.03` With dialogue tags and setting removed, could a reader tell who is speaking from the lines alone? (`character-presenting-a-character`)
-- `character.presenting.04` Does each quirk reinforce a core trait, instead of sitting on top of it? (`character-presenting-a-character`)
-- `character.trait.01` List the traits the reader has seen for each recurring character. How many scenes in a row has one trait been the driver? (`character-overused-trait-trap`)
-- `character.trait.02` What else does this character want, and has it ever competed with the trait? (`character-overused-trait-trap`)
-- `character.trait.03` Could the trait be absent from a scene without breaking the character? If not, the trait is carrying too much. (`character-overused-trait-trap`)
-- `character.arc.01` Does the reader see the flaw hurting the character before the lesson arrives? (`character-arc-types`)
-- `character.arc.02` Is the decisive choice explained by who the character has become, not by how many times they have tried? (`character-arc-types`)
-- `character.arc.03` In a downward arc, does the character know the flaw at the key moment? Constant arrogance that simply causes failure is a different, weaker shape. (`character-arc-types`)
-- `character.capability.03` If the character fails nothing, where would a reader worry? (`character-capability-design`)
-- `character.weakness.02` Is a limitation ever treated as a flaw the character should simply get over? (`character-flaws-restrictions-limitations`)
-- `character.weakness.03` Does an unaddressed flaw block progress so long that readers lose patience? (`character-flaws-restrictions-limitations`)
-- `character.background.01` Does the character have a goal and personality apart from the background? (`character-writing-unfamiliar-backgrounds`)
-- `character.background.02` Could any trait be swapped for a cliche from media? If so, replace it. (`character-writing-unfamiliar-backgrounds`)
-- `character.background.03` Are other members of the group shown with variety, if they appear? (`character-writing-unfamiliar-backgrounds`)
-- `character.background.04` Is the thing that makes the character different treated as a source of skill and difficulty, not just a label? (`character-writing-unfamiliar-backgrounds`)
-- `magic.first.01` Name the emotion the resolution should give, and ask whether the reader's understanding of the magic can support it. (`magic-first-law`)
-- `magic.first.02` At the climax, could a reader have predicted the move from what they were shown? If they learn the rule only as it is used, expect a cheat reaction. (`magic-first-law`)
-- `magic.first.03` If the magic is soft, does the resolution rest on what the characters do and want, not on the magic saving the day? (`magic-first-law`)
-- `magic.first.04` If the magic is hard, were its pieces seeded earlier as tools that the characters now combine? (`magic-first-law`)
-- `magic.second.02` If the first list is long and the others short, does the magic solve problems too easily? (`magic-second-law`)
-- `magic.logic.04` Does the reader know something from real-world science that the characters cannot, making them look foolish? (`magic-internal-and-external-logic`)
-- `worldbuilding.gorilla.01` List the most exciting elements in the book (a creature, a magic, a faction). Where does each first appear? (`worldbuilding-gorilla-in-the-phone-booth`)
-- `worldbuilding.gorilla.02` At that point, what thread is the reader following, and is the new element stronger than that thread? If so, raise the main thread, move the element, or cut it. (`worldbuilding-gorilla-in-the-phone-booth`)
-- `worldbuilding.gorilla.03` Does the new element serve the promise the reader is already holding, or create a rival one? (`worldbuilding-gorilla-in-the-phone-booth`)
-- `worldbuilding.gorilla.04` In the last quarter, does anything arrive that nobody has mentioned? A long-foreshadowed threat is fine; an unforeshadowed new problem is not. (`worldbuilding-gorilla-in-the-phone-booth`)
-- `worldbuilding.curve.01` Count the new proper names and terms in the first chapter. Which could wait? (`worldbuilding-learning-curve-and-exposition`)
-- `worldbuilding.curve.02` For each paragraph of explanation, who is thinking it, and why now? (`worldbuilding-learning-curve-and-exposition`)
-- `worldbuilding.curve.03` Is the learning curve steep on purpose, and does the opening promise that? (`worldbuilding-learning-curve-and-exposition`)
-- `worldbuilding.filtered.01` Cover the name tags. Can you tell from the description who is looking and how they feel? (`worldbuilding-viewpoint-filtered-description`)
-- `worldbuilding.filtered.02` Is each description a catalog of what exists, or a record of what this person notices? (`worldbuilding-viewpoint-filtered-description`)
-- `worldbuilding.filtered.03` Across chapters in one location, does each opening notice something new? (`worldbuilding-viewpoint-filtered-description`)
-- `worldbuilding.filtered.04` Do recurring features get a full description each time, where a line would do? (`worldbuilding-viewpoint-filtered-description`)
-- `worldbuilding.pyramid.01` Find the most abstract paragraph (an explanation, a reflection, a cosmology). What concrete detail sits in the paragraphs just before and after it? (`worldbuilding-pyramid-of-abstraction`)
-- `worldbuilding.pyramid.02` Does the scene use only sight? Add one or two other senses. (`worldbuilding-pyramid-of-abstraction`)
-- `worldbuilding.pyramid.03` Is any concrete detail doing no work? When the image is irrelevant, a plain noun is enough. (`worldbuilding-pyramid-of-abstraction`)
-- `worldbuilding.pyramid.04` Is a figure of speech colliding with the world, such as "he flew across the room" where people really fly? (`worldbuilding-pyramid-of-abstraction`)
-- `worldbuilding.pyramid.05` Does a prologue about gods or cosmology give the reader no character and no scene? (`worldbuilding-pyramid-of-abstraction`)
-- `scene.pov.01` Does the viewpoint mode fit the cast size and the information the story needs to withhold? (`viewpoint-and-tense`)
-- `scene.pov.02` Within a scene, does the narration stay in one head, and is any switch deliberate and clear to the reader? (`viewpoint-and-tense`)
-- `scene.pov.03` In true omniscient, is information withheld in a way that will feel like a cheat? Lean on suspense instead. (`viewpoint-and-tense`)
-- `scene.pov.04` Does any change of tense or mode mid-book have a reason the reader can see? (`viewpoint-and-tense`)
-- `scene.sequel.01` After each scene that ends with a change, is there a sequel where the characters take in the result, sized to the pace you want? (`scene-and-sequel`)
-- `scene.sequel.02` Is a dragging stretch a run of sequels with no scene between them? (`scene-and-sequel`)
-- `scene.sequel.03` Is a numbing stretch a run of scenes with no sequel to feel the consequences? (`scene-and-sequel`)
-- `scene.sequel.04` Does each sequel carry something (a revelation, a joke, a relationship beat), and does its decision launch the next scene? (`scene-and-sequel`)
-- `scene.show.01` For each stated trait or emotion, does it matter enough to the story to be shown? If yes, find one specific action or detail; if no, leave the plain statement. (`show-dont-tell`)
-- `scene.show.02` Is a minor point being proved at length, such as a passing trait or a one-time character given a dramatized scene? (`show-dont-tell`)
-- `scene.show.03` Is the first appearance of anything the reader must remember shown, not only stated? (`show-dont-tell`)
-- `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed. (`prose-ai-tells`)
-- `prose.tells.02` A closer that explains the beat the scene already showed. (`prose-ai-tells`)
-- `prose.tells.03` An aphorism in the narration in place of the character's actual state. (`prose-ai-tells`)
-- `prose.tells.04` Arguing with no one: the narration rejects a reading nobody offered. (`prose-ai-tells`)
-- `prose.tells.05` Forced triads: lists of three by reflex. (`prose-ai-tells`)
-- `prose.tells.06` Repeated sentence openings in a run. (`prose-ai-tells`)
-- `prose.tells.07` Dashes as the universal connector (weak alone). (`prose-ai-tells`)
-- `prose.tells.08` Stacked hedges on one perception (weak alone). (`prose-ai-tells`)
-- `prose.tells.09` Narrated significance: the narration announces that a moment matters instead of showing its consequence. (`prose-ai-tells`)
-- `prose.tells.10` Reaction riders: an appended clause that tells the reader what to feel about a simple action. (`prose-ai-tells`)
-- `prose.tells.11` Stock AI words (weak alone, strong in groups). (`prose-ai-tells`)
-- `prose.tells.12` Chatbot wrapper text around the prose. (`prose-ai-tells`)
-- `prose.tells.13` An emotion named right after it is shown. (`prose-ai-tells`)
-- `prose.tells.14` "A flicker of" and "a mix of" emotions. (`prose-ai-tells`)
-- `prose.tells.15` Dialogue that states its own subtext. (`prose-ai-tells`)
-- `prose.tells.16` Stock body reactions (weak alone). (`prose-ai-tells`)
-- `prose.tells.17` Stock atmosphere lines (weak alone). (`prose-ai-tells`)
-- `prose.tells.18` Tag and gesture filler between lines of dialogue (weak alone). (`prose-ai-tells`)
-- `prose.tells.19` Stacked similes (weak alone). (`prose-ai-tells`)
-- `prose.tells.20` One register for every speaker (weak alone; whole-chapter pass only). (`prose-ai-tells`)
-- `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording. (`prose-ai-tells`)
-- `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader. (`prose-ai-tells`)
-- `foundations.feedback.01` Is each note descriptive (what the reader felt, and where) instead of prescriptive (how to fix it)? (`foundations-writing-group-rules`)
-- `foundations.feedback.02` Does each note point to a specific place in the text? (`foundations-writing-group-rules`)
-- `foundations.feedback.03` Does any suggestion come from the reviewer's taste instead of the book's own promises? (`foundations-writing-group-rules`)
-- `foundations.readers.01` Across readers, which reactions form a pattern (several readers stalling or lost in the same place), and which are single data points? (`foundations-alpha-beta-readers`)
-- `foundations.readers.02` For each pattern, what is the cause in the story, as opposed to the fix a reader suggested? (`foundations-alpha-beta-readers`)
+- `character.entry.01` At first entry, has the prose shown the character's role or identity, or has only the author known it?
+- `character.entry.02` Is the character's link to the current event or to the viewpoint character clear?
+- `character.entry.03` Does the reader get a first impression the viewpoint character would actually form?
+- `character.entry.04` For a villain, love interest, rival, or core ally: is there at least one recognizable trait (appearance, clothing, posture, voice, a habitual gesture, or how others react)?
+- `character.entry.05` Is anything about this character, their place, or their relationships assumed because the author knows it, and not shown?
+- `scene.access.01` For each thing a character acts on, which of seeing, hearing, reaching, or inferring gave it to them in this scene?
+- `scene.access.02` Does any character understand something they only saw, or inspect something they only passed once?
+- `scene.access.03` Are shared, specialized, and private knowledge kept apart (an expert's judgment does not leak to a layperson, and a private motive is not known to others)?
+- `scene.access.04` Is each consequential choice made by the character who owns that decision, and does it follow from what they perceived or misread?
+- `scene.access.05` When a character states a fact, is it clear whether it is an observation, a report, a judgment, an intention, or a mistake?
+- `plot.bridges.01` For each major turn, can you name the pressure, the actor who interprets it, their goal, and their method?
+- `plot.bridges.02` Why this person, why now, and why this method?
+- `plot.bridges.03` If this event were removed, would the next decision change? If not, it is off the spine or a bridge is missing.
+- `plot.bridges.04` Does any turn rest on a summary jump (A happened, so B) with no one choosing?
+- `plot.bridges.05` Is every place, group, or person established before it carries an event?
+- `plot.reveals.01` For each secret, is the true fact written down apart from what the reader is told?
+- `plot.reveals.02` For each secret, can you name who knows it, who is wrong about it, where the reader gets the first clue, and where they learn it?
+- `plot.reveals.03` Does any reveal come before its setup, or any setup go unrewarded?
+- `plot.reveals.04` Does narration leak author truth the viewpoint character could not know?
+- `plot.reveals.05` Does the outline tell the causal story before explaining the hidden system?
+- `scene.dialogue.01` For each action beat in a sustained exchange, does the reaction change the next line, tactic, or situation? If not, it is decorative or procedural.
+- `scene.dialogue.02` Are beats placed where something changes (information lands, a lie, a shift in power, a decision) and not spread evenly or attached to every line?
+- `scene.dialogue.03` Is any procedural action (opening, reading, moving things) connected to human pressure, or is the scene static with props?
+- `scene.dialogue.04` Was a flat exchange "fixed" by adding emotion labels or a gesture to every line? Untagged rapid dialogue and plain stated silence are fine when voices and pressure are clear.
+- `scene.dialogue.05` Does the viewpoint character notice only what they would under this pressure, instead of the scene cutting to every participant's reaction?
+- `plot.ppp.01` Name what the story has promised by this point: its tone, its central conflict, and what the main character wants.
+- `plot.ppp.02` For this stretch, name what tells the reader the story is moving toward one of those promises. A stretch with no signpost reads as a stall.
+- `plot.ppp.03` Does the payoff deliver what was promised, in a way that feels surprising yet inevitable, or something the reader was never led to want?
+- `plot.ppp.04` Has a promised thread been dropped for a more interesting subplot? If the progress is what you want to tell, revise the promise, not the middle.
+- `plot.promises.01` Which kinds of promise does the opening make (tone, plot, character, series), and which does it skip? Not every kind is required; mark each skip as deliberate or accidental.
+- `plot.promises.02` From the first pages, could a reader say what feel to expect and what the main character wants?
+- `plot.promises.03` Does the character promise show what the character wants, what they need, and why they cannot have it yet?
+- `plot.promises.04` If the tone will switch (for example from thriller to travelogue), is the second tone promised at the start?
+- `plot.promises.05` Does each new character, sequence, or chapter make its own small promise, and does the chapter signal it was delivered?
+- `plot.bigp.02` For each chapter, name its little p plot and whether it advances a Big P promise or makes a promise of its own that the book keeps.
+- `plot.bigp.03` Where does the story's emotional core actually live, in the headline plot or in a little p thread, and do the signposts follow it?
+- `plot.progress.03` For this sequence, what does the reader think it is moving toward, and what signals tell them so?
+- `plot.coldopen.01` Can the opening be described as a small version of the book's central conflict? If not, are a tone promise and a likable character with a hard problem doing that work instead?
+- `plot.threeact.01` Write the major dramatic question in one sentence. Is it posed by the end of Act I, and does the climax answer it?
+- `plot.threeact.02` Name the point after which the character cannot go back.
+- `plot.threeact.03` Does the midpoint change what the reader believes the story is about, escalate it, or make it personal?
+- `plot.threeact.04` Does each attempt in the second act make things worse, or do the attempts merely repeat?
+- `plot.threeact.05` Is there a low point that the last realization climbs out of?
+- `plot.tryfail.01` For each major success, what failed before it, and did the failure cost something or teach something?
+- `plot.tryfail.02` Is any big problem solved on the first clever attempt?
+- `plot.tryfail.03` Is it visible whether each failure comes from the character, the opposition, or both?
+- `plot.tryfail.04` Do the failures differ in kind, not only in number?
+- `plot.tryfail.05` If successes run in a long streak, are the stakes, the danger, and the competence strong enough to carry it?
+- `plot.yesbut.01` Does each "but" or "and" grow out of the specific event before it?
+- `plot.yesbut.02` Do the complications escalate in cost, or only change in kind?
+- `plot.yesbut.03` Does each answer tell the reader something new about the character?
+- `plot.yesbut.04` Are several plain wins in a row creating a lull?
+- `plot.cheer.01` Name the promise this cheer moment pays off, and where it was made.
+- `plot.cheer.02` What internal decision comes before the external win? The reverse order is fine when it reads better.
+- `plot.cheer.03` If several plotlines resolve in one scene, does each get its own distinct beat?
+- `plot.cheer.04` Is each payoff in a cascade larger than or different from the last, and not only louder?
+- `plot.climax.01` Name each climax and what it pays off. Is an early one a plot payoff and the late one an emotional payoff?
+- `plot.climax.02` If one viewpoint or plotline is far stronger than another, is strengthening the weaker one the fix?
+- `plot.climax.03` Did early readers feel the real ending where you intended it?
+- `plot.climax.04` Does the aftermath fit the format and deliver the last small promises?
+- `plot.foreshadow.01` For each reveal that must feel earned, where does the reader get the first clue, and how many clues are there?
+- `plot.foreshadow.02` Is the likely guess point a page or a paragraph before the reveal, and not "never" or "the first act"?
+- `plot.foreshadow.03` If readers guess too early, would turning the twist into suspense serve better than hiding it harder?
+- `plot.foreshadow.04` Does a shocking event serve theme, character, and plot, or only shock?
+- `plot.layering.01` For each important scene, name the outer goal and the inner struggle. Does the outer obstacle press on the inner flaw?
+- `plot.layering.02` Where was the change promised, and where is the first serious failure caused by the flaw?
+- `plot.layering.03` How many chapters pass between inner-conflict beats? Look for long gaps.
+- `plot.layering.04` Does the climax return to the early problem in a larger form?
+- `plot.layering.05` Would a reader understand why the character behaves this way, in terms they recognize from real people?
+- `plot.payoff.01` Which promise is being paid off, and where was it planted?
+- `plot.payoff.02` At the moment of payoff, what does the reader currently believe will happen? If the answer is "exactly this", add deniability or let the promise fade first.
+- `plot.payoff.03` If the promise is meant to be forgotten, is it planted clearly enough that it still reads as inevitable?
+- `plot.payoff.04` Are the obstacles that create doubt honest, and not tricks that make the outcome impossible or the hero foolish?
+- `plot.twist.01` What exactly did the story promise, and in which scene?
+- `plot.twist.02` Where does the reader start to prefer the alternative? If nowhere, the twist is a surprise and not a swap.
+- `plot.twist.03` Can you name two earlier moments that point to the real outcome?
+- `plot.twist.04` Does the new outcome serve the theme and the character, or only startle?
+- `character.scales.02` Which scale is lowest? A passive character needs a want and a first action, a cold one a reason to be liked, an unimpressive one something they are visibly good at.
+- `character.proactive.01` What does the character want in their first scene, and does an action follow from it?
+- `character.proactive.02` If the character reads as wooden, has the reader been shown what they want before the dialogue is blamed?
+- `character.proactive.03` For a reluctant hero, where does the push land, and what small act of initiative comes before it?
+- `character.proactive.04` Is the villain driving events while the hero only reacts?
+- `character.proactive.05` When a motivation changes, is the new one established on the page?
+- `character.relatable.01` Within the first chapters, what does the reader learn that makes them like or pity this character?
+- `character.relatable.02` Does a trait carry the reader's sympathy, or is the narration telling them to feel it?
+- `character.relatable.03` Is the likeable trait shown by action?
+- `character.villain.01` Where does the villain sit on each scale? If low on proactive, why would they threaten anyone?
+- `character.villain.02` Does the reader understand any of the villain's want?
+- `character.villain.03` For an antihero, who is worse than them, and does the story show it?
+- `character.dialogue.01` Can you say in one sentence what each speaker wants from the other?
+- `character.dialogue.02` Does the refusal, or the compromise, come from the character's own nature, so a different character would have answered differently?
+- `character.dialogue.03` Does each reveal about a character come through what they say and how they push, not through the narrator explaining?
+- `character.dialogue.04` Is there something here for a side character to do beyond listening?
+- `character.presenting.01` Can you name the character's motivation, how their personality goes after it, and what they will give up for it?
+- `character.presenting.02` Does any character state their own motive to someone who already knows it?
+- `character.presenting.03` With dialogue tags and setting removed, could a reader tell who is speaking from the lines alone?
+- `character.presenting.04` Does each quirk reinforce a core trait, instead of sitting on top of it?
+- `character.trait.01` List the traits the reader has seen for each recurring character. How many scenes in a row has one trait been the driver?
+- `character.trait.02` What else does this character want, and has it ever competed with the trait?
+- `character.trait.03` Could the trait be absent from a scene without breaking the character? If not, the trait is carrying too much.
+- `character.arc.01` Does the reader see the flaw hurting the character before the lesson arrives?
+- `character.arc.02` Is the decisive choice explained by who the character has become, not by how many times they have tried?
+- `character.arc.03` In a downward arc, does the character know the flaw at the key moment? Constant arrogance that simply causes failure is a different, weaker shape.
+- `character.capability.03` If the character fails nothing, where would a reader worry?
+- `character.weakness.02` Is a limitation ever treated as a flaw the character should simply get over?
+- `character.weakness.03` Does an unaddressed flaw block progress so long that readers lose patience?
+- `character.background.01` Does the character have a goal and personality apart from the background?
+- `character.background.02` Could any trait be swapped for a cliche from media? If so, replace it.
+- `character.background.03` Are other members of the group shown with variety, if they appear?
+- `character.background.04` Is the thing that makes the character different treated as a source of skill and difficulty, not just a label?
+- `magic.first.01` Name the emotion the resolution should give, and ask whether the reader's understanding of the magic can support it.
+- `magic.first.02` At the climax, could a reader have predicted the move from what they were shown? If they learn the rule only as it is used, expect a cheat reaction.
+- `magic.first.03` If the magic is soft, does the resolution rest on what the characters do and want, not on the magic saving the day?
+- `magic.first.04` If the magic is hard, were its pieces seeded earlier as tools that the characters now combine?
+- `magic.second.02` If the first list is long and the others short, does the magic solve problems too easily?
+- `magic.logic.04` Does the reader know something from real-world science that the characters cannot, making them look foolish?
+- `worldbuilding.gorilla.01` List the most exciting elements in the book (a creature, a magic, a faction). Where does each first appear?
+- `worldbuilding.gorilla.02` At that point, what thread is the reader following, and is the new element stronger than that thread? If so, raise the main thread, move the element, or cut it.
+- `worldbuilding.gorilla.03` Does the new element serve the promise the reader is already holding, or create a rival one?
+- `worldbuilding.gorilla.04` In the last quarter, does anything arrive that nobody has mentioned? A long-foreshadowed threat is fine; an unforeshadowed new problem is not.
+- `worldbuilding.curve.01` Count the new proper names and terms in the first chapter. Which could wait?
+- `worldbuilding.curve.02` For each paragraph of explanation, who is thinking it, and why now?
+- `worldbuilding.curve.03` Is the learning curve steep on purpose, and does the opening promise that?
+- `worldbuilding.filtered.01` Cover the name tags. Can you tell from the description who is looking and how they feel?
+- `worldbuilding.filtered.02` Is each description a catalog of what exists, or a record of what this person notices?
+- `worldbuilding.filtered.03` Across chapters in one location, does each opening notice something new?
+- `worldbuilding.filtered.04` Do recurring features get a full description each time, where a line would do?
+- `worldbuilding.pyramid.01` Find the most abstract paragraph (an explanation, a reflection, a cosmology). What concrete detail sits in the paragraphs just before and after it?
+- `worldbuilding.pyramid.02` Does the scene use only sight? Add one or two other senses.
+- `worldbuilding.pyramid.03` Is any concrete detail doing no work? When the image is irrelevant, a plain noun is enough.
+- `worldbuilding.pyramid.04` Is a figure of speech colliding with the world, such as "he flew across the room" where people really fly?
+- `worldbuilding.pyramid.05` Does a prologue about gods or cosmology give the reader no character and no scene?
+- `scene.pov.01` Does the viewpoint mode fit the cast size and the information the story needs to withhold?
+- `scene.pov.02` Within a scene, does the narration stay in one head, and is any switch deliberate and clear to the reader?
+- `scene.pov.03` In true omniscient, is information withheld in a way that will feel like a cheat? Lean on suspense instead.
+- `scene.pov.04` Does any change of tense or mode mid-book have a reason the reader can see?
+- `scene.sequel.01` After each scene that ends with a change, is there a sequel where the characters take in the result, sized to the pace you want?
+- `scene.sequel.02` Is a dragging stretch a run of sequels with no scene between them?
+- `scene.sequel.03` Is a numbing stretch a run of scenes with no sequel to feel the consequences?
+- `scene.sequel.04` Does each sequel carry something (a revelation, a joke, a relationship beat), and does its decision launch the next scene?
+- `scene.show.01` For each stated trait or emotion, does it matter enough to the story to be shown? If yes, find one specific action or detail; if no, leave the plain statement.
+- `scene.show.02` Is a minor point being proved at length, such as a passing trait or a one-time character given a dramatized scene?
+- `scene.show.03` Is the first appearance of anything the reader must remember shown, not only stated?
+- `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
+- `prose.tells.02` A closer that explains the beat the scene already showed.
+- `prose.tells.03` An aphorism in the narration in place of the character's actual state.
+- `prose.tells.04` Arguing with no one: the narration rejects a reading nobody offered.
+- `prose.tells.05` Forced triads: lists of three by reflex.
+- `prose.tells.06` Repeated sentence openings in a run.
+- `prose.tells.07` Dashes as the universal connector (weak alone).
+- `prose.tells.08` Stacked hedges on one perception (weak alone).
+- `prose.tells.09` Narrated significance: the narration announces that a moment matters instead of showing its consequence.
+- `prose.tells.10` Reaction riders: an appended clause that tells the reader what to feel about a simple action.
+- `prose.tells.11` Stock AI words (weak alone, strong in groups).
+- `prose.tells.12` Chatbot wrapper text around the prose.
+- `prose.tells.13` An emotion named right after it is shown.
+- `prose.tells.14` "A flicker of" and "a mix of" emotions.
+- `prose.tells.15` Dialogue that states its own subtext.
+- `prose.tells.16` Stock body reactions (weak alone).
+- `prose.tells.17` Stock atmosphere lines (weak alone).
+- `prose.tells.18` Tag and gesture filler between lines of dialogue (weak alone).
+- `prose.tells.19` Stacked similes (weak alone).
+- `prose.tells.20` One register for every speaker (weak alone; whole-chapter pass only).
+- `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording.
+- `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader.
+- `foundations.feedback.01` Is each note descriptive (what the reader felt, and where) instead of prescriptive (how to fix it)?
+- `foundations.feedback.02` Does each note point to a specific place in the text?
+- `foundations.feedback.03` Does any suggestion come from the reviewer's taste instead of the book's own promises?
+- `foundations.readers.01` Across readers, which reactions form a pattern (several readers stalling or lost in the same place), and which are single data points?
+- `foundations.readers.02` For each pattern, what is the cause in the story, as opposed to the fix a reader suggested?
+
+Skill for each check family: `character.entry` character-first-entry; `scene.access` scene-access-limits; `plot.bridges` plot-causal-bridges; `plot.reveals` plot-reveal-boundaries; `scene.dialogue` scene-dialogue-behavior; `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.bigp` plot-big-p-little-p; `plot.progress` plot-types-of-progress; `plot.coldopen` plot-cold-open-microcosm; `plot.threeact` plot-three-act-structure; `plot.tryfail` plot-try-fail-cycle; `plot.yesbut` plot-yes-but-no-and; `plot.cheer` plot-cheer-moment-sanderlanche; `plot.climax` plot-climax-placement-aftermath; `plot.foreshadow` plot-foreshadowing-twists; `plot.layering` plot-layering-conflict; `plot.payoff` plot-payoff-deniability-forgotten-promise; `plot.twist` plot-twists-promise-and-wish; `character.scales` character-proactive-relatable-capable; `character.proactive` character-proactivity-toolkit; `character.relatable` character-relatability-toolkit; `character.villain` character-villain-and-antihero-patterns; `character.dialogue` character-floating-outline-for-dialogue; `character.presenting` character-presenting-a-character; `character.trait` character-overused-trait-trap; `character.arc` character-arc-types; `character.capability` character-capability-design; `character.weakness` character-flaws-restrictions-limitations; `character.background` character-writing-unfamiliar-backgrounds; `magic.first` magic-first-law; `magic.second` magic-second-law; `magic.logic` magic-internal-and-external-logic; `worldbuilding.gorilla` worldbuilding-gorilla-in-the-phone-booth; `worldbuilding.curve` worldbuilding-learning-curve-and-exposition; `worldbuilding.filtered` worldbuilding-viewpoint-filtered-description; `worldbuilding.pyramid` worldbuilding-pyramid-of-abstraction; `scene.pov` viewpoint-and-tense; `scene.sequel` scene-and-sequel; `scene.show` show-dont-tell; `prose.tells` prose-ai-tells; `foundations.feedback` foundations-writing-group-rules; `foundations.readers` foundations-alpha-beta-readers.
 <!-- generated:checks:end -->
 
 ## 8. story-revise
@@ -856,8 +970,21 @@ Act on a check report, or on chapters flagged for revision. Whoever owns revisin
 
 1. **Read the settings** (who owns revising and drafting, the craft language) and the project's own revision conventions.
 2. **Chapters marked `needs revision` come first.** Their status line says why (usually a rejected fact, or a change made by `story-steer`). Remove the rejected fact or apply the change, and nothing else.
-3. Otherwise read the check report, the chapter, its beats, and the `kb/` pages it leans on. With no check report, recommend `story-check` first.
-4. List the open findings with your recommendation for each (fix, skip, or ask) and let the writer choose, unless the AI fully owns drafting and revising and this is the silent fix inside autopilot. Never fix what the writer did not agree to.
+3. **If `work/drafts/_delivered/` holds a copy of the chapter that differs from it, the writer has edited the chapter.** Run `story-edits` first, so your revision never overwrites what they changed.
+4. Otherwise read the check report, the chapter, its beats, and the `kb/` pages it leans on. With no check report, recommend `story-check` first.
+5. List the open findings with your recommendation for each (fix, skip, or ask) and let the writer choose, unless the AI fully owns drafting and revising and this is the silent fix inside autopilot. Never fix what the writer did not agree to.
+
+#### Reading a long story
+
+Once the story has five or more chapters, read it in tiers instead of loading every chapter:
+
+1. The chapter in hand and its beats, in full.
+2. The chapters just before and just after it, in full.
+3. Every other chapter as its card in `work/cards/`. Open the prose only when a card is missing or stale, when the task needs the exact wording, or when a card disagrees with another source. The prose wins: correct the card from it.
+
+Run `cards.py report <project folder>` from the `story-continue` skill folder (full path, no `cd`) to see missing and stale cards. A card that agrees with everything else is enough: do not open its chapter just to be thorough. A card points to its chapter; a fact that is only on a card is not settled.
+
+Writing a card is housekeeping, not a fix. When you had to open a chapter because its card was missing or stale, rewrite the card from the chapter and stamp it (see Chapter cards in `story-continue`), and say so in one line. Never change a chapter to match its card.
 
 #### By who owns revising
 
@@ -873,6 +1000,20 @@ Act on a check report, or on chapters flagged for revision. Whoever owns revisin
 4. In the check report, delete each finding once it is fixed. A finding you or the writer decide not to fix becomes `[resolved] declined: <reason>`. Only a finding deferred to later stays `[open]`, with "deferred" and why. Delete the report file when no findings are left.
 5. **Re-check your own new text** against the finding that prompted it and with the craft checks below. Do not swap one habit for a close cousin of it, such as replacing a named emotion with a stock gesture.
 6. Set the chapter's status line to `<!-- status: draft -->` (or `awaiting check-in` inside autopilot). Never remove a chapter's status line yourself; only the writer's word does that.
+7. Replace the chapter's copy in `work/drafts/_delivered/` with the text you are handing over.
+8. Rewrite the chapter's card (see Chapter cards in `story-continue`) if it has one, or if the story has five or more chapters.
+
+#### Protect style-bearing material
+
+Some of what looks like slack is the voice. Leave these alone unless a finding shows one failing at its own job:
+
+- dialogue, including its rhythm and what it leaves unsaid
+- inner thoughts
+- digressive texture and observational detail
+- deliberate ambiguity, silence, or flirtation
+- repetition that carries rhythm
+
+You may fix wording, punctuation, transcription noise, and paragraph breaks. Never compress concrete material into summary, and never "tighten" a passage by replacing its specific detail with a general statement. When a fix would remove protected material, say which one and what the fix gains, and let the writer decide.
 
 #### Handing over
 
@@ -881,44 +1022,112 @@ Say what changed and what did not, and offer another check. Repeat check and rev
 #### Rules
 
 - Never delete the earlier version.
+- Never flatten concrete detail into summary.
 - Never delete a finding you did not fix.
 - Report what the revision does, not that it is better.
 
 <!-- generated:checks:start -->
 #### Craft checks (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `foundations.revision.01` Are the problems ranked, with core problems (a character that does not work, a broken promise) ahead of line-level ones? (`foundations-revision-guide`)
-- `foundations.revision.02` Does the top item have a specific plan: where to plant setup, which scenes to add or cut, which chapters change? (`foundations-revision-guide`)
-- `foundations.revision.03` Is this pass limited to one or two goals? (`foundations-revision-guide`)
-- `foundations.revision.04` Is any note being applied as a fix without agreement that it points at a real problem? (`foundations-revision-guide`)
-- `foundations.readers.02` For each pattern, what is the cause in the story, as opposed to the fix a reader suggested? (`foundations-alpha-beta-readers`)
-- `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed. (`prose-ai-tells`)
-- `prose.tells.02` A closer that explains the beat the scene already showed. (`prose-ai-tells`)
-- `prose.tells.03` An aphorism in the narration in place of the character's actual state. (`prose-ai-tells`)
-- `prose.tells.04` Arguing with no one: the narration rejects a reading nobody offered. (`prose-ai-tells`)
-- `prose.tells.05` Forced triads: lists of three by reflex. (`prose-ai-tells`)
-- `prose.tells.06` Repeated sentence openings in a run. (`prose-ai-tells`)
-- `prose.tells.07` Dashes as the universal connector (weak alone). (`prose-ai-tells`)
-- `prose.tells.08` Stacked hedges on one perception (weak alone). (`prose-ai-tells`)
-- `prose.tells.09` Narrated significance: the narration announces that a moment matters instead of showing its consequence. (`prose-ai-tells`)
-- `prose.tells.10` Reaction riders: an appended clause that tells the reader what to feel about a simple action. (`prose-ai-tells`)
-- `prose.tells.11` Stock AI words (weak alone, strong in groups). (`prose-ai-tells`)
-- `prose.tells.12` Chatbot wrapper text around the prose. (`prose-ai-tells`)
-- `prose.tells.13` An emotion named right after it is shown. (`prose-ai-tells`)
-- `prose.tells.14` "A flicker of" and "a mix of" emotions. (`prose-ai-tells`)
-- `prose.tells.15` Dialogue that states its own subtext. (`prose-ai-tells`)
-- `prose.tells.16` Stock body reactions (weak alone). (`prose-ai-tells`)
-- `prose.tells.17` Stock atmosphere lines (weak alone). (`prose-ai-tells`)
-- `prose.tells.18` Tag and gesture filler between lines of dialogue (weak alone). (`prose-ai-tells`)
-- `prose.tells.19` Stacked similes (weak alone). (`prose-ai-tells`)
-- `prose.tells.20` One register for every speaker (weak alone; whole-chapter pass only). (`prose-ai-tells`)
-- `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording. (`prose-ai-tells`)
-- `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader. (`prose-ai-tells`)
+- `scene.dialogue.04` Was a flat exchange "fixed" by adding emotion labels or a gesture to every line? Untagged rapid dialogue and plain stated silence are fine when voices and pressure are clear.
+- `foundations.revision.01` Are the problems ranked, with core problems (a character that does not work, a broken promise) ahead of line-level ones?
+- `foundations.revision.02` Does the top item have a specific plan: where to plant setup, which scenes to add or cut, which chapters change?
+- `foundations.revision.03` Is this pass limited to one or two goals?
+- `foundations.revision.04` Is any note being applied as a fix without agreement that it points at a real problem?
+- `foundations.readers.02` For each pattern, what is the cause in the story, as opposed to the fix a reader suggested?
+- `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
+- `prose.tells.02` A closer that explains the beat the scene already showed.
+- `prose.tells.03` An aphorism in the narration in place of the character's actual state.
+- `prose.tells.04` Arguing with no one: the narration rejects a reading nobody offered.
+- `prose.tells.05` Forced triads: lists of three by reflex.
+- `prose.tells.06` Repeated sentence openings in a run.
+- `prose.tells.07` Dashes as the universal connector (weak alone).
+- `prose.tells.08` Stacked hedges on one perception (weak alone).
+- `prose.tells.09` Narrated significance: the narration announces that a moment matters instead of showing its consequence.
+- `prose.tells.10` Reaction riders: an appended clause that tells the reader what to feel about a simple action.
+- `prose.tells.11` Stock AI words (weak alone, strong in groups).
+- `prose.tells.12` Chatbot wrapper text around the prose.
+- `prose.tells.13` An emotion named right after it is shown.
+- `prose.tells.14` "A flicker of" and "a mix of" emotions.
+- `prose.tells.15` Dialogue that states its own subtext.
+- `prose.tells.16` Stock body reactions (weak alone).
+- `prose.tells.17` Stock atmosphere lines (weak alone).
+- `prose.tells.18` Tag and gesture filler between lines of dialogue (weak alone).
+- `prose.tells.19` Stacked similes (weak alone).
+- `prose.tells.20` One register for every speaker (weak alone; whole-chapter pass only).
+- `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording.
+- `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader.
+
+Skill for each check family: `scene.dialogue` scene-dialogue-behavior; `foundations.revision` foundations-revision-guide; `foundations.readers` foundations-alpha-beta-readers; `prose.tells` prose-ai-tells.
 <!-- generated:checks:end -->
 
-## 9. story-steer
+## 9. story-edits
+
+*Use after the writer has edited a chapter the AI drafted and wants the AI to learn from those edits. Compares the delivered text with the edited chapter, groups the changes by what they did, asks about the ones it cannot explain, and saves approved lessons to the voice file.*
+
+The writer edited a chapter you drafted. Their changes are the clearest statement of taste they will give you. Your job is to read them, understand what each one was for, and carry the confirmed lessons into every later chapter. You never change the chapter.
+
+#### Before you start
+
+1. **Read the settings** (who drafts, the craft language) and the project's own conventions, especially where its voice files live. If the project has no voice file, ask where lessons should go before proposing any.
+2. **Find the chapters.** The inspector's `chapters_edited_since_delivery` line lists them; or the writer names one. Each needs a copy in `work/drafts/_delivered/`. With none, say there is nothing to compare and stop.
+3. **Run `diff_chapter.py`** from this skill's folder with its full path, giving the delivered copy and then the current chapter. Do not `cd`. It reports kept, rewritten, cut, and added paragraphs with line numbers. If it says `unchanged`, delete the delivered copy, say the chapter came through untouched, and stop.
+
+#### Reading the changes
+
+Read each changed paragraph beside the one it replaced. Then sort the changes by what they did, not by where they are. Typical groups:
+
+- **Cut explanation**: a line that said what a beat meant, named a feeling, or restated the scene.
+- **Tightened or loosened dialogue**: shorter speeches, more evasion, a different register for a speaker.
+- **Concrete detail**: something specific added, or something generic replaced.
+- **Rhythm and length**: sentences joined or split, a scene shortened or extended.
+- **Word choice and voice**: a word or phrase swapped for the writer's own.
+- **Story content**: a fact, name, order of events, or outcome changed.
+- **Small fixes**: typos and punctuation. Do not draw lessons from these, and do not ask about them.
+
+Pair a cut with an addition only when the diff reports them as one rewritten paragraph, or they sit in the same place. A cut in one scene and an addition in another are two separate changes, and you do not know they are related.
+
+Before asking anything, decide which groups you can explain. A group explains itself when at least two changes point the same way (five cut explanations in one chapter is a preference, not an accident). A change that stands alone, with nothing else in the chapter pointing the same way, is never a lesson on its own: an added line, a rewrite, or a cut with no match. Those are exactly what to ask about, along with two changes that seem to pull in opposite directions.
+
+#### Asking
+
+Ask at most three questions in one round, each with your best reading and a recommended answer, in the craft language the settings name. Never ask about small fixes, and never ask the writer to justify taste. Wait for the answers.
+
+#### Lessons
+
+Turn what is now clear into short lessons. A lesson needs at least two changes pointing the same way, or the writer's confirmation of one: one line each, written as an instruction to the drafter, specific enough to act on and general enough to reuse.
+
+- Good: "Cut the sentence after a gesture that says what the gesture meant."
+- Too vague: "Be more subtle."
+- Too narrow: "Remove the line about the ferry."
+
+Mark a lesson that only applies to part of the book (one character, one phase, one kind of scene) with that scope. Show the lessons as a numbered list with the evidence for each in one short phrase, and let the writer keep, change, or drop each.
+
+**Story content the writer changed** is theirs, so it is already decided. Offer to update the matching `kb/` page and the beats; do it only on their yes.
+
+#### Saving
+
+When the writer has answered:
+
+1. Add each approved lesson to the project's own voice file, one line, unmarked. Trust is the default, so approved material carries no marker and no record of who approved it or when. If the voice file already says the same thing, tighten that line instead of adding another.
+2. Apply any approved `kb/` or beats updates.
+3. Delete the chapter's copy in `work/drafts/_delivered/`.
+4. Record each lesson the writer declined as `- [rejected] lesson: <the lesson>` in the project's single register for open items (or `work/brainstorm/pending-facts.md` only if it names none), so it is never proposed again. Add nothing else about the lessons.
+5. If the chapter has a card in `work/cards/`, rewrite it from the edited chapter and stamp it (see Chapter cards in `story-continue`).
+
+Never edit the chapter. Once the writer has answered, keep only the voice-file lines and any `[rejected]` line: no delivered copy, no diff, no note about who approved what.
+
+#### Rules
+
+- A lesson is a pattern across changes, not a single edit. One cut is not a rule, and a lone addition is a question, not a lesson.
+- Learn the writer's preferences, not your own. Never use a lesson to push a style on them.
+- Do not argue about taste, and do not turn the lessons into a critique of the chapter.
+- If the changes contradict a lesson already in the voice file, say so and ask which wins.
+- Show no skill names and no check IDs to the writer.
+
+## 10. story-steer
 
 *Use for story changes such as "darker", "slower", or "make this character colder". Proposes numbered patches with their effects, applies approved changes, preserves old wording, and flags chapters needing revision.*
 
@@ -952,14 +1161,16 @@ If a request contradicts something the writer already approved or a settled fact
 <!-- generated:checks:start -->
 #### Craft checks (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `plot.ppp.04` Has a promised thread been dropped for a more interesting subplot? If the progress is what you want to tell, revise the promise, not the middle. (`plot-promise-progress-payoff`)
-- `plot.progress.01` Name the kind of progress the story measures (information, relationship, skill, distance, or another) and check that the climax resolves that kind. (`plot-types-of-progress`)
-- `character.scales.03` Which scale does the character's arc move along, and is the movement shown on the page? (`character-proactive-relatable-capable`)
+- `plot.ppp.04` Has a promised thread been dropped for a more interesting subplot? If the progress is what you want to tell, revise the promise, not the middle.
+- `plot.progress.01` Name the kind of progress the story measures (information, relationship, skill, distance, or another) and check that the climax resolves that kind.
+- `character.scales.03` Which scale does the character's arc move along, and is the movement shown on the page?
+
+Skill for each check family: `plot.ppp` plot-promise-progress-payoff; `plot.progress` plot-types-of-progress; `character.scales` character-proactive-relatable-capable.
 <!-- generated:checks:end -->
 
-## 10. story-continue
+## 11. story-continue
 
 *Use to continue an existing story or serial from its chapters, especially without a spec or beats. Summarizes open promises, offers a next-chapter choice, then hands drafting to whoever owns it.*
 
@@ -968,16 +1179,41 @@ The story already exists. Carry it forward without breaking what is settled and 
 #### Steps
 
 1. **Read the settings and the project's own rules**: who owns planning and drafting, the craft language, voice and style files, chapter naming and length, any header every chapter opens with, and where open questions live. Follow them. Load only what the task needs.
-2. **Read the story so far**: the last few chapters in full, the endings of earlier ones, and the `kb/` pages that bear on the next chapter. If beats exist for the next chapter, read them and skip to step 5.
+2. **Read the story so far** in tiers (below), plus the `kb/` pages that bear on the next chapter. If beats exist for the next chapter, read them and skip to step 5.
 3. **Say where the story stands** in a short note: where the viewpoint characters are, what just happened, and the state of each live thread.
-4. **List the open promises**: what the story set up and has not paid off, which threads went quiet, which questions are open. The writer decides which ones the next chapter serves. Use the craft checks below, in the craft language the settings name.
+4. **List the open promises**: what the story set up and has not paid off, which threads went quiet, which questions are open. If the project keeps a promise ledger, start from it (the inspector's `promises` and `promises_oldest_unpaid` lines count it) and check it against the chapters, since a ledger can be out of date. The writer decides which ones the next chapter serves. Use the craft checks below, in the craft language the settings name.
 5. **Propose the next chapter** in a few lines: its goal, what it advances, the main scenes, the hook out. Offer one or two real alternatives if they differ. When the writer owns planning, ask for their plan instead and offer this as a starting point only if they want it. Wait for the choice.
 6. **Hand to the drafter.** Draft following `story-draft` when the AI owns drafting. When the writer drafts, give them the agreed plan as a scene list and offer a check when they are done. When drafting alternates, write only the next scene.
 7. **Continuity before handing over** (when you drafted): re-read the chapter against the earlier ones and `kb/`. Fix or flag any contradiction, however small.
 
+#### Reading a long story
+
+Once the story has five or more chapters, read it in tiers instead of loading every chapter:
+
+1. The chapter in hand and its beats, in full.
+2. The chapters just before and just after it, in full.
+3. Every other chapter as its card in `work/cards/`. Open the prose only when a card is missing or stale, when the task needs the exact wording, or when a card disagrees with another source. The prose wins: correct the card from it.
+
+Run `cards.py report <project folder>` from the `story-continue` skill folder (full path, no `cd`) to see missing and stale cards. A card that agrees with everything else is enough: do not open its chapter just to be thorough. A card points to its chapter; a fact that is only on a card is not settled.
+
+Writing a card is housekeeping, not a fix. When you had to open a chapter because its card was missing or stale, rewrite the card from the chapter and stamp it (see Chapter cards in `story-continue`), and say so in one line. Never change a chapter to match its card.
+
+#### Chapter cards
+
+A card is a short derived summary of one chapter, saved as `work/cards/<chapter file name>`: about 100 words in six plain lines.
+
+- Where and when: the setting and time, and whose viewpoint.
+- What happens: the events in order.
+- What changed: what is true at the end that was not true at the start.
+- Promises: what the chapter opened, advanced, or paid off.
+- Open threads: what a later chapter must honor.
+- New names and facts: anything introduced, called settled only if it is in `kb/`.
+
+After writing or rewriting a card, stamp it with the chapter's current content hash: `cards.py stamp <project folder> <chapter file name>`. A changed chapter makes its card stale; approving a chapter, which only removes its status line, does not. Never edit a chapter to match its card. Delete the card of a chapter that no longer exists. Cards are derived, so they carry no approval marks.
+
 #### Hand-over
 
-Where the chapter is (with `<!-- status: draft -->` first), new facts it invented, each as a `[pending major]` or `[pending minor]` line in the project's single register for open items (or `work/brainstorm/pending-facts.md` only if it names none) and never approved into `kb/`, which open promises it advanced, and anything that strains a settled fact. Offer a check.
+Where the chapter is (with `<!-- status: draft -->` first), new facts it invented, each as a `[pending major]` or `[pending minor]` line in the project's single register for open items (or `work/brainstorm/pending-facts.md` only if it names none) and never approved into `kb/`, which open promises it advanced, and anything that strains a settled fact. When the story has five or more chapters, write the chapter's card. Offer a check.
 
 #### Rules
 
@@ -988,18 +1224,20 @@ Where the chapter is (with `<!-- status: draft -->` first), new facts it invente
 <!-- generated:checks:start -->
 #### Craft checks (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `plot.ppp.02` For this stretch, name what tells the reader the story is moving toward one of those promises. A stretch with no signpost reads as a stall. (`plot-promise-progress-payoff`)
-- `plot.promises.05` Does each new character, sequence, or chapter make its own small promise, and does the chapter signal it was delivered? (`plot-kinds-of-promises`)
-- `plot.progress.03` For this sequence, what does the reader think it is moving toward, and what signals tell them so? (`plot-types-of-progress`)
-- `character.proactive.01` What does the character want in their first scene, and does an action follow from it? (`character-proactivity-toolkit`)
-- `scene.sequel.04` Does each sequel carry something (a revelation, a joke, a relationship beat), and does its decision launch the next scene? (`scene-and-sequel`)
-- `prose.tells.13` An emotion named right after it is shown. (`prose-ai-tells`)
-- `prose.tells.15` Dialogue that states its own subtext. (`prose-ai-tells`)
+- `plot.ppp.02` For this stretch, name what tells the reader the story is moving toward one of those promises. A stretch with no signpost reads as a stall.
+- `plot.promises.05` Does each new character, sequence, or chapter make its own small promise, and does the chapter signal it was delivered?
+- `plot.progress.03` For this sequence, what does the reader think it is moving toward, and what signals tell them so?
+- `character.proactive.01` What does the character want in their first scene, and does an action follow from it?
+- `scene.sequel.04` Does each sequel carry something (a revelation, a joke, a relationship beat), and does its decision launch the next scene?
+- `prose.tells.13` An emotion named right after it is shown.
+- `prose.tells.15` Dialogue that states its own subtext.
+
+Skill for each check family: `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.progress` plot-types-of-progress; `character.proactive` character-proactivity-toolkit; `scene.sequel` scene-and-sequel; `prose.tells` prose-ai-tells.
 <!-- generated:checks:end -->
 
-## 11. story-learn
+## 12. story-learn
 
 *Use to learn a craft technique, such as foreshadowing, magic, villains, or pacing. Teaches one technique with an example, exceptions, and a short exercise on the writer's material. Writes nothing into the project.*
 
@@ -1025,11 +1263,13 @@ The writer is here to learn. Teach well, then get out of the way. Do not write t
 <!-- generated:checks:start -->
 #### Craft checks (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `foundations.chef.01` What is this rule or technique trying to make happen for the reader? (`foundations-chef-not-cook`)
-- `foundations.chef.02` Is that effect something this story needs right now? (`foundations-chef-not-cook`)
-- `foundations.chef.03` If the story breaks the rule, what does it do to get the effect another way? (`foundations-chef-not-cook`)
+- `foundations.chef.01` What is this rule or technique trying to make happen for the reader?
+- `foundations.chef.02` Is that effect something this story needs right now?
+- `foundations.chef.03` If the story breaks the rule, what does it do to get the effect another way?
+
+Skill for each check family: `foundations.chef` foundations-chef-not-cook.
 <!-- generated:checks:end -->
 
 
@@ -1039,7 +1279,7 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 
 Design tools any writer can use, whoever writes the prose: a rules lab for magic and world rules, character build sheets, and voice demos.
 
-## 12. story-worldbuild
+## 13. story-worldbuild
 
 *Use to design or stress-test magic, powers, or world rules. Builds an ability table of costs, limits, and counters, hunts exploits, and tests what-ifs. Saves rules only after approval.*
 
@@ -1059,7 +1299,7 @@ Read the settings for the craft language, the project's own rules for where worl
    | Ability | What it does | What it costs | What stops it | What counters it |
    | --- | --- | --- | --- | --- |
 
-   Fill it from the writer's ideas. Where a column is empty, offer two or three options to choose from.
+   Fill it from the writer's ideas. Where a column is empty, offer two or three options that differ in kind, one of them unusual, to choose from.
 
 #### Test
 
@@ -1075,50 +1315,52 @@ Only what the writer approves: rules on `kb/world/<system>.md` (one system per p
 <!-- generated:checks:start -->
 #### Craft checks (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `magic.first.01` Name the emotion the resolution should give, and ask whether the reader's understanding of the magic can support it. (`magic-first-law`)
-- `magic.first.02` At the climax, could a reader have predicted the move from what they were shown? If they learn the rule only as it is used, expect a cheat reaction. (`magic-first-law`)
-- `magic.first.03` If the magic is soft, does the resolution rest on what the characters do and want, not on the magic saving the day? (`magic-first-law`)
-- `magic.first.04` If the magic is hard, were its pieces seeded earlier as tools that the characters now combine? (`magic-first-law`)
-- `magic.hardsoft.01` For each magical element, could a reader predict what it will do and what it cannot do? Place each element separately. (`magic-hard-and-soft`)
-- `magic.hardsoft.02` Does each element's place on the spectrum fit its job: problem-solving and training for hard magic, wonder and lack of control for soft? (`magic-hard-and-soft`)
-- `magic.hardsoft.03` Across a series, are earlier inventions' consequences remembered, or is the drift toward softness chosen on purpose? (`magic-hard-and-soft`)
-- `magic.logic.01` Are the internal rules written in plain story terms a reader could use without any science? (`magic-internal-and-external-logic`)
-- `magic.logic.02` Would the story still work if the external explanation vanished? If so, it is flavor, not rules. (`magic-internal-and-external-logic`)
-- `magic.logic.03` Is any system called hard because of its vocabulary, not because of what a reader can predict? (`magic-internal-and-external-logic`)
-- `magic.logic.04` Does the reader know something from real-world science that the characters cannot, making them look foolish? (`magic-internal-and-external-logic`)
-- `magic.second.01` List what the magic can do, what it costs the user, and what stops it, including who or what is stronger. (`magic-second-law`)
-- `magic.second.02` If the first list is long and the others short, does the magic solve problems too easily? (`magic-second-law`)
-- `magic.second.03` Do the most interesting scenes come from the costs and the limits? (`magic-second-law`)
-- `magic.second.04` Is each power described with rules specific enough to make a tactical puzzle, not a generic effect? (`magic-second-law`)
-- `magic.third.01` Before adding a new element, could something already in the story do this job: a changed rule, a second use of an existing magic, a branch of an existing group? (`magic-third-law`)
-- `magic.third.02` For each core rule, have its consequences for economy, war, family, religion, or crime been followed? (`magic-third-law`)
-- `magic.third.03` If a new element is added, is it linked to something already on the page? (`magic-third-law`)
-- `magic.zeroth.01` For the elements of the world you are most excited about, what is the one-sentence in-world reason each one exists? (`magic-zeroth-law`)
-- `magic.zeroth.02` For the elements that exist only because they are realistic, would something more striking serve the story as well? (`magic-zeroth-law`)
-- `worldbuilding.ideas.01` Can you name at least two ideas in each column that you are excited about? (`worldbuilding-idea-intersection`)
-- `worldbuilding.ideas.02` For each setting idea, is there a character or plot idea that presses on it? (`worldbuilding-idea-intersection`)
-- `worldbuilding.ideas.03` Is any idea just sitting there, affecting nothing else? Either connect it or save it for another book. (`worldbuilding-idea-intersection`)
-- `worldbuilding.ideas.04` Do your own fascinations and expertise show up somewhere? (`worldbuilding-idea-intersection`)
-- `worldbuilding.split.01` Does each part (physical setting, cultural setting, magic) hold the items your characters will actually run into? (`worldbuilding-three-part-split`)
-- `worldbuilding.split.02` Does a change in one part ripple through the others, such as food customs into manners or materials into architecture? (`worldbuilding-three-part-split`)
-- `worldbuilding.split.03` Do the chosen items make each other more interesting, with everything else left vague on purpose? (`worldbuilding-three-part-split`)
-- `worldbuilding.iceberg.01` Is worldbuilding keeping you from drafting, measured against your own deadline? (`worldbuilding-hollow-iceberg`)
-- `worldbuilding.iceberg.02` Is each piece of world detail on the page there because it supports stakes, character, or plot, or because you invested time in it? (`worldbuilding-hollow-iceberg`)
-- `worldbuilding.iceberg.03` Is the world built deeply only where it shapes choices and plot, with a passing hook for everything else? (`worldbuilding-hollow-iceberg`)
-- `worldbuilding.naming.01` Search the name. Does it accidentally make a real word, in the source language or another one? (`worldbuilding-naming`)
-- `worldbuilding.naming.02` Is it, or does it contain, a slur or swear word in a language your readers are likely to know? (`worldbuilding-naming`)
-- `worldbuilding.naming.03` Has someone who knows the source region or language looked at it? (`worldbuilding-naming`)
-- `worldbuilding.naming.04` Does it trigger a different mythology or brand than you meant, for people who have not seen the project? (`worldbuilding-naming`)
-- `worldbuilding.naming.05` Does it collide with a huge, famous work? A small overlap with an obscure one rarely matters. (`worldbuilding-naming`)
-- `worldbuilding.disease.01` How many months since you began building, and what have you written in the story itself? (`worldbuilding-worldbuilders-disease`)
-- `worldbuilding.disease.02` For the last five things you built, can you name a scene or decision they affect? (`worldbuilding-worldbuilders-disease`)
-- `worldbuilding.disease.03` Is the next worldbuilding task something the draft needs, or something you enjoy more than drafting? (`worldbuilding-worldbuilders-disease`)
-- `worldbuilding.gorilla.01` List the most exciting elements in the book (a creature, a magic, a faction). Where does each first appear? (`worldbuilding-gorilla-in-the-phone-booth`)
+- `magic.first.01` Name the emotion the resolution should give, and ask whether the reader's understanding of the magic can support it.
+- `magic.first.02` At the climax, could a reader have predicted the move from what they were shown? If they learn the rule only as it is used, expect a cheat reaction.
+- `magic.first.03` If the magic is soft, does the resolution rest on what the characters do and want, not on the magic saving the day?
+- `magic.first.04` If the magic is hard, were its pieces seeded earlier as tools that the characters now combine?
+- `magic.hardsoft.01` For each magical element, could a reader predict what it will do and what it cannot do? Place each element separately.
+- `magic.hardsoft.02` Does each element's place on the spectrum fit its job: problem-solving and training for hard magic, wonder and lack of control for soft?
+- `magic.hardsoft.03` Across a series, are earlier inventions' consequences remembered, or is the drift toward softness chosen on purpose?
+- `magic.logic.01` Are the internal rules written in plain story terms a reader could use without any science?
+- `magic.logic.02` Would the story still work if the external explanation vanished? If so, it is flavor, not rules.
+- `magic.logic.03` Is any system called hard because of its vocabulary, not because of what a reader can predict?
+- `magic.logic.04` Does the reader know something from real-world science that the characters cannot, making them look foolish?
+- `magic.second.01` List what the magic can do, what it costs the user, and what stops it, including who or what is stronger.
+- `magic.second.02` If the first list is long and the others short, does the magic solve problems too easily?
+- `magic.second.03` Do the most interesting scenes come from the costs and the limits?
+- `magic.second.04` Is each power described with rules specific enough to make a tactical puzzle, not a generic effect?
+- `magic.third.01` Before adding a new element, could something already in the story do this job: a changed rule, a second use of an existing magic, a branch of an existing group?
+- `magic.third.02` For each core rule, have its consequences for economy, war, family, religion, or crime been followed?
+- `magic.third.03` If a new element is added, is it linked to something already on the page?
+- `magic.zeroth.01` For the elements of the world you are most excited about, what is the one-sentence in-world reason each one exists?
+- `magic.zeroth.02` For the elements that exist only because they are realistic, would something more striking serve the story as well?
+- `worldbuilding.ideas.01` Can you name at least two ideas in each column that you are excited about?
+- `worldbuilding.ideas.02` For each setting idea, is there a character or plot idea that presses on it?
+- `worldbuilding.ideas.03` Is any idea just sitting there, affecting nothing else? Either connect it or save it for another book.
+- `worldbuilding.ideas.04` Do your own fascinations and expertise show up somewhere?
+- `worldbuilding.split.01` Does each part (physical setting, cultural setting, magic) hold the items your characters will actually run into?
+- `worldbuilding.split.02` Does a change in one part ripple through the others, such as food customs into manners or materials into architecture?
+- `worldbuilding.split.03` Do the chosen items make each other more interesting, with everything else left vague on purpose?
+- `worldbuilding.iceberg.01` Is worldbuilding keeping you from drafting, measured against your own deadline?
+- `worldbuilding.iceberg.02` Is each piece of world detail on the page there because it supports stakes, character, or plot, or because you invested time in it?
+- `worldbuilding.iceberg.03` Is the world built deeply only where it shapes choices and plot, with a passing hook for everything else?
+- `worldbuilding.naming.01` Search the name. Does it accidentally make a real word, in the source language or another one?
+- `worldbuilding.naming.02` Is it, or does it contain, a slur or swear word in a language your readers are likely to know?
+- `worldbuilding.naming.03` Has someone who knows the source region or language looked at it?
+- `worldbuilding.naming.04` Does it trigger a different mythology or brand than you meant, for people who have not seen the project?
+- `worldbuilding.naming.05` Does it collide with a huge, famous work? A small overlap with an obscure one rarely matters.
+- `worldbuilding.disease.01` How many months since you began building, and what have you written in the story itself?
+- `worldbuilding.disease.02` For the last five things you built, can you name a scene or decision they affect?
+- `worldbuilding.disease.03` Is the next worldbuilding task something the draft needs, or something you enjoy more than drafting?
+- `worldbuilding.gorilla.01` List the most exciting elements in the book (a creature, a magic, a faction). Where does each first appear?
+
+Skill for each check family: `magic.first` magic-first-law; `magic.hardsoft` magic-hard-and-soft; `magic.logic` magic-internal-and-external-logic; `magic.second` magic-second-law; `magic.third` magic-third-law; `magic.zeroth` magic-zeroth-law; `worldbuilding.ideas` worldbuilding-idea-intersection; `worldbuilding.split` worldbuilding-three-part-split; `worldbuilding.iceberg` worldbuilding-hollow-iceberg; `worldbuilding.naming` worldbuilding-naming; `worldbuilding.disease` worldbuilding-worldbuilders-disease; `worldbuilding.gorilla` worldbuilding-gorilla-in-the-phone-booth.
 <!-- generated:checks:end -->
 
-## 13. story-cast
+## 14. story-cast
 
 *Use to design a cast, villain, or relationship map, or distinguish similar characters. Builds sheets with wants, needs, three scales, weaknesses, voice, and arcs; gives the opposition its own plan. Saves only after approval.*
 
@@ -1139,11 +1381,11 @@ For each main character, short:
 - **Voice tags**: three short tags for how they talk ("blunt, funny, never explains"), so no two sound alike.
 - **Arc**: offer the shapes it could take, a line each, and let the writer choose.
 
-Offer two or three builds at a time.
+Offer two or three builds at a time. Make them differ in kind, not in surface details, label each as the usual pick or a less usual one, and include one unusual build.
 
 #### The opposition
 
-Give the opposing force a plan that would run even if the hero never existed, its own reason, and a moment where the reader sees it choose. Offer three versions.
+Give the opposing force a plan that would run even if the hero never existed, its own reason, and a moment where the reader sees it choose. Offer three versions that differ in what the opposition wants, not only in how it acts.
 
 #### Relationships
 
@@ -1160,38 +1402,41 @@ When approved: each character on `kb/characters/<name>.md` (or the project's own
 <!-- generated:checks:start -->
 #### Craft checks (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `character.scales.01` Place the character low, middle, or high on proactive, relatable, and capable, per domain where it matters. (`character-proactive-relatable-capable`)
-- `character.scales.02` Which scale is lowest? A passive character needs a want and a first action, a cold one a reason to be liked, an unimpressive one something they are visibly good at. (`character-proactive-relatable-capable`)
-- `character.scales.03` Which scale does the character's arc move along, and is the movement shown on the page? (`character-proactive-relatable-capable`)
-- `character.scales.04` Is any character high on all three scales with nowhere left to go? (`character-proactive-relatable-capable`)
-- `character.motivation.01` Can you name what the character wants, why they cannot have it, what they need, and what they must sacrifice? (`character-motivation-discovery-questions`)
-- `character.motivation.02` Does each choice on the page follow the pattern of those answers, and where it breaks, does the text show why? (`character-motivation-discovery-questions`)
-- `character.motivation.03` Do at least two of the character's answers conflict, giving scenes something to turn on? (`character-motivation-discovery-questions`)
-- `character.weakness.01` For each weakness, is it a flaw, a restriction, or a limitation, and is it handled that way: an arc for a flaw, pressure scenes for a restriction, ingenuity for a limitation? (`character-flaws-restrictions-limitations`)
-- `character.weakness.02` Is a limitation ever treated as a flaw the character should simply get over? (`character-flaws-restrictions-limitations`)
-- `character.weakness.03` Does an unaddressed flaw block progress so long that readers lose patience? (`character-flaws-restrictions-limitations`)
-- `character.weakness.04` For a very strong character, which restriction or limitation bears on what the plot demands? (`character-flaws-restrictions-limitations`)
-- `character.capability.01` Name the one or two things this character does better than anyone else in the story. Where does the plot use them? (`character-capability-design`)
-- `character.capability.02` Name two things they do badly. Where does the plot punish that? (`character-capability-design`)
-- `character.capability.03` If the character fails nothing, where would a reader worry? (`character-capability-design`)
-- `character.villain.01` Where does the villain sit on each scale? If low on proactive, why would they threaten anyone? (`character-villain-and-antihero-patterns`)
-- `character.villain.02` Does the reader understand any of the villain's want? (`character-villain-and-antihero-patterns`)
-- `character.villain.03` For an antihero, who is worse than them, and does the story show it? (`character-villain-and-antihero-patterns`)
-- `character.background.01` Does the character have a goal and personality apart from the background? (`character-writing-unfamiliar-backgrounds`)
-- `character.background.02` Could any trait be swapped for a cliche from media? If so, replace it. (`character-writing-unfamiliar-backgrounds`)
-- `character.background.03` Are other members of the group shown with variety, if they appear? (`character-writing-unfamiliar-backgrounds`)
-- `character.background.04` Is the thing that makes the character different treated as a source of skill and difficulty, not just a label? (`character-writing-unfamiliar-backgrounds`)
-- `character.iconic.04` Is the lead memorable through a clear trait, voice, or signature skill? (`character-iconic-characters`)
-- `character.trait.03` Could the trait be absent from a scene without breaking the character? If not, the trait is carrying too much. (`character-overused-trait-trap`)
-- `character.presenting.01` Can you name the character's motivation, how their personality goes after it, and what they will give up for it? (`character-presenting-a-character`)
-- `character.presenting.04` Does each quirk reinforce a core trait, instead of sitting on top of it? (`character-presenting-a-character`)
-- `character.proactive.02` If the character reads as wooden, has the reader been shown what they want before the dialogue is blamed? (`character-proactivity-toolkit`)
-- `character.proactive.05` When a motivation changes, is the new one established on the page? (`character-proactivity-toolkit`)
+- `character.entry.04` For a villain, love interest, rival, or core ally: is there at least one recognizable trait (appearance, clothing, posture, voice, a habitual gesture, or how others react)?
+- `character.scales.01` Place the character low, middle, or high on proactive, relatable, and capable, per domain where it matters.
+- `character.scales.02` Which scale is lowest? A passive character needs a want and a first action, a cold one a reason to be liked, an unimpressive one something they are visibly good at.
+- `character.scales.03` Which scale does the character's arc move along, and is the movement shown on the page?
+- `character.scales.04` Is any character high on all three scales with nowhere left to go?
+- `character.motivation.01` Can you name what the character wants, why they cannot have it, what they need, and what they must sacrifice?
+- `character.motivation.02` Does each choice on the page follow the pattern of those answers, and where it breaks, does the text show why?
+- `character.motivation.03` Do at least two of the character's answers conflict, giving scenes something to turn on?
+- `character.weakness.01` For each weakness, is it a flaw, a restriction, or a limitation, and is it handled that way: an arc for a flaw, pressure scenes for a restriction, ingenuity for a limitation?
+- `character.weakness.02` Is a limitation ever treated as a flaw the character should simply get over?
+- `character.weakness.03` Does an unaddressed flaw block progress so long that readers lose patience?
+- `character.weakness.04` For a very strong character, which restriction or limitation bears on what the plot demands?
+- `character.capability.01` Name the one or two things this character does better than anyone else in the story. Where does the plot use them?
+- `character.capability.02` Name two things they do badly. Where does the plot punish that?
+- `character.capability.03` If the character fails nothing, where would a reader worry?
+- `character.villain.01` Where does the villain sit on each scale? If low on proactive, why would they threaten anyone?
+- `character.villain.02` Does the reader understand any of the villain's want?
+- `character.villain.03` For an antihero, who is worse than them, and does the story show it?
+- `character.background.01` Does the character have a goal and personality apart from the background?
+- `character.background.02` Could any trait be swapped for a cliche from media? If so, replace it.
+- `character.background.03` Are other members of the group shown with variety, if they appear?
+- `character.background.04` Is the thing that makes the character different treated as a source of skill and difficulty, not just a label?
+- `character.iconic.04` Is the lead memorable through a clear trait, voice, or signature skill?
+- `character.trait.03` Could the trait be absent from a scene without breaking the character? If not, the trait is carrying too much.
+- `character.presenting.01` Can you name the character's motivation, how their personality goes after it, and what they will give up for it?
+- `character.presenting.04` Does each quirk reinforce a core trait, instead of sitting on top of it?
+- `character.proactive.02` If the character reads as wooden, has the reader been shown what they want before the dialogue is blamed?
+- `character.proactive.05` When a motivation changes, is the new one established on the page?
+
+Skill for each check family: `character.entry` character-first-entry; `character.scales` character-proactive-relatable-capable; `character.motivation` character-motivation-discovery-questions; `character.weakness` character-flaws-restrictions-limitations; `character.capability` character-capability-design; `character.villain` character-villain-and-antihero-patterns; `character.background` character-writing-unfamiliar-backgrounds; `character.iconic` character-iconic-characters; `character.trait` character-overused-trait-trap; `character.presenting` character-presenting-a-character; `character.proactive` character-proactivity-toolkit.
 <!-- generated:checks:end -->
 
-## 14. story-voice
+## 15. story-voice
 
 *Use to choose or change a story's voice, viewpoint, or tense. Shows original demo passages from the writer's story, supports choices and blends, and saves the chosen voice only after approval.*
 
@@ -1200,7 +1445,7 @@ The writer does not need writing samples. They hear options and choose.
 #### Steps
 
 1. **Read** the settings, the project's own rules (an existing voice file, or several for different parts of the book, takes priority; adjust it rather than replacing it), and the spec for premise, hero, and tone.
-2. **Offer four voices** as demo passages of about sixty words each, all showing the same moment from the writer's own story. Label each by feel ("dry and understated", "warm and talky", "tense and spare", "lush"). Recommend one, and say why it fits the tone the writer chose. The demos are illustrations, not story facts.
+2. **Offer four voices** as demo passages of about sixty words each, all showing the same moment from the writer's own story. Label each by feel ("dry and understated", "warm and talky", "tense and spare", "lush"). Make the four differ in sentence length, how much each says, and how funny each is, not only in word choice, so they do not read as one voice in four moods. Recommend one, and say why it fits the tone the writer chose. The demos are illustrations, not story facts.
 3. **Let them choose or adjust.** Pick one, blend two, or ask for "like 2 but drier". Rewrite the demo and show it again. Two adjustment rounds, then settle.
 4. **Pick how the story is told**, with plain labels and a default: close on one character at a time, past tense (default); several characters in turn; a storyteller who sees everything. Use the craft checks below to say what each choice costs (for example, which kinds of secret it can keep).
 5. **A favorite book is a fine description.** Describe its qualities in your own words: sentence length, humor, pace, how much description. Do not imitate or quote it.
@@ -1219,11 +1464,13 @@ Update the sheet, show a new demo, and mark drafted chapters that now differ wit
 <!-- generated:checks:start -->
 #### Craft checks (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `scene.pov.01` Does the viewpoint mode fit the cast size and the information the story needs to withhold? (`viewpoint-and-tense`)
-- `scene.pov.04` Does any change of tense or mode mid-book have a reason the reader can see? (`viewpoint-and-tense`)
-- `worldbuilding.filtered.01` Cover the name tags. Can you tell from the description who is looking and how they feel? (`worldbuilding-viewpoint-filtered-description`)
+- `scene.pov.01` Does the viewpoint mode fit the cast size and the information the story needs to withhold?
+- `scene.pov.04` Does any change of tense or mode mid-book have a reason the reader can see?
+- `worldbuilding.filtered.01` Cover the name tags. Can you tell from the description who is looking and how they feel?
+
+Skill for each check family: `scene.pov` viewpoint-and-tense; `worldbuilding.filtered` worldbuilding-viewpoint-filtered-description.
 <!-- generated:checks:end -->
 
 
@@ -1233,7 +1480,7 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 
 How a writer works, takes feedback, and revises.
 
-## 15. foundations
+## 16. foundations
 
 *Use for writing process: outlining versus discovery, stalled drafts, mechanical rule-following, confidence, critique groups, revision, and early readers. Routes to process and mindset frameworks.*
 
@@ -1266,7 +1513,7 @@ These skills are about the writer's process: how to plan, how to take feedback, 
 
 - To pick the next stage of the whole writing process, see `story-next`.
 
-## 16. foundations-chef-not-cook
+## 17. foundations-chef-not-cook
 
 *Use when a writer is following craft advice mechanically, a rule worked for someone else but not for them, or they cannot tell why a scene fails. Chef not cook is a way to learn tools by understanding what each one does, so you can diagnose problems and adapt advice to your own book.*
 
@@ -1293,7 +1540,7 @@ If you cannot answer the first question, you are cooking.
 - Advice from successful writers is a sample of what worked for them. A single path that worked once does not prove it is the best path, which is why learning many tools beats copying one routine.
 - Learning by doing teaches more than being taught. Finishing drafts is where the tools become understood. See `foundations-gardener-architect` for choosing a drafting process.
 
-## 17. foundations-gardener-architect
+## 18. foundations-gardener-architect
 
 *Use when a writer asks whether to outline or just start writing, stalls partway through a draft, loses interest after planning, or has a story that wanders. Gardener versus architect (discovery writer versus outline writer) gives a spectrum, the typical risks at each end, and how to build a blended process.*
 
@@ -1324,7 +1571,7 @@ None. This skill is about the writer's process and mindset, not a check to run o
 - A writer can be an outliner for one project and a discoverer for the next. A large cast changes the answer too. A book with many viewpoint characters may be easier to write in story arcs, one thread at a time, then splice the arcs together. That costs extra revision, because pacing breaks when the viewpoints are mixed. A book with only a few threads can usually be written straight through.
 - An architect who is stuck on a blank middle and a gardener who has lost the plot are at opposite ends of the same problem. Borrow one tool from the other end instead of switching entirely.
 
-## 18. foundations-artist-mindset
+## 19. foundations-artist-mindset
 
 *Use when a writer second-guesses a draft because of what they think readers or trends want, feels the book is ugly and wants to quit, or revises to please everyone. The artist mindset keeps story decisions in the hands of the drafting writer, and treats early books as practice that improves the writer.*
 
@@ -1354,7 +1601,7 @@ None. This skill is about the writer's process and mindset, not a check to run o
 - Do not read this as permission to ignore readers. Feedback on a finished draft is valuable. See `foundations-alpha-beta-readers`. The point is the order: draft for the story, then listen.
 - Ideas are cheap and execution is what counts. Readers and editors can tell years of practice, so protect time for practice. See `foundations-chef-not-cook`.
 
-## 19. foundations-writing-group-rules
+## 20. foundations-writing-group-rules
 
 *Use when a writer joins a critique group, gets conflicting feedback, feels a group is steering their book, or has to give feedback on someone else's pages. Writing-group rules protect a draft from early advice, set how to receive criticism, and keep feedback descriptive instead of prescriptive.*
 
@@ -1393,7 +1640,7 @@ Some editing guidance says useful feedback names a structural action, such as cu
 
 Default to the descriptive approach in a peer group, where mixed experience and strong opinions can steer a book. Choose the action-naming approach when the writer asks for a developmental edit, asks outright what you would change, or hires you as an editor. Even then, state the reader cost first, so the writer can judge whether your fix suits the book.
 
-## 20. foundations-revision-guide
+## 21. foundations-revision-guide
 
 *Use when a writer has feedback or a finished draft and does not know where to start revising, feels overwhelmed by notes, or keeps tinkering without progress. A revision guide turns feedback into a ranked, targeted list of fixes, like a programmer's bug list, so each pass has a goal.*
 
@@ -1428,7 +1675,7 @@ Example: three readers say the middle drags. Your guide entry is not "fix the mi
 - Feedback on its own is a list of symptoms. Use only the pieces that you agree point at a real problem, and expect to discard many. See `foundations-writing-group-rules`.
 - Do not endlessly revise chapter one. Eighty first chapters do not add up to a book. Finish the draft, then revise by priority.
 
-## 21. foundations-alpha-beta-readers
+## 22. foundations-alpha-beta-readers
 
 *Use when a writer is deciding who should read a finished draft, how to use readers' reactions, or whether one reader's strong opinion should change the book. Alpha and beta readers are two kinds of early reader with different jobs, and the skill explains how to weigh what each reports.*
 
@@ -1466,7 +1713,7 @@ Two kinds of early reader do different jobs on a finished draft.
 
 The core model first, then structure, scene momentum, payoff, and planning.
 
-## 22. plot
+## 23. plot
 
 *Use for plot, structure, pacing, weak openings, dragging middles, unsatisfying payoffs, or outline methods. Routes to frameworks for promises, progress, conflict, twists, and climaxes.*
 
@@ -1502,6 +1749,8 @@ Plot has two jobs: it gives conflict something to happen in, and it gives the re
 
 **Planning**
 - `plot-outline-interwoven-cycles`: outlining several plotlines, for outline-first and discovery writers alike.
+- `plot-causal-bridges`: checking that each turn causes the next, through someone's choice.
+- `plot-reveal-boundaries`: separating what is true, who knows it, and when the reader learns it.
 
 #### Which child for which problem
 
@@ -1522,12 +1771,14 @@ Plot has two jobs: it gives conflict something to happen in, and it gives the re
 | "My best scene is in the middle" | `plot-climax-placement-aftermath` |
 | "How do I outline several plotlines?" / "I'm a discovery writer, can I outline?" | `plot-outline-interwoven-cycles` |
 | "A friendship needs to turn into a betrayal" / "combine genres" | `plot-archetypes` |
+| "Events happen but nothing causes anything" / "my outline is a list of incidents" / "this turn feels arbitrary" | `plot-causal-bridges` |
+| "When should readers learn the secret?" / "I'm explaining the magic before anyone cares" / "plan my mystery" | `plot-reveal-boundaries` |
 
 #### Notes
 
 - The model is mainly an analysis tool. Writers can use it while discovery writing, and outliners can use it to plan; neither has to master it before drafting.
 
-## 23. plot-promise-progress-payoff
+## 24. plot-promise-progress-payoff
 
 *Sanderson's Promise, Progress, Payoff model of plot. Load to diagnose why a story, chapter, or sequence feels boring or pointless, to check whether an ending satisfies, or to plan a plot around what the reader is led to expect.*
 
@@ -1570,7 +1821,7 @@ Most of the time a boring book or an uninvested sequence is a mismatch between p
 - Breaking the model can work. Into the Woods drops its fairytale promises and rebuilds something different, though some readers resent it.
 - Payoff differs across storytelling traditions: ambiguous endings are growing in the West while payoff endings are more common in the East.
 
-## 24. plot-kinds-of-promises
+## 25. plot-kinds-of-promises
 
 *The kinds of promises a story makes in its opening (tone, plot, character, series) and how to check them. Load when planning or revising a story's opening, a prologue, a first chapter, or a chapter opener, or when readers say the book was not what they expected.*
 
@@ -1604,7 +1855,7 @@ Strong chapters often open with a "stealth thesis paragraph" that quietly says w
 - New promises can be made mid-story; the answer is "yes and yes, asterisk", depending on length and twist type.
 - Promises are easier to write once the ending is known, so it is normal to revise the opening last.
 
-## 25. plot-types-of-progress
+## 26. plot-types-of-progress
 
 *How to measure, signpost, and pace progress in a plot, and match the kind of progress to the climax. Load when a middle drags, a sequence feels pointless, a plot has several threads, or a climax does not feel earned.*
 
@@ -1645,7 +1896,7 @@ There are many more kinds; these two are the worked examples.
 - `plot.progress.03` For this sequence, what does the reader think it is moving toward, and what signals tell them so?
 - `plot.progress.04` Does the pace vary, with breathers between pushes, and are time skips set up at a structural break?
 
-## 26. plot-cold-open-microcosm
+## 27. plot-cold-open-microcosm
 
 *The cold open as a microcosm: a short opening mini-story that shows the whole story in small form. Load when a writer is designing an opening scene or prologue, wants a hook that previews the book's shape, or asks how to make an opening promise the main conflict.*
 
@@ -1675,7 +1926,7 @@ Some stories open with a short mini-story, roughly five to fifteen pages, that s
 - `plot.coldopen.02` Does the full book echo the opening's shape, or deliberately break it?
 - `plot.coldopen.03` Does the opening make a promise the book keeps?
 
-## 27. plot-big-p-little-p
+## 28. plot-big-p-little-p
 
 *The distinction between Big P Plot (what the book is about) and little p plot (what happens chapter to chapter). Load when a writer cannot say what their book is about, when chapters feel disconnected, or when the small-scale action and the main story pull in different directions.*
 
@@ -1702,7 +1953,7 @@ Some stories open with a short mini-story, roughly five to fifteen pages, that s
 - `plot.bigp.02` For each chapter, name its little p plot and whether it advances a Big P promise or makes a promise of its own that the book keeps.
 - `plot.bigp.03` Where does the story's emotional core actually live, in the headline plot or in a little p thread, and do the signposts follow it?
 
-## 28. plot-story-circle
+## 29. plot-story-circle
 
 *Use when you want a map for a transformation story, a hero's journey or monomyth feels too vague or too rigid, a character arc needs a shape, or a series needs nested arcs. Gives the eight-step Story Circle, how to bend it into tragedy, and how to avoid turning it into a checklist.*
 
@@ -1742,7 +1993,7 @@ The Story Circle is a simplified hero's journey. An ordinary person who expects 
 - For a first book, leaning on an established shape is fine. Characters and setting stretch it toward your own.
 - See `plot-three-act-structure` for the arrow-shaped alternative.
 
-## 29. plot-three-act-structure
+## 30. plot-three-act-structure
 
 *Use when a plot sags in the middle, the story lacks a clear question driving it, you are unsure where the first act ends, what the midpoint should do, or where the lowest point goes. Gives the beats of three-act structure, the major dramatic question, and how loosely to apply them in prose.*
 
@@ -1776,7 +2027,7 @@ Because the midpoint splits the long middle, the structure is really four parts 
 - Different media need different structures. An adaptation changes things for its medium, and there is no clear line between too faithful and too liberal.
 - See `plot-story-circle` for the circular model with similar threshold and low-point beats.
 
-## 30. plot-structure-model
+## 31. plot-structure-model
 
 *Use when you want to write a story in a pattern you love, like a heist, an underdog sports team, or a revenge tragedy, or when formulas feel like recipes you follow without understanding. Gives the Structure Model method of studying a narrow pattern across many works and building your own version.*
 
@@ -1811,7 +2062,7 @@ None. This is a method for studying and building a structure, not a test to run 
 - Studying a pattern does not mean copying it. The study should leave you with understood principles, not a tracing.
 - See `plot-three-act-structure` and `plot-story-circle` for broader templates to compare against.
 
-## 31. plot-archetypes
+## 32. plot-archetypes
 
 *Use when choosing what kind of story to tell, a plot feels generic, you want to combine genres such as heist, romance, mystery, and revolution, a friendship or alliance needs to turn into a betrayal, or a story needs to change shape midway. Gives a way to build a plot from layered archetypes and to make an arc go wrong on purpose.*
 
@@ -1858,7 +2109,7 @@ Check: list the three or four moments where the betrayer's goal visibly diverges
 - Do not shift archetype without foreshadowing. A promised quest that abruptly becomes something else can lose both the readers who wanted the quest and the readers who would have liked the new shape.
 - For how to schedule multiple archetype arcs across a book, use `plot-outline-interwoven-cycles`. For the relationship arc as a kind of progress, see `plot-types-of-progress`.
 
-## 32. plot-scale-of-plot
+## 33. plot-scale-of-plot
 
 *Use when you are unsure how big a story's plot should be, a book feels too small or too sprawling for its length, you are choosing between short story, novella, and novel, or you are planning chapter length and break points. Gives rules of thumb for matching scope to word count and reading experience.*
 
@@ -1895,7 +2146,7 @@ If you cannot judge length yet, write the story and note how the finished count 
 
 These are figures from one author's experience and genre habits. Treat them as starting points. A long book with no escalation of scope tends to run out of momentum, which is the same problem `plot-yes-but-no-and` has when stretched. Use the outline and `plot-big-p-little-p` to see whether the large-scale and small-scale plots each have room to grow.
 
-## 33. plot-try-fail-cycle
+## 34. plot-try-fail-cycle
 
 *Use when a character's victories feel too easy, a problem gets solved in one move, a middle section needs momentum, or you want to outline just a few big beats and discover the rest. Covers the Try-Fail Cycle and Points on the Map, plus when a run of successes can work instead.*
 
@@ -1940,7 +2191,7 @@ Dune opens with Paul failing, then lets him succeed repeatedly, and the success 
 
 See `plot-yes-but-no-and` for a faster way to generate the complication that follows each failure.
 
-## 34. plot-yes-but-no-and
+## 35. plot-yes-but-no-and
 
 *Use when you are stuck on what happens next, a scene resolves cleanly and the story goes flat, events feel disconnected, or you write by discovery and need a way to keep complications cascading. Covers the Yes-but / No-and method for chaining escalating problems.*
 
@@ -1987,7 +2238,7 @@ Small escalations make a big end state feel earned. A screwball plot can travel 
 
 Wild complications are fine when the story has promised that tone. Without that promise, an absurd turn pulls the reader out. Use the method to generate options, then keep the ones that serve the promises the story has made.
 
-## 35. plot-layering-conflict
+## 36. plot-layering-conflict
 
 *Use when a story has only outside action or only inner struggle, a character's arc feels sudden or unearned, a flaw frustrates readers, or you want a scene to carry both internal and external conflict. Covers layering internal and external conflict and signposting a character arc through the middle.*
 
@@ -2028,7 +2279,7 @@ Fiction craft advice often warns against narration that comments on a character'
 
 Keep the acknowledgment, since readers need to know the author sees the problem. Deliver it through another character's remark, the character's own choice, or a consequence on the page. Use narration that names the flaw outright only when the reader has too little evidence to infer it. At the line level, lean toward showing and leaving the label out.
 
-## 36. plot-twists-promise-and-wish
+## 37. plot-twists-promise-and-wish
 
 *Use when you want a twist that lands, a reveal feels random or cheap, or you are unsure whether the story needs a twist at all. Gives the promise-and-wish method (promise one thing, make the reader wish for another, deliver that) and the alternatives of escalation and over-delivery.*
 
@@ -2061,7 +2312,7 @@ A romantic comedy can promise a match with a fiancé while the real spark grows 
 - If the swap changes the kind of story midway, foreshadow the change early. See `plot-foreshadowing-twists`.
 - For ways to make a straightforward outcome feel surprising, see `plot-payoff-deniability-forgotten-promise`. For the underlying model, see `plot-promise-progress-payoff` and `plot-kinds-of-promises`.
 
-## 37. plot-payoff-deniability-forgotten-promise
+## 38. plot-payoff-deniability-forgotten-promise
 
 *Use when a promised outcome is obvious and the payoff feels flat, when a rescue or victory is predictable, or when you want a last-minute arrival to get a cheer. Gives two ways to make a payoff surprising yet inevitable without a twist, plausible deniability and the forgotten promise.*
 
@@ -2102,7 +2353,7 @@ A last-resort rescue that was set up this way gets cheers. A similar rescue whos
 - Some audiences prefer ambiguous endings to payoff endings, so match the technique to the tradition and readers you write for.
 - See `plot-promise-progress-payoff` for the core model and `plot-foreshadowing-twists` for tuning how visible the setup is.
 
-## 38. plot-cheer-moment-sanderlanche
+## 39. plot-cheer-moment-sanderlanche
 
 *Use when a climax feels flat, several plotlines all end at once and none lands, an ending is numb or overstuffed, or you want readers to cheer. Gives the stand-up-and-cheer moment, the order of internal then external payoff, and how to stagger a cascade of payoffs.*
 
@@ -2140,7 +2391,7 @@ When overlapping arcs all converge on one moment, check that each arc has its ow
 - A late cascade works best when the earlier chapters built the arcs it resolves. For making promises and signposting progress, see `plot-promise-progress-payoff` and `plot-types-of-progress`.
 - If the cascade surprises, see `plot-payoff-deniability-forgotten-promise`. For where the biggest moment sits in the book, see `plot-climax-placement-aftermath`.
 
-## 39. plot-climax-placement-aftermath
+## 40. plot-climax-placement-aftermath
 
 *Use when the best scene in the book arrives in the middle, the ending feels weaker than a midpoint climax, a second plotline drags beside a stronger one, or you are unsure how long the aftermath should run. Gives three options for a strong early climax and notes on resolution length.*
 
@@ -2171,7 +2422,7 @@ Longer resolutions are generally fine and readers often like them, as long as th
 - Do not save the best material for later books. Put it in the first, and fulfil at least one primary character arc while leaving larger matters open.
 - Match the final progress to the kind the story measures. See `plot-types-of-progress` and `plot-promise-progress-payoff`.
 
-## 40. plot-foreshadowing-twists
+## 41. plot-foreshadowing-twists
 
 *Use when beta readers guessed the twist, nobody saw it coming, a reveal feels unearned, or you are adding foreshadowing in revision. Gives a target for how many readers should guess, fixes for both extremes, and ways to hide a clue in plain sight.*
 
@@ -2216,7 +2467,7 @@ Aim for most readers to guess the twist only a page or a paragraph before the re
 - If the story will change kind midway, such as from classic quest to deconstruction, signal the direction in the promises at the start. Without that, you risk losing both audiences.
 - Pair with `plot-twists-promise-and-wish` and `plot-payoff-deniability-forgotten-promise`. Core model is `plot-promise-progress-payoff`.
 
-## 41. plot-outline-interwoven-cycles
+## 42. plot-outline-interwoven-cycles
 
 *Use when you need to outline a book with several plotlines, viewpoints, a romance or a mystery thread, you lose track of promises across a long draft, or you are unsure how outlining fits your writing style. Gives a method for listing each plot cycle's progress beats and merging them into parts, for outline-first and discovery writers.*
 
@@ -2258,6 +2509,90 @@ New writers can try several approaches, including improvising a whole book, then
 - The outline is for tracking, not for locking in. A cycle that turns out dull can be reshaped or cut.
 - For how to choose the cycle types, use `plot-archetypes`. For the underlying promise structure, use `plot-promise-progress-payoff`.
 
+## 43. plot-causal-bridges
+
+*Use when events follow one another but do not cause each other, an outline reads as a list of interesting incidents, a turn feels arbitrary, or a character does something because the plot needs it. Tests each major turn for why this person, why now, why this method, and what it changes.*
+
+Events in order are not automatically a story. A plot holds when each turn is caused by the one before it, through someone's choice.
+
+#### The bridge
+
+Between any two major turns, the chain should be readable:
+
+new pressure or evidence, then a specific actor interprets it, then pursues a goal, then picks a method, then the choice changes someone else's options, then a visible consequence creates the next event.
+
+At each turn, ask: **Why this person? Why now? Why this method? What was already true? What did this decision newly cause?**
+
+#### The removal test
+
+If taking an event out would not change the next decision, either the bridge is missing or the event is not on the story's spine. Keep it only if it earns something else (a promise, a character beat).
+
+#### Building the spine
+
+- **Cause before system.** Write the causal story first: the starting situation, how it begins through someone acting, the turns, the climax, and the resulting state. Explain the machinery behind it afterward.
+- **Start through an actor.** The first on-page change is an assignment, an encounter, or a mistake, not a thematic statement like "the hero enters a hidden order."
+- **Anchor before use.** Establish a place, group, system, or important person before asking it to carry an event. Readers should not meet the followers before the organization exists, or a victim before their situation is known.
+- **No summary jumps.** "Attention grew, so the villain picked a victim" hides everything. Say what pressure the attention created, what the villain wanted, why this victim served that, and who acted.
+
+#### Checks
+
+- `plot.bridges.01` For each major turn, can you name the pressure, the actor who interprets it, their goal, and their method?
+- `plot.bridges.02` Why this person, why now, and why this method?
+- `plot.bridges.03` If this event were removed, would the next decision change? If not, it is off the spine or a bridge is missing.
+- `plot.bridges.04` Does any turn rest on a summary jump (A happened, so B) with no one choosing?
+- `plot.bridges.05` Is every place, group, or person established before it carries an event?
+
+#### Cautions and exceptions
+
+- Discovery writers can find the bridges in revision. A missing one is a question to answer, not a failure.
+- A coincidence can start trouble. One that solves it needs setup; see `plot-payoff-deniability-forgotten-promise`.
+- For generating the next complication, see `plot-yes-but-no-and`. For what the reader is promised along the way, see `plot-promise-progress-payoff`.
+
+## 44. plot-reveal-boundaries
+
+*Use when a story has secrets, a mystery, or a hidden system, you are unsure when readers should learn what, or an outline explains the mechanism before the story makes anyone care. Separates what is true, what each character knows, and when the reader learns it.*
+
+A story with secrets runs on three different things that are easy to blur: what is actually true, what each character knows, and what the reader has been told so far.
+
+#### The layers
+
+- **Starting state.** The minimum situation that makes the story possible.
+- **The story as the reader meets it.** The causal run of events, in the order readers learn them.
+- **Author truth.** What is actually true, including things the story never shows.
+- **Reveal boundaries.** At each point, what the reader knows and what each character knows.
+
+Tell the causal story first. Explain the hidden system only once the spine is clear and a reader has reason to want the explanation.
+
+#### Planning each secret
+
+For every secret, write down:
+
+1. the true fact
+2. who knows it
+3. who is wrong about it, and how
+4. where the reader first gets a clue
+5. where the reader learns it
+6. what changes when they do
+
+A reveal that arrives before its setup, or a setup that nothing ever rewards, is a defect. Keep the author-truth notes separate from the chapter text.
+
+#### Keeping the boundary
+
+Do not let author truth leak into narration the viewpoint character could not know. When the reader must know something a character does not, show it deliberately (dramatic irony) instead of letting it slip.
+
+#### Checks
+
+- `plot.reveals.01` For each secret, is the true fact written down apart from what the reader is told?
+- `plot.reveals.02` For each secret, can you name who knows it, who is wrong about it, where the reader gets the first clue, and where they learn it?
+- `plot.reveals.03` Does any reveal come before its setup, or any setup go unrewarded?
+- `plot.reveals.04` Does narration leak author truth the viewpoint character could not know?
+- `plot.reveals.05` Does the outline tell the causal story before explaining the hidden system?
+
+#### Cautions and exceptions
+
+- A mystery left deliberately unresolved is allowed. Mark it as deliberate so it is not read as a gap.
+- For tuning how visible a clue is, see `plot-foreshadowing-twists`. For swapping a promised outcome for a better one, see `plot-twists-promise-and-wish`.
+
 
 ---
 
@@ -2265,7 +2600,7 @@ New writers can try several approaches, including improvising a whole book, then
 
 The three scales first, then weaknesses and villains, presentation, and change.
 
-## 42. character
+## 45. character
 
 *Use for flat or passive characters, sympathy, competence, villains, motivation, arcs, or unfamiliar backgrounds. Routes to character frameworks; use story-cast to build a cast.*
 
@@ -2286,6 +2621,7 @@ Characters are read through what they want, how much they do about it, and how e
 
 **Presenting and understanding a character**
 - `character-iconic-characters`: series leads and detectives who do not change, and building on competence and cost.
+- `character-first-entry`: introducing an important character so readers can place them: role, link to the scene, first impression, one trait.
 - `character-presenting-a-character`: showing motivation, personality, and values without announcing them.
 - `character-motivation-discovery-questions`: a question set to run on your own character when you do not know why they act.
 - `character-writing-unfamiliar-backgrounds`: writing a character whose experience you have not lived.
@@ -2298,6 +2634,7 @@ Characters are read through what they want, how much they do about it, and how e
 
 | The writer says | Load |
 | --- | --- |
+| "Readers can't picture her" / "the villain walks in and nobody knows who he is" / "I introduced them but it doesn't land" | `character-first-entry` |
 | "My character is boring" / "readers don't care about him" / "she feels wooden" | `character-proactive-relatable-capable`, then `character-proactivity-toolkit` or `character-relatability-toolkit` |
 | "My hero is too perfect" / "too helpless" / "what should she be good at?" | `character-capability-design` |
 | "What weakness should I give him?" | `character-flaws-restrictions-limitations` |
@@ -2315,7 +2652,7 @@ Characters are read through what they want, how much they do about it, and how e
 - A character's arc and the plot's progress are linked. For how an arc is signposted through the middle of a story, see `plot-layering-conflict`.
 - For prose that explains a character's feelings instead of showing them, see `prose-ai-tells`.
 
-## 43. character-proactive-relatable-capable
+## 46. character-proactive-relatable-capable
 
 *Use when a character feels boring, wooden, or hard to root for and you can't say why, when planning a character arc, or when deciding what a character should be strong or weak at. Gives three sliding scales (proactive, relatable, capable) for diagnosing a character and for describing an arc as movement along them.*
 
@@ -2362,7 +2699,7 @@ Purely internal arcs usually map onto these scales. External problems and relati
 - Villains usually sit high on proactive and capable and low on relatable. See `character-villain-and-antihero-patterns`.
 - For a first look at what makes a character memorable on the page, see `character-iconic-characters` and `character-presenting-a-character`.
 
-## 44. character-proactivity-toolkit
+## 47. character-proactivity-toolkit
 
 *Use when a protagonist is passive, reluctant, imprisoned, depressed, or stalling the plot, when the villain is more interesting than the hero, or when a character feels wooden. Gives techniques for building and restarting proactivity, from a first want to small acts of initiative.*
 
@@ -2413,7 +2750,7 @@ Two characters with competing agendas make tension, especially when one is more 
 - To find what a character wants, see `character-motivation-discovery-questions`.
 - Not every story needs a driving lead. Slow-progress stories can run on quieter engines.
 
-## 45. character-relatability-toolkit
+## 48. character-relatability-toolkit
 
 *Use when readers don't care about a character, a lead is unlikeable, stakes feel low because nobody minds if the protagonist dies, or a godlike character is hard to connect with. Gives techniques for making a character easy to step into and care about.*
 
@@ -2450,7 +2787,7 @@ Motivation that crosses alien biology or divine nature carries empathy regardles
 - Likeability is not the same as virtue. Villains and antiheroes can be compelling at low relatability. See `character-villain-and-antihero-patterns`.
 - To introduce a character on the page, see `character-presenting-a-character`.
 
-## 46. character-capability-design
+## 49. character-capability-design
 
 *Use when deciding what a character is good at, when a hero is either helpless or too perfect, when a competent character reads as dull or arrogant, or when strength is not about fighting. Gives rules for designing skills, strengths, and weaknesses that drive the plot.*
 
@@ -2491,7 +2828,7 @@ What makes a nearly invincible character interesting is what they cannot do. Cho
 - Villains are often highly capable. See `character-villain-and-antihero-patterns`.
 - Magic abilities have their own design rules, covered in the magic worldbuilding skills.
 
-## 47. character-flaws-restrictions-limitations
+## 50. character-flaws-restrictions-limitations
 
 *Use when giving a character weaknesses, when a hero is too perfect, when a flaw is going stale, or when you are unsure whether a handicap should be fixed or worked around. Sorts weaknesses into flaws, restrictions, and limitations, each handled differently.*
 
@@ -2535,7 +2872,7 @@ An overpowered character becomes interesting through what they cannot do. Where 
 - To see how flaws, restrictions, and limitations raise or lower each of the three scales, see `character-proactive-relatable-capable`.
 - Self-awareness helps with flaws. See `character-relatability-toolkit`.
 
-## 48. character-villain-and-antihero-patterns
+## 51. character-villain-and-antihero-patterns
 
 *Use when the villain is more compelling than the hero, a villain feels flat or cartoonish, you are writing an antihero, or you want a villain's fall to feel earned. Gives patterns for where villains and antiheroes sit on the three scales and how to build them.*
 
@@ -2579,7 +2916,7 @@ A true antihero also does villainous things, and the story takes the moral weigh
 - Some readers will find a given sympathetic trait unrelatable. See `character-relatability-toolkit`.
 - For the pull of a memorable antagonist, see `character-iconic-characters`.
 
-## 49. character-overused-trait-trap
+## 52. character-overused-trait-trap
 
 *Use when a character's one defining quality keeps repeating, readers say a character is annoying or one-note, a quirk feels like random wackiness, or a relatable trait has turned into the whole personality. Gives a check for spotting and fixing an overplayed trait.*
 
@@ -2617,7 +2954,7 @@ Archetypes help readers sort a character quickly, and that is the right starting
 - Relatability traits in `character-relatability-toolkit` should be varied and shown by action, not repeated.
 - Giving a character a distinct first impression is a separate task. See `character-presenting-a-character`.
 
-## 50. character-iconic-characters
+## 53. character-iconic-characters
 
 *Use when a series hero or detective never seems to change, an editor says the protagonist has no arc, or you are writing episodic adventures, mysteries, or a long-running villain. It explains how to build a character whose appeal is competence and cost instead of growth.*
 
@@ -2655,7 +2992,42 @@ In an episodic ensemble, such as the crew of a long-running TV series, making ea
 
 General structural advice says every arc or installment should permanently change something, such as relationships, power, stakes, or the lead's understanding, and calls an installment that changes nothing filler. This skill allows installments that reset, because the lead stays fixed and the appeal is competence and cost. Default to this skill for episodic series and for detective or adventure leads that readers can enter in any order. Choose the other side when installments are meant to be read in sequence, when readers expect escalation across the series, or when the story has promised a transformation. Then let each installment leave a lasting mark, even if the lead's core stays the same.
 
-## 51. character-presenting-a-character
+## 54. character-first-entry
+
+*Use when a new important character walks in and readers cannot picture or place them, a villain or love interest arrives without an impression, or the author knows who someone is but the page has not shown it. Gives the first-entry anchors: role, link to the scene, first impression, and one recognizable trait.*
+
+The reader knows only what the page has shown. If the author knows who a person is, how they are related to someone, what a place looks like, or why a behavior matters, and the prose has not shown it, it is missing. A character who matters should not walk in bare.
+
+#### The anchors
+
+When an important character first enters in a way that counts, give the reader enough to place them:
+
+1. **Identity or role.** Who or what they are in this world, in a form the reader can hold.
+2. **Link to the moment.** How they connect to the current event or to the viewpoint character.
+3. **First impression.** What the viewpoint character would actually register on meeting them, not a catalog.
+4. **One recognizable trait**, for a villain, love interest, rival, or core ally. Pick from appearance, clothing, posture, voice, a habitual gesture, or how other people react to them.
+
+Minor and walk-on characters need less: a role and one detail is enough. A deliberately mysterious figure can withhold who they are, but the reader still needs an impression and a reason to care.
+
+#### Where to put it
+
+Put the anchors in the moment of entry, not three pages later, and deliver them through what the viewpoint character notices and how they feel about it. Do not stop the scene for a description block. A reaction from someone else in the room is often the fastest anchor.
+
+#### Checks
+
+- `character.entry.01` At first entry, has the prose shown the character's role or identity, or has only the author known it?
+- `character.entry.02` Is the character's link to the current event or to the viewpoint character clear?
+- `character.entry.03` Does the reader get a first impression the viewpoint character would actually form?
+- `character.entry.04` For a villain, love interest, rival, or core ally: is there at least one recognizable trait (appearance, clothing, posture, voice, a habitual gesture, or how others react)?
+- `character.entry.05` Is anything about this character, their place, or their relationships assumed because the author knows it, and not shown?
+
+#### Cautions and exceptions
+
+- Do not front-load a full description. One trait that sticks beats five that blur.
+- A character introduced by name only, in passing, is a different case from an entrance. Judge by how much the story is about to ask the reader to care.
+- For what to show about a character over time, see `character-presenting-a-character`. For delivering description through the viewpoint, see `worldbuilding-viewpoint-filtered-description`.
+
+## 55. character-presenting-a-character
 
 *Use when a character feels generic or interchangeable, characters announce their own motives in dialogue, you cannot tell how a character should act or speak, or you are introducing a new protagonist. It sorts what to show about someone into motivation, personality, and values.*
 
@@ -2694,7 +3066,7 @@ A practice exercise: write a scene with three people whose wants conflict, remov
 - In an ensemble, show each member reacting to the same event, and let the cast break from type over time.
 - For characters who do not change, see `character-iconic-characters`.
 
-## 52. character-motivation-discovery-questions
+## 56. character-motivation-discovery-questions
 
 *Use when you do not know why your character does what they do, their choices feel arbitrary, or you want a quick interview to run on a new protagonist, villain, or side character. It gives a question set that yields a few core facts you can extrapolate from.*
 
@@ -2745,7 +3117,7 @@ Run the questions on your own character and write short answers. Always follow a
 - If answers come easier while drafting, draft first and ask the questions afterward. Several rewrites of a character before the right version is common.
 - A large force without a human motive can skip these questions. See `character-iconic-characters`.
 
-## 53. character-writing-unfamiliar-backgrounds
+## 57. character-writing-unfamiliar-backgrounds
 
 *Use when you are writing a character whose culture, disability, profession, or experience you have not lived, worry about stereotyping, or wonder who should read your draft. It gives a three-part practice of reading, individuality, and sensitivity readers.*
 
@@ -2783,7 +3155,7 @@ Writers often need a character shaped by an experience they lack. The main risk 
 - Readers will not all agree. Weigh responses and decide, then note the cost of choices you keep.
 - For how to make an individual vivid in the first place, see `character-presenting-a-character`.
 
-## 54. character-arc-types
+## 58. character-arc-types
 
 *Use when you are planning how a character changes, an arc feels flat or predictable, a flaw does not seem to cost the character anything, or you cannot tell why a change-of-heart moment is unsatisfying. Gives four recurring arc shapes (apprentice, flaw-to-fix upward and downward, ignorance to knowledge) and a way to plan each.*
 
@@ -2827,7 +3199,7 @@ An arc is a shape that a character's change follows. Knowing a handful of common
 
 General craft advice treats character change as gradual. It wants small shifts visible across many scenes and welcomes backsliding and partial breakthroughs that do not stick. This skill puts the weight on one decisive choice and warns against a run of failed tries followed by success. Default to this skill: build the arc around the decision point and the reason behind it, with the flaw's costs shown beforehand. Choose the other side in a long novel or series where a single decision would feel sudden, or where realism about relapse is the point. Then show the incremental movement and the slides back, and keep the final choice explained by who the character has become.
 
-## 55. character-floating-outline-for-dialogue
+## 59. character-floating-outline-for-dialogue
 
 *Use when a dialogue scene is about to be written and you are unsure what it is for, conversations come out as flat exchanges of information, characters sound alike, or you want to show motivation without narration. Gives a short pre-scene list of goals, then an improvised draft and a note-to-self pass.*
 
@@ -2863,7 +3235,7 @@ Dialogue is usually a stronger place than narration to show what characters want
 
 Magic rules, then building the world, then showing it on the page.
 
-## 56. magic-worldbuilding
+## 60. magic-worldbuilding
 
 *Use for questions about magic, worldbuilding, naming, description, or exposition. Routes to craft frameworks; use story-worldbuild to design or stress-test a system.*
 
@@ -2914,7 +3286,7 @@ Magic and worldbuilding are tools for the story, and the skills here keep them i
 
 - For choosing the point of view and tense a world is told through, see `scene-craft`.
 
-## 57. magic-hard-and-soft
+## 61. magic-hard-and-soft
 
 *Use when you are deciding how mysterious or how rule-bound your magic should be, readers say the magic feels random or too much like a puzzle, or you are unsure whether a system is hard magic or soft magic. It gives a spectrum and a way to place your system on it.*
 
@@ -2946,7 +3318,7 @@ Magic sits on a spectrum. At the hard end, readers can learn the rules and predi
 - Stories where nature is the magic, such as a recurring deadly phenomenon, tend to lean hard, because characters race to understand and stop it.
 - If you need a hint that the rules might be wrong, flag it early: state how the magic is believed to work, add a few historical cases nobody can explain, and let a mentor deflect certain questions.
 
-## 58. magic-internal-and-external-logic
+## 62. magic-internal-and-external-logic
 
 *Use when you are unsure whether your magic system counts as hard because it borrows real science, when you want your magic to sound believable, or when readers cannot predict what it does despite a pseudo-scientific explanation. It separates the logic readers use from the logic that only lends credibility.*
 
@@ -2981,7 +3353,7 @@ Two different things get called "logic" in a magic system, and they do different
 - Starting from internal rules and adding external logic afterward is common. See `magic-zeroth-law` for working backward from a cool element.
 - For the spectrum itself, see `magic-hard-and-soft`.
 
-## 59. magic-zeroth-law
+## 63. magic-zeroth-law
 
 *Use when you are stuck choosing between a plausible worldbuilding choice and an exciting one, when you want a striking element such as magical armor or a strange creature and cannot justify it, or when your world feels dutiful and dull. It gives the Zeroth Law (also spelled Zeroeth) method of picking the cool thing first and justifying it backward.*
 
@@ -3006,7 +3378,7 @@ When a choice is open, lean toward what is awesome. The defining line is "err on
 - If the magic is meant to resolve a climax, the reader must be able to see the why, so the backward justification has to reach the page. "Magic did it" works only when the internal logic is solid.
 - Awesome includes tonal fit. An element that clashes with the tone you promised fails the law.
 
-## 60. magic-first-law
+## 64. magic-first-law
 
 *Use when your magic solves the climax and it feels like a cheat, readers call an ending deus ex machina, a hero finds a new power at the last moment, or you cannot tell how much of the magic to reveal before the final conflict. It gives Sanderson's First Law and a check for whether the magic may resolve the plot.*
 
@@ -3040,7 +3412,7 @@ A soft power can be given a hard-structured payoff by promising a specific event
 - A big event with no explanation can still satisfy if the real emotional payoff is elsewhere, such as a romance carrying a story that also has a vampire plot.
 - See `magic-hard-and-soft` for placing your system, and `plot-promise-progress-payoff` for the broader setup and payoff structure.
 
-## 61. magic-second-law
+## 65. magic-second-law
 
 *Use when your magic or hero is too powerful and tension collapses, your powers feel like generic superpowers, you cannot decide what your magic should cost, or you want weaknesses that matter. It gives Sanderson's Second Law with a list-powers-then-costs-then-limits check.*
 
@@ -3077,7 +3449,7 @@ A flaw can turn into a hindrance when characters find that fixing it would make 
 - Too many flaws smother a system. See `magic-third-law`.
 - Constraints still need to be visible to the reader before the climax. See `magic-first-law`.
 
-## 62. magic-third-law
+## 66. magic-third-law
 
 *Use when your world keeps growing with new systems, peoples, and rules, readers say it feels shallow or overwhelming, you feel pressure to add another magic system, or you are drafting a long setting and fear a mile-wide inch-deep result. It gives Sanderson's Third Law and a check to run before adding anything new.*
 
@@ -3104,7 +3476,7 @@ Before adding something new, expand what you already have. Depth beats breadth, 
 - Limits stack: many flaws and costs on one system also break this law. See `magic-second-law`.
 - When contrast helps, build from what differs and what stays the same between your world and ours rather than from a long list of new inventions.
 
-## 63. worldbuilding-idea-intersection
+## 67. worldbuilding-idea-intersection
 
 *Use when you have a pile of story ideas and no book yet, a premise feels thin, a setting has no plot, or you are not sure whether you have enough ideas for a novel. It gives a way to sort ideas into setting, character, and plot, find the holes, and combine ideas so each makes the others stronger.*
 
@@ -3133,7 +3505,7 @@ A short story can rest on one good idea. A novel usually needs a couple of stron
 - Do not collect ideas forever. When the columns are filled and connected, start outlining or drafting; see `worldbuilding-worldbuilders-disease`.
 - Setting ideas still need to be sorted into physical, cultural, and magical material when you develop them; see `worldbuilding-three-part-split`.
 
-## 64. worldbuilding-three-part-split
+## 68. worldbuilding-three-part-split
 
 *Use when you are starting to build a fantasy or science fiction world and do not know what to work out, your worldbuilding notes are a jumble, or you suspect you have missed whole areas such as food, taboos, or weather. It splits world notes into physical setting, cultural setting, and magic, with prompts for each.*
 
@@ -3165,7 +3537,7 @@ Organize world notes into three documents. Each answers a different question, an
 - Pick items that make each other more interesting. A river that floods yearly matters more once a festival, a law, and a trade route depend on it.
 - To keep the build tied to the story, begin from the ideas you combined with `worldbuilding-idea-intersection`.
 
-## 65. worldbuilding-worldbuilders-disease
+## 69. worldbuilding-worldbuilders-disease
 
 *Use when you have been building a world for months or years and have not started the book, every new detail opens ten more questions, you are polishing languages or maps instead of writing, or you cannot tell how much worldbuilding is enough before drafting. It gives a way to cap the work and aim it.*
 
@@ -3193,7 +3565,7 @@ Every worldbuilding element is a rabbit hole. Food leads to social customs, whic
 - A new writer often cannot yet tell where preparation time pays off. That judgment improves with each book, so expect to build more usefully over time.
 - For deciding what to build and what to merely suggest, see `worldbuilding-hollow-iceberg`. For choosing areas to work through, see `worldbuilding-three-part-split`.
 
-## 66. worldbuilding-hollow-iceberg
+## 70. worldbuilding-hollow-iceberg
 
 *Use when a draft reads like an encyclopedia, you feel you must put all your worldbuilding on the page, readers say the opening is dull or overloaded, or you wonder whether you have too much or too little worldbuilding. It covers what to build in depth, what to only evoke, and a two-part test for excess.*
 
@@ -3226,7 +3598,7 @@ The sign is reader confusion. Early readers will tell you where they could not t
 - If explaining something does not move the plot, half the audience will want more and half will be bored, so decide on purpose.
 - For the cost of heavy openings, see `worldbuilding-learning-curve-and-exposition`. For concrete grounding of scenes, see `worldbuilding-pyramid-of-abstraction`. For deadlines, see `worldbuilding-worldbuilders-disease`.
 
-## 67. worldbuilding-pyramid-of-abstraction
+## 71. worldbuilding-pyramid-of-abstraction
 
 *Use when a scene feels like talking heads in a void, a worldbuilding or magic explanation reads as an info dump, readers lose track of where a scene is, or a character's reflection drifts too far into abstraction. Gives a way to anchor scenes in concrete detail so abstract material is earned.*
 
@@ -3258,7 +3630,7 @@ A scene where two characters argue about a prophecy. Unanchored, it is two voice
 - This is a tool for managing attention, not a quota of adjectives. With practice anchoring becomes automatic, and a writing group can flag the places where they lost the scene or the viewpoint.
 - Pair it with `worldbuilding-viewpoint-filtered-description` so the anchors reflect what this character would notice, and with `worldbuilding-hollow-iceberg` to decide how much of the hidden world to surface at all.
 
-## 68. worldbuilding-naming
+## 72. worldbuilding-naming
 
 *Use when you need names for characters, places, or things in an invented world, names feel random or inconsistent across a culture, or you worry about accidentally borrowing a real word or insulting a real culture. Gives three naming approaches and the checks to run on any name.*
 
@@ -3285,7 +3657,7 @@ A culture's names should feel like they belong together. There are three ways to
 - Keep the number of names low in an opening chapter. See `worldbuilding-learning-curve-and-exposition`.
 - Make the choice on purpose. A name pattern or cultural source you chose deliberately holds up better than one you drifted into.
 
-## 69. worldbuilding-learning-curve-and-exposition
+## 73. worldbuilding-learning-curve-and-exposition
 
 *Use when an opening is crammed with names and jargon, beta readers say they are confused or bored by the setup, you do not know how much of your world to explain, or you are deciding whether to set a story in the real world. Gives the learning curve model and ways to deliver exposition through a character.*
 
@@ -3319,7 +3691,7 @@ Every book asks the reader to learn something: who the people are, how the world
 
 See `worldbuilding-viewpoint-filtered-description` and `worldbuilding-pyramid-of-abstraction` for the mechanics, and `worldbuilding-hollow-iceberg` for how much to build before writing.
 
-## 70. worldbuilding-gorilla-in-the-phone-booth
+## 74. worldbuilding-gorilla-in-the-phone-booth
 
 *Use when a late reveal, new character, or new worldbuilding element steals attention from the main thread, readers say a subplot was more interesting than the main plot, or you are deciding when to introduce a big new idea. Gives a test for elements that are too interesting for where they sit.*
 
@@ -3345,7 +3717,7 @@ A gorilla in a phone booth is an element so interesting that readers stop caring
 - Seeding material for a sequel can start around the three-quarter mark, kept light so it does not distract, and be brought to a head in the denouement or epilogue. Do this after the first book works.
 - This is the reverse side of showing off the world. See `worldbuilding-learning-curve-and-exposition`.
 
-## 71. worldbuilding-viewpoint-filtered-description
+## 75. worldbuilding-viewpoint-filtered-description
 
 *Use when scene-setting reads like a travel brochure, you are unsure how to open a chapter or how often to describe a place, every chapter in the same location feels repeated, or readers cannot tell whose head they are in. Gives a method for describing settings through the viewpoint character so description also builds character.*
 
@@ -3381,7 +3753,7 @@ Describe a place the way this character, in this mood, would see it. A neutral a
 
 Scene structure, showing and telling, viewpoint, and machine-sounding habits.
 
-## 72. scene-craft
+## 76. scene-craft
 
 *Use for questions about how a scene is built or told: the rhythm of action and response, whether to show or tell a trait, and the point-of-view and tense choice (first, second, or third person; past or present). Routes to the skills on scene and sequel pacing, showing versus telling, and the viewpoint and tense matrix.*
 
@@ -3392,6 +3764,8 @@ A scene has a shape (what happens, then how characters respond), a level of deta
 - `scene-and-sequel`: alternating action with response, and tuning pacing by how long characters get to react.
 - `show-dont-tell`: the apprentice rule to show, and the journeyman judgment of when telling is the better tool.
 - `viewpoint-and-tense`: a choice matrix for person, tense, omniscience, unreliable narrators, and switching modes.
+- `scene-access-limits`: what a character can see, hear, reach, and infer, and who owns each decision.
+- `scene-dialogue-behavior`: telling action that changes the next beat from decorative and procedural motion, and where a beat belongs in an exchange.
 
 For machine-sounding prose, load `prose-ai-tells`.
 
@@ -3405,13 +3779,15 @@ For machine-sounding prose, load `prose-ai-tells`.
 | "This scene spends forever proving a small point" | `show-dont-tell` |
 | "First person or third?" / "past or present tense?" | `viewpoint-and-tense` |
 | "Can I use omniscient?" / "can my narrator lie?" / "can I switch viewpoint?" | `viewpoint-and-tense` |
+| "Characters know things they shouldn't" / "she understood it after one glance" / "the expert's knowledge leaks to everyone" | `scene-access-limits` |
+| "The dialogue reads like a transcript" / "everyone nods and sips between lines" / "a meeting scene is all talk and props" | `scene-dialogue-behavior` |
 | "How do I plan what happens in the scene?" | `plot-promise-progress-payoff` |
 
 #### Notes
 
 - Each child has a section on where common line-level advice differs. Follow it when the two sources conflict.
 
-## 73. scene-and-sequel
+## 77. scene-and-sequel
 
 *Use when pacing feels relentless or sluggish, when a chapter of nonstop action leaves readers numb, when you wonder how long characters should react after a big event, or when you need to slow a thriller without killing momentum. Gives a scene then sequel rhythm and a way to tune it by book length.*
 
@@ -3445,7 +3821,7 @@ Every scene that ends with a change is followed by a sequel: a beat where the ch
 - Scene and sequel is a diagnostic. It does not require every scene to be followed by a labeled reaction section. Sometimes a single paragraph of response is enough.
 - Use `plot-promise-progress-payoff` to decide what the scene itself should deliver.
 
-## 74. show-dont-tell
+## 78. show-dont-tell
 
 *Use when you are unsure whether to dramatize a trait or just state it, when a critique says tell not show, when a scene spends too many words proving something minor, or when a summary feels like a cheat. Gives an apprentice rule and a journeyman judgment for choosing between showing and telling.*
 
@@ -3488,7 +3864,7 @@ Default: use this approach to decide how much of the story's word budget a trait
 
 Related: `prose-ai-tells` for prose that tells in a machine-sounding way.
 
-## 75. viewpoint-and-tense
+## 79. viewpoint-and-tense
 
 *Use when choosing first, second, or third person and past or present tense, when you wonder whether to use omniscient narration, how many first-person narrators a book can bear, whether a narrator can be unreliable, or whether to switch viewpoint or tense mid-book. Gives a choice matrix with the strengths and costs of each mode.*
 
@@ -3531,7 +3907,105 @@ Common line-level guidance tells writers to establish one point of view and stay
 
 Default: for the choice of mode, cast fit, and what information to withhold, which are structure and character questions, follow the approach above. For executing a limited viewpoint on the page, including how close the narration sits to the character's thoughts, how the character's own words color the narration, and catching accidental slips while editing, follow the stricter line-level advice. If you have chosen omniscient on purpose, relax the single-head rule but keep each paragraph clear about whose perception it is.
 
-## 76. prose-ai-tells
+## 80. scene-access-limits
+
+*Use when characters seem to know things the scene has not given them, a viewpoint character notices or understands too much, an expert's knowledge is not kept apart from everyone else's, or someone makes a choice that belongs to someone else. Separates what a character can see, hear, reach, and infer, and who owns each decision.*
+
+A character knows only what the scene lets them know. Check each thing a character acts on against how they got it.
+
+#### What a character can know here
+
+Four separate limits: what they can **see**, **hear**, physically **reach**, and correctly **infer**. Seeing something is not understanding it. Getting close once is not having time to inspect it. If a character acts on something none of the four gave them, the scene owes the reader how they got it.
+
+#### How knowledge is held
+
+Sort what is known into three layers, relative to this character, this moment, and this audience:
+
+- **Shared**: the common understanding of the setting. It constrains the scene without explanation.
+- **Specialized**: what an expert or insider knows. It changes risk and the methods available.
+- **Private**: what one person alone knows, wants, or has decided. It drives what they choose, hide, distort, test, or say.
+
+Then name the status of each statement: an observation, a report, a judgment, an intention, or a mistake. A character who repeats a rumor, states a guess as fact, or misreads what they saw is working from a different status than one who watched it happen.
+
+#### Who owns what
+
+Keep five roles apart, even when one person fills several:
+
+- the **experiential center**: whose perception the reader gets
+- the **problem owner**: whose problem it is
+- the **decision owner**: who actually chooses
+- the **domain actor**: the one with the relevant skill
+- the **execution owner**: who carries it out
+
+Viewpoint decides what pressure reaches the reader first. It does not automatically give that character authority, expertise, or control. A consequential scene reads best as: perception or misreading, narrowed options, a decision, an action, a consequence, a reassessment. That is a diagnostic, not a formula, and not a ban on omniscient or multi-viewpoint fiction.
+
+#### Checks
+
+- `scene.access.01` For each thing a character acts on, which of seeing, hearing, reaching, or inferring gave it to them in this scene?
+- `scene.access.02` Does any character understand something they only saw, or inspect something they only passed once?
+- `scene.access.03` Are shared, specialized, and private knowledge kept apart (an expert's judgment does not leak to a layperson, and a private motive is not known to others)?
+- `scene.access.04` Is each consequential choice made by the character who owns that decision, and does it follow from what they perceived or misread?
+- `scene.access.05` When a character states a fact, is it clear whether it is an observation, a report, a judgment, an intention, or a mistake?
+
+#### Cautions and exceptions
+
+- An omniscient narrator sets its own limits. Apply these checks to what the narrator has established, not to a single head.
+- Mysteries depend on withholding. Check that the withheld thing is withheld from the character, not just left out by the author.
+- Do not narrate the analysis. Let the scene carry it. For the scene's response structure, see `scene-and-sequel`; for dialogue under pressure, see `scene-dialogue-behavior`.
+
+## 81. scene-dialogue-behavior
+
+*Use when a dialogue scene reads like a transcript, characters take orderly turns, people nod and sip between every line, or a meeting, interview, or lab scene is all talk and props. Separates action that changes the next beat from decorative and procedural motion, and says where a beat belongs.*
+
+Dialogue is people under pressure, not information sorted by speaker. A scene is not alive just because hands move or cups and files are handled. The useful question is whether a character's action or reaction reveals what they want, shows the last line landing, changes their next move, or changes the situation.
+
+#### Three kinds of action
+
+1. **Functional action** comes from what the character wants right now and changes how the exchange goes. It can expose concealment, hesitation, status, or expertise; claim or give up space; cut off access to an object or person; make a lie harder to keep up; force the other person to change their next question; or have a physical or social consequence. The test: **the reaction changes the next beat.**
+2. **Decorative action** is motion with no meaning specific to this scene: a smile, frown, nod, sip, or look away that any character could do without affecting anything. It is not forbidden. It is weak as a repeated speaker tag or as proof that a static scene is moving.
+3. **Procedural action** performs the task: opening a file, reading a result, moving equipment. It can be necessary and accurate, and a scene made only of procedure can still be socially dead. Tie it to pressure: who rushes, hesitates, protects something, hides a result, challenges an assumption, or notices a mistake.
+
+#### Reading an exchange
+
+Read it as a chain, at the level of the exchange and not line by line:
+
+- the speaker has a local goal
+- they choose what to say, leave out, soften, or distort for this listener
+- the listener hears it through a different goal and a different amount of knowledge
+- they control the reply, or fail to
+- the reply changes the next line, action, or tactic
+
+The effect may come late, or stay unresolved. A believable reply may evade, test, bargain, redirect, misunderstand, delay, or answer only the safest part.
+
+#### Where a beat belongs
+
+Put an action beat where something changes: new information lands, a private fact is nearly exposed, someone lies or changes their story, status or control shifts, someone decides whether to comply, evidence contradicts a favored explanation, composure weakens, or the relationship turns warmer, colder, or more dangerous. The beat can be small. Make it specific to this person, this pressure, and this place.
+
+#### Do not overcorrect
+
+- Action density is not a goal. Do not spread beats evenly, and do not give every line its own gesture, tone label, and inner reaction.
+- Rapid dialogue can stay untagged when the voices, positions, and pressure are clear.
+- An emotion label or a gesture on every line is not a repair. "Angrily" can clarify delivery, but it does not show what the anger makes the character do.
+- A plain "He said nothing" is a legitimate sentence. It needs no gesture, motive, or consequence added to be allowed.
+- When the dialogue or action already carries the response, do not add a label saying it answered.
+- If a scene is meant to leave something unresolved, leave it. Do not invent an explanation to close the exchange.
+- Keep the viewpoint selective. Do not cut to every participant for a reaction; let the viewpoint character notice what they would under this pressure, misread some of it, and miss the rest.
+
+#### Checks
+
+- `scene.dialogue.01` For each action beat in a sustained exchange, does the reaction change the next line, tactic, or situation? If not, it is decorative or procedural.
+- `scene.dialogue.02` Are beats placed where something changes (information lands, a lie, a shift in power, a decision) and not spread evenly or attached to every line?
+- `scene.dialogue.03` Is any procedural action (opening, reading, moving things) connected to human pressure, or is the scene static with props?
+- `scene.dialogue.04` Was a flat exchange "fixed" by adding emotion labels or a gesture to every line? Untagged rapid dialogue and plain stated silence are fine when voices and pressure are clear.
+- `scene.dialogue.05` Does the viewpoint character notice only what they would under this pressure, instead of the scene cutting to every participant's reaction?
+
+#### Cautions and exceptions
+
+- Comic, cozy, and ritual exchanges can run in deliberately tidy turns. Keep that when the scene is built on the rhythm.
+- This is a judgment about what a beat does, not a list of banned gestures. Replacing every "did not answer" with a smile or a turn of the head repeats the same mechanical habit.
+- For stiff or staged lines, see `prose-ai-tells` (dialogue patterns). For planning what each speaker wants before drafting, see `character-floating-outline-for-dialogue`.
+
+## 82. prose-ai-tells
 
 *Use when drafting fiction or asked to humanize, de-slop, or check machine-sounding prose. Detects and avoids over-explanation, stock rhythms, stilted dialogue, and narration that states the subtext.*
 
@@ -3796,8 +4270,9 @@ Habits that show up in machine-written scenes in particular. Patterns 13 to 15 a
 
 ##### 18. Tag and gesture filler (*weak alone*)
 
-**Watch for:** "said softly", "whispered", "voice barely above a whisper" repeated across a page; nodded, smiled, sighed between every pair of lines.
-**Problem:** Beats that fill pauses without adding character. Cut them, or replace them with an action that belongs to the scene.
+**Watch for:** "said softly", "whispered", "voice barely above a whisper" repeated across a page; nodded, smiled, sighed, sipped, or looked away between every pair of lines; a scene whose only motion is handling props or doing a task.
+**Problem:** Decorative action (any character could do it without changing anything) and procedural action with no human pressure in it fill pauses without adding character. Cut them, or replace them with an action that changes the next beat: it reveals an agenda, forces a new tactic, or changes the situation.
+**Keep when:** the beat sits where something changes (information lands, a lie, a shift in power, a decision), or an untagged exchange is already clear without it. A plain "He said nothing" is a sentence, not a defect, and a flat exchange is not repaired by a gesture on every line.
 
 ##### 19. Stacked similes (*weak alone*)
 

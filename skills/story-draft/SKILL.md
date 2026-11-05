@@ -1,5 +1,6 @@
 ---
 name: story-draft
+compatibility: Needs Python 3 (standard library only) to run the bundled text checker. Install the whole skill set together; some skills read sibling skill folders.
 metadata:
   type: workflow
 description: >
@@ -31,6 +32,18 @@ Write prose only when the settings say the AI drafts. The draft is working mater
 - **Nothing exists at all:** ask one question about the story and offer `story-develop`.
 - **No voice or style file, and no earlier chapters:** ask for a paragraph of the writer's own writing or the voice they want, or offer `story-voice`, and wait.
 
+## Reading a long story
+
+Once the story has five or more chapters, read it in tiers instead of loading every chapter:
+
+1. The chapter in hand and its beats, in full.
+2. The chapters just before and just after it, in full.
+3. Every other chapter as its card in `work/cards/`. Open the prose only when a card is missing or stale, when the task needs the exact wording, or when a card disagrees with another source. The prose wins: correct the card from it.
+
+Run `cards.py report <project folder>` from the `story-continue` skill folder (full path, no `cd`) to see missing and stale cards. A card that agrees with everything else is enough: do not open its chapter just to be thorough. A card points to its chapter; a fact that is only on a card is not settled.
+
+Writing a card is housekeeping, not a fix. When you had to open a chapter because its card was missing or stale, rewrite the card from the chapter and stamp it (see Chapter cards in `story-continue`), and say so in one line. Never change a chapter to match its card.
+
 ## Drafting a chapter
 
 - Follow the beats in order: the goal, each scene and how it turns out, the hook out. If a beat does not work on the page, say so and propose a change; do not skip it quietly.
@@ -49,7 +62,8 @@ Drafted dialogue fails in one predictable way: everyone takes turns delivering c
 - **Each speaker sounds like themself.** Give them their own vocabulary, sentence length, and things they avoid saying. Cover the names: you should still know who is talking.
 - **Facts come out contested and in fragments**, as accusations, half-denials, and slips, never as a briefing for the reader. If the reader must learn how something works, let it arrive in pieces that someone is fighting over.
 - **Nobody states the subtext.** "I feel betrayed because you promised" becomes "You said you'd stay."
-- **Tags:** "said", or none. Put an action between lines instead of an adverb.
+- **Tags:** "said", or none. Rapid exchanges can stay untagged when the voices and pressure are clear.
+- **Action only where it does work.** Put an action between lines where something changes: information lands, a lie is tested, power shifts, restraint fails, or a decision turns. It earns its place when the reaction changes the next beat. A nod, sip, or look away that anyone could do, or a task step with no human pressure in it, is filler. Do not spread beats evenly, and do not "fix" flat dialogue by adding a gesture or an emotion label to every line. A plain "He said nothing" is fine.
 
 ## Leave the meaning to the reader
 
@@ -62,7 +76,7 @@ Drafted dialogue fails in one predictable way: everyone takes turns delivering c
 When the settings give the AI both drafting and revising, keep going chapter by chapter until the check-in the settings name (`check-in`: every chapter, every three chapters, or every part of the book). For each chapter:
 
 1. **Draft** it as above.
-2. **Check it silently** following `story-check`, including the dialogue and over-explanation pass. Keep the findings as a working note in `work/critique-reports/`; do not show the raw report.
+2. **Check it silently** following `story-check`, including the dialogue and over-explanation pass and the text checker (`check_text.py` in the `story-check` skill folder, run with its full path on your chapter, adding `--words MIN-MAX` when the beats or the project's rules state a length range; fix real slips such as leaked wrapper text, an unclosed quote, a duplicated paragraph, a last line that stops mid-sentence, or a loop of repeated text, and bring a chapter that misses the stated length back into range). Keep the findings as a working note in `work/critique-reports/`; do not show the raw report.
 3. **Revise** what must be fixed, following `story-revise`, and delete each finding from the working note once fixed, or mark it `[resolved] declined: <reason>` when you keep the text on purpose: keep the earlier version in `work/drafts/_previous/`, change as little as each finding needs, and re-check your own new text so one habit is not swapped for another. At most two passes.
 4. **Continuity**: compare the chapter with `kb/` and the earlier chapters. If it contradicts a settled fact and you cannot fix it inside the chapter, stop and ask.
 5. **Queue the new facts** as pending, major or minor, as described below.
@@ -76,10 +90,17 @@ You may draft later chapters on top of pending **minor** facts; list those depen
 - An approved fact goes into its `kb/` page, and its queue line is removed.
 - A rejected fact: change its queue line to start with `[rejected]` (it is never proposed again), and set every chapter that used it to `<!-- status: needs revision: <the rejected fact> -->`. Revising those comes first, through `story-revise`.
 - An accepted chapter is trusted, and trust is the default, so accepting it means deleting its status line and deleting its open findings from the check report (or marking a kept one `[resolved] declined: accepted as is`), and deleting the report file when nothing is left in it. Do this only on the writer's word, and record nothing else: no date, no "accepted by".
+- If `work/drafts/_delivered/` holds a copy of that chapter, compare it with the accepted chapter using `diff_chapter.py` in the `story-edits` skill folder (full path, no `cd`). Unchanged: delete the copy now. Edited: keep it, because `story-edits` learns from the writer's changes and then deletes it.
 
 ## Saving and handing over
 
 Save the chapter to `work/drafts/` with the project's naming, or the beats file's `NNN-slug.md`. Its first line is `<!-- status: draft -->`. Never remove that line yourself; only the writer's approval does, and a chapter with no status line is trusted.
+
+Also save an exact copy of the chapter, as handed over, to `work/drafts/_delivered/` under the same file name, replacing any earlier copy. It is how the writer's later edits can be told from your text. Keep it only until those edits have been learned from or the chapter is accepted unchanged.
+
+Then write or refresh the chapter's card (see Chapter cards in `story-continue`) when the story has five or more chapters or the chapter already has a card.
+
+If the project keeps a promise ledger, update it: mark each promise the chapter moved `advanced` or `paid`, and add a line for each new promise the chapter made (the line format is in `story-plan`). Change nothing else in it.
 
 Then tell the writer, in the craft language the settings name:
 
@@ -95,29 +116,44 @@ Never describe the chapter as finished or good. Describe what you did.
 <!-- generated:checks:start -->
 ## Craft checks (generated)
 
-Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the named skill only when you need its full reasoning.
+Apply each check that fits this story. In the files you write (beats, reports, notes), record its ID with a short note of what it found in this story, or `n/a` with a reason. Never show IDs or skill names to the writer: in conversation, ask or say the substance in the craft language the settings name. A deliberate break of a framework is a valid answer, not a defect: say it is deliberate and do not push the story back toward the formula. Load the skill listed for a check's family (after the list) only when you need its full reasoning.
 
-- `plot.ppp.02` For this stretch, name what tells the reader the story is moving toward one of those promises. A stretch with no signpost reads as a stall. (`plot-promise-progress-payoff`)
-- `plot.promises.05` Does each new character, sequence, or chapter make its own small promise, and does the chapter signal it was delivered? (`plot-kinds-of-promises`)
-- `plot.layering.01` For each important scene, name the outer goal and the inner struggle. Does the outer obstacle press on the inner flaw? (`plot-layering-conflict`)
-- `character.dialogue.02` Does the refusal, or the compromise, come from the character's own nature, so a different character would have answered differently? (`character-floating-outline-for-dialogue`)
-- `character.dialogue.03` Does each reveal about a character come through what they say and how they push, not through the narrator explaining? (`character-floating-outline-for-dialogue`)
-- `character.presenting.02` Does any character state their own motive to someone who already knows it? (`character-presenting-a-character`)
-- `character.presenting.03` With dialogue tags and setting removed, could a reader tell who is speaking from the lines alone? (`character-presenting-a-character`)
-- `character.relatable.02` Does a trait carry the reader's sympathy, or is the narration telling them to feel it? (`character-relatability-toolkit`)
-- `worldbuilding.filtered.02` Is each description a catalog of what exists, or a record of what this person notices? (`worldbuilding-viewpoint-filtered-description`)
-- `worldbuilding.pyramid.01` Find the most abstract paragraph (an explanation, a reflection, a cosmology). What concrete detail sits in the paragraphs just before and after it? (`worldbuilding-pyramid-of-abstraction`)
-- `worldbuilding.pyramid.04` Is a figure of speech colliding with the world, such as "he flew across the room" where people really fly? (`worldbuilding-pyramid-of-abstraction`)
-- `worldbuilding.curve.02` For each paragraph of explanation, who is thinking it, and why now? (`worldbuilding-learning-curve-and-exposition`)
-- `scene.show.01` For each stated trait or emotion, does it matter enough to the story to be shown? If yes, find one specific action or detail; if no, leave the plain statement. (`show-dont-tell`)
-- `scene.pov.02` Within a scene, does the narration stay in one head, and is any switch deliberate and clear to the reader? (`viewpoint-and-tense`)
-- `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed. (`prose-ai-tells`)
-- `prose.tells.02` A closer that explains the beat the scene already showed. (`prose-ai-tells`)
-- `prose.tells.03` An aphorism in the narration in place of the character's actual state. (`prose-ai-tells`)
-- `prose.tells.09` Narrated significance: the narration announces that a moment matters instead of showing its consequence. (`prose-ai-tells`)
-- `prose.tells.10` Reaction riders: an appended clause that tells the reader what to feel about a simple action. (`prose-ai-tells`)
-- `prose.tells.13` An emotion named right after it is shown. (`prose-ai-tells`)
-- `prose.tells.15` Dialogue that states its own subtext. (`prose-ai-tells`)
-- `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording. (`prose-ai-tells`)
-- `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader. (`prose-ai-tells`)
+- `character.entry.01` At first entry, has the prose shown the character's role or identity, or has only the author known it?
+- `character.entry.02` Is the character's link to the current event or to the viewpoint character clear?
+- `character.entry.03` Does the reader get a first impression the viewpoint character would actually form?
+- `character.entry.04` For a villain, love interest, rival, or core ally: is there at least one recognizable trait (appearance, clothing, posture, voice, a habitual gesture, or how others react)?
+- `character.entry.05` Is anything about this character, their place, or their relationships assumed because the author knows it, and not shown?
+- `scene.access.01` For each thing a character acts on, which of seeing, hearing, reaching, or inferring gave it to them in this scene?
+- `scene.access.02` Does any character understand something they only saw, or inspect something they only passed once?
+- `scene.access.03` Are shared, specialized, and private knowledge kept apart (an expert's judgment does not leak to a layperson, and a private motive is not known to others)?
+- `scene.access.05` When a character states a fact, is it clear whether it is an observation, a report, a judgment, an intention, or a mistake?
+- `scene.dialogue.01` For each action beat in a sustained exchange, does the reaction change the next line, tactic, or situation? If not, it is decorative or procedural.
+- `scene.dialogue.02` Are beats placed where something changes (information lands, a lie, a shift in power, a decision) and not spread evenly or attached to every line?
+- `scene.dialogue.04` Was a flat exchange "fixed" by adding emotion labels or a gesture to every line? Untagged rapid dialogue and plain stated silence are fine when voices and pressure are clear.
+- `scene.dialogue.05` Does the viewpoint character notice only what they would under this pressure, instead of the scene cutting to every participant's reaction?
+- `plot.ppp.02` For this stretch, name what tells the reader the story is moving toward one of those promises. A stretch with no signpost reads as a stall.
+- `plot.promises.05` Does each new character, sequence, or chapter make its own small promise, and does the chapter signal it was delivered?
+- `plot.layering.01` For each important scene, name the outer goal and the inner struggle. Does the outer obstacle press on the inner flaw?
+- `character.dialogue.02` Does the refusal, or the compromise, come from the character's own nature, so a different character would have answered differently?
+- `character.dialogue.03` Does each reveal about a character come through what they say and how they push, not through the narrator explaining?
+- `character.presenting.02` Does any character state their own motive to someone who already knows it?
+- `character.presenting.03` With dialogue tags and setting removed, could a reader tell who is speaking from the lines alone?
+- `character.relatable.02` Does a trait carry the reader's sympathy, or is the narration telling them to feel it?
+- `worldbuilding.filtered.02` Is each description a catalog of what exists, or a record of what this person notices?
+- `worldbuilding.pyramid.01` Find the most abstract paragraph (an explanation, a reflection, a cosmology). What concrete detail sits in the paragraphs just before and after it?
+- `worldbuilding.pyramid.04` Is a figure of speech colliding with the world, such as "he flew across the room" where people really fly?
+- `worldbuilding.curve.02` For each paragraph of explanation, who is thinking it, and why now?
+- `scene.show.01` For each stated trait or emotion, does it matter enough to the story to be shown? If yes, find one specific action or detail; if no, leave the plain statement.
+- `scene.pov.02` Within a scene, does the narration stay in one head, and is any switch deliberate and clear to the reader?
+- `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
+- `prose.tells.02` A closer that explains the beat the scene already showed.
+- `prose.tells.03` An aphorism in the narration in place of the character's actual state.
+- `prose.tells.09` Narrated significance: the narration announces that a moment matters instead of showing its consequence.
+- `prose.tells.10` Reaction riders: an appended clause that tells the reader what to feel about a simple action.
+- `prose.tells.13` An emotion named right after it is shown.
+- `prose.tells.15` Dialogue that states its own subtext.
+- `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording.
+- `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader.
+
+Skill for each check family: `character.entry` character-first-entry; `scene.access` scene-access-limits; `scene.dialogue` scene-dialogue-behavior; `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.layering` plot-layering-conflict; `character.dialogue` character-floating-outline-for-dialogue; `character.presenting` character-presenting-a-character; `character.relatable` character-relatability-toolkit; `worldbuilding.filtered` worldbuilding-viewpoint-filtered-description; `worldbuilding.pyramid` worldbuilding-pyramid-of-abstraction; `worldbuilding.curve` worldbuilding-learning-curve-and-exposition; `scene.show` show-dont-tell; `scene.pov` viewpoint-and-tense; `prose.tells` prose-ai-tells.
 <!-- generated:checks:end -->

@@ -53,10 +53,25 @@ class CompilerTests(unittest.TestCase):
         self.assertEqual((stale, errors), (["story-x"], []))
         text = self.consumer()
         self.assertIn("<!-- generated:checks:start plan -->", text)
-        self.assertIn("- `plot.a.01` First check. (`plot-a`)", text)
-        self.assertIn("- `plot.b.01` Only check. (`plot-b`)", text)
+        self.assertIn("- `plot.a.01` First check.\n", text)
+        self.assertIn("- `plot.b.01` Only check.\n", text)
+        self.assertNotIn("(`plot-a`)", text)  # no per-check suffix
+        self.assertIn("Skill for each check family: `plot.a` plot-a; `plot.b` plot-b.", text)
         self.assertIn("<!-- generated:checks:start check -->", text)
         self.assertTrue(text.startswith(CONSUMER.rstrip("\n")))
+
+    def test_every_family_in_a_list_has_exactly_one_skill_pointer_so_every_check_traces_to_its_source(self):
+        self.compile()
+        import re
+        for block in re.findall(r"<!-- generated:checks:start.*?<!-- generated:checks:end[^>]*-->", self.consumer(), re.S):
+            fams = {".".join(i.split(".")[:2]) for i in re.findall(r"^- `([a-z.0-9]+)`", block, re.M)}
+            pointed = re.findall(r"`([a-z]+\.[a-z]+)` [a-z-]+", block.split("Skill for each check family:")[1])
+            self.assertEqual(sorted(fams), sorted(pointed))
+
+    def test_a_family_split_across_two_skills_is_an_error(self):
+        (self.root / "skills" / "plot-b" / "SKILL.md").write_text(skill("plot-b", "framework", "## Checks\n\n- `plot.a.09` Strays into plot-a's family.\n"))
+        _, errors, _ = self.compile(write=False)
+        self.assertTrue(any("split across skills" in e for e in errors), errors)
 
     def test_deterministic_and_check_passes_after_compile(self):
         self.compile()

@@ -127,6 +127,113 @@ class SkillTests(unittest.TestCase):
         self.assertEqual(code, 0, out)
 
 
+def stage(authored_words=10, generated_words=0):
+    gen = ""
+    if generated_words:
+        gen = "<!-- generated:checks:start -->\n" + " ".join(["check"] * generated_words) + "\n<!-- generated:checks:end -->\n"
+    return GOOD_FRAMEWORK.replace("type: framework", "type: workflow").replace("A point.", " ".join(["word"] * authored_words)) + gen
+
+
+def sizes():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("skill_sizes_under_test", LINT.parent / "skill_sizes.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def named_blocks(first, second):
+    return ("<!-- generated:checks:start spec -->\n- `plot.a.01` " + " ".join(["word"] * first) + "\n<!-- generated:checks:end spec -->\n\n"
+            "<!-- generated:checks:start beats -->\n- `plot.b.01` " + " ".join(["word"] * second) + "\n<!-- generated:checks:end beats -->\n")
+
+
+class SizeTests(unittest.TestCase):
+    def measure(self, text):
+        with tempfile.TemporaryDirectory() as tmp:
+            md = Path(tmp) / "demo" / "SKILL.md"
+            md.parent.mkdir()
+            md.write_text(text, encoding="utf-8")
+            return sizes().measure(md)
+
+    def test_every_named_generated_block_counts_as_generated_not_hand_written(self):
+        m = self.measure(stage(authored_words=50) + named_blocks(300, 400))
+        self.assertEqual(m["hand_words"], 52)  # 50 filler words plus '# Demo'
+        self.assertGreaterEqual(m["gen_words"], 700)
+        self.assertEqual(m["checks"], 2)
+
+    def test_an_unnamed_block_still_counts(self):
+        m = self.measure(stage(authored_words=10, generated_words=200))
+        self.assertGreaterEqual(m["gen_words"], 200)
+        self.assertLess(m["hand_words"], 20)
+
+    def test_size_never_fails_the_lint(self):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("lint_under_test", LINT)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        with tempfile.TemporaryDirectory() as tmp:
+            skills = Path(tmp) / "skills"
+            (skills / "demo").mkdir(parents=True)
+            (skills / "demo" / "SKILL.md").write_text(stage(authored_words=6000, generated_words=6000))
+            errors, advisories = [], []
+            mod.lint_budgets(skills, errors, advisories)
+        self.assertEqual(errors, [])
+        self.assertEqual(len(advisories), 2)
+
+    def test_above_target_is_advised_with_hand_written_and_generated_reported_apart(self):
+        s = sizes()
+        adv = s.advisories({"demo": {"kind": "stage", "hand_words": 3000, "gen_words": 2000, "checks": 100}})
+        self.assertEqual(len(adv), 2)
+        self.assertTrue(any("hand-written" in a for a in adv) and any("generated checks (100 checks)" in a for a in adv))
+
+    def test_a_skill_inside_its_targets_is_quiet(self):
+        s = sizes()
+        self.assertEqual(s.advisories({"demo": {"kind": "stage", "hand_words": 900, "gen_words": 900, "checks": 50},
+                                       "fw": {"kind": "reference", "hand_words": 500, "gen_words": 0, "checks": 0}}), [])
+
+    def test_growth_beyond_the_baseline_is_advised_only_when_large_in_percent_and_in_words(self):
+        s = sizes()
+        base = {"skills": {"demo": {"hand_words": 400, "gen_words": 400}, "tiny": {"hand_words": 20, "gen_words": 0}}}
+        quiet = {"demo": {"kind": "stage", "hand_words": 480, "gen_words": 400, "checks": 0},   # +20%
+                 "tiny": {"kind": "stage", "hand_words": 80, "gen_words": 0, "checks": 0}}      # +300% but only 60 words
+        self.assertEqual(s.advisories(quiet, base), [])
+        loud = {"demo": {"kind": "stage", "hand_words": 600, "gen_words": 400, "checks": 0}}    # +50%, +200 words
+        adv = s.advisories(loud, base)
+        self.assertEqual(len(adv), 1)
+        self.assertIn("grew from 400 to 600", adv[0])
+
+    def test_a_new_skill_with_no_baseline_is_not_a_growth_warning(self):
+        s = sizes()
+        self.assertEqual(s.advisories({"new": {"kind": "stage", "hand_words": 900, "gen_words": 0, "checks": 0}}, {"skills": {}}), [])
+
+    def test_refreshing_words_does_not_reuse_old_token_measurements(self):
+        s = sizes()
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "skills" / "demo").mkdir(parents=True)
+            (root / "scripts").mkdir()
+            md = root / "skills" / "demo" / "SKILL.md"
+            md.write_text(stage(authored_words=80))
+            s.BASELINE = root / "scripts" / "size-baseline.json"
+            s.BASELINE.write_text('{"skills":{"demo":{"whole_tokens":123}}}')
+            s.write_baseline(root)
+            baseline = s.load_baseline(s.BASELINE)
+        self.assertEqual(baseline["skills"]["demo"]["hand_words"], 82)
+        self.assertNotIn("whole_tokens", baseline["skills"]["demo"])
+
+    def test_baseline_is_written_into_the_requested_repository(self):
+        s = sizes()
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "skills" / "demo").mkdir(parents=True)
+            (root / "scripts").mkdir()
+            (root / "skills" / "demo" / "SKILL.md").write_text(stage())
+            s.BASELINE = root / "unrelated-baseline.json"
+            s.write_baseline(root)
+            self.assertTrue((root / "scripts" / "size-baseline.json").is_file())
+            self.assertFalse(s.BASELINE.exists())
+
+
 class ExtractionTests(unittest.TestCase):
     def test_framework_without_citation_fails(self):
         bad = GOOD_EXTRACTION.replace("- **Statement**: x [L2 @ 01:00]\n- **Citations**: [L2 @ 01:00]", "- **Statement**: x")
