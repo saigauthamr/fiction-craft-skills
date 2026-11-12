@@ -463,12 +463,21 @@
    "gen_tokens": 0
   },
   "prose-ai-tells": {
-   "hand_words": 993,
+   "hand_words": 1237,
    "gen_words": 0,
    "checks": 0,
-   "sha256": "742e4b652202821dfa987ee66bd79430c3ae4fa723bd79b5fb1cf50fcdfca6e0",
-   "whole_tokens": 1509,
-   "hand_tokens": 1444,
+   "sha256": "95dabd9d0d720ee80de051da2b646ef960b00a8bc095873167e848b2474dec59",
+   "whole_tokens": 1848,
+   "hand_tokens": 1783,
+   "gen_tokens": 0
+  },
+  "prose-craft": {
+   "hand_words": 1440,
+   "gen_words": 0,
+   "checks": 0,
+   "sha256": "e240fb3c82ccb197382b0d164a7d12c6a45077bc450e863149ce3fd63b2e4bb2",
+   "whole_tokens": 1977,
+   "hand_tokens": 1879,
    "gen_tokens": 0
   },
   "scene-access-limits": {
@@ -490,12 +499,12 @@
    "gen_tokens": 0
   },
   "scene-craft": {
-   "hand_words": 333,
+   "hand_words": 397,
    "gen_words": 0,
    "checks": 0,
-   "sha256": "35415fa5489a428cd87038f7474841b3d3dba7011f1f15ec7d700fb1cb1476e2",
-   "whole_tokens": 602,
-   "hand_tokens": 515,
+   "sha256": "c01c330555840e1ca160eae6ca83abfc7089e5479962e37dcc4a11c496f3f9e7",
+   "whole_tokens": 715,
+   "hand_tokens": 614,
    "gen_tokens": 0
   },
   "scene-dialogue-behavior": {
@@ -535,22 +544,22 @@
    "gen_tokens": 1078
   },
   "story-check": {
-   "hand_words": 1165,
-   "gen_words": 3320,
-   "checks": 170,
-   "sha256": "cfee13f5eb940c913501c9a49979509ea37e9efe68b348b7dd130b4f4e00e793",
-   "whole_tokens": 6994,
-   "hand_tokens": 1509,
-   "gen_tokens": 5393
+   "hand_words": 1555,
+   "gen_words": 3647,
+   "checks": 183,
+   "sha256": "a9a3fc31af465579818bf1ea58fad80168f2e8ab57d0c360ed692ec0e6ca7390",
+   "whole_tokens": 7979,
+   "hand_tokens": 1998,
+   "gen_tokens": 5889
   },
   "story-continue": {
    "hand_words": 774,
-   "gen_words": 257,
-   "checks": 7,
-   "sha256": "9e7eaf794b60afa3a10440313c267de9d1b1f63ba31ae94d3a5be1bfaf2d2ab8",
-   "whole_tokens": 1479,
+   "gen_words": 282,
+   "checks": 8,
+   "sha256": "a22eb8f40200a2f03b00945d8869cf1dd616a16074a4c399b9ebb780371e6fe6",
+   "whole_tokens": 1522,
    "hand_tokens": 1015,
-   "gen_tokens": 406
+   "gen_tokens": 449
   },
   "story-develop": {
    "hand_words": 854,
@@ -562,13 +571,13 @@
    "gen_tokens": 817
   },
   "story-draft": {
-   "hand_words": 2077,
-   "gen_words": 876,
-   "checks": 36,
-   "sha256": "8b877fb0bb51370499cf3514b7e82c2da1f2359458c1cfc67af7af503d8bdd3f",
-   "whole_tokens": 4270,
-   "hand_tokens": 2771,
-   "gen_tokens": 1399
+   "hand_words": 3171,
+   "gen_words": 1102,
+   "checks": 45,
+   "sha256": "20bedb593cbf233a2efb818cc330c62c22174a2e318c76b8a82c9e4627d415ad",
+   "whole_tokens": 5982,
+   "hand_tokens": 4142,
+   "gen_tokens": 1740
   },
   "story-edits": {
    "hand_words": 879,
@@ -616,13 +625,13 @@
    "gen_tokens": 4673
   },
   "story-revise": {
-   "hand_words": 838,
-   "gen_words": 495,
-   "checks": 28,
-   "sha256": "31be0c9ba67773e6c63e6bd428a71b51f3fa5dac546d043ed265a19e1885734a",
-   "whole_tokens": 2029,
-   "hand_tokens": 1124,
-   "gen_tokens": 841
+   "hand_words": 1009,
+   "gen_words": 699,
+   "checks": 36,
+   "sha256": "b0835b6dd80c3abae0b63c1b6e5ba0612c87f6822eefaa31ea988b0d504c6436",
+   "whole_tokens": 2588,
+   "hand_tokens": 1337,
+   "gen_tokens": 1155
   },
   "story-steer": {
    "hand_words": 450,
@@ -634,12 +643,12 @@
    "gen_tokens": 282
   },
   "story-voice": {
-   "hand_words": 367,
+   "hand_words": 729,
    "gen_words": 175,
    "checks": 3,
-   "sha256": "080221c3434c28e21b1517fde4b49d6ff55ec4bff31090d3ac3cced8c4235ae7",
-   "whole_tokens": 790,
-   "hand_tokens": 486,
+   "sha256": "5bc823ddb09f5c6a727cbd635ba4a23cc9dab32c2282331fb376ef3ffad629be",
+   "whole_tokens": 1228,
+   "hand_tokens": 920,
    "gen_tokens": 247
   },
   "story-worldbuild": {

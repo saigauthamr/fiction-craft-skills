@@ -45,7 +45,7 @@ PARTS = [
     ("Part 4. Plot", "The core model first, then structure, scene momentum, payoff, and planning.", ["plot"] + children("plot")),
     ("Part 5. Character", "The three scales first, then weaknesses and villains, presentation, and change.", ["character"] + children("character")),
     ("Part 6. Magic and worldbuilding", "Magic rules, then building the world, then showing it on the page.", ["magic-worldbuilding"] + children("magic-worldbuilding")),
-    ("Part 7. Scene craft and prose", "Scene structure, showing and telling, viewpoint, and machine-sounding habits.", ["scene-craft"] + children("scene-craft") + ["prose-ai-tells"]),
+    ("Part 7. Scene craft and prose", "Scene structure, showing and telling, viewpoint, what makes narration alive, and machine-sounding habits.", ["scene-craft"] + children("scene-craft") + ["prose-ai-tells"]),
 ]
 order = [n for _, _, ns in PARTS for n in ns]
 assert len(order) == len(set(order)), "a skill appears twice"
@@ -53,7 +53,8 @@ missing = sorted(p.name for p in skills.iterdir() if p.is_dir() and p.name not i
 assert not missing, f"not placed in the reading order: {missing}"
 
 words = {n: len(read(n)[1].split()) for n in order}
-extra = {"prose-ai-tells": [("patterns.md", "the full pattern list with fiction examples")]}
+extra = {"prose-ai-tells": [("patterns.md", "the full pattern list with fiction examples")],
+         "prose-craft": [("examples.md", "a worked before-and-after for each section")]}
 for n, fs in extra.items():
     for f, _ in fs:
         words[n] += len((skills / n / f).read_text(encoding="utf-8").split())

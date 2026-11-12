@@ -1,6 +1,6 @@
 # Reading order
 
-Every skill in the order that builds understanding, with a link to each file. 82 skills, about 56,741 words, roughly 4 hours 7 minutes at reading pace.
+Every skill in the order that builds understanding, with a link to each file. 83 skills, about 62,961 words, roughly 4 hours 34 minutes at reading pace.
 
 **To read everything in one file**, open `reading-edition.md`. It has a linked table of contents and every skill in this order.
 
@@ -8,28 +8,28 @@ Every skill in the order that builds understanding, with a link to each file. 82
 
 ## Part 1. Setting up and moving through a story
 
-Read these first. Onboarding decides who plans, drafts, and revises; the rest are the stages every story moves through, in order. Each stage adapts to those settings. (12 skills, about 84 minutes)
+Read these first. Onboarding decides who plans, drafts, and revises; the rest are the stages every story moves through, in order. Each stage adapts to those settings. (12 skills, about 95 minutes)
 
 1. [`story-onboard`](skills/story-onboard/SKILL.md): Inspects existing material, offers presets, and shows the settings change for confirmation before writing. (4 min)
 2. [`story-next`](skills/story-next/SKILL.md): Inspects project state and ownership, recommends one available next step, and stops without starting it. (2 min)
 3. [`story-adopt`](skills/story-adopt/SKILL.md): Shows an import plan, preserves originals and provenance, resumes safely, and proposes facts for approval. (4 min)
 4. [`story-develop`](skills/story-develop/SKILL.md): Asks questions or offers choices according to who leads, records settled decisions, and ends with a summary for confirmation. (6 min)
 5. [`story-plan`](skills/story-plan/SKILL.md): Drafts plans when the AI owns planning and coaches when the writer does; records craft-check evidence and saves only after approval. (16 min)
-6. [`story-draft`](skills/story-draft/SKILL.md): Follows drafting ownership and project voice; coaches when the writer drafts. (13 min)
-7. [`story-check`](skills/story-check/SKILL.md): Cites evidence against the plan, craft checks, and machine-prose patterns. (20 min)
-8. [`story-revise`](skills/story-revise/SKILL.md): The AI revises its own drafts with previous versions preserved and changes re-checked; when the writer owns revision, it gives notes and leaves prose unchanged. (6 min)
+6. [`story-draft`](skills/story-draft/SKILL.md): Follows drafting ownership and project voice; coaches when the writer drafts. (19 min)
+7. [`story-check`](skills/story-check/SKILL.md): Cites evidence against the plan, craft checks, and machine-prose patterns. (23 min)
+8. [`story-revise`](skills/story-revise/SKILL.md): The AI revises its own drafts with previous versions preserved and changes re-checked; when the writer owns revision, it gives notes and leaves prose unchanged. (7 min)
 9. [`story-edits`](skills/story-edits/SKILL.md): Compares the delivered text with the edited chapter, groups the changes by what they did, asks about the ones it cannot explain, and saves approved lessons to the voice file. (4 min)
 10. [`story-steer`](skills/story-steer/SKILL.md): Proposes numbered patches with their effects, applies approved changes, preserves old wording, and flags chapters needing revision. (3 min)
-11. [`story-continue`](skills/story-continue/SKILL.md): Summarizes open promises, offers a next-chapter choice, then hands drafting to whoever owns it. (4 min)
+11. [`story-continue`](skills/story-continue/SKILL.md): Summarizes open promises, offers a next-chapter choice, then hands drafting to whoever owns it. (5 min)
 12. [`story-learn`](skills/story-learn/SKILL.md): Teaches one technique with an example, exceptions, and a short exercise on the writer's material. (2 min)
 
 ## Part 2. Tools
 
-Design tools any writer can use, whoever writes the prose: a rules lab for magic and world rules, character build sheets, and voice demos. (3 skills, about 13 minutes)
+Design tools any writer can use, whoever writes the prose: a rules lab for magic and world rules, character build sheets, and voice demos. (3 skills, about 15 minutes)
 
 13. [`story-worldbuild`](skills/story-worldbuild/SKILL.md): Builds an ability table of costs, limits, and counters, hunts exploits, and tests what-ifs. (6 min)
 14. [`story-cast`](skills/story-cast/SKILL.md): Builds sheets with wants, needs, three scales, weaknesses, voice, and arcs; gives the opposition its own plan. (4 min)
-15. [`story-voice`](skills/story-voice/SKILL.md): Shows original demo passages from the writer's story, supports choices and blends, and saves the chosen voice only after approval. (2 min)
+15. [`story-voice`](skills/story-voice/SKILL.md): Shows original demo passages from the writer's story, supports choices and blends, and saves a voice sheet and a sample passage only after approval. (4 min)
 
 ## Part 3. Process and mindset
 
@@ -113,13 +113,15 @@ Magic rules, then building the world, then showing it on the page. (16 skills, a
 
 ## Part 7. Scene craft and prose
 
-Scene structure, showing and telling, viewpoint, and machine-sounding habits. (7 skills, about 28 minutes)
+Scene structure, showing and telling, viewpoint, what makes narration alive, and machine-sounding habits. (8 skills, about 43 minutes)
 
-76. [`scene-craft`](skills/scene-craft/SKILL.md) (hub): Routes to the skills on scene and sequel pacing, showing versus telling, and the viewpoint and tense matrix. (1 min)
+76. [`scene-craft`](skills/scene-craft/SKILL.md) (hub): Routes to the skills on scene and sequel pacing, showing versus telling, the viewpoint and tense matrix, and prose craft. (2 min)
 77. [`scene-and-sequel`](skills/scene-and-sequel/SKILL.md): Gives a scene then sequel rhythm and a way to tune it by book length. (2 min)
 78. [`show-dont-tell`](skills/show-dont-tell/SKILL.md): Gives an apprentice rule and a journeyman judgment for choosing between showing and telling. (2 min)
 79. [`viewpoint-and-tense`](skills/viewpoint-and-tense/SKILL.md): Gives a choice matrix with the strengths and costs of each mode. (3 min)
 80. [`scene-access-limits`](skills/scene-access-limits/SKILL.md): Separates what a character can see, hear, reach, and infer, and who owns each decision. (2 min)
 81. [`scene-dialogue-behavior`](skills/scene-dialogue-behavior/SKILL.md): Separates action that changes the next beat from decorative and procedural motion, and says where a beat belongs. (3 min)
-82. [`prose-ai-tells`](skills/prose-ai-tells/SKILL.md): Detects and avoids over-explanation, stock rhythms, stilted dialogue, and narration that states the subtext. (14 min)
+82. [`prose-craft`](skills/prose-craft/SKILL.md): Gives the choices that make narration alive: a mind on the page, the detail that could only be here, exact sentences, proportion, and range. (11 min)
+    - also [`examples.md`](skills/prose-craft/examples.md): a worked before-and-after for each section
+83. [`prose-ai-tells`](skills/prose-ai-tells/SKILL.md): Detects and avoids over-explanation, stock rhythms, stilted dialogue, and narration that states the subtext. (17 min)
     - also [`patterns.md`](skills/prose-ai-tells/patterns.md): the full pattern list with fiction examples

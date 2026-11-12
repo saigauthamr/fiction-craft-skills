@@ -16,12 +16,13 @@ Write prose only when the settings say the AI drafts. The draft is working mater
 1. **Read the settings** in the project's Story project block: who owns drafting, and how much craft language to use. No valid block: do not draft; offer a scene list and mention `story-onboard`.
 2. **Read the project's own rules first.** They may name the voice and style files for each part of the book, chapter length, chapter naming and numbering, a header or dateline every chapter opens with, and where open questions go. Follow them over anything here. If they name the files to load for drafting, load those and no more.
 3. **Read the chapter's beats**, the `kb/` pages its "facts to check" names, and the chapter before it. Do not load the whole knowledge base.
+4. **Read the voice file and its sample passage last**, just before you write, for how the story sounds and not only what the sheet says. Where the writer has chapters of their own, those pages are the voice. Never reuse a sentence or an image from the voice file or its sample: they show the register, and a reader would meet them twice.
 
 ## By who owns drafting
 
 - **`ai`**: draft the chapter (below).
 - **`alternate`**: write the next scene only, continuing from where the writer's last scene ends, in the writer's voice as their pages show it. Then hand the next scene back to them.
-- **`writer`**: do not write the chapter. Offer a scene list for it (who wants what, what is in the way, how it turns out, the hook out), the questions the craft checks below raise, or a line or two of illustration if the writer asks how something could go. Then offer to check their draft when it is done.
+- **`writer`**: do not write the chapter. Offer a scene list for it (who wants what, what is in the way, how it turns out, the hook out), the questions under "Before you write a scene", the questions the craft checks below raise, or a line or two of illustration if the writer asks how something could go. Then offer to check their draft when it is done.
   If they want the AI to draft after all, that is a settings change: offer `story-onboard`, which shows the change and asks first. Never change the settings yourself.
 - **`none`** (design only): there is no prose stage. Say so, and offer to refine the design instead.
 
@@ -52,6 +53,35 @@ Writing a card is housekeeping, not a fix. When you had to open a chapter becaus
 - Apply the craft checks below while you write. Avoid the machine-prose patterns listed among them.
 - Draft one chapter. Do not run ahead without the writer's go-ahead.
 
+The beats decide what happens. The four sections below decide how it reads, and then "Read it back" comes before any hand-over.
+
+## Before you write a scene
+
+Decide how the scene is lived before you write a word of it. For each scene, settle these in your notes or your reasoning, never on the page:
+
+- **Want and dread.** What the viewpoint character is trying to get or avoid here, and what they are afraid will happen instead.
+- **In and out.** The state they arrive in (the last scene, the hour, their body) and how they leave it changed.
+- **What they have wrong.** A belief, a misreading of someone, a thing they are not looking at.
+- **What only they would notice.** Two or three specifics of this place and these people that come from the character's trade, history, and want. If the first one to arrive would fit any story, throw it out and take the next.
+- **Where the words go.** The moment the scene turns gets the room. Start as late as the scene allows and stop once the change has happened.
+- **One thing the beats did not predict:** a remark, an object, or a reaction that is right for these people and was not in the plan.
+
+If an earlier chapter exists, note how it opened and how it closed, and do both differently here.
+
+## Narration
+
+Prose with the faults taken out is clean, not alive. In first person and close third the narration is the viewpoint character's experience, not a camera's record.
+
+- **Keep their mind on the page.** What they notice arrives with what they make of it, in their words, with no "she thought" in front. Let them work things out, rationalize, remember what the thing in front of them calls up, and be wrong. A scene of only actions, objects, and speech reads as filmed.
+- **A thought is not an explanation.** An explanation is yours and tells the reader what the scene means: leave it out. A thought is the character's, can be mistaken, and leads to what they do next: keep it.
+- **Carry feeling through attention and action:** what it makes them notice, avoid, do badly, or think about instead. Not a label, and not a report from the body (chest, breath, pulse, stomach). When the character would know what they feel, they can say so plainly in their own words.
+- **Pick the detail that could only be here** and make it do a job: show who is looking, change what someone does, carry history. One that works beats three that decorate.
+- **Say the exact thing.** The literal sentence first; a comparison only when it shows what the literal one cannot, taken from the character's world. Describe what is there and what happens, not what is absent ("it did not rush"). If you cannot say what a sentence claims or picture what it shows, cut it.
+- **Change speed.** Summarize or skip the routine, and slow down where the scene turns. A chapter in which every moment gets equal care has no shape.
+- **Let it be as loud as it is:** funny, blunt, ugly, or angry when the moment is. Restraint in every line is a habit too.
+
+None of this is a quota: one thought where it counts, not one in every paragraph. A project whose voice file asks for a narrator who stays outside the characters keeps that, and gets its life from what it selects. `prose-craft` has the reasoning and a worked before-and-after for each point; load it when a scene will not come alive.
+
 ## How people talk
 
 Drafted dialogue fails in one predictable way: everyone takes turns delivering clear, complete, reasonable lines. People do not talk like that, least of all in a conflict.
@@ -62,14 +92,27 @@ Drafted dialogue fails in one predictable way: everyone takes turns delivering c
 - **Each speaker sounds like themself.** Give them their own vocabulary, sentence length, and things they avoid saying. Cover the names: you should still know who is talking.
 - **Facts come out contested and in fragments**, as accusations, half-denials, and slips, never as a briefing for the reader. If the reader must learn how something works, let it arrive in pieces that someone is fighting over.
 - **Nobody states the subtext.** "I feel betrayed because you promised" becomes "You said you'd stay."
+- **Not everyone is oblique.** Dodging is one behavior among several. Some people say the blunt thing, badly or too loudly, and some scenes need the plain sentence said. If every speaker deflects with the same dry wit, that is one register again.
 - **Tags:** "said", or none. Rapid exchanges can stay untagged when the voices and pressure are clear.
 - **Action only where it does work.** Put an action between lines where something changes: information lands, a lie is tested, power shifts, restraint fails, or a decision turns. It earns its place when the reaction changes the next beat. A nod, sip, or look away that anyone could do, or a task step with no human pressure in it, is filler. Do not spread beats evenly, and do not "fix" flat dialogue by adding a gesture or an emotion label to every line. A plain "He said nothing" is fine.
 
 ## Leave the meaning to the reader
 
-- Show what happens. Do not add a sentence that names the lesson, the significance, or the feeling just shown.
+- Show what happens. Do not add a sentence that names the lesson, the significance, or the feeling just shown. This rules out the narrator's captions, not the character's thoughts.
 - The beats' turn is your aim, not your text. Never put it on the page, not even paraphrased.
-- End a scene on an image or an action, not a summary of what it meant.
+- End a scene where it has changed: on a line, an action begun, a decision, a question left open. Not on a summary of what it meant, and not on a quiet image every time.
+
+## Read it back
+
+Before handing over, read the chapter once as its reader would, start to finish. Then, in one pass:
+
+1. **Find the passage a reader would skim, and the moment the chapter turns.** If the turn is not the most alive passage in the chapter, write it again from inside the character: what they want, what they see, what they think it means. Do the same for the passage a reader would skim, or cut it. Write the passage again whole; polishing its words does not fix a passage that was never imagined.
+2. **Test the lines that sound best.** For each striking image and each closing line, say what it literally states. If it states nothing, or the picture is impossible, put the exact thing in its place.
+3. **Check that it adds up.** Follow the hours, the positions, and the objects through the chapter: what time it is, who stands where and in what order, who is holding what, what each person can see. A lamp handed away is not carried on, a shift that began at seven did not end at seven, and a count has to match the people named. Fix each slip on the page.
+4. **Count your habits.** Run `habits.py` from the `story-check` skill folder (full path, no `cd`) on the chapter. It lists, with line numbers, the comparisons, negated narration, body reports, hedges, and one-line paragraphs in the narration, and any run of sentences opening with the same word. Where one habit is carrying the page, keep the instances that do real work and rewrite the rest. The counts are a prompt to look and have no passing number.
+5. **Check the borrowings.** Look in the chapter for each example line in the voice file and each sentence of its sample. One that was reused, even with a word changed, comes out. The opening and the ending differ in kind from the previous chapter's.
+
+Leave this pass out of the hand-over. The hand-over says what the chapter does, not that it was improved.
 
 ## Autopilot (the AI drafts and revises)
 
@@ -145,6 +188,13 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `worldbuilding.curve.02` For each paragraph of explanation, who is thinking it, and why now?
 - `scene.show.01` For each stated trait or emotion, does it matter enough to the story to be shown? If yes, find one specific action or detail; if no, leave the plain statement.
 - `scene.pov.02` Within a scene, does the narration stay in one head, and is any switch deliberate and clear to the reader?
+- `prose.craft.01` For each scene, where on the page does the viewpoint character want, judge, or think something through? A scene of only actions, objects, and speech reads as filmed.
+- `prose.craft.02` For each reflection, is it the character's (partial, possibly wrong, leading to what they do next), or the author's caption on the scene?
+- `prose.craft.03` How is each strong feeling carried? If mostly by labels or body reports (chest, breath, pulse, stomach), find what the feeling makes this character notice, avoid, or do.
+- `prose.craft.04` Take the most prominent details. Could each sit unchanged in another story, and does each do a job (show who is looking, change an action, carry history, set something up)?
+- `prose.craft.05` Does any sentence or image sound meaningful without stating anything exact? Say what it literally claims or what a reader would picture.
+- `prose.craft.06` Where does the chapter spend its words? Does the moment that turns each scene get the most room, with routine summarized or skipped?
+- `prose.craft.09` Against the earlier chapters, does this one open and close in a different way, and avoid leaning on the same devices?
 - `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
 - `prose.tells.02` A closer that explains the beat the scene already showed.
 - `prose.tells.03` An aphorism in the narration in place of the character's actual state.
@@ -154,6 +204,8 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `prose.tells.15` Dialogue that states its own subtext.
 - `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording.
 - `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader.
+- `prose.tells.23` Description by denial: narration that says what did not happen or what a thing was not (weak alone).
+- `prose.tells.24` Hollow depth: a line or image that sounds meaningful and states nothing exact.
 
-Skill for each check family: `character.entry` character-first-entry; `scene.access` scene-access-limits; `scene.dialogue` scene-dialogue-behavior; `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.layering` plot-layering-conflict; `character.dialogue` character-floating-outline-for-dialogue; `character.presenting` character-presenting-a-character; `character.relatable` character-relatability-toolkit; `worldbuilding.filtered` worldbuilding-viewpoint-filtered-description; `worldbuilding.pyramid` worldbuilding-pyramid-of-abstraction; `worldbuilding.curve` worldbuilding-learning-curve-and-exposition; `scene.show` show-dont-tell; `scene.pov` viewpoint-and-tense; `prose.tells` prose-ai-tells.
+Skill for each check family: `character.entry` character-first-entry; `scene.access` scene-access-limits; `scene.dialogue` scene-dialogue-behavior; `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.layering` plot-layering-conflict; `character.dialogue` character-floating-outline-for-dialogue; `character.presenting` character-presenting-a-character; `character.relatable` character-relatability-toolkit; `worldbuilding.filtered` worldbuilding-viewpoint-filtered-description; `worldbuilding.pyramid` worldbuilding-pyramid-of-abstraction; `worldbuilding.curve` worldbuilding-learning-curve-and-exposition; `scene.show` show-dont-tell; `scene.pov` viewpoint-and-tense; `prose.craft` prose-craft; `prose.tells` prose-ai-tells.
 <!-- generated:checks:end -->

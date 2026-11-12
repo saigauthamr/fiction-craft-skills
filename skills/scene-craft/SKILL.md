@@ -3,7 +3,7 @@ name: scene-craft
 metadata:
   type: hub
 description: >
-  Use for questions about how a scene is built or told: the rhythm of action and response, whether to show or tell a trait, and the point-of-view and tense choice (first, second, or third person; past or present). Routes to the skills on scene and sequel pacing, showing versus telling, and the viewpoint and tense matrix.
+  Use for questions about how a scene is built or told: the rhythm of action and response, whether to show or tell a trait, the point-of-view and tense choice (first, second, or third person; past or present), dialogue behavior, and narration that reads flat or lifeless. Routes to the skills on scene and sequel pacing, showing versus telling, the viewpoint and tense matrix, and prose craft.
 ---
 
 # Scene Craft
@@ -17,8 +17,9 @@ A scene has a shape (what happens, then how characters respond), a level of deta
 - `viewpoint-and-tense`: a choice matrix for person, tense, omniscience, unreliable narrators, and switching modes.
 - `scene-access-limits`: what a character can see, hear, reach, and infer, and who owns each decision.
 - `scene-dialogue-behavior`: telling action that changes the next beat from decorative and procedural motion, and where a beat belongs in an exchange.
+- `prose-craft`: what makes narration alive: the viewpoint character's mind on the page, the detail that could only be here, exact sentences, proportion, and range.
 
-For machine-sounding prose, load `prose-ai-tells`.
+For machine-sounding prose, load `prose-ai-tells`. It says what to take out; `prose-craft` says what to put in.
 
 ## Which child for which problem
 
@@ -32,6 +33,7 @@ For machine-sounding prose, load `prose-ai-tells`.
 | "Can I use omniscient?" / "can my narrator lie?" / "can I switch viewpoint?" | `viewpoint-and-tense` |
 | "Characters know things they shouldn't" / "she understood it after one glance" / "the expert's knowledge leaks to everyone" | `scene-access-limits` |
 | "The dialogue reads like a transcript" / "everyone nods and sips between lines" / "a meeting scene is all talk and props" | `scene-dialogue-behavior` |
+| "It's clean but flat" / "it reads like a screenplay" / "I can't feel what she's feeling" / "every scene sounds the same" | `prose-craft` |
 | "How do I plan what happens in the scene?" | `plot-promise-progress-payoff` |
 
 ## Notes

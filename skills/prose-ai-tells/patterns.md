@@ -1,6 +1,6 @@
 # Patterns
 
-Numbered strongest first. Patterns 1 to 5 and 13 to 15 justify an edit on one sighting. A pattern marked *weak alone* needs company from other tells in the same passage before you act. Every example below is invented for this library.
+Numbered strongest first within each family. Patterns 1 to 5, 13 to 15, and 24 justify an edit on one sighting. A pattern marked *weak alone* needs company from other tells in the same passage before you act. Every example below is invented for this library.
 
 ## A. Staging instead of stating
 
@@ -160,8 +160,8 @@ Habits that show up in machine-written scenes in particular. Patterns 13 to 15 a
 
 ### 16. Stock body reactions (*weak alone*)
 
-**Watch for:** a breath she didn't know she was holding; a heart pounding or hammering; a shiver down the spine; white knuckles; a clenched jaw.
-**Problem:** Each is common in published fiction too. A passage that leans on several is running on defaults.
+**Watch for:** a breath she didn't know she was holding; a heart pounding or hammering; a shiver down the spine; white knuckles; a clenched jaw; every feeling in a chapter reported from the chest, throat, stomach, or breath.
+**Problem:** Each is common in published fiction too. A passage that leans on several is running on defaults, and a body report in place of every named emotion is the same label in a different place. Find what the feeling makes this character notice, avoid, or do.
 **Before:**
 > He let out a breath he didn't know he was holding, a shiver running down his spine.
 **After:**
@@ -169,12 +169,12 @@ Habits that show up in machine-written scenes in particular. Patterns 13 to 15 a
 
 ### 17. Stock atmosphere lines (*weak alone*)
 
-**Watch for:** the air thick with tension; silence stretching; "somewhere, a clock ticked"; the smell of ozone or petrichor.
-**Problem:** Generic mood laid over the scene instead of a detail that belongs to this place.
+**Watch for:** the air thick with tension; silence stretching; "somewhere, a clock ticked"; the smell of ozone or petrichor; an offstage sound dropped into a pause in the dialogue (a chain dragged, a dog barked, a stove ticked).
+**Problem:** Generic mood laid over the scene instead of a detail that belongs to this place. Swapping the clock for another ticking object keeps the habit.
 **Before:**
 > The air was thick with tension, and somewhere, a clock ticked.
 **After:**
-> The stove ticked as it cooled. Nobody reached for the kettle.
+> The kettle had been boiling for a minute. Nobody got up.
 
 ### 18. Tag and gesture filler (*weak alone*)
 
@@ -182,10 +182,14 @@ Habits that show up in machine-written scenes in particular. Patterns 13 to 15 a
 **Problem:** Decorative action (any character could do it without changing anything) and procedural action with no human pressure in it fill pauses without adding character. Cut them, or replace them with an action that changes the next beat: it reveals an agenda, forces a new tactic, or changes the situation.
 **Keep when:** the beat sits where something changes (information lands, a lie, a shift in power, a decision), or an untagged exchange is already clear without it. A plain "He said nothing" is a sentence, not a defect, and a flat exchange is not repaired by a gesture on every line.
 
-### 19. Stacked similes (*weak alone*)
+### 19. Reflex comparisons (*weak alone*)
 
-**Watch for:** two or more "like a..." or "as if..." comparisons in one paragraph.
-**Problem:** Comparisons crowd each other and none lands. Keep the best one.
+**Watch for:** two or more "like a..." or "as if..." comparisons in one paragraph, or one in most paragraphs of a page; the shapes "like a man who...", "the way you would...", "as if it had always..."; objects given human intentions for charm ("a pen laid down like a man who had not told his chair").
+**Problem:** Comparisons crowd each other and none lands, and a comparison in place of the literal sentence leaves the reader with the vehicle and no picture. Say the literal thing, and keep the one comparison that shows what it cannot.
+**Before:**
+> The marker sat in the stone as though the stone had grown around it, cold like a held breath, the way old iron is.
+**After:**
+> The marker would not turn. She put her weight on it and the stone step shifted before the iron did.
 
 ### 20. One register for every speaker (*weak alone*; whole-chapter pass only)
 
@@ -219,3 +223,33 @@ Habits that show up in machine-written scenes in particular. Patterns 13 to 15 a
 > "Nobody."
 > "Your father know you're in the office this late?"
 **Keep when:** the character is the kind who lectures when cornered, and the speech itself is the characterization.
+
+## F. Second-generation habits
+
+What appears once the patterns above have been avoided: clean, restrained prose that still reads as written by nobody.
+
+### 23. Description by denial (*weak alone*)
+
+**Watch for:** narration that says what did not happen or what a thing was not: "It did not rush." "It was not loud, exactly." "She did not look at him." Three or more in a passage; "not quite"; "not exactly".
+**Problem:** A denial gives the reader nothing to see, and a run of them sounds precise without choosing anything. Say what happened.
+**Before:**
+> The water did not rush. It was not stuck, exactly. She did not move.
+**After:**
+> The water slid past her shins at a walking pace. She kept still.
+**Keep when:** the reader expected the thing denied (asked a question, he did not answer), or the absence is the event.
+
+### 24. Hollow depth
+
+**Watch for:** a line that gestures at meaning and states none: "Something shifted between them." "It was the kind of quiet that had weight." "...and a great many things about it would be true." An image that cannot be pictured (a gull standing on the water).
+**Problem:** It sounds like insight and claims nothing. Ask what the sentence literally states. If there is an answer, write that; if there is none, cut the line.
+**Before:**
+> Something had changed in the room, though she could not have said what.
+**After:**
+> Nobody had sat back down.
+**Keep when:** the character truly cannot identify the thing, and the story is going to.
+
+### 25. One temperature (*whole-chapter pass only*)
+
+**Watch for:** every scene quiet and controlled; every speaker dry and oblique; every feeling understated; every scene ending on a held image or a short flat line.
+**Problem:** Restraint applied to everything is a default, as melodrama applied to everything would be. Nobody risks anything and no scene differs from the last.
+**Keep when:** the writer's voice file asks for it, or the story is built on that reserve and breaks it once on purpose.

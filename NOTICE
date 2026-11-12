@@ -38,6 +38,11 @@ foundations skills are restatements, in original words, of ideas taught in Brand
 Sanderson's 2025 lecture series on writing science fiction and fantasy. No lecture text
 is included. This project is not affiliated with or endorsed by Brandon Sanderson.
 
+The skill `prose-craft` is original to this library. It restates, in new words and with invented
+examples, ideas that are common in the teaching and editing of fiction: narrative distance and
+free indirect style, the significant detail, scene and summary, and placing a sentence's weight
+at its end. It does not come from the lecture series, and no text from any craft book is included.
+
 The Story project folder layout (a kb/ folder for settled story facts and a work/ folder
 for working documents) is compatible with the layout used by haowjy/creative-writing-skills
 (https://github.com/haowjy/creative-writing-skills, Apache License 2.0) so that projects

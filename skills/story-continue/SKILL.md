@@ -65,8 +65,9 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `plot.progress.03` For this sequence, what does the reader think it is moving toward, and what signals tell them so?
 - `character.proactive.01` What does the character want in their first scene, and does an action follow from it?
 - `scene.sequel.04` Does each sequel carry something (a revelation, a joke, a relationship beat), and does its decision launch the next scene?
+- `prose.craft.09` Against the earlier chapters, does this one open and close in a different way, and avoid leaning on the same devices?
 - `prose.tells.13` An emotion named right after it is shown.
 - `prose.tells.15` Dialogue that states its own subtext.
 
-Skill for each check family: `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.progress` plot-types-of-progress; `character.proactive` character-proactivity-toolkit; `scene.sequel` scene-and-sequel; `prose.tells` prose-ai-tells.
+Skill for each check family: `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.progress` plot-types-of-progress; `character.proactive` character-proactivity-toolkit; `scene.sequel` scene-and-sequel; `prose.craft` prose-craft; `prose.tells` prose-ai-tells.
 <!-- generated:checks:end -->

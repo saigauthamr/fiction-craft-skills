@@ -1,5 +1,6 @@
 ---
 name: story-revise
+compatibility: Needs Python 3 (standard library only) to run a bundled script. Install the whole skill set together; some skills read sibling skill folders.
 metadata:
   type: workflow
 description: >
@@ -33,7 +34,7 @@ Writing a card is housekeeping, not a fix. When you had to open a chapter becaus
 ## By who owns revising
 
 - **`ai`**: revise the AI's own text (below). When drafting alternates, revise only the passages the AI wrote; the writer's passages get notes.
-- **`writer`**: do not change the chapter. Give the writer each finding as a short note: where, what is wrong, and one way to fix it, in the craft language the settings name. Offer to check again when they have revised.
+- **`writer`**: do not change the chapter. Give the writer each finding as a short note: where, what is wrong, and one way to fix it, in the craft language the settings name. For a flat passage, give the questions to answer about the moment (what the character wants, sees, and has wrong), not replacement prose. Offer to check again when they have revised.
 - **`none`** (design only): there is no prose to revise.
 
 ## Revising
@@ -41,11 +42,12 @@ Writing a card is housekeeping, not a fix. When you had to open a chapter becaus
 1. **Keep the earlier version.** Copy the chapter to `work/drafts/_previous/` with a version number before changing it. Never overwrite the only copy.
 2. Work in priority order, must-fix first.
 3. Change as little as the finding needs. Keep the voice and the settled facts. If a fix needs a new fact, queue it as pending; never write it into `kb/`.
-4. In the check report, delete each finding once it is fixed. A finding you or the writer decide not to fix becomes `[resolved] declined: <reason>`. Only a finding deferred to later stays `[open]`, with "deferred" and why. Delete the report file when no findings are left.
-5. **Re-check your own new text** against the finding that prompted it and with the craft checks below. Do not swap one habit for a close cousin of it, such as replacing a named emotion with a stock gesture.
-6. Set the chapter's status line to `<!-- status: draft -->` (or `awaiting check-in` inside autopilot). Never remove a chapter's status line yourself; only the writer's word does that.
-7. Replace the chapter's copy in `work/drafts/_delivered/` with the text you are handing over.
-8. Rewrite the chapter's card (see Chapter cards in `story-continue`) if it has one, or if the story has five or more chapters.
+4. **A flat passage is the exception to changing little.** When the finding is that a passage has no mind in it, a generic detail, a line that states nothing, or the same weight as everything around it, swapping words will not fix it, because the passage was never imagined. Go back into the moment: what the viewpoint character wants, what they see, what they think it means, what they have wrong. Then write that passage again whole, with the same events and facts, at about the same length, in the project's voice. Leave the rest of the chapter alone.
+5. In the check report, delete each finding once it is fixed. A finding you or the writer decide not to fix becomes `[resolved] declined: <reason>`. Only a finding deferred to later stays `[open]`, with "deferred" and why. Delete the report file when no findings are left.
+6. **Re-check your own new text** against the finding that prompted it and with the craft checks below. Do not swap one habit for a close cousin of it, such as replacing a named emotion with a stock gesture or a report from the body, or a cut explanation with a comparison. Run `habits.py` from the `story-check` skill folder (full path, no `cd`) on the revised chapter and compare its counts with the earlier version's: a revision that removes one habit and doubles another has not helped.
+7. Set the chapter's status line to `<!-- status: draft -->` (or `awaiting check-in` inside autopilot). Never remove a chapter's status line yourself; only the writer's word does that.
+8. Replace the chapter's copy in `work/drafts/_delivered/` with the text you are handing over.
+9. Rewrite the chapter's card (see Chapter cards in `story-continue`) if it has one, or if the story has five or more chapters.
 
 ## Protect style-bearing material
 
@@ -81,6 +83,11 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `foundations.revision.03` Is this pass limited to one or two goals?
 - `foundations.revision.04` Is any note being applied as a fix without agreement that it points at a real problem?
 - `foundations.readers.02` For each pattern, what is the cause in the story, as opposed to the fix a reader suggested?
+- `prose.craft.01` For each scene, where on the page does the viewpoint character want, judge, or think something through? A scene of only actions, objects, and speech reads as filmed.
+- `prose.craft.02` For each reflection, is it the character's (partial, possibly wrong, leading to what they do next), or the author's caption on the scene?
+- `prose.craft.03` How is each strong feeling carried? If mostly by labels or body reports (chest, breath, pulse, stomach), find what the feeling makes this character notice, avoid, or do.
+- `prose.craft.05` Does any sentence or image sound meaningful without stating anything exact? Say what it literally claims or what a reader would picture.
+- `prose.craft.07` Is description built from what is present and what happens, or from denials and reflex comparisons?
 - `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
 - `prose.tells.02` A closer that explains the beat the scene already showed.
 - `prose.tells.03` An aphorism in the narration in place of the character's actual state.
@@ -96,13 +103,16 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `prose.tells.13` An emotion named right after it is shown.
 - `prose.tells.14` "A flicker of" and "a mix of" emotions.
 - `prose.tells.15` Dialogue that states its own subtext.
-- `prose.tells.16` Stock body reactions (weak alone).
-- `prose.tells.17` Stock atmosphere lines (weak alone).
+- `prose.tells.16` Stock body reactions, and feeling always reported from the body (weak alone).
+- `prose.tells.17` Stock atmosphere lines, and an offstage sound dropped into a pause (weak alone).
 - `prose.tells.18` Tag and gesture filler between lines of dialogue (weak alone).
-- `prose.tells.19` Stacked similes (weak alone).
+- `prose.tells.19` Reflex comparisons: stacked similes, or one in most paragraphs (weak alone).
 - `prose.tells.20` One register for every speaker (weak alone; whole-chapter pass only).
 - `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording.
 - `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader.
+- `prose.tells.23` Description by denial: narration that says what did not happen or what a thing was not (weak alone).
+- `prose.tells.24` Hollow depth: a line or image that sounds meaningful and states nothing exact.
+- `prose.tells.25` One temperature: every scene quiet, every speaker oblique, every ending a held image (whole-chapter pass only).
 
-Skill for each check family: `scene.dialogue` scene-dialogue-behavior; `foundations.revision` foundations-revision-guide; `foundations.readers` foundations-alpha-beta-readers; `prose.tells` prose-ai-tells.
+Skill for each check family: `scene.dialogue` scene-dialogue-behavior; `foundations.revision` foundations-revision-guide; `foundations.readers` foundations-alpha-beta-readers; `prose.craft` prose-craft; `prose.tells` prose-ai-tells.
 <!-- generated:checks:end -->

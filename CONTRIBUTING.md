@@ -31,6 +31,8 @@ Ordinary lint and word reports need only Python's standard library.
 
 Guidance that changes how drafts sound (dialogue, narration, the AI-tells patterns) ships only if a reader prefers the result in a blind read of two drafts from the same beats. Counts and rubrics are guards against known failures, not proof of quality. Include the two drafts and the reader's preference in your pull request.
 
+Test narration as well as dialogue. A change that helps a confrontation scene can leave a scene with one person alone in a room untouched, so use beats of more than one kind: `evals/prose-pairs/` has three. `skills/story-check/habits.py` gives the counts for a draft; treat them as a guard, never as the result.
+
 ## Where things are
 
 - `skills/`: every skill, one folder each

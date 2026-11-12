@@ -98,7 +98,8 @@ Every skill, in reading order, in one file. Generated from `skills/`; do not edi
 - [79. viewpoint-and-tense](#79-viewpoint-and-tense)
 - [80. scene-access-limits](#80-scene-access-limits)
 - [81. scene-dialogue-behavior](#81-scene-dialogue-behavior)
-- [82. prose-ai-tells](#82-prose-ai-tells)
+- [82. prose-craft](#82-prose-craft)
+- [83. prose-ai-tells](#83-prose-ai-tells)
 
 
 ---
@@ -576,12 +577,13 @@ Write prose only when the settings say the AI drafts. The draft is working mater
 1. **Read the settings** in the project's Story project block: who owns drafting, and how much craft language to use. No valid block: do not draft; offer a scene list and mention `story-onboard`.
 2. **Read the project's own rules first.** They may name the voice and style files for each part of the book, chapter length, chapter naming and numbering, a header or dateline every chapter opens with, and where open questions go. Follow them over anything here. If they name the files to load for drafting, load those and no more.
 3. **Read the chapter's beats**, the `kb/` pages its "facts to check" names, and the chapter before it. Do not load the whole knowledge base.
+4. **Read the voice file and its sample passage last**, just before you write, for how the story sounds and not only what the sheet says. Where the writer has chapters of their own, those pages are the voice. Never reuse a sentence or an image from the voice file or its sample: they show the register, and a reader would meet them twice.
 
 #### By who owns drafting
 
 - **`ai`**: draft the chapter (below).
 - **`alternate`**: write the next scene only, continuing from where the writer's last scene ends, in the writer's voice as their pages show it. Then hand the next scene back to them.
-- **`writer`**: do not write the chapter. Offer a scene list for it (who wants what, what is in the way, how it turns out, the hook out), the questions the craft checks below raise, or a line or two of illustration if the writer asks how something could go. Then offer to check their draft when it is done.
+- **`writer`**: do not write the chapter. Offer a scene list for it (who wants what, what is in the way, how it turns out, the hook out), the questions under "Before you write a scene", the questions the craft checks below raise, or a line or two of illustration if the writer asks how something could go. Then offer to check their draft when it is done.
   If they want the AI to draft after all, that is a settings change: offer `story-onboard`, which shows the change and asks first. Never change the settings yourself.
 - **`none`** (design only): there is no prose stage. Say so, and offer to refine the design instead.
 
@@ -612,6 +614,35 @@ Writing a card is housekeeping, not a fix. When you had to open a chapter becaus
 - Apply the craft checks below while you write. Avoid the machine-prose patterns listed among them.
 - Draft one chapter. Do not run ahead without the writer's go-ahead.
 
+The beats decide what happens. The four sections below decide how it reads, and then "Read it back" comes before any hand-over.
+
+#### Before you write a scene
+
+Decide how the scene is lived before you write a word of it. For each scene, settle these in your notes or your reasoning, never on the page:
+
+- **Want and dread.** What the viewpoint character is trying to get or avoid here, and what they are afraid will happen instead.
+- **In and out.** The state they arrive in (the last scene, the hour, their body) and how they leave it changed.
+- **What they have wrong.** A belief, a misreading of someone, a thing they are not looking at.
+- **What only they would notice.** Two or three specifics of this place and these people that come from the character's trade, history, and want. If the first one to arrive would fit any story, throw it out and take the next.
+- **Where the words go.** The moment the scene turns gets the room. Start as late as the scene allows and stop once the change has happened.
+- **One thing the beats did not predict:** a remark, an object, or a reaction that is right for these people and was not in the plan.
+
+If an earlier chapter exists, note how it opened and how it closed, and do both differently here.
+
+#### Narration
+
+Prose with the faults taken out is clean, not alive. In first person and close third the narration is the viewpoint character's experience, not a camera's record.
+
+- **Keep their mind on the page.** What they notice arrives with what they make of it, in their words, with no "she thought" in front. Let them work things out, rationalize, remember what the thing in front of them calls up, and be wrong. A scene of only actions, objects, and speech reads as filmed.
+- **A thought is not an explanation.** An explanation is yours and tells the reader what the scene means: leave it out. A thought is the character's, can be mistaken, and leads to what they do next: keep it.
+- **Carry feeling through attention and action:** what it makes them notice, avoid, do badly, or think about instead. Not a label, and not a report from the body (chest, breath, pulse, stomach). When the character would know what they feel, they can say so plainly in their own words.
+- **Pick the detail that could only be here** and make it do a job: show who is looking, change what someone does, carry history. One that works beats three that decorate.
+- **Say the exact thing.** The literal sentence first; a comparison only when it shows what the literal one cannot, taken from the character's world. Describe what is there and what happens, not what is absent ("it did not rush"). If you cannot say what a sentence claims or picture what it shows, cut it.
+- **Change speed.** Summarize or skip the routine, and slow down where the scene turns. A chapter in which every moment gets equal care has no shape.
+- **Let it be as loud as it is:** funny, blunt, ugly, or angry when the moment is. Restraint in every line is a habit too.
+
+None of this is a quota: one thought where it counts, not one in every paragraph. A project whose voice file asks for a narrator who stays outside the characters keeps that, and gets its life from what it selects. `prose-craft` has the reasoning and a worked before-and-after for each point; load it when a scene will not come alive.
+
 #### How people talk
 
 Drafted dialogue fails in one predictable way: everyone takes turns delivering clear, complete, reasonable lines. People do not talk like that, least of all in a conflict.
@@ -622,14 +653,27 @@ Drafted dialogue fails in one predictable way: everyone takes turns delivering c
 - **Each speaker sounds like themself.** Give them their own vocabulary, sentence length, and things they avoid saying. Cover the names: you should still know who is talking.
 - **Facts come out contested and in fragments**, as accusations, half-denials, and slips, never as a briefing for the reader. If the reader must learn how something works, let it arrive in pieces that someone is fighting over.
 - **Nobody states the subtext.** "I feel betrayed because you promised" becomes "You said you'd stay."
+- **Not everyone is oblique.** Dodging is one behavior among several. Some people say the blunt thing, badly or too loudly, and some scenes need the plain sentence said. If every speaker deflects with the same dry wit, that is one register again.
 - **Tags:** "said", or none. Rapid exchanges can stay untagged when the voices and pressure are clear.
 - **Action only where it does work.** Put an action between lines where something changes: information lands, a lie is tested, power shifts, restraint fails, or a decision turns. It earns its place when the reaction changes the next beat. A nod, sip, or look away that anyone could do, or a task step with no human pressure in it, is filler. Do not spread beats evenly, and do not "fix" flat dialogue by adding a gesture or an emotion label to every line. A plain "He said nothing" is fine.
 
 #### Leave the meaning to the reader
 
-- Show what happens. Do not add a sentence that names the lesson, the significance, or the feeling just shown.
+- Show what happens. Do not add a sentence that names the lesson, the significance, or the feeling just shown. This rules out the narrator's captions, not the character's thoughts.
 - The beats' turn is your aim, not your text. Never put it on the page, not even paraphrased.
-- End a scene on an image or an action, not a summary of what it meant.
+- End a scene where it has changed: on a line, an action begun, a decision, a question left open. Not on a summary of what it meant, and not on a quiet image every time.
+
+#### Read it back
+
+Before handing over, read the chapter once as its reader would, start to finish. Then, in one pass:
+
+1. **Find the passage a reader would skim, and the moment the chapter turns.** If the turn is not the most alive passage in the chapter, write it again from inside the character: what they want, what they see, what they think it means. Do the same for the passage a reader would skim, or cut it. Write the passage again whole; polishing its words does not fix a passage that was never imagined.
+2. **Test the lines that sound best.** For each striking image and each closing line, say what it literally states. If it states nothing, or the picture is impossible, put the exact thing in its place.
+3. **Check that it adds up.** Follow the hours, the positions, and the objects through the chapter: what time it is, who stands where and in what order, who is holding what, what each person can see. A lamp handed away is not carried on, a shift that began at seven did not end at seven, and a count has to match the people named. Fix each slip on the page.
+4. **Count your habits.** Run `habits.py` from the `story-check` skill folder (full path, no `cd`) on the chapter. It lists, with line numbers, the comparisons, negated narration, body reports, hedges, and one-line paragraphs in the narration, and any run of sentences opening with the same word. Where one habit is carrying the page, keep the instances that do real work and rewrite the rest. The counts are a prompt to look and have no passing number.
+5. **Check the borrowings.** Look in the chapter for each example line in the voice file and each sentence of its sample. One that was reused, even with a word changed, comes out. The opening and the ending differ in kind from the previous chapter's.
+
+Leave this pass out of the hand-over. The hand-over says what the chapter does, not that it was improved.
 
 #### Autopilot (the AI drafts and revises)
 
@@ -705,6 +749,13 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `worldbuilding.curve.02` For each paragraph of explanation, who is thinking it, and why now?
 - `scene.show.01` For each stated trait or emotion, does it matter enough to the story to be shown? If yes, find one specific action or detail; if no, leave the plain statement.
 - `scene.pov.02` Within a scene, does the narration stay in one head, and is any switch deliberate and clear to the reader?
+- `prose.craft.01` For each scene, where on the page does the viewpoint character want, judge, or think something through? A scene of only actions, objects, and speech reads as filmed.
+- `prose.craft.02` For each reflection, is it the character's (partial, possibly wrong, leading to what they do next), or the author's caption on the scene?
+- `prose.craft.03` How is each strong feeling carried? If mostly by labels or body reports (chest, breath, pulse, stomach), find what the feeling makes this character notice, avoid, or do.
+- `prose.craft.04` Take the most prominent details. Could each sit unchanged in another story, and does each do a job (show who is looking, change an action, carry history, set something up)?
+- `prose.craft.05` Does any sentence or image sound meaningful without stating anything exact? Say what it literally claims or what a reader would picture.
+- `prose.craft.06` Where does the chapter spend its words? Does the moment that turns each scene get the most room, with routine summarized or skipped?
+- `prose.craft.09` Against the earlier chapters, does this one open and close in a different way, and avoid leaning on the same devices?
 - `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
 - `prose.tells.02` A closer that explains the beat the scene already showed.
 - `prose.tells.03` An aphorism in the narration in place of the character's actual state.
@@ -714,8 +765,10 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `prose.tells.15` Dialogue that states its own subtext.
 - `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording.
 - `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader.
+- `prose.tells.23` Description by denial: narration that says what did not happen or what a thing was not (weak alone).
+- `prose.tells.24` Hollow depth: a line or image that sounds meaningful and states nothing exact.
 
-Skill for each check family: `character.entry` character-first-entry; `scene.access` scene-access-limits; `scene.dialogue` scene-dialogue-behavior; `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.layering` plot-layering-conflict; `character.dialogue` character-floating-outline-for-dialogue; `character.presenting` character-presenting-a-character; `character.relatable` character-relatability-toolkit; `worldbuilding.filtered` worldbuilding-viewpoint-filtered-description; `worldbuilding.pyramid` worldbuilding-pyramid-of-abstraction; `worldbuilding.curve` worldbuilding-learning-curve-and-exposition; `scene.show` show-dont-tell; `scene.pov` viewpoint-and-tense; `prose.tells` prose-ai-tells.
+Skill for each check family: `character.entry` character-first-entry; `scene.access` scene-access-limits; `scene.dialogue` scene-dialogue-behavior; `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.layering` plot-layering-conflict; `character.dialogue` character-floating-outline-for-dialogue; `character.presenting` character-presenting-a-character; `character.relatable` character-relatability-toolkit; `worldbuilding.filtered` worldbuilding-viewpoint-filtered-description; `worldbuilding.pyramid` worldbuilding-pyramid-of-abstraction; `worldbuilding.curve` worldbuilding-learning-curve-and-exposition; `scene.show` show-dont-tell; `scene.pov` viewpoint-and-tense; `prose.craft` prose-craft; `prose.tells` prose-ai-tells.
 <!-- generated:checks:end -->
 
 ## 7. story-check
@@ -730,7 +783,8 @@ Find what is not working and say where, with evidence. Never fix anything here. 
 2. **Read the project's own rules.** Any review checklist, voice rules, chapter format, or length range it names is part of the check. Where it names several voice files (for example one per part of the book), use the one that applies to this chapter.
 3. **Read the chapter, its beats, the spec, and the `kb/` pages the beats name.** Without a spec or beats, check against the frameworks, the prose patterns, and the chapter's own internal consistency, and say what you could not check.
 4. **Run the text checker first**, with its full path and the chapter file or the folder of chapters: `python3 check_text.py <chapter or folder>`. If the beats or the project's own rules state a length range for a chapter, add `--words MIN-MAX` (for example `--words 1800-2500`). It reports leaked assistant text, stray formatting, unbalanced quotes, duplicated paragraphs, encoding damage, whitespace problems, a last line that stops mid-sentence, a long phrase repeated three or more times, and a chapter outside the stated length, with line numbers. Treat each warning as something to look at, not a verdict: a real slip becomes a finding, a deliberate choice does not. A chapter that stops mid-sentence is probably cut off, so say that first. A repeated phrase may be a deliberate refrain, song, or repeated document header. A length warning is a mismatch with the plan, not a flaw in the prose: say which one the writer should change.
-5. **Read the whole chapter before noting anything.**
+5. **Run the habit counter**, the same way: `python3 habits.py <chapter or folder>`. For English prose it lists, with line numbers, the comparisons, negated narration, body reports, hedges, and one-line paragraphs in the narration, runs of sentences that open with the same word, and each chapter's first and last lines. It has no passing number and it is never a finding by itself. Use it to see what your ear misses: one habit carrying a page, or several chapters that open or close the same way.
+6. **Read the whole chapter before noting anything.**
 
 #### Reading a long story
 
@@ -756,7 +810,7 @@ Three kinds of finding have no framework check: a contradiction with `kb/` or an
 
 Rank findings by how much they hurt the chapter. End with the top three priorities and one thing the chapter does well that should be kept. A finding is removed from the report when it is fixed; one kept on purpose becomes `[resolved] declined: <reason>`, handled by `story-revise`.
 
-**A reader's report** ("is it any good?", "be a reader"): read as a skeptical reader and report in five short parts: where I got bored, where I got confused, where I stopped believing it, what I saw coming too early, what worked. Give only the three biggest problems, each with a one-line example. Then the twist test: what you think the story's biggest secret is and how sure you are, and which clue gave it away if you guessed it early. Run the craft checks silently to find the problems; say them in the reader's words. Do not save a file unless the writer asks for one.
+**A reader's report** ("is it any good?", "be a reader"): read as a skeptical reader and report in six short parts: where I got bored, where I got confused, where I stopped believing it, what I saw coming too early, what worked, and the one passage I would read aloud to someone beside the one I skimmed, both quoted. Give only the three biggest problems, each with a one-line example. Then the twist test: what you think the story's biggest secret is and how sure you are, and which clue gave it away if you guessed it early. Run the craft checks silently to find the problems; say them in the reader's words. Do not save a file unless the writer asks for one.
 
 #### Dialogue and over-explanation
 
@@ -766,6 +820,19 @@ Give these their own pass, because they are what makes drafted fiction read as m
 - **Over-explanation.** Does the narration say what a beat means after showing it, name an emotion right after showing it, announce that a moment matters, or close a scene by explaining it? Does a beat's planned turn appear in the prose as a sentence, when it should only shape the scene?
 
 Use the matching prose-pattern checks for each finding. Quote the line.
+
+#### Flat prose
+
+A chapter can be free of every fault above and still read as written by nobody. Give this its own pass too. It looks for what is missing, so it cannot be done by scanning for bad lines: read each scene and ask what it was like to be the viewpoint character in it.
+
+- **The mind.** Where does the viewpoint character want, judge, or think something through? A scene of only actions, objects, and speech is filmed, not told. Are the reflections the character's own (partial, possibly wrong, leading somewhere), or captions?
+- **Feeling.** Is it carried by labels and reports from the body, or by what the character notices, avoids, and does?
+- **Detail and exactness.** Could the main details sit in any story? Does any line sound meaningful and state nothing, or show a picture that cannot be pictured? Is description made of denials and reflex comparisons? Look at the lines the habit counter lists.
+- **Proportion.** Does the moment that turns each scene get the room, or does every moment get the same care?
+- **Range.** Is everything quiet, oblique, and controlled?
+- **Across chapters.** Does this chapter open and close the way the last ones did, and lean on the same devices?
+
+Quote the passage a reader would skim and the passage that is most alive, and say whether the chapter's turn is the alive one. A flat-prose finding names the passage and what is missing from it. Its fix is to write the passage again from inside the character, never a list of words to swap. If the project's voice file asks for a narrator who stays outside the characters, that is the style and not a finding.
 
 #### Talking to the writer
 
@@ -929,6 +996,16 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `scene.show.01` For each stated trait or emotion, does it matter enough to the story to be shown? If yes, find one specific action or detail; if no, leave the plain statement.
 - `scene.show.02` Is a minor point being proved at length, such as a passing trait or a one-time character given a dramatized scene?
 - `scene.show.03` Is the first appearance of anything the reader must remember shown, not only stated?
+- `prose.craft.01` For each scene, where on the page does the viewpoint character want, judge, or think something through? A scene of only actions, objects, and speech reads as filmed.
+- `prose.craft.02` For each reflection, is it the character's (partial, possibly wrong, leading to what they do next), or the author's caption on the scene?
+- `prose.craft.03` How is each strong feeling carried? If mostly by labels or body reports (chest, breath, pulse, stomach), find what the feeling makes this character notice, avoid, or do.
+- `prose.craft.04` Take the most prominent details. Could each sit unchanged in another story, and does each do a job (show who is looking, change an action, carry history, set something up)?
+- `prose.craft.05` Does any sentence or image sound meaningful without stating anything exact? Say what it literally claims or what a reader would picture.
+- `prose.craft.06` Where does the chapter spend its words? Does the moment that turns each scene get the most room, with routine summarized or skipped?
+- `prose.craft.07` Is description built from what is present and what happens, or from denials and reflex comparisons?
+- `prose.craft.08` Do the scenes differ in temperature, and does anyone say or do something blunt, funny, ugly, or unplanned?
+- `prose.craft.09` Against the earlier chapters, does this one open and close in a different way, and avoid leaning on the same devices?
+- `prose.craft.10` Which passage would a reader skim, and which is most alive? Quote both. Is the chapter's key moment the alive one?
 - `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
 - `prose.tells.02` A closer that explains the beat the scene already showed.
 - `prose.tells.03` An aphorism in the narration in place of the character's actual state.
@@ -944,20 +1021,23 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `prose.tells.13` An emotion named right after it is shown.
 - `prose.tells.14` "A flicker of" and "a mix of" emotions.
 - `prose.tells.15` Dialogue that states its own subtext.
-- `prose.tells.16` Stock body reactions (weak alone).
-- `prose.tells.17` Stock atmosphere lines (weak alone).
+- `prose.tells.16` Stock body reactions, and feeling always reported from the body (weak alone).
+- `prose.tells.17` Stock atmosphere lines, and an offstage sound dropped into a pause (weak alone).
 - `prose.tells.18` Tag and gesture filler between lines of dialogue (weak alone).
-- `prose.tells.19` Stacked similes (weak alone).
+- `prose.tells.19` Reflex comparisons: stacked similes, or one in most paragraphs (weak alone).
 - `prose.tells.20` One register for every speaker (weak alone; whole-chapter pass only).
 - `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording.
 - `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader.
+- `prose.tells.23` Description by denial: narration that says what did not happen or what a thing was not (weak alone).
+- `prose.tells.24` Hollow depth: a line or image that sounds meaningful and states nothing exact.
+- `prose.tells.25` One temperature: every scene quiet, every speaker oblique, every ending a held image (whole-chapter pass only).
 - `foundations.feedback.01` Is each note descriptive (what the reader felt, and where) instead of prescriptive (how to fix it)?
 - `foundations.feedback.02` Does each note point to a specific place in the text?
 - `foundations.feedback.03` Does any suggestion come from the reviewer's taste instead of the book's own promises?
 - `foundations.readers.01` Across readers, which reactions form a pattern (several readers stalling or lost in the same place), and which are single data points?
 - `foundations.readers.02` For each pattern, what is the cause in the story, as opposed to the fix a reader suggested?
 
-Skill for each check family: `character.entry` character-first-entry; `scene.access` scene-access-limits; `plot.bridges` plot-causal-bridges; `plot.reveals` plot-reveal-boundaries; `scene.dialogue` scene-dialogue-behavior; `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.bigp` plot-big-p-little-p; `plot.progress` plot-types-of-progress; `plot.coldopen` plot-cold-open-microcosm; `plot.threeact` plot-three-act-structure; `plot.tryfail` plot-try-fail-cycle; `plot.yesbut` plot-yes-but-no-and; `plot.cheer` plot-cheer-moment-sanderlanche; `plot.climax` plot-climax-placement-aftermath; `plot.foreshadow` plot-foreshadowing-twists; `plot.layering` plot-layering-conflict; `plot.payoff` plot-payoff-deniability-forgotten-promise; `plot.twist` plot-twists-promise-and-wish; `character.scales` character-proactive-relatable-capable; `character.proactive` character-proactivity-toolkit; `character.relatable` character-relatability-toolkit; `character.villain` character-villain-and-antihero-patterns; `character.dialogue` character-floating-outline-for-dialogue; `character.presenting` character-presenting-a-character; `character.trait` character-overused-trait-trap; `character.arc` character-arc-types; `character.capability` character-capability-design; `character.weakness` character-flaws-restrictions-limitations; `character.background` character-writing-unfamiliar-backgrounds; `magic.first` magic-first-law; `magic.second` magic-second-law; `magic.logic` magic-internal-and-external-logic; `worldbuilding.gorilla` worldbuilding-gorilla-in-the-phone-booth; `worldbuilding.curve` worldbuilding-learning-curve-and-exposition; `worldbuilding.filtered` worldbuilding-viewpoint-filtered-description; `worldbuilding.pyramid` worldbuilding-pyramid-of-abstraction; `scene.pov` viewpoint-and-tense; `scene.sequel` scene-and-sequel; `scene.show` show-dont-tell; `prose.tells` prose-ai-tells; `foundations.feedback` foundations-writing-group-rules; `foundations.readers` foundations-alpha-beta-readers.
+Skill for each check family: `character.entry` character-first-entry; `scene.access` scene-access-limits; `plot.bridges` plot-causal-bridges; `plot.reveals` plot-reveal-boundaries; `scene.dialogue` scene-dialogue-behavior; `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.bigp` plot-big-p-little-p; `plot.progress` plot-types-of-progress; `plot.coldopen` plot-cold-open-microcosm; `plot.threeact` plot-three-act-structure; `plot.tryfail` plot-try-fail-cycle; `plot.yesbut` plot-yes-but-no-and; `plot.cheer` plot-cheer-moment-sanderlanche; `plot.climax` plot-climax-placement-aftermath; `plot.foreshadow` plot-foreshadowing-twists; `plot.layering` plot-layering-conflict; `plot.payoff` plot-payoff-deniability-forgotten-promise; `plot.twist` plot-twists-promise-and-wish; `character.scales` character-proactive-relatable-capable; `character.proactive` character-proactivity-toolkit; `character.relatable` character-relatability-toolkit; `character.villain` character-villain-and-antihero-patterns; `character.dialogue` character-floating-outline-for-dialogue; `character.presenting` character-presenting-a-character; `character.trait` character-overused-trait-trap; `character.arc` character-arc-types; `character.capability` character-capability-design; `character.weakness` character-flaws-restrictions-limitations; `character.background` character-writing-unfamiliar-backgrounds; `magic.first` magic-first-law; `magic.second` magic-second-law; `magic.logic` magic-internal-and-external-logic; `worldbuilding.gorilla` worldbuilding-gorilla-in-the-phone-booth; `worldbuilding.curve` worldbuilding-learning-curve-and-exposition; `worldbuilding.filtered` worldbuilding-viewpoint-filtered-description; `worldbuilding.pyramid` worldbuilding-pyramid-of-abstraction; `scene.pov` viewpoint-and-tense; `scene.sequel` scene-and-sequel; `scene.show` show-dont-tell; `prose.craft` prose-craft; `prose.tells` prose-ai-tells; `foundations.feedback` foundations-writing-group-rules; `foundations.readers` foundations-alpha-beta-readers.
 <!-- generated:checks:end -->
 
 ## 8. story-revise
@@ -989,7 +1069,7 @@ Writing a card is housekeeping, not a fix. When you had to open a chapter becaus
 #### By who owns revising
 
 - **`ai`**: revise the AI's own text (below). When drafting alternates, revise only the passages the AI wrote; the writer's passages get notes.
-- **`writer`**: do not change the chapter. Give the writer each finding as a short note: where, what is wrong, and one way to fix it, in the craft language the settings name. Offer to check again when they have revised.
+- **`writer`**: do not change the chapter. Give the writer each finding as a short note: where, what is wrong, and one way to fix it, in the craft language the settings name. For a flat passage, give the questions to answer about the moment (what the character wants, sees, and has wrong), not replacement prose. Offer to check again when they have revised.
 - **`none`** (design only): there is no prose to revise.
 
 #### Revising
@@ -997,11 +1077,12 @@ Writing a card is housekeeping, not a fix. When you had to open a chapter becaus
 1. **Keep the earlier version.** Copy the chapter to `work/drafts/_previous/` with a version number before changing it. Never overwrite the only copy.
 2. Work in priority order, must-fix first.
 3. Change as little as the finding needs. Keep the voice and the settled facts. If a fix needs a new fact, queue it as pending; never write it into `kb/`.
-4. In the check report, delete each finding once it is fixed. A finding you or the writer decide not to fix becomes `[resolved] declined: <reason>`. Only a finding deferred to later stays `[open]`, with "deferred" and why. Delete the report file when no findings are left.
-5. **Re-check your own new text** against the finding that prompted it and with the craft checks below. Do not swap one habit for a close cousin of it, such as replacing a named emotion with a stock gesture.
-6. Set the chapter's status line to `<!-- status: draft -->` (or `awaiting check-in` inside autopilot). Never remove a chapter's status line yourself; only the writer's word does that.
-7. Replace the chapter's copy in `work/drafts/_delivered/` with the text you are handing over.
-8. Rewrite the chapter's card (see Chapter cards in `story-continue`) if it has one, or if the story has five or more chapters.
+4. **A flat passage is the exception to changing little.** When the finding is that a passage has no mind in it, a generic detail, a line that states nothing, or the same weight as everything around it, swapping words will not fix it, because the passage was never imagined. Go back into the moment: what the viewpoint character wants, what they see, what they think it means, what they have wrong. Then write that passage again whole, with the same events and facts, at about the same length, in the project's voice. Leave the rest of the chapter alone.
+5. In the check report, delete each finding once it is fixed. A finding you or the writer decide not to fix becomes `[resolved] declined: <reason>`. Only a finding deferred to later stays `[open]`, with "deferred" and why. Delete the report file when no findings are left.
+6. **Re-check your own new text** against the finding that prompted it and with the craft checks below. Do not swap one habit for a close cousin of it, such as replacing a named emotion with a stock gesture or a report from the body, or a cut explanation with a comparison. Run `habits.py` from the `story-check` skill folder (full path, no `cd`) on the revised chapter and compare its counts with the earlier version's: a revision that removes one habit and doubles another has not helped.
+7. Set the chapter's status line to `<!-- status: draft -->` (or `awaiting check-in` inside autopilot). Never remove a chapter's status line yourself; only the writer's word does that.
+8. Replace the chapter's copy in `work/drafts/_delivered/` with the text you are handing over.
+9. Rewrite the chapter's card (see Chapter cards in `story-continue`) if it has one, or if the story has five or more chapters.
 
 #### Protect style-bearing material
 
@@ -1037,6 +1118,11 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `foundations.revision.03` Is this pass limited to one or two goals?
 - `foundations.revision.04` Is any note being applied as a fix without agreement that it points at a real problem?
 - `foundations.readers.02` For each pattern, what is the cause in the story, as opposed to the fix a reader suggested?
+- `prose.craft.01` For each scene, where on the page does the viewpoint character want, judge, or think something through? A scene of only actions, objects, and speech reads as filmed.
+- `prose.craft.02` For each reflection, is it the character's (partial, possibly wrong, leading to what they do next), or the author's caption on the scene?
+- `prose.craft.03` How is each strong feeling carried? If mostly by labels or body reports (chest, breath, pulse, stomach), find what the feeling makes this character notice, avoid, or do.
+- `prose.craft.05` Does any sentence or image sound meaningful without stating anything exact? Say what it literally claims or what a reader would picture.
+- `prose.craft.07` Is description built from what is present and what happens, or from denials and reflex comparisons?
 - `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
 - `prose.tells.02` A closer that explains the beat the scene already showed.
 - `prose.tells.03` An aphorism in the narration in place of the character's actual state.
@@ -1052,15 +1138,18 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `prose.tells.13` An emotion named right after it is shown.
 - `prose.tells.14` "A flicker of" and "a mix of" emotions.
 - `prose.tells.15` Dialogue that states its own subtext.
-- `prose.tells.16` Stock body reactions (weak alone).
-- `prose.tells.17` Stock atmosphere lines (weak alone).
+- `prose.tells.16` Stock body reactions, and feeling always reported from the body (weak alone).
+- `prose.tells.17` Stock atmosphere lines, and an offstage sound dropped into a pause (weak alone).
 - `prose.tells.18` Tag and gesture filler between lines of dialogue (weak alone).
-- `prose.tells.19` Stacked similes (weak alone).
+- `prose.tells.19` Reflex comparisons: stacked similes, or one in most paragraphs (weak alone).
 - `prose.tells.20` One register for every speaker (weak alone; whole-chapter pass only).
 - `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording.
 - `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader.
+- `prose.tells.23` Description by denial: narration that says what did not happen or what a thing was not (weak alone).
+- `prose.tells.24` Hollow depth: a line or image that sounds meaningful and states nothing exact.
+- `prose.tells.25` One temperature: every scene quiet, every speaker oblique, every ending a held image (whole-chapter pass only).
 
-Skill for each check family: `scene.dialogue` scene-dialogue-behavior; `foundations.revision` foundations-revision-guide; `foundations.readers` foundations-alpha-beta-readers; `prose.tells` prose-ai-tells.
+Skill for each check family: `scene.dialogue` scene-dialogue-behavior; `foundations.revision` foundations-revision-guide; `foundations.readers` foundations-alpha-beta-readers; `prose.craft` prose-craft; `prose.tells` prose-ai-tells.
 <!-- generated:checks:end -->
 
 ## 9. story-edits
@@ -1231,10 +1320,11 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `plot.progress.03` For this sequence, what does the reader think it is moving toward, and what signals tell them so?
 - `character.proactive.01` What does the character want in their first scene, and does an action follow from it?
 - `scene.sequel.04` Does each sequel carry something (a revelation, a joke, a relationship beat), and does its decision launch the next scene?
+- `prose.craft.09` Against the earlier chapters, does this one open and close in a different way, and avoid leaning on the same devices?
 - `prose.tells.13` An emotion named right after it is shown.
 - `prose.tells.15` Dialogue that states its own subtext.
 
-Skill for each check family: `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.progress` plot-types-of-progress; `character.proactive` character-proactivity-toolkit; `scene.sequel` scene-and-sequel; `prose.tells` prose-ai-tells.
+Skill for each check family: `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.progress` plot-types-of-progress; `character.proactive` character-proactivity-toolkit; `scene.sequel` scene-and-sequel; `prose.craft` prose-craft; `prose.tells` prose-ai-tells.
 <!-- generated:checks:end -->
 
 ## 12. story-learn
@@ -1438,27 +1528,46 @@ Skill for each check family: `character.entry` character-first-entry; `character
 
 ## 15. story-voice
 
-*Use to choose or change a story's voice, viewpoint, or tense. Shows original demo passages from the writer's story, supports choices and blends, and saves the chosen voice only after approval.*
+*Use to choose or change a story's voice, viewpoint, or tense. Shows original demo passages from the writer's story, supports choices and blends, and saves a voice sheet and a sample passage only after approval.*
 
-The writer does not need writing samples. They hear options and choose.
+The writer does not need writing samples. They hear options and choose. A voice is easier to follow from a passage than from a description, so the result is a short voice sheet and a sample passage the writer has approved.
 
 #### Steps
 
 1. **Read** the settings, the project's own rules (an existing voice file, or several for different parts of the book, takes priority; adjust it rather than replacing it), and the spec for premise, hero, and tone.
-2. **Offer four voices** as demo passages of about sixty words each, all showing the same moment from the writer's own story. Label each by feel ("dry and understated", "warm and talky", "tense and spare", "lush"). Make the four differ in sentence length, how much each says, and how funny each is, not only in word choice, so they do not read as one voice in four moods. Recommend one, and say why it fits the tone the writer chose. The demos are illustrations, not story facts.
-3. **Let them choose or adjust.** Pick one, blend two, or ask for "like 2 but drier". Rewrite the demo and show it again. Two adjustment rounds, then settle.
-4. **Pick how the story is told**, with plain labels and a default: close on one character at a time, past tense (default); several characters in turn; a storyteller who sees everything. Use the craft checks below to say what each choice costs (for example, which kinds of secret it can keep).
-5. **A favorite book is a fine description.** Describe its qualities in your own words: sentence length, humor, pace, how much description. Do not imitate or quote it.
-6. **Save the voice sheet** after approval, to `kb/styles/voice.md` or the file the project names: who tells it and in what tense; sentence and paragraph length; how much is dialogue; how funny; how much description; how people talk (how much they dodge and interrupt, how different the speakers sound); and three example sentences from the chosen demo.
+2. **If the writer already has chapters of their own, start from those.** Their pages are the voice. Describe what the pages do (step 6) and ask what they would change, instead of offering demos.
+3. **Offer four voices** as demo passages of about a hundred and twenty words each, all showing the same moment from the writer's own story. Pick a moment with something in it to notice, a thought, and a line or two of speech. Label each by feel ("dry and understated", "warm and talky", "tense and spare", "lush"). Make the four differ in kind: how close the narration sits to the character's thoughts, how much it tells outright, how long the sentences run, how funny it is, and what it stops to notice. Four moods of one voice is not a choice. Recommend one, and say why it fits the tone the writer chose. The demos are illustrations, not story facts.
+4. **Let them choose or adjust.** Pick one, blend two, or ask for "like 2 but drier". Rewrite the demo and show it again. Two adjustment rounds, then settle.
+5. **Pick how the story is told**, with plain labels and a default: close on one character at a time, past tense (default); several characters in turn; a storyteller who sees everything. Use the craft checks below to say what each choice costs (for example, which kinds of secret it can keep).
+6. **Write the sample passage.** In the chosen voice, write a different moment from the story, about three hundred words, that holds what a chapter will need: a place seen by the viewpoint character, something they think through, a short exchange, and one sentence of summary that covers time. Show it. This is where a voice that worked for a hundred words shows whether it holds; adjust it with the writer until they say it sounds right. It is an illustration, not a story fact, and nothing in it is settled.
+7. **A favorite book is a fine description.** Describe its qualities in your own words: sentence length, humor, pace, how much description. Do not imitate or quote it.
+8. **Save after approval.** The voice sheet goes to `kb/styles/voice.md` or the file the project names, and the sample passage to `kb/samples/` or the place the project names, with the sheet saying where it is.
+
+#### The voice sheet
+
+A dozen lines at most, each one something a drafter can act on:
+
+- who tells it, and in what tense
+- how close the narration sits to the character: whose words and opinions color it, and how thoughts appear on the page
+- what this narrator notices (their trade, their obsessions) and what they pass over
+- sentence and paragraph length, and how much of a scene is dialogue
+- how funny it is, and where the humor comes from
+- how much description, and how often a comparison is used and from what part of the character's world
+- how feeling is carried: stated plainly, shown in what people do, or held back
+- how people talk: how much they dodge and interrupt, how blunt they get, how different the speakers sound
+- two or three things this voice never does
+- where the sample passage is, with the note that drafts match its sound and never reuse its sentences or images
+
+Do not put example sentences on the sheet. They get copied into chapters. The sample passage carries the sound.
 
 #### When the voice changes later
 
-Update the sheet, show a new demo, and mark drafted chapters that now differ with `<!-- status: needs revision: voice changed -->`. Never rewrite chapters here.
+Update the sheet, write a new sample passage, and mark drafted chapters that now differ with `<!-- status: needs revision: voice changed -->`. Never rewrite chapters here.
 
 #### Rules
 
 - With `craft-language: none`, plain words only: do not teach narration or tense.
-- Never ask the writer to write a sample.
+- Never ask the writer to write a sample. If they offer their own pages, use them.
 - Never show check IDs.
 
 <!-- generated:checks:start -->
@@ -3751,11 +3860,11 @@ Describe a place the way this character, in this mood, would see it. A neutral a
 
 # Part 7. Scene craft and prose
 
-Scene structure, showing and telling, viewpoint, and machine-sounding habits.
+Scene structure, showing and telling, viewpoint, what makes narration alive, and machine-sounding habits.
 
 ## 76. scene-craft
 
-*Use for questions about how a scene is built or told: the rhythm of action and response, whether to show or tell a trait, and the point-of-view and tense choice (first, second, or third person; past or present). Routes to the skills on scene and sequel pacing, showing versus telling, and the viewpoint and tense matrix.*
+*Use for questions about how a scene is built or told: the rhythm of action and response, whether to show or tell a trait, the point-of-view and tense choice (first, second, or third person; past or present), dialogue behavior, and narration that reads flat or lifeless. Routes to the skills on scene and sequel pacing, showing versus telling, the viewpoint and tense matrix, and prose craft.*
 
 A scene has a shape (what happens, then how characters respond), a level of detail (shown or told), and a voice (whose head it is in and in what tense). This hub routes to the skill for each. Load only the child you need.
 
@@ -3766,8 +3875,9 @@ A scene has a shape (what happens, then how characters respond), a level of deta
 - `viewpoint-and-tense`: a choice matrix for person, tense, omniscience, unreliable narrators, and switching modes.
 - `scene-access-limits`: what a character can see, hear, reach, and infer, and who owns each decision.
 - `scene-dialogue-behavior`: telling action that changes the next beat from decorative and procedural motion, and where a beat belongs in an exchange.
+- `prose-craft`: what makes narration alive: the viewpoint character's mind on the page, the detail that could only be here, exact sentences, proportion, and range.
 
-For machine-sounding prose, load `prose-ai-tells`.
+For machine-sounding prose, load `prose-ai-tells`. It says what to take out; `prose-craft` says what to put in.
 
 #### Which child for which problem
 
@@ -3781,6 +3891,7 @@ For machine-sounding prose, load `prose-ai-tells`.
 | "Can I use omniscient?" / "can my narrator lie?" / "can I switch viewpoint?" | `viewpoint-and-tense` |
 | "Characters know things they shouldn't" / "she understood it after one glance" / "the expert's knowledge leaks to everyone" | `scene-access-limits` |
 | "The dialogue reads like a transcript" / "everyone nods and sips between lines" / "a meeting scene is all talk and props" | `scene-dialogue-behavior` |
+| "It's clean but flat" / "it reads like a screenplay" / "I can't feel what she's feeling" / "every scene sounds the same" | `prose-craft` |
 | "How do I plan what happens in the scene?" | `plot-promise-progress-payoff` |
 
 #### Notes
@@ -4005,13 +4116,190 @@ Put an action beat where something changes: new information lands, a private fac
 - This is a judgment about what a beat does, not a list of banned gestures. Replacing every "did not answer" with a smile or a turn of the head repeats the same mechanical habit.
 - For stiff or staged lines, see `prose-ai-tells` (dialogue patterns). For planning what each speaker wants before drafting, see `character-floating-outline-for-dialogue`.
 
-## 82. prose-ai-tells
+## 82. prose-craft
+
+*Use when prose is clean but flat, a scene reads like a screenplay or a summary, the viewpoint character has no inner life on the page, details feel generic, every moment gets the same weight, or a draft sounds competent and written by nobody. Gives the choices that make narration alive: a mind on the page, the detail that could only be here, exact sentences, proportion, and range.*
+
+Taking the faults out of a passage leaves it clean, not alive. Prose reads as written by someone when its sentences show choices made for this scene and this character: what to notice, what to think, what to skip, where to slow down. A default is the choice that would do for any scene. This skill is about making the specific one.
+
+A worked before-and-after for each section is in `examples.md` next to this file. Load it when you need to see the difference.
+
+#### Put a mind on the page
+
+In first person and close third, the narration is the viewpoint character's experience. A camera records what happens. A character notices some things and misses others, judges what they see, wants something from it, and gets part of it wrong.
+
+- **Perception carries judgment.** What the character notices arrives with what they make of it, in their own vocabulary, with no "she thought" in front. Filmed: the clerk's desk was clean. Lived: the clerk's desk was clean, so somebody else was doing his work.
+- **Let them think.** Working something out, rationalizing, rehearsing the next sentence, remembering what the thing in front of them calls up, changing their mind. Keep it specific and partial.
+- **A thought is not an explanation.** An explanation belongs to the author and tells the reader what the scene means. A thought belongs to the character: it can be mistaken, and it leads to what they do next. If a reflection could not be wrong and changes nothing, it is a caption.
+- **Want and dread drive the scene.** The character wants something now and is afraid of something else. The reader should feel both before the scene turns, through what the character attends to.
+- **Carry feeling through attention and action.** A label ("she was afraid") and a report from the body (tight chest, held breath, racing pulse) are the two defaults. Stronger: what the feeling makes this character notice, avoid, do badly, or think about instead. When the character would know what they feel, they can say it plainly in their own words; the fault is the narrator's label laid over a feeling already shown.
+- **Move closer and further.** Stand back to summarize routine. Come in close where it matters. A chapter held at one distance, all outside or all inside, goes flat.
+
+Putting a mind on the page does not mean a row of rhetorical questions, a thought in italics in every paragraph, "she realized that" followed by the theme, or the character briefing the reader on what they already know.
+
+#### Choose the detail
+
+- **Go past the first one.** The first detail to arrive is the one any writer would use for any such place. Ask what is here that would be nowhere else, and what this person notices because of their trade, their history, and what they want right now.
+- **Make it do a job.** A detail earns its place when it shows who is looking, changes what someone does, carries history, or sets up something later. One that works beats three that decorate. Not every object needs a habit or a backstory attached.
+
+#### Say the exact thing
+
+- **The literal sentence first.** The right noun and verb do more than an adjective and a simile. Use a comparison only when it shows something the literal sentence cannot, and take it from the character's world.
+- **Describe what is there and what happens.** Description built from denials ("it did not rush", "it was not loud, exactly") gives the reader nothing to see.
+- **Every sentence states something.** For any line that sounds good, say what it literally claims or what a reader would picture. If you cannot, or the picture is impossible, it is decoration.
+- **Put the weight at the end.** The last words of a sentence and the last sentence of a paragraph are where the stress falls. Put the new or important thing there.
+- **Let length follow the moment.** A long sentence can carry a chain of perceptions or a thought that will not stop. A short one stops. Vary them because the content varies, not on a pattern.
+
+#### Proportion
+
+- **Three speeds.** A scene moves moment by moment. A summary covers an hour or a year in a few lines, and can carry as much voice as a scene. A skip leaves it out. A chapter that uses only the first has no shape.
+- **Spend the words where the scene turns.** The approach is short or gone. Start where the pressure starts. Stop once the change has happened; do not walk the character out of the room.
+- **Uneven on purpose.** Scenes and paragraphs differ in length because what they hold differs.
+- **Vary how scenes open and close.** A scene can open on a thought, a line of speech, or the middle of an action as well as on the setting. It can end on a line of dialogue, a decision, an interruption, or an action begun. Ending every scene on a quiet image is a habit, and so is opening every scene with the weather or the light.
+
+#### Range
+
+- **Not everything is restrained.** Somebody says the blunt thing. Something is funny, or ugly, or goes on too long. A loud scene is loud. When every exchange is oblique and every feeling understated, the restraint is the default.
+- **Change the temperature** from one scene to the next.
+- **One thing the plan did not predict.** A remark, an object, a reaction that surprises and is still right for these people.
+
+#### Across chapters
+
+A device that works once wears out by the third use. Compare the chapter with the ones before it: how each opens, how each closes, the comparisons and sentence shapes it leans on, what the viewpoint character does when upset. Change at least the opening and the closing.
+
+#### Reworking a flat passage
+
+Polishing words does not fix a passage that was never imagined. Go back into the moment: what does the character want here, what do they see, what do they think it means, what are they wrong about? Then write the passage again whole, with the same events and facts, at about the same length. Do not decorate the old sentences.
+
+#### Checks
+
+- `prose.craft.01` For each scene, where on the page does the viewpoint character want, judge, or think something through? A scene of only actions, objects, and speech reads as filmed.
+- `prose.craft.02` For each reflection, is it the character's (partial, possibly wrong, leading to what they do next), or the author's caption on the scene?
+- `prose.craft.03` How is each strong feeling carried? If mostly by labels or body reports (chest, breath, pulse, stomach), find what the feeling makes this character notice, avoid, or do.
+- `prose.craft.04` Take the most prominent details. Could each sit unchanged in another story, and does each do a job (show who is looking, change an action, carry history, set something up)?
+- `prose.craft.05` Does any sentence or image sound meaningful without stating anything exact? Say what it literally claims or what a reader would picture.
+- `prose.craft.06` Where does the chapter spend its words? Does the moment that turns each scene get the most room, with routine summarized or skipped?
+- `prose.craft.07` Is description built from what is present and what happens, or from denials and reflex comparisons?
+- `prose.craft.08` Do the scenes differ in temperature, and does anyone say or do something blunt, funny, ugly, or unplanned?
+- `prose.craft.09` Against the earlier chapters, does this one open and close in a different way, and avoid leaning on the same devices?
+- `prose.craft.10` Which passage would a reader skim, and which is most alive? Quote both. Is the chapter's key moment the alive one?
+
+#### Cautions and exceptions
+
+- A deliberately external style is legitimate: hard-boiled narration, fable, a storyteller who stays outside, a minimalism the writer chose. Its life then comes from selection and voice, so the checks on detail, exactness, and proportion still apply and `prose.craft.01` does not.
+- None of this is a quota. One thought where it counts, one detail that works. A thought in every paragraph and a striking detail in every sentence is a new default.
+- The writer's voice file and their own pages come before anything here.
+- This is line-level craft from common editing practice, not from the lecture series behind the plot and character frameworks.
+- Related: `prose-ai-tells` for what to take out, `show-dont-tell` for how much room a trait deserves, `worldbuilding-viewpoint-filtered-description` for setting, `scene-dialogue-behavior` for speech.
+
+### prose-craft: examples.md
+
+Every passage here is invented for this library. Each pair uses the same events. The examples show the kind of choice to make; never reuse their images, details, or sentence shapes in a story.
+
+#### 1. A mind on the page
+
+Dara, a locksmith, has come to open her dead sister's flat. Close third.
+
+**Filmed**
+> Dara set her bag down in the hallway and looked at the door. The lock was a five-lever mortice, old but solid. She knelt, took out her tools, and began to work. From inside the flat came the hum of a refrigerator. After a few minutes the lock turned. She stood for a moment before pushing the door open.
+
+**Lived**
+> A five-lever mortice, the good kind, fitted by somebody who had cared. Dara had told Lena for years to change it, and Lena had said every time that nothing in the flat was worth stealing. Which was true, and was also why she would have been easy to rob. Dara knelt and got the picks out. Four minutes, on a lock like this, if she was awake. She took eleven, and noticed she was taking eleven, and went on taking them. Inside, the fridge was still running. Somebody would have to deal with that. She knew who.
+
+**What changed:** the second has her trade's judgment of the lock, an argument with the dead that she is still having, a job she does badly and notices herself doing badly, and a dread that arrives as a practical thought. No feeling is named and no body part reports in. "She stood for a moment" keeps the feeling outside her; the eleven minutes puts it in what she does.
+
+#### 2. A thought, not a caption
+
+Okafor, a ship's engineer, has just lied to the captain about the fuel reserve.
+
+**Caption**
+> He watched her go. He had crossed a line, and he knew that nothing between them would be the same again.
+
+**Thought**
+> He watched her go. Six days of margin, he had said, and she had written it down. She wrote everything down. If the feed line held, he had four days to turn the lie into the truth. If it went, the log would show her name under his number.
+
+**What changed:** the caption could close any scene about any lie. The thought is his arithmetic: it adds facts, he may be wrong about the feed line, and it sets what he does next.
+
+#### 3. Feeling without a label or a body report
+
+First person. Maren hears her former husband on the car radio, being interviewed about his book.
+
+**Body report**
+> My chest tightened. I gripped the steering wheel until my knuckles went white, and a wave of anger and grief rose in my throat.
+
+**Attention and action**
+> I missed the turn for the school. He was telling the interviewer about the year he spent learning to listen, and I drove another mile and a half down the bypass with the indicator going, working out which year that would have been.
+
+**What changed:** the feeling is in a mistake she makes and in what her attention sticks on. The reader supplies the word for it.
+
+#### 4. The detail that could only be here
+
+A new orderly, Teodor, arrives at a field hospital.
+
+**The first details to arrive**
+> The tent smelled of blood and antiseptic. Wounded men lay in rows on narrow cots, and somewhere a man was moaning. Lanterns swung from the poles, casting long shadows.
+
+**Chosen**
+> Somebody had chalked a number on the sole of each boot that stuck out past the end of a cot. Teodor worked it out before anyone told him: the numbers were the order for the surgeon. Down at the far end, by the stove, where it was warmest, the soles were bare.
+
+**What changed:** the first is the tent every reader has already seen. The second is one thing this hospital does, noticed by someone trying to learn its rules, and it tells him what the warm end is for.
+
+#### 5. The exact thing
+
+A fisherman's daughter watches the ice go out on the river.
+
+**Decorative**
+> The ice did not break all at once. It was not loud, exactly; it was more like a long sigh, as if the river were waking from a dream it had not wanted to leave. Something ancient moved beneath the surface.
+
+**Exact**
+> The ice went out at the bend first, where the current was. A grey seam opened along the far bank and widened to the width of a boat, and the slab on the near side tilted, slowly, until the fish-house her father had left out too long was standing at an angle on its runners.
+
+**What changed:** the first is two denials, a comparison, and a sentence that claims nothing. A reader cannot picture any of it. The second says where, in what order, and what it does to something her family owns.
+
+#### 6. Proportion
+
+Yusra crosses a city under curfew to reach a pharmacy. The scene turns when the pharmacist recognizes her.
+
+**Even:** three paragraphs of streets, patrols, and weather, each as detailed as the last; then the pharmacy; then the recognition in two lines.
+
+**Weighted**
+> It took two hours to cover eleven streets, and she spent most of one of them behind the bins of a bakery, listening to a patrol argue about football. The pharmacy had its shutter half down. She went under it.
+>
+> The man at the counter was counting blister packs into a paper bag and finished the row before he looked up. Then he kept looking. "You're Halim's girl," he said. "You were at the wedding. You sang."
+>
+> She had sung. She had been nine and furious about the dress.
+
+**What changed:** the crossing gets two sentences and one live detail. The words go to the counter, where the scene turns.
+
+#### 7. Range
+
+Two brothers divide their mother's things.
+
+**Restraint in every line**
+> "Take the clock," Paul said.
+>
+> "You always liked it."
+>
+> "Did I." He turned it over in his hands. Outside, a car passed.
+
+**Somebody says it**
+> "Take the clock," Paul said.
+>
+> "I don't want the clock. I want to know why she paid your rent for nine years and I got a card at Christmas."
+>
+> Paul put the clock down on the stack of towels. "Eleven years," he said. "And you could have asked her."
+
+**What changed:** the first is tasteful and could run for pages with nothing risked. In the second one brother says the blunt thing and the other answers with something worse. Obliqueness is one way people behave; when it is every line, it is a default.
+
+## 83. prose-ai-tells
 
 *Use when drafting fiction or asked to humanize, de-slop, or check machine-sounding prose. Detects and avoids over-explanation, stock rhythms, stilted dialogue, and narration that states the subtext.*
 
 A model writes the choice that fits the widest range of readers and scenes. A human writer chooses for one reader and one scene, so their choices are uneven and specific. Every pattern here is a default choice, a way of sounding finished without adding anything.
 
 Two rules follow. Every sentence you keep must give the reader something new. A tell counts in proportion to how rarely a careful writer would do it on purpose, so a few patterns justify an edit on one sighting and the rest need company from other tells in the same passage.
+
+Taking the tells out makes prose clean, not good. A passage with none of these patterns can still have no mind in it, no detail that belongs to it, and one temperature throughout. For what to put in, load `prose-craft`.
 
 The full list, with fiction examples, is in `patterns.md` next to this file. Load it for a detection pass or when you need an example.
 
@@ -4030,6 +4318,11 @@ Keep these out of new prose from the start:
 9. **Named emotion after a shown one.** If the gesture shows the feeling, do not add a sentence that names it. Avoid "a flicker of" and "a mix of".
 10. **Dialogue that states the subtext.** Let the line carry the feeling without naming it.
 11. **Wrapper text.** Deliver the prose. No greeting, no framing line, no offer to continue.
+12. **Description by denial.** Do not describe a thing by what it did not do or was not. Say what happened.
+13. **Hollow depth.** Do not write a line that sounds meaningful and states nothing ("something shifted between them"). Say what changed.
+14. **Reflex comparisons.** Do not reach for "like a", "as if", or "the way a" where the literal sentence would do.
+
+Avoiding one habit often produces its nearest cousin: a named emotion becomes a tight chest, a cut explanation becomes a comparison, a banned phrase becomes its synonym. Replace a default with the specific thing, not with the next default.
 
 #### Detect mode (review and revise)
 
@@ -4037,7 +4330,7 @@ Keep these out of new prose from the start:
 2. Mark each tell. Look at paragraph shape, not only sentences: three parallel beats, or the same closer after every scene, is the same tell at a larger scale.
 3. Report each finding with the quoted text, where it is, the pattern, and a suggested fix. Report only what you would act on. If you looked at something and decided it is fine, leave it out of the list; do not report a device you are keeping.
 4. In review, report. In revise, apply the fix: state the point directly, merge or vary sentences, or cut the line. Keep the writer's events, characters, and facts. Do not add story facts to repair a sentence.
-5. Check the result: read it aloud, then search again for the tells that survive a rewrite (not X but Y, closers, triads, repeated openings, dashes).
+5. Check the result: read it aloud, then search again for the tells that survive a rewrite (not X but Y, closers, triads, repeated openings, dashes) and for the cousins a rewrite introduces (body reports, comparisons, denials). The habit counter `habits.py` in the `story-check` skill folder lists several of these with line numbers.
 
 If the writer gives a sample of their own prose, match its sentence length, word choice, and punctuation. The sample overrides the patterns here, including the dash rule.
 
@@ -4072,13 +4365,16 @@ Each check is one pattern from `patterns.md`, with the same number. Weak pattern
 - `prose.tells.13` An emotion named right after it is shown.
 - `prose.tells.14` "A flicker of" and "a mix of" emotions.
 - `prose.tells.15` Dialogue that states its own subtext.
-- `prose.tells.16` Stock body reactions (weak alone).
-- `prose.tells.17` Stock atmosphere lines (weak alone).
+- `prose.tells.16` Stock body reactions, and feeling always reported from the body (weak alone).
+- `prose.tells.17` Stock atmosphere lines, and an offstage sound dropped into a pause (weak alone).
 - `prose.tells.18` Tag and gesture filler between lines of dialogue (weak alone).
-- `prose.tells.19` Stacked similes (weak alone).
+- `prose.tells.19` Reflex comparisons: stacked similes, or one in most paragraphs (weak alone).
 - `prose.tells.20` One register for every speaker (weak alone; whole-chapter pass only).
 - `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording.
 - `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader.
+- `prose.tells.23` Description by denial: narration that says what did not happen or what a thing was not (weak alone).
+- `prose.tells.24` Hollow depth: a line or image that sounds meaningful and states nothing exact.
+- `prose.tells.25` One temperature: every scene quiet, every speaker oblique, every ending a held image (whole-chapter pass only).
 
 #### Report format
 
@@ -4092,7 +4388,7 @@ End with a one-line count and the two or three patterns that recur most, so the 
 
 ### prose-ai-tells: patterns.md
 
-Numbered strongest first. Patterns 1 to 5 and 13 to 15 justify an edit on one sighting. A pattern marked *weak alone* needs company from other tells in the same passage before you act. Every example below is invented for this library.
+Numbered strongest first within each family. Patterns 1 to 5, 13 to 15, and 24 justify an edit on one sighting. A pattern marked *weak alone* needs company from other tells in the same passage before you act. Every example below is invented for this library.
 
 #### A. Staging instead of stating
 
@@ -4252,8 +4548,8 @@ Habits that show up in machine-written scenes in particular. Patterns 13 to 15 a
 
 ##### 16. Stock body reactions (*weak alone*)
 
-**Watch for:** a breath she didn't know she was holding; a heart pounding or hammering; a shiver down the spine; white knuckles; a clenched jaw.
-**Problem:** Each is common in published fiction too. A passage that leans on several is running on defaults.
+**Watch for:** a breath she didn't know she was holding; a heart pounding or hammering; a shiver down the spine; white knuckles; a clenched jaw; every feeling in a chapter reported from the chest, throat, stomach, or breath.
+**Problem:** Each is common in published fiction too. A passage that leans on several is running on defaults, and a body report in place of every named emotion is the same label in a different place. Find what the feeling makes this character notice, avoid, or do.
 **Before:**
 > He let out a breath he didn't know he was holding, a shiver running down his spine.
 **After:**
@@ -4261,12 +4557,12 @@ Habits that show up in machine-written scenes in particular. Patterns 13 to 15 a
 
 ##### 17. Stock atmosphere lines (*weak alone*)
 
-**Watch for:** the air thick with tension; silence stretching; "somewhere, a clock ticked"; the smell of ozone or petrichor.
-**Problem:** Generic mood laid over the scene instead of a detail that belongs to this place.
+**Watch for:** the air thick with tension; silence stretching; "somewhere, a clock ticked"; the smell of ozone or petrichor; an offstage sound dropped into a pause in the dialogue (a chain dragged, a dog barked, a stove ticked).
+**Problem:** Generic mood laid over the scene instead of a detail that belongs to this place. Swapping the clock for another ticking object keeps the habit.
 **Before:**
 > The air was thick with tension, and somewhere, a clock ticked.
 **After:**
-> The stove ticked as it cooled. Nobody reached for the kettle.
+> The kettle had been boiling for a minute. Nobody got up.
 
 ##### 18. Tag and gesture filler (*weak alone*)
 
@@ -4274,10 +4570,14 @@ Habits that show up in machine-written scenes in particular. Patterns 13 to 15 a
 **Problem:** Decorative action (any character could do it without changing anything) and procedural action with no human pressure in it fill pauses without adding character. Cut them, or replace them with an action that changes the next beat: it reveals an agenda, forces a new tactic, or changes the situation.
 **Keep when:** the beat sits where something changes (information lands, a lie, a shift in power, a decision), or an untagged exchange is already clear without it. A plain "He said nothing" is a sentence, not a defect, and a flat exchange is not repaired by a gesture on every line.
 
-##### 19. Stacked similes (*weak alone*)
+##### 19. Reflex comparisons (*weak alone*)
 
-**Watch for:** two or more "like a..." or "as if..." comparisons in one paragraph.
-**Problem:** Comparisons crowd each other and none lands. Keep the best one.
+**Watch for:** two or more "like a..." or "as if..." comparisons in one paragraph, or one in most paragraphs of a page; the shapes "like a man who...", "the way you would...", "as if it had always..."; objects given human intentions for charm ("a pen laid down like a man who had not told his chair").
+**Problem:** Comparisons crowd each other and none lands, and a comparison in place of the literal sentence leaves the reader with the vehicle and no picture. Say the literal thing, and keep the one comparison that shows what it cannot.
+**Before:**
+> The marker sat in the stone as though the stone had grown around it, cold like a held breath, the way old iron is.
+**After:**
+> The marker would not turn. She put her weight on it and the stone step shifted before the iron did.
 
 ##### 20. One register for every speaker (*weak alone*; whole-chapter pass only)
 
@@ -4311,3 +4611,33 @@ Habits that show up in machine-written scenes in particular. Patterns 13 to 15 a
 > "Nobody."
 > "Your father know you're in the office this late?"
 **Keep when:** the character is the kind who lectures when cornered, and the speech itself is the characterization.
+
+#### F. Second-generation habits
+
+What appears once the patterns above have been avoided: clean, restrained prose that still reads as written by nobody.
+
+##### 23. Description by denial (*weak alone*)
+
+**Watch for:** narration that says what did not happen or what a thing was not: "It did not rush." "It was not loud, exactly." "She did not look at him." Three or more in a passage; "not quite"; "not exactly".
+**Problem:** A denial gives the reader nothing to see, and a run of them sounds precise without choosing anything. Say what happened.
+**Before:**
+> The water did not rush. It was not stuck, exactly. She did not move.
+**After:**
+> The water slid past her shins at a walking pace. She kept still.
+**Keep when:** the reader expected the thing denied (asked a question, he did not answer), or the absence is the event.
+
+##### 24. Hollow depth
+
+**Watch for:** a line that gestures at meaning and states none: "Something shifted between them." "It was the kind of quiet that had weight." "...and a great many things about it would be true." An image that cannot be pictured (a gull standing on the water).
+**Problem:** It sounds like insight and claims nothing. Ask what the sentence literally states. If there is an answer, write that; if there is none, cut the line.
+**Before:**
+> Something had changed in the room, though she could not have said what.
+**After:**
+> Nobody had sat back down.
+**Keep when:** the character truly cannot identify the thing, and the story is going to.
+
+##### 25. One temperature (*whole-chapter pass only*)
+
+**Watch for:** every scene quiet and controlled; every speaker dry and oblique; every feeling understated; every scene ending on a held image or a short flat line.
+**Problem:** Restraint applied to everything is a default, as melodrama applied to everything would be. Nobody risks anything and no scene differs from the last.
+**Keep when:** the writer's voice file asks for it, or the story is built on that reserve and breaks it once on purpose.

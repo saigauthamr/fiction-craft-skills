@@ -17,7 +17,8 @@ Find what is not working and say where, with evidence. Never fix anything here. 
 2. **Read the project's own rules.** Any review checklist, voice rules, chapter format, or length range it names is part of the check. Where it names several voice files (for example one per part of the book), use the one that applies to this chapter.
 3. **Read the chapter, its beats, the spec, and the `kb/` pages the beats name.** Without a spec or beats, check against the frameworks, the prose patterns, and the chapter's own internal consistency, and say what you could not check.
 4. **Run the text checker first**, with its full path and the chapter file or the folder of chapters: `python3 check_text.py <chapter or folder>`. If the beats or the project's own rules state a length range for a chapter, add `--words MIN-MAX` (for example `--words 1800-2500`). It reports leaked assistant text, stray formatting, unbalanced quotes, duplicated paragraphs, encoding damage, whitespace problems, a last line that stops mid-sentence, a long phrase repeated three or more times, and a chapter outside the stated length, with line numbers. Treat each warning as something to look at, not a verdict: a real slip becomes a finding, a deliberate choice does not. A chapter that stops mid-sentence is probably cut off, so say that first. A repeated phrase may be a deliberate refrain, song, or repeated document header. A length warning is a mismatch with the plan, not a flaw in the prose: say which one the writer should change.
-5. **Read the whole chapter before noting anything.**
+5. **Run the habit counter**, the same way: `python3 habits.py <chapter or folder>`. For English prose it lists, with line numbers, the comparisons, negated narration, body reports, hedges, and one-line paragraphs in the narration, runs of sentences that open with the same word, and each chapter's first and last lines. It has no passing number and it is never a finding by itself. Use it to see what your ear misses: one habit carrying a page, or several chapters that open or close the same way.
+6. **Read the whole chapter before noting anything.**
 
 ## Reading a long story
 
@@ -43,7 +44,7 @@ Three kinds of finding have no framework check: a contradiction with `kb/` or an
 
 Rank findings by how much they hurt the chapter. End with the top three priorities and one thing the chapter does well that should be kept. A finding is removed from the report when it is fixed; one kept on purpose becomes `[resolved] declined: <reason>`, handled by `story-revise`.
 
-**A reader's report** ("is it any good?", "be a reader"): read as a skeptical reader and report in five short parts: where I got bored, where I got confused, where I stopped believing it, what I saw coming too early, what worked. Give only the three biggest problems, each with a one-line example. Then the twist test: what you think the story's biggest secret is and how sure you are, and which clue gave it away if you guessed it early. Run the craft checks silently to find the problems; say them in the reader's words. Do not save a file unless the writer asks for one.
+**A reader's report** ("is it any good?", "be a reader"): read as a skeptical reader and report in six short parts: where I got bored, where I got confused, where I stopped believing it, what I saw coming too early, what worked, and the one passage I would read aloud to someone beside the one I skimmed, both quoted. Give only the three biggest problems, each with a one-line example. Then the twist test: what you think the story's biggest secret is and how sure you are, and which clue gave it away if you guessed it early. Run the craft checks silently to find the problems; say them in the reader's words. Do not save a file unless the writer asks for one.
 
 ## Dialogue and over-explanation
 
@@ -53,6 +54,19 @@ Give these their own pass, because they are what makes drafted fiction read as m
 - **Over-explanation.** Does the narration say what a beat means after showing it, name an emotion right after showing it, announce that a moment matters, or close a scene by explaining it? Does a beat's planned turn appear in the prose as a sentence, when it should only shape the scene?
 
 Use the matching prose-pattern checks for each finding. Quote the line.
+
+## Flat prose
+
+A chapter can be free of every fault above and still read as written by nobody. Give this its own pass too. It looks for what is missing, so it cannot be done by scanning for bad lines: read each scene and ask what it was like to be the viewpoint character in it.
+
+- **The mind.** Where does the viewpoint character want, judge, or think something through? A scene of only actions, objects, and speech is filmed, not told. Are the reflections the character's own (partial, possibly wrong, leading somewhere), or captions?
+- **Feeling.** Is it carried by labels and reports from the body, or by what the character notices, avoids, and does?
+- **Detail and exactness.** Could the main details sit in any story? Does any line sound meaningful and state nothing, or show a picture that cannot be pictured? Is description made of denials and reflex comparisons? Look at the lines the habit counter lists.
+- **Proportion.** Does the moment that turns each scene get the room, or does every moment get the same care?
+- **Range.** Is everything quiet, oblique, and controlled?
+- **Across chapters.** Does this chapter open and close the way the last ones did, and lean on the same devices?
+
+Quote the passage a reader would skim and the passage that is most alive, and say whether the chapter's turn is the alive one. A flat-prose finding names the passage and what is missing from it. Its fix is to write the passage again from inside the character, never a list of words to swap. If the project's voice file asks for a narrator who stays outside the characters, that is the style and not a finding.
 
 ## Talking to the writer
 
@@ -216,6 +230,16 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `scene.show.01` For each stated trait or emotion, does it matter enough to the story to be shown? If yes, find one specific action or detail; if no, leave the plain statement.
 - `scene.show.02` Is a minor point being proved at length, such as a passing trait or a one-time character given a dramatized scene?
 - `scene.show.03` Is the first appearance of anything the reader must remember shown, not only stated?
+- `prose.craft.01` For each scene, where on the page does the viewpoint character want, judge, or think something through? A scene of only actions, objects, and speech reads as filmed.
+- `prose.craft.02` For each reflection, is it the character's (partial, possibly wrong, leading to what they do next), or the author's caption on the scene?
+- `prose.craft.03` How is each strong feeling carried? If mostly by labels or body reports (chest, breath, pulse, stomach), find what the feeling makes this character notice, avoid, or do.
+- `prose.craft.04` Take the most prominent details. Could each sit unchanged in another story, and does each do a job (show who is looking, change an action, carry history, set something up)?
+- `prose.craft.05` Does any sentence or image sound meaningful without stating anything exact? Say what it literally claims or what a reader would picture.
+- `prose.craft.06` Where does the chapter spend its words? Does the moment that turns each scene get the most room, with routine summarized or skipped?
+- `prose.craft.07` Is description built from what is present and what happens, or from denials and reflex comparisons?
+- `prose.craft.08` Do the scenes differ in temperature, and does anyone say or do something blunt, funny, ugly, or unplanned?
+- `prose.craft.09` Against the earlier chapters, does this one open and close in a different way, and avoid leaning on the same devices?
+- `prose.craft.10` Which passage would a reader skim, and which is most alive? Quote both. Is the chapter's key moment the alive one?
 - `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
 - `prose.tells.02` A closer that explains the beat the scene already showed.
 - `prose.tells.03` An aphorism in the narration in place of the character's actual state.
@@ -231,18 +255,21 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `prose.tells.13` An emotion named right after it is shown.
 - `prose.tells.14` "A flicker of" and "a mix of" emotions.
 - `prose.tells.15` Dialogue that states its own subtext.
-- `prose.tells.16` Stock body reactions (weak alone).
-- `prose.tells.17` Stock atmosphere lines (weak alone).
+- `prose.tells.16` Stock body reactions, and feeling always reported from the body (weak alone).
+- `prose.tells.17` Stock atmosphere lines, and an offstage sound dropped into a pause (weak alone).
 - `prose.tells.18` Tag and gesture filler between lines of dialogue (weak alone).
-- `prose.tells.19` Stacked similes (weak alone).
+- `prose.tells.19` Reflex comparisons: stacked similes, or one in most paragraphs (weak alone).
 - `prose.tells.20` One register for every speaker (weak alone; whole-chapter pass only).
 - `prose.tells.21` Lines that answer each other in tidy pairs, often echoing the last line's wording.
 - `prose.tells.22` A cornered character explains their position in a tidy speech that briefs the reader.
+- `prose.tells.23` Description by denial: narration that says what did not happen or what a thing was not (weak alone).
+- `prose.tells.24` Hollow depth: a line or image that sounds meaningful and states nothing exact.
+- `prose.tells.25` One temperature: every scene quiet, every speaker oblique, every ending a held image (whole-chapter pass only).
 - `foundations.feedback.01` Is each note descriptive (what the reader felt, and where) instead of prescriptive (how to fix it)?
 - `foundations.feedback.02` Does each note point to a specific place in the text?
 - `foundations.feedback.03` Does any suggestion come from the reviewer's taste instead of the book's own promises?
 - `foundations.readers.01` Across readers, which reactions form a pattern (several readers stalling or lost in the same place), and which are single data points?
 - `foundations.readers.02` For each pattern, what is the cause in the story, as opposed to the fix a reader suggested?
 
-Skill for each check family: `character.entry` character-first-entry; `scene.access` scene-access-limits; `plot.bridges` plot-causal-bridges; `plot.reveals` plot-reveal-boundaries; `scene.dialogue` scene-dialogue-behavior; `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.bigp` plot-big-p-little-p; `plot.progress` plot-types-of-progress; `plot.coldopen` plot-cold-open-microcosm; `plot.threeact` plot-three-act-structure; `plot.tryfail` plot-try-fail-cycle; `plot.yesbut` plot-yes-but-no-and; `plot.cheer` plot-cheer-moment-sanderlanche; `plot.climax` plot-climax-placement-aftermath; `plot.foreshadow` plot-foreshadowing-twists; `plot.layering` plot-layering-conflict; `plot.payoff` plot-payoff-deniability-forgotten-promise; `plot.twist` plot-twists-promise-and-wish; `character.scales` character-proactive-relatable-capable; `character.proactive` character-proactivity-toolkit; `character.relatable` character-relatability-toolkit; `character.villain` character-villain-and-antihero-patterns; `character.dialogue` character-floating-outline-for-dialogue; `character.presenting` character-presenting-a-character; `character.trait` character-overused-trait-trap; `character.arc` character-arc-types; `character.capability` character-capability-design; `character.weakness` character-flaws-restrictions-limitations; `character.background` character-writing-unfamiliar-backgrounds; `magic.first` magic-first-law; `magic.second` magic-second-law; `magic.logic` magic-internal-and-external-logic; `worldbuilding.gorilla` worldbuilding-gorilla-in-the-phone-booth; `worldbuilding.curve` worldbuilding-learning-curve-and-exposition; `worldbuilding.filtered` worldbuilding-viewpoint-filtered-description; `worldbuilding.pyramid` worldbuilding-pyramid-of-abstraction; `scene.pov` viewpoint-and-tense; `scene.sequel` scene-and-sequel; `scene.show` show-dont-tell; `prose.tells` prose-ai-tells; `foundations.feedback` foundations-writing-group-rules; `foundations.readers` foundations-alpha-beta-readers.
+Skill for each check family: `character.entry` character-first-entry; `scene.access` scene-access-limits; `plot.bridges` plot-causal-bridges; `plot.reveals` plot-reveal-boundaries; `scene.dialogue` scene-dialogue-behavior; `plot.ppp` plot-promise-progress-payoff; `plot.promises` plot-kinds-of-promises; `plot.bigp` plot-big-p-little-p; `plot.progress` plot-types-of-progress; `plot.coldopen` plot-cold-open-microcosm; `plot.threeact` plot-three-act-structure; `plot.tryfail` plot-try-fail-cycle; `plot.yesbut` plot-yes-but-no-and; `plot.cheer` plot-cheer-moment-sanderlanche; `plot.climax` plot-climax-placement-aftermath; `plot.foreshadow` plot-foreshadowing-twists; `plot.layering` plot-layering-conflict; `plot.payoff` plot-payoff-deniability-forgotten-promise; `plot.twist` plot-twists-promise-and-wish; `character.scales` character-proactive-relatable-capable; `character.proactive` character-proactivity-toolkit; `character.relatable` character-relatability-toolkit; `character.villain` character-villain-and-antihero-patterns; `character.dialogue` character-floating-outline-for-dialogue; `character.presenting` character-presenting-a-character; `character.trait` character-overused-trait-trap; `character.arc` character-arc-types; `character.capability` character-capability-design; `character.weakness` character-flaws-restrictions-limitations; `character.background` character-writing-unfamiliar-backgrounds; `magic.first` magic-first-law; `magic.second` magic-second-law; `magic.logic` magic-internal-and-external-logic; `worldbuilding.gorilla` worldbuilding-gorilla-in-the-phone-booth; `worldbuilding.curve` worldbuilding-learning-curve-and-exposition; `worldbuilding.filtered` worldbuilding-viewpoint-filtered-description; `worldbuilding.pyramid` worldbuilding-pyramid-of-abstraction; `scene.pov` viewpoint-and-tense; `scene.sequel` scene-and-sequel; `scene.show` show-dont-tell; `prose.craft` prose-craft; `prose.tells` prose-ai-tells; `foundations.feedback` foundations-writing-group-rules; `foundations.readers` foundations-alpha-beta-readers.
 <!-- generated:checks:end -->

@@ -40,3 +40,32 @@ Each entry is a realistic writer prompt, the skill expected to trigger, and what
 - Treats the rule against entering other heads as a convention, and gives when to follow the stricter single-head advice (executing a limited scene, catching slips)
 - Notes tense is largely reader preference
 **Must not rely on:** "pick whichever feels natural" or a flat "never head-hop"
+
+## scene-05 - Clean but flat
+**Prompt:** My editor says chapter six is "clean but dead". I took out every adverb, every named emotion, every cliché. It's a woman breaking into her late brother's workshop and it reads like stage directions. I don't know what's left to fix.
+**Should trigger:** `prose-craft`
+**Must show:**
+- Says the problem is what is missing, not what is wrong: nothing on the page is the character's judgment, thought, or want
+- Separates a character's thought (partial, possibly wrong, leading to what she does next) from the author explaining the scene, so the fix is not to put the named emotions back
+- Gives a way to carry feeling other than a label or a body report: what she notices, avoids, or does badly
+- Says to write the passage again from inside the moment, not to decorate its sentences
+**Must not rely on:** "add more emotion", "add sensory detail", or "show, don't tell" with no way to tell a thought from an explanation
+
+## scene-06 - Every detail is the expected one
+**Prompt:** Here's my tavern: "The room was warm and smoky. A fire crackled in the hearth, and the smell of roasting meat hung in the air. Rough men hunched over tankards." A beta reader said she'd read this tavern forty times. What do I change?
+**Should trigger:** `prose-craft`
+**Must show:**
+- Names these as the first details to arrive, the ones any such place would get
+- Asks what is in this tavern and nowhere else, and what this viewpoint character notices because of their trade, history, and what they want right now
+- Says a detail earns its place by doing a job, and one that works beats three that decorate
+- Offers the questions or one short illustration, and does not rewrite the writer's passage for them unless asked
+**Must not rely on:** "use all five senses" or "be more specific" with no test for which detail to keep
+
+## scene-07 - The style is external on purpose
+**Prompt:** I write hard-boiled crime. My narrator reports what people do and say and almost never tells you what he thinks. A workshop leader told me to "get inside his head more". Is she right?
+**Should trigger:** `prose-craft`
+**Must show:**
+- Treats a deliberately external style as legitimate and does not push interior thought into it
+- Says where the life comes from in that style: what the narrator selects, how exactly he says it, and his attitude in the telling
+- Says which questions still apply (detail, exactness, proportion, range) and which does not
+**Must not rely on:** a flat "yes, add interiority" or "no, ignore her"

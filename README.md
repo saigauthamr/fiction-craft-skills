@@ -12,14 +12,14 @@ Want to read the skills? `READING-ORDER.md` lists every skill in a sensible orde
 | --- | --- |
 | Setting up and moving through a story | `story-onboard`, `story-next`, `story-adopt`, `story-develop`, `story-plan`, `story-draft`, `story-check`, `story-revise`, `story-edits`, `story-steer`, `story-continue`, `story-learn` |
 | Design tools | `story-worldbuild` (a rules lab with an exploit hunt), `story-cast` (character build sheets), `story-voice` (pick a voice from demo passages) |
-| Craft hubs and frameworks | `plot` (21 frameworks), `character` (14), `magic-worldbuilding` (15), `scene-craft` (5), `foundations` (6) |
-| Prose | `prose-ai-tells` (spots and avoids machine-sounding fiction habits, including stilted dialogue) |
+| Craft hubs and frameworks | `plot` (21 frameworks), `character` (14), `magic-worldbuilding` (15), `scene-craft` (6), `foundations` (6) |
+| Prose | `prose-craft` (what makes narration alive: the character's mind on the page, the detail that belongs to the scene, exact sentences, proportion, range) and `prose-ai-tells` (spots and avoids machine-sounding fiction habits, including stilted dialogue) |
 
 A story moves through develop (sharpen the idea), plan (a spec and chapter beats), draft, then check and revise in a loop until you say a chapter is done. When you edit a chapter the AI drafted, `story-edits` learns from your changes.
 
 ## Install
 
-Pick **one** route per tool. Installing the same skills two ways lists every skill twice. All of them install the same 82 skills, which are plain `SKILL.md` folders in the open Agent Skills format.
+Pick **one** route per tool. Installing the same skills two ways lists every skill twice. All of them install the same 83 skills, which are plain `SKILL.md` folders in the open Agent Skills format.
 
 | Tool | Route | Status |
 | --- | --- | --- |
@@ -81,7 +81,7 @@ git clone https://github.com/saigauthamr/fiction-craft-skills.git ~/fiction-craf
 
 Options: `--global` installs for every project (into `~/.claude/skills`, or `~/.agents/skills` with `--agents`); `--copy` copies the skills instead of linking them, for a tool that does not follow links; a folder path installs somewhere else. The installer never overwrites a folder or file that is not its own, refreshes its earlier links and copies, and removes dead links into this library. Install all of the skills together, since some read their sibling skills' folders.
 
-Install per project where you can. A global install puts 82 story skills into every session, where they compete with your other skills.
+Install per project where you can. A global install puts 83 story skills into every session, where they compete with your other skills.
 
 ### Where each tool looks
 
@@ -107,7 +107,7 @@ If your tool reads a different file, point it at `AGENTS.md`.
 
 ### Too many skills for the tool's list
 
-Tools put every skill's name and description into the model's context, within a budget, and drop or shorten descriptions when there are too many. The 82 descriptions here total about 20,000 characters. Codex's docs give the list about 2% of the context window (8,000 characters when the window size is unknown) and say it shortens descriptions first; `skills.max_context_tokens` raises that, up to 10,000 tokens. Claude Code's docs describe dropping the descriptions of rarely used skills first when it runs short, with a setting to raise the budget (`skillListingBudgetFraction`). If a skill does not trigger from a plain request, raise the budget. The routing table that setup writes into your instructions file is a second path: it names the right skill for each kind of request, and it is what made loading reliable in testing.
+Tools put every skill's name and description into the model's context, within a budget, and drop or shorten descriptions when there are too many. The 83 descriptions here total about 20,000 characters. Codex's docs give the list about 2% of the context window (8,000 characters when the window size is unknown) and say it shortens descriptions first; `skills.max_context_tokens` raises that, up to 10,000 tokens. Claude Code's docs describe dropping the descriptions of rarely used skills first when it runs short, with a setting to raise the budget (`skillListingBudgetFraction`). If a skill does not trigger from a plain request, raise the budget. The routing table that setup writes into your instructions file is a second path: it names the right skill for each kind of request, and it is what made loading reliable in testing.
 
 **Loading was tested in Claude Code (22 plain requests from project-local links, 6 from the plugin) and Codex (1 plain request).** The format follows the open standard and the paths above come from each tool's documentation. Other tools are untested; if a skill does not appear in yours, please open an issue.
 
@@ -136,6 +136,17 @@ When the AI writes everything, it drafts chapter by chapter, checks and revises 
 
 What to expect: this produces working drafts that follow your design and stay consistent with it. It is not a substitute for a human editor if you plan to publish professionally, and if you do publish, disclosing that AI wrote the text is your decision to make and often a platform requirement.
 
+## How the prose is written
+
+Clean prose is not the goal; prose that reads as written by someone is. When the AI drafts, it:
+
+- **Decides how each scene is lived before writing it:** what the viewpoint character wants and dreads, what they have wrong, what only they would notice, and where the scene should spend its words.
+- **Writes from inside the character.** The narration carries their judgments, thoughts, and mistakes, instead of filming them from outside. Feeling comes through what they notice and do, not through labels or a tight chest.
+- **Matches a sample passage you approved.** `story-voice` ends with a voice sheet and a passage of about three hundred words in the chosen voice. Drafts follow its sound and never reuse its sentences.
+- **Reads the chapter back before handing it over:** rewrites the passage a reader would skim, tests the lines that sound best for whether they state anything, and runs a small script that counts the habits a drafter cannot hear in its own text (comparisons, "did not" narration, body reports, hedges), with line numbers.
+
+`story-check` then looks for flat prose as well as faults, and `story-revise` rewrites a flat passage whole instead of swapping words in it. The reasoning and worked examples are in `prose-craft`.
+
 ## How the craft knowledge is used
 
 Each framework skill lists its checks with stable IDs. A build step copies the relevant ones into each stage skill, making the guidance available whenever that skill loads. Plans and check reports record which checks were applied and what each found. A framework the story breaks on purpose is recorded as deliberate, not treated as a defect. The compiled guidance does not guarantee that the model applies it correctly; behavioral evaluations check that separately.
@@ -157,7 +168,7 @@ Each framework skill lists its checks with stable IDs. A build step copies the r
 
 ## Testing and limits
 
-- `scripts/lint.py` checks the skills' structure, cross-references, routing, generated check lists, and test fixtures. `scripts/test_*.py` test the settings block, the scaffold, the inspector and its next-step order, the importer, the check compiler, the chapter diff, the chapter cards, and the text checker. Run each with `python3 -I scripts/test_story_block.py`, and so on.
+- `scripts/lint.py` checks the skills' structure, cross-references, routing, generated check lists, and test fixtures. `scripts/test_*.py` test the settings block, the scaffold, the inspector and its next-step order, the importer, the check compiler, the chapter diff, the chapter cards, the text checker, and the habit counter. Run each with `python3 -I scripts/test_story_block.py`, and so on.
 - `evals/` holds realistic prompts and sample pairs for checking skill behavior. These are smoke-test scenarios, not benchmarks or a guarantee of writing quality.
 - The importer reads Word and Excel files with the standard library only. Files with unusual structure (tracked changes, comments, merged cells, formulas) may import imperfectly, and it tells you what it left in place.
 
