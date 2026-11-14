@@ -39,36 +39,28 @@ Writing a card is housekeeping, not a fix. When you had to open a chapter becaus
 
 ## Revising
 
+A revision that fixes structure and correctness can strip out the personality, and a chapter that is correct and lifeless is worse than the one you started with. So every revision does these steps, in order:
+
 1. **Keep the earlier version.** Copy the chapter to `work/drafts/_previous/` with a version number before changing it. Never overwrite the only copy.
-2. Work in priority order, must-fix first.
-3. Change as little as the finding needs. Keep the voice and the settled facts. If a fix needs a new fact, queue it as pending; never write it into `kb/`.
-4. **A flat passage is the exception to changing little.** When the finding is that a passage has no mind in it, a generic detail, a line that states nothing, or the same weight as everything around it, swapping words will not fix it, because the passage was never imagined. Go back into the moment: what the viewpoint character wants, what they see, what they think it means, what they have wrong. Then write that passage again whole, with the same events and facts, at about the same length, in the project's voice. Leave the rest of the chapter alone.
-5. In the check report, delete each finding once it is fixed. A finding you or the writer decide not to fix becomes `[resolved] declined: <reason>`. Only a finding deferred to later stays `[open]`, with "deferred" and why. Delete the report file when no findings are left.
-6. **Re-check your own new text** against the finding that prompted it and with the craft checks below. Do not swap one habit for a close cousin of it, such as replacing a named emotion with a stock gesture or a report from the body, or a cut explanation with a comparison. Run `habits.py` from the `story-check` skill folder (full path, no `cd`) on the revised chapter and compare its counts with the earlier version's: a revision that removes one habit and doubles another has not helped.
-7. Set the chapter's status line to `<!-- status: draft -->` (or `awaiting check-in` inside autopilot). Never remove a chapter's status line yourself; only the writer's word does that.
-8. Replace the chapter's copy in `work/drafts/_delivered/` with the text you are handing over.
-9. Rewrite the chapter's card (see Chapter cards in `story-continue`) if it has one, or if the story has five or more chapters.
+2. **List what is alive, before changing anything.** Read the chapter for what a reader would repeat to someone: jokes, lines with an edge, the exact odd detail, a character's particular way of talking, a passage with momentum. Write the list down, quoting each. This is the keep list. Also on it, unless a finding shows one failing at its own job: dialogue and its rhythm, inner thoughts, digressive texture, deliberate ambiguity or silence, repetition that carries rhythm.
+3. **Fix in priority order, must-fix first, changing as little as each finding needs.** Keep the voice and the settled facts. A fix that needs a new fact queues it as pending; never write it into `kb/`. You may fix wording, punctuation, and paragraph breaks freely. Never compress concrete material into summary.
+4. **A flat passage is written again whole.** When the finding is that a passage has no mind in it, a generic detail, a line that states nothing, or the same weight as everything around it, swapping words will not help, because the passage was never imagined. Go back into the moment (what the viewpoint character wants, sees, thinks it means, has wrong) and write that passage again, with the same events and facts, at about the same length. How it is written is your judgment. The rest of the chapter stays.
+5. **A whole-chapter rewrite happens only when the writer asks for one.** Then the keep list matters most: build the new chapter around those lines, and add to them. The aim of a rewrite is everything the old chapter had, plus what it lacked. That is not a licence to add length: stay inside the chapter's length range, or within about a tenth of the old length if no range is set, and if what you added will not fit, say what you would cut and let the writer choose.
+6. **Compare what was gained and what was lost.** Read the old and new versions side by side. For each line on the keep list: is it still there, or replaced by something at least as alive? Put back anything that was lost for nothing. Then ask the same of the chapter as a whole: is it as funny, as sharp, as strange, as much itself as before? If the new version is better built and duller, it is not finished. Then read the new version straight through once: a line carried over or put back has to fit what now surrounds it, and one that repeats a point already made comes out.
+7. **Re-check your own new text** against the finding that prompted it and the craft checks below. Do not swap one habit for its cousin (a named emotion for a body report, a cut explanation for a comparison). Run `habits.py` from the `story-check` skill folder (full path, no `cd`) on both versions and compare.
+8. **Housekeeping.** In the check report, delete each fixed finding; one you or the writer decline becomes `[resolved] declined: <reason>`; only a deferred one stays `[open]`, with why. Delete the report when it is empty. Set the status line to `<!-- status: draft -->` (or `awaiting check-in` inside autopilot) and never remove it yourself. Replace the chapter's copy in `work/drafts/_delivered/` with what you hand over. Rewrite its card (see Chapter cards in `story-continue`) if it has one or the story has five or more chapters.
 
-## Protect style-bearing material
-
-Some of what looks like slack is the voice. Leave these alone unless a finding shows one failing at its own job:
-
-- dialogue, including its rhythm and what it leaves unsaid
-- inner thoughts
-- digressive texture and observational detail
-- deliberate ambiguity, silence, or flirtation
-- repetition that carries rhythm
-
-You may fix wording, punctuation, transcription noise, and paragraph breaks. Never compress concrete material into summary, and never "tighten" a passage by replacing its specific detail with a general statement. When a fix would remove protected material, say which one and what the fix gains, and let the writer decide.
+When a fix would cost something on the keep list, say which line and what the fix gains, and let the writer decide.
 
 ## Handing over
 
-Say what changed and what did not, and offer another check. Repeat check and revise until the writer says the chapter is done; never decide that yourself.
+Say what changed, what did not, and **what was lost**: any line from the keep list that did not survive, and why. Offer another check. Repeat check and revise until the writer says the chapter is done; never decide that yourself.
 
 ## Rules
 
 - Never delete the earlier version.
 - Never flatten concrete detail into summary.
+- Never hand over a revision without the keep list checked against it.
 - Never delete a finding you did not fix.
 - Report what the revision does, not that it is better.
 
@@ -88,6 +80,7 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `prose.craft.03` How is each strong feeling carried? If mostly by labels or body reports (chest, breath, pulse, stomach), find what the feeling makes this character notice, avoid, or do.
 - `prose.craft.05` Does any sentence or image sound meaningful without stating anything exact? Say what it literally claims or what a reader would picture.
 - `prose.craft.07` Is description built from what is present and what happens, or from denials and reflex comparisons?
+- `prose.craft.11` What would a reader repeat to someone (a joke, an edged line, an exact odd detail)? Quote them. Against an earlier version, is anything of that kind gone with nothing as alive in its place?
 - `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
 - `prose.tells.02` A closer that explains the beat the scene already showed.
 - `prose.tells.03` An aphorism in the narration in place of the character's actual state.

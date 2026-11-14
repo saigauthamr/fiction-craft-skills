@@ -59,6 +59,8 @@ A device that works once wears out by the third use. Compare the chapter with th
 
 Polishing words does not fix a passage that was never imagined. Go back into the moment: what does the character want here, what do they see, what do they think it means, what are they wrong about? Then write the passage again whole, with the same events and facts, at about the same length. Do not decorate the old sentences.
 
+Before reworking anything, note what in it is already alive (a joke, a line with an edge, an odd exact detail) and carry it over. Structure and correctness are easy to add and personality is easy to lose; a rework that comes out better built and duller has gone backward.
+
 ## Checks
 
 - `prose.craft.01` For each scene, where on the page does the viewpoint character want, judge, or think something through? A scene of only actions, objects, and speech reads as filmed.
@@ -71,10 +73,12 @@ Polishing words does not fix a passage that was never imagined. Go back into the
 - `prose.craft.08` Do the scenes differ in temperature, and does anyone say or do something blunt, funny, ugly, or unplanned?
 - `prose.craft.09` Against the earlier chapters, does this one open and close in a different way, and avoid leaning on the same devices?
 - `prose.craft.10` Which passage would a reader skim, and which is most alive? Quote both. Is the chapter's key moment the alive one?
+- `prose.craft.11` What would a reader repeat to someone (a joke, an edged line, an exact odd detail)? Quote them. Against an earlier version, is anything of that kind gone with nothing as alive in its place?
 
 ## Cautions and exceptions
 
 - A deliberately external style is legitimate: hard-boiled narration, fable, a storyteller who stays outside, a minimalism the writer chose. Its life then comes from selection and voice, so the checks on detail, exactness, and proportion still apply and `prose.craft.01` does not.
+- These are ways of seeing a draft, not rules for writing one. A writer who knows why a habit deadens a page can break any of them on purpose.
 - None of this is a quota. One thought where it counts, one detail that works. A thought in every paragraph and a striking detail in every sentence is a new default.
 - The writer's voice file and their own pages come before anything here.
 - This is line-level craft from common editing practice, not from the lecture series behind the plot and character frameworks.

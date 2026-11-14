@@ -17,7 +17,7 @@ Find what is not working and say where, with evidence. Never fix anything here. 
 2. **Read the project's own rules.** Any review checklist, voice rules, chapter format, or length range it names is part of the check. Where it names several voice files (for example one per part of the book), use the one that applies to this chapter.
 3. **Read the chapter, its beats, the spec, and the `kb/` pages the beats name.** Without a spec or beats, check against the frameworks, the prose patterns, and the chapter's own internal consistency, and say what you could not check.
 4. **Run the text checker first**, with its full path and the chapter file or the folder of chapters: `python3 check_text.py <chapter or folder>`. If the beats or the project's own rules state a length range for a chapter, add `--words MIN-MAX` (for example `--words 1800-2500`). It reports leaked assistant text, stray formatting, unbalanced quotes, duplicated paragraphs, encoding damage, whitespace problems, a last line that stops mid-sentence, a long phrase repeated three or more times, and a chapter outside the stated length, with line numbers. Treat each warning as something to look at, not a verdict: a real slip becomes a finding, a deliberate choice does not. A chapter that stops mid-sentence is probably cut off, so say that first. A repeated phrase may be a deliberate refrain, song, or repeated document header. A length warning is a mismatch with the plan, not a flaw in the prose: say which one the writer should change.
-5. **Run the habit counter**, the same way: `python3 habits.py <chapter or folder>`. For English prose it lists, with line numbers, the comparisons, negated narration, body reports, hedges, and one-line paragraphs in the narration, runs of sentences that open with the same word, and each chapter's first and last lines. It has no passing number and it is never a finding by itself. Use it to see what your ear misses: one habit carrying a page, or several chapters that open or close the same way.
+5. **Run the habit counter**, the same way: `python3 habits.py <chapter or folder>`. For English prose it lists, with line numbers, the comparisons, negated narration, body reports, hedges, and one-line paragraphs in the narration, runs of sentences that open with the same word, and each chapter's first and last lines. Add `--borrowed-from <voice file> <sample passage>` to list word runs the chapter copies from them; a copied line is a finding. Otherwise it has no passing number and is never a finding by itself. Use it to see what your ear misses: one habit carrying a page, or several chapters that open or close the same way.
 6. **Read the whole chapter before noting anything.**
 
 ## Reading a long story
@@ -42,7 +42,7 @@ Writing a card is housekeeping, not a fix. When you had to open a chapter becaus
 
 Three kinds of finding have no framework check: a contradiction with `kb/` or an earlier chapter uses `Check: continuity`, a gap between the chapter and its beats or spec uses `Check: plan`, and a real warning from the text checker uses `Check: text`. Never borrow an unrelated ID to fill the field.
 
-Rank findings by how much they hurt the chapter. End with the top three priorities and one thing the chapter does well that should be kept. A finding is removed from the report when it is fixed; one kept on purpose becomes `[resolved] declined: <reason>`, handled by `story-revise`.
+Rank findings by how much they hurt the chapter. End with the top three priorities and a **keep list**: the lines and passages that are alive (a joke, a line with an edge, an exact odd detail, a character's way of talking), each quoted, as many as there are. A revision must not cost them, so a finding whose fix would remove one says so. A finding is removed from the report when it is fixed; one kept on purpose becomes `[resolved] declined: <reason>`, handled by `story-revise`.
 
 **A reader's report** ("is it any good?", "be a reader"): read as a skeptical reader and report in six short parts: where I got bored, where I got confused, where I stopped believing it, what I saw coming too early, what worked, and the one passage I would read aloud to someone beside the one I skimmed, both quoted. Give only the three biggest problems, each with a one-line example. Then the twist test: what you think the story's biggest secret is and how sure you are, and which clue gave it away if you guessed it early. Run the craft checks silently to find the problems; say them in the reader's words. Do not save a file unless the writer asks for one.
 
@@ -66,7 +66,7 @@ A chapter can be free of every fault above and still read as written by nobody. 
 - **Range.** Is everything quiet, oblique, and controlled?
 - **Across chapters.** Does this chapter open and close the way the last ones did, and lean on the same devices?
 
-Quote the passage a reader would skim and the passage that is most alive, and say whether the chapter's turn is the alive one. A flat-prose finding names the passage and what is missing from it. Its fix is to write the passage again from inside the character, never a list of words to swap. If the project's voice file asks for a narrator who stays outside the characters, that is the style and not a finding.
+Quote the passage a reader would skim and the passage that is most alive, and say whether the chapter's turn is the alive one. When an earlier version of the chapter exists in `work/drafts/_previous/`, read it too and say what it had that this version lacks. A flat-prose finding names the passage and what is missing from it. Its fix is to write the passage again from inside the character, never a list of words to swap. If the project's voice file asks for a narrator who stays outside the characters, that is the style and not a finding.
 
 ## Talking to the writer
 
@@ -240,6 +240,7 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `prose.craft.08` Do the scenes differ in temperature, and does anyone say or do something blunt, funny, ugly, or unplanned?
 - `prose.craft.09` Against the earlier chapters, does this one open and close in a different way, and avoid leaning on the same devices?
 - `prose.craft.10` Which passage would a reader skim, and which is most alive? Quote both. Is the chapter's key moment the alive one?
+- `prose.craft.11` What would a reader repeat to someone (a joke, an edged line, an exact odd detail)? Quote them. Against an earlier version, is anything of that kind gone with nothing as alive in its place?
 - `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
 - `prose.tells.02` A closer that explains the beat the scene already showed.
 - `prose.tells.03` An aphorism in the narration in place of the character's actual state.

@@ -145,7 +145,9 @@ Clean prose is not the goal; prose that reads as written by someone is. When the
 - **Matches a sample passage you approved.** `story-voice` ends with a voice sheet and a passage of about three hundred words in the chosen voice. Drafts follow its sound and never reuse its sentences.
 - **Reads the chapter back before handing it over:** rewrites the passage a reader would skim, tests the lines that sound best for whether they state anything, and runs a small script that counts the habits a drafter cannot hear in its own text (comparisons, "did not" narration, body reports, hedges), with line numbers.
 
-`story-check` then looks for flat prose as well as faults, and `story-revise` rewrites a flat passage whole instead of swapping words in it. The reasoning and worked examples are in `prose-craft`.
+`story-check` then looks for flat prose as well as faults, and `story-revise` rewrites a flat passage whole instead of swapping words in it. Because fixing a chapter can strip out its personality, every revision first lists what is alive in the chapter (the jokes, the lines with an edge, the odd exact detail), carries those through, and tells you what did not survive.
+
+The passes are fixed; how the prose is written inside them is left to the drafter's judgment and your voice file. The reasoning and worked examples are in `prose-craft`.
 
 ## How the craft knowledge is used
 

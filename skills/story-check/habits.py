@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Count the prose habits a drafter cannot count by ear. English prose. Standard library only.
 
-Usage: habits.py <chapter-file-or-folder>
+Usage: habits.py <chapter-file-or-folder> [--borrowed-from <voice-or-sample-file> ...]
 
 For each chapter it lists, with line numbers, the places in the narration (outside quoted
 speech) where it finds: comparisons (like, as if, as though, as X as, the way a), negated narration
@@ -10,6 +10,9 @@ speech) where it finds: comparisons (like, as if, as though, as X as, the way a)
 gives the share of words in dialogue, any run of sentences that open with the same word, and
 the chapter's first and last lines, so the openings and endings of several chapters can be
 read side by side.
+
+With --borrowed-from, it also lists every run of five or more words the chapter shares with
+the named files (a voice file, a sample passage), so a line copied from them can be found.
 
 These are counts to look at, never verdicts, and there is no passing number. Every one of
 these is ordinary in good prose. What matters is one habit carrying a page: look at each
@@ -116,7 +119,7 @@ def clip(s, width=110):
     return s if len(s) <= width else s[:width - 3].rstrip() + "..."
 
 
-def report(path):
+def report(path, sources=()):
     raw = path.read_text(encoding="utf-8", errors="replace")
     text = blank_ignored(raw)
     lines = text.split("\n")
@@ -144,6 +147,33 @@ def report(path):
         out.append(f"  {count} sentences in a row open with \"{word}\", from line {line}")
     out.append(f"  first line: {clip(paras[0][1][0])}")
     out.append(f"  last line: {clip(paras[-1][1][-1])}")
+    for src in sources:
+        hits = borrowed(prose_lines, src.read_text(encoding="utf-8", errors="replace"))
+        out.append(f"  shared with {src.name}: {len(hits)} run(s) of {BORROW_WORDS}+ words")
+        out += [f"    line {n}: \"{clip(phrase, 90)}\"" for n, phrase in hits[:20]]
+    return out
+
+
+BORROW_WORDS = 5
+
+
+def borrowed(chapter_lines, source):
+    """[(line, phrase)] for each maximal run of BORROW_WORDS or more words the chapter shares with the source."""
+    def words(text):
+        return [w.lower().replace("’", "'") for w in WORD.findall(text)]
+    src = words(blank_ignored(source))
+    grams = {tuple(src[i:i + BORROW_WORDS]) for i in range(len(src) - BORROW_WORDS + 1)}
+    seq = [(w.lower().replace("’", "'"), n) for n, line in enumerate(chapter_lines, 1) for w in WORD.findall(line)]
+    out, i = [], 0
+    while i <= len(seq) - BORROW_WORDS:
+        if tuple(w for w, _ in seq[i:i + BORROW_WORDS]) in grams:
+            j = i + BORROW_WORDS
+            while j < len(seq) and tuple(w for w, _ in seq[j - BORROW_WORDS + 1:j + 1]) in grams:
+                j += 1
+            out.append((seq[i][1], " ".join(w for w, _ in seq[i:j])))
+            i = j
+        else:
+            i += 1
     return out
 
 
@@ -158,17 +188,31 @@ def targets(arg):
 
 
 def main(argv):
-    args = [a for a in argv[1:] if not a.startswith("--")]
+    rest, sources, i = argv[1:], [], 0
+    args = []
+    while i < len(rest):
+        if rest[i] == "--borrowed-from":
+            i += 1
+            while i < len(rest) and not rest[i].startswith("--"):
+                sources.append(Path(rest[i]))
+                i += 1
+            continue
+        if not rest[i].startswith("--"):
+            args.append(rest[i])
+        i += 1
     if len(args) != 1:
         print(__doc__)
         return 2
     try:
         files = targets(args[0])
+        for s in sources:
+            if not s.is_file():
+                raise OSError(f"not found: {s}")
     except OSError as e:
         print(f"error: {e}")
         return 2
     for f in files:
-        print("\n".join(report(f)))
+        print("\n".join(report(f, sources)))
     print(f"{len(files)} file(s) read. Counts to look at, not verdicts.")
     return 0
 

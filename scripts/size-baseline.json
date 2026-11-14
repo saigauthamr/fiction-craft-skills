@@ -472,12 +472,12 @@
    "gen_tokens": 0
   },
   "prose-craft": {
-   "hand_words": 1440,
+   "hand_words": 1557,
    "gen_words": 0,
    "checks": 0,
-   "sha256": "e240fb3c82ccb197382b0d164a7d12c6a45077bc450e863149ce3fd63b2e4bb2",
-   "whole_tokens": 1977,
-   "hand_tokens": 1879,
+   "sha256": "b1b9b5b038aba3d5822fd67d07b8f7e59af2e6c54c915d5c9fd155a089cfd5e0",
+   "whole_tokens": 2123,
+   "hand_tokens": 2025,
    "gen_tokens": 0
   },
   "scene-access-limits": {
@@ -544,13 +544,13 @@
    "gen_tokens": 1078
   },
   "story-check": {
-   "hand_words": 1555,
-   "gen_words": 3647,
-   "checks": 183,
-   "sha256": "a9a3fc31af465579818bf1ea58fad80168f2e8ab57d0c360ed692ec0e6ca7390",
-   "whole_tokens": 7979,
-   "hand_tokens": 1998,
-   "gen_tokens": 5889
+   "hand_words": 1637,
+   "gen_words": 3684,
+   "checks": 184,
+   "sha256": "097b7139e554d475287659a1f12ef2f27a9285a0263b51fad87161c23156e680",
+   "whole_tokens": 8142,
+   "hand_tokens": 2110,
+   "gen_tokens": 5940
   },
   "story-continue": {
    "hand_words": 774,
@@ -571,13 +571,13 @@
    "gen_tokens": 817
   },
   "story-draft": {
-   "hand_words": 3171,
-   "gen_words": 1102,
-   "checks": 45,
-   "sha256": "20bedb593cbf233a2efb818cc330c62c22174a2e318c76b8a82c9e4627d415ad",
-   "whole_tokens": 5982,
-   "hand_tokens": 4142,
-   "gen_tokens": 1740
+   "hand_words": 2654,
+   "gen_words": 1139,
+   "checks": 46,
+   "sha256": "847e66adcadaafc564faeb10d8767947f3100b87dce269d50d7ffebf716f90a0",
+   "whole_tokens": 5391,
+   "hand_tokens": 3500,
+   "gen_tokens": 1791
   },
   "story-edits": {
    "hand_words": 879,
@@ -625,13 +625,13 @@
    "gen_tokens": 4673
   },
   "story-revise": {
-   "hand_words": 1009,
-   "gen_words": 699,
-   "checks": 36,
-   "sha256": "b0835b6dd80c3abae0b63c1b6e5ba0612c87f6822eefaa31ea988b0d504c6436",
-   "whole_tokens": 2588,
-   "hand_tokens": 1337,
-   "gen_tokens": 1155
+   "hand_words": 1215,
+   "gen_words": 736,
+   "checks": 37,
+   "sha256": "14af70afff89f0d37224c1178371a4db074de70d385da9d9caf0e6de2d3365e6",
+   "whole_tokens": 2885,
+   "hand_tokens": 1583,
+   "gen_tokens": 1206
   },
   "story-steer": {
    "hand_words": 450,

@@ -97,6 +97,18 @@ class HabitsTest(unittest.TestCase):
         result = subprocess.run([sys.executable, "-B", "-I", str(HABITS), "/nonexistent/chapter.md"], capture_output=True, text=True)
         self.assertEqual(result.returncode, 2)
 
+    def test_borrowed_lines_are_listed(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            base = Path(tmp)
+            (base / "voice.md").write_text("# Voice\n\n- Example: She counted them again, because counting was free.\n- Short lines only.\n", encoding="utf-8")
+            (base / "ch.md").write_text("The road was dry.\n\nShe counted again, because counting was free. Then the lamp went out.\n\nShe counted them twice.\n", encoding="utf-8")
+            result = subprocess.run([sys.executable, "-B", "-I", str(HABITS), str(base / "ch.md"), "--borrowed-from", str(base / "voice.md")], capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0)
+            self.assertIn("shared with voice.md: 1 run(s)", result.stdout)
+            self.assertIn('line 3: "again because counting was free"', result.stdout)
+            missing = subprocess.run([sys.executable, "-B", "-I", str(HABITS), str(base / "ch.md"), "--borrowed-from", str(base / "nope.md")], capture_output=True, text=True)
+            self.assertEqual(missing.returncode, 2)
+
     def test_folder_skips_delivered_and_previous_copies(self):
         with tempfile.TemporaryDirectory() as tmp:
             base = Path(tmp)

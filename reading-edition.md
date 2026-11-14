@@ -583,7 +583,7 @@ Write prose only when the settings say the AI drafts. The draft is working mater
 
 - **`ai`**: draft the chapter (below).
 - **`alternate`**: write the next scene only, continuing from where the writer's last scene ends, in the writer's voice as their pages show it. Then hand the next scene back to them.
-- **`writer`**: do not write the chapter. Offer a scene list for it (who wants what, what is in the way, how it turns out, the hook out), the questions under "Before you write a scene", the questions the craft checks below raise, or a line or two of illustration if the writer asks how something could go. Then offer to check their draft when it is done.
+- **`writer`**: do not write the chapter. Offer a scene list for it (who wants what, what is in the way, how it turns out, the hook out), the questions under "Pass 1: imagine each scene", the questions the craft checks below raise, or a line or two of illustration if the writer asks how something could go. Then offer to check their draft when it is done.
   If they want the AI to draft after all, that is a settings change: offer `story-onboard`, which shows the change and asks first. Never change the settings yourself.
 - **`none`** (design only): there is no prose stage. Say so, and offer to refine the design instead.
 
@@ -611,67 +611,50 @@ Writing a card is housekeeping, not a fix. When you had to open a chapter becaus
 - Follow the beats in order: the goal, each scene and how it turns out, the hook out. If a beat does not work on the page, say so and propose a change; do not skip it quietly.
 - Stay inside `kb/`. Never contradict a settled fact. Where the beats need a detail that is not settled, write something plausible and list it as a new fact.
 - Keep the project's chapter length, viewpoint, tense, and voice file for this part of the book.
-- Apply the craft checks below while you write. Avoid the machine-prose patterns listed among them.
+- The craft checks at the end are for Pass 3 and for the files you write. Do not draft by checklist.
 - Draft one chapter. Do not run ahead without the writer's go-ahead.
 
-The beats decide what happens. The four sections below decide how it reads, and then "Read it back" comes before any hand-over.
+The beats decide what happens. How it reads is your judgment as a writer. The three passes below are not optional and not reorderable: do every step of each. Inside them the choices are yours, and where your taste and the project's voice file differ, the voice file wins.
 
-#### Before you write a scene
+#### Pass 1: imagine each scene
 
-Decide how the scene is lived before you write a word of it. For each scene, settle these in your notes or your reasoning, never on the page:
+Before writing a scene, settle these in your notes or your reasoning, never on the page:
 
-- **Want and dread.** What the viewpoint character is trying to get or avoid here, and what they are afraid will happen instead.
-- **In and out.** The state they arrive in (the last scene, the hour, their body) and how they leave it changed.
-- **What they have wrong.** A belief, a misreading of someone, a thing they are not looking at.
-- **What only they would notice.** Two or three specifics of this place and these people that come from the character's trade, history, and want. If the first one to arrive would fit any story, throw it out and take the next.
-- **Where the words go.** The moment the scene turns gets the room. Start as late as the scene allows and stop once the change has happened.
-- **One thing the beats did not predict:** a remark, an object, or a reaction that is right for these people and was not in the plan.
+- **The pleasure.** What a reader will enjoy here: a voice, a joke, an argument, somebody being good at something, dread. Name it, so the draft delivers it and no later fix sands it off.
+- **Want and dread.** What the viewpoint character is trying to get or avoid, and what they fear will happen instead.
+- **In and out.** The state they arrive in and how they leave it changed.
+- **What they have wrong:** a belief, a misreading, a thing they are not looking at.
+- **What only they would notice,** from their trade, history, and want. If the first detail to arrive would fit any story, take the next.
+- **Where the words go.** The moment the scene turns gets the room; routine is summarized or skipped.
+- **One thing the beats did not predict** that is right for these people.
 
-If an earlier chapter exists, note how it opened and how it closed, and do both differently here.
+If an earlier chapter exists, note how it opened and closed, and do both differently.
 
-#### Narration
+#### Pass 2: write it
 
-Prose with the faults taken out is clean, not alive. In first person and close third the narration is the viewpoint character's experience, not a camera's record.
+Write the chapter as a novelist with this voice would: with appetite, making your own decisions about where to be funny, where to tell something outright, where to be blunt, and when to break a habit of good taste. A draft that takes risks and misses in places is worth more than one that offends nobody; the next pass catches the misses. Aim for a chapter where somebody is plainly telling this (a mind, an attitude, a sense of humor), where people sound like themselves and want things from each other, and where what is on the page could only be in this story.
 
-- **Keep their mind on the page.** What they notice arrives with what they make of it, in their words, with no "she thought" in front. Let them work things out, rationalize, remember what the thing in front of them calls up, and be wrong. A scene of only actions, objects, and speech reads as filmed.
-- **A thought is not an explanation.** An explanation is yours and tells the reader what the scene means: leave it out. A thought is the character's, can be mistaken, and leads to what they do next: keep it.
-- **Carry feeling through attention and action:** what it makes them notice, avoid, do badly, or think about instead. Not a label, and not a report from the body (chest, breath, pulse, stomach). When the character would know what they feel, they can say so plainly in their own words.
-- **Pick the detail that could only be here** and make it do a job: show who is looking, change what someone does, carry history. One that works beats three that decorate.
-- **Say the exact thing.** The literal sentence first; a comparison only when it shows what the literal one cannot, taken from the character's world. Describe what is there and what happens, not what is absent ("it did not rush"). If you cannot say what a sentence claims or picture what it shows, cut it.
-- **Change speed.** Summarize or skip the routine, and slow down where the scene turns. A chapter in which every moment gets equal care has no shape.
-- **Let it be as loud as it is:** funny, blunt, ugly, or angry when the moment is. Restraint in every line is a habit too.
+`prose-craft` and `scene-dialogue-behavior` hold the reasoning and worked examples. Load them when a scene will not come alive, not as rules to write by.
 
-None of this is a quota: one thought where it counts, not one in every paragraph. A project whose voice file asks for a narrator who stays outside the characters keeps that, and gets its life from what it selects. `prose-craft` has the reasoning and a worked before-and-after for each point; load it when a scene will not come alive.
+#### Pass 3: read it back
 
-#### How people talk
+Read the finished chapter once as its reader would, start to finish. Then do each step:
 
-Drafted dialogue fails in one predictable way: everyone takes turns delivering clear, complete, reasonable lines. People do not talk like that, least of all in a conflict.
-
-- **Cornered people deflect.** They ask who told you, appeal to family or rank, change the subject, offer food, go quiet, or attack. They do not explain their position in a tidy speech, unless lecturing is who they are.
-- **Lines do not answer each other neatly.** People answer the question they wish they had been asked, or none. They do not pick up the last speaker's words and hand them back. Some questions get no answer at all.
-- **People interrupt and leave things unsaid.** A line can break off. A pause can be the answer.
-- **Each speaker sounds like themself.** Give them their own vocabulary, sentence length, and things they avoid saying. Cover the names: you should still know who is talking.
-- **Facts come out contested and in fragments**, as accusations, half-denials, and slips, never as a briefing for the reader. If the reader must learn how something works, let it arrive in pieces that someone is fighting over.
-- **Nobody states the subtext.** "I feel betrayed because you promised" becomes "You said you'd stay."
-- **Not everyone is oblique.** Dodging is one behavior among several. Some people say the blunt thing, badly or too loudly, and some scenes need the plain sentence said. If every speaker deflects with the same dry wit, that is one register again.
-- **Tags:** "said", or none. Rapid exchanges can stay untagged when the voices and pressure are clear.
-- **Action only where it does work.** Put an action between lines where something changes: information lands, a lie is tested, power shifts, restraint fails, or a decision turns. It earns its place when the reaction changes the next beat. A nod, sip, or look away that anyone could do, or a task step with no human pressure in it, is filler. Do not spread beats evenly, and do not "fix" flat dialogue by adding a gesture or an emotion label to every line. A plain "He said nothing" is fine.
-
-#### Leave the meaning to the reader
-
-- Show what happens. Do not add a sentence that names the lesson, the significance, or the feeling just shown. This rules out the narrator's captions, not the character's thoughts.
-- The beats' turn is your aim, not your text. Never put it on the page, not even paraphrased.
-- End a scene where it has changed: on a line, an action begun, a decision, a question left open. Not on a summary of what it meant, and not on a quiet image every time.
-
-#### Read it back
-
-Before handing over, read the chapter once as its reader would, start to finish. Then, in one pass:
-
-1. **Find the passage a reader would skim, and the moment the chapter turns.** If the turn is not the most alive passage in the chapter, write it again from inside the character: what they want, what they see, what they think it means. Do the same for the passage a reader would skim, or cut it. Write the passage again whole; polishing its words does not fix a passage that was never imagined.
-2. **Test the lines that sound best.** For each striking image and each closing line, say what it literally states. If it states nothing, or the picture is impossible, put the exact thing in its place.
-3. **Check that it adds up.** Follow the hours, the positions, and the objects through the chapter: what time it is, who stands where and in what order, who is holding what, what each person can see. A lamp handed away is not carried on, a shift that began at seven did not end at seven, and a count has to match the people named. Fix each slip on the page.
-4. **Count your habits.** Run `habits.py` from the `story-check` skill folder (full path, no `cd`) on the chapter. It lists, with line numbers, the comparisons, negated narration, body reports, hedges, and one-line paragraphs in the narration, and any run of sentences opening with the same word. Where one habit is carrying the page, keep the instances that do real work and rewrite the rest. The counts are a prompt to look and have no passing number.
-5. **Check the borrowings.** Look in the chapter for each example line in the voice file and each sentence of its sample. One that was reused, even with a word changed, comes out. The opening and the ending differ in kind from the previous chapter's.
+1. **Mark what is alive.** The lines a reader would repeat to someone: the joke, the exact odd detail, the thing only this person would say. A chapter needs several, spread through it. A scene with none was written dutifully: write it again for the pleasure you named in Pass 1.
+2. **The turn and the skim.** If the moment the chapter turns is not among its most alive passages, write it again from inside the character. Do the same for the passage a reader would skim, or cut it. Write a passage again whole; polishing words does not fix what was never imagined.
+3. **Look for the known failures.** Drafted fiction fails in predictable ways. Find each one that is here and fix it by imagining the moment again, not by applying a rule:
+   - narration filmed from outside, with no thought, judgment, or mistake from the viewpoint character
+   - the narrator explaining what a scene meant
+   - dialogue in tidy turns: lines that answer each other neatly, a cornered person briefing the reader, a line that states its own subtext, gestures between lines that change nothing
+   - one register for everyone, including everyone dodging with the same dry wit
+   - feeling carried only by labels or by reports from the body, unless the voice file asks for named feelings
+   - description by denial ("it did not rush") or by reflex comparison
+   - a line that sounds deep and states nothing, or shows a picture that cannot be pictured
+   - every scene at one temperature, or every scene ending the same way
+4. **Check that it adds up.** Follow the hours, positions, and objects through the chapter: what time it is, who stands where and in what order, who holds what, what each person can see. Fix each slip.
+5. **Count your habits.** Run `habits.py` from the `story-check` skill folder (full path, no `cd`) on the chapter. It lists comparisons, negated narration, body reports, hedges, and one-line paragraphs in the narration with line numbers. Where one habit is carrying the page, keep the instances doing real work and rewrite the rest. There is no passing number.
+6. **Check the borrowings.** Run `habits.py <chapter> --borrowed-from <voice file> <sample passage>`: it lists every run of five or more words the chapter shares with them. Each one comes out, along with any image taken from them. Then reread the beats' turn note and look for it in the chapter said in other words; that comes out too. The opening and ending differ in kind from the previous chapter's.
+7. **Check nothing was lost.** Go back to what you marked in step 1. Every one of those lines should have survived steps 2 to 6, or been replaced by something at least as alive. Trading a living line for a correct one is a bad trade: put it back.
 
 Leave this pass out of the hand-over. The hand-over says what the chapter does, not that it was improved.
 
@@ -756,6 +739,7 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `prose.craft.05` Does any sentence or image sound meaningful without stating anything exact? Say what it literally claims or what a reader would picture.
 - `prose.craft.06` Where does the chapter spend its words? Does the moment that turns each scene get the most room, with routine summarized or skipped?
 - `prose.craft.09` Against the earlier chapters, does this one open and close in a different way, and avoid leaning on the same devices?
+- `prose.craft.11` What would a reader repeat to someone (a joke, an edged line, an exact odd detail)? Quote them. Against an earlier version, is anything of that kind gone with nothing as alive in its place?
 - `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
 - `prose.tells.02` A closer that explains the beat the scene already showed.
 - `prose.tells.03` An aphorism in the narration in place of the character's actual state.
@@ -783,7 +767,7 @@ Find what is not working and say where, with evidence. Never fix anything here. 
 2. **Read the project's own rules.** Any review checklist, voice rules, chapter format, or length range it names is part of the check. Where it names several voice files (for example one per part of the book), use the one that applies to this chapter.
 3. **Read the chapter, its beats, the spec, and the `kb/` pages the beats name.** Without a spec or beats, check against the frameworks, the prose patterns, and the chapter's own internal consistency, and say what you could not check.
 4. **Run the text checker first**, with its full path and the chapter file or the folder of chapters: `python3 check_text.py <chapter or folder>`. If the beats or the project's own rules state a length range for a chapter, add `--words MIN-MAX` (for example `--words 1800-2500`). It reports leaked assistant text, stray formatting, unbalanced quotes, duplicated paragraphs, encoding damage, whitespace problems, a last line that stops mid-sentence, a long phrase repeated three or more times, and a chapter outside the stated length, with line numbers. Treat each warning as something to look at, not a verdict: a real slip becomes a finding, a deliberate choice does not. A chapter that stops mid-sentence is probably cut off, so say that first. A repeated phrase may be a deliberate refrain, song, or repeated document header. A length warning is a mismatch with the plan, not a flaw in the prose: say which one the writer should change.
-5. **Run the habit counter**, the same way: `python3 habits.py <chapter or folder>`. For English prose it lists, with line numbers, the comparisons, negated narration, body reports, hedges, and one-line paragraphs in the narration, runs of sentences that open with the same word, and each chapter's first and last lines. It has no passing number and it is never a finding by itself. Use it to see what your ear misses: one habit carrying a page, or several chapters that open or close the same way.
+5. **Run the habit counter**, the same way: `python3 habits.py <chapter or folder>`. For English prose it lists, with line numbers, the comparisons, negated narration, body reports, hedges, and one-line paragraphs in the narration, runs of sentences that open with the same word, and each chapter's first and last lines. Add `--borrowed-from <voice file> <sample passage>` to list word runs the chapter copies from them; a copied line is a finding. Otherwise it has no passing number and is never a finding by itself. Use it to see what your ear misses: one habit carrying a page, or several chapters that open or close the same way.
 6. **Read the whole chapter before noting anything.**
 
 #### Reading a long story
@@ -808,7 +792,7 @@ Writing a card is housekeeping, not a fix. When you had to open a chapter becaus
 
 Three kinds of finding have no framework check: a contradiction with `kb/` or an earlier chapter uses `Check: continuity`, a gap between the chapter and its beats or spec uses `Check: plan`, and a real warning from the text checker uses `Check: text`. Never borrow an unrelated ID to fill the field.
 
-Rank findings by how much they hurt the chapter. End with the top three priorities and one thing the chapter does well that should be kept. A finding is removed from the report when it is fixed; one kept on purpose becomes `[resolved] declined: <reason>`, handled by `story-revise`.
+Rank findings by how much they hurt the chapter. End with the top three priorities and a **keep list**: the lines and passages that are alive (a joke, a line with an edge, an exact odd detail, a character's way of talking), each quoted, as many as there are. A revision must not cost them, so a finding whose fix would remove one says so. A finding is removed from the report when it is fixed; one kept on purpose becomes `[resolved] declined: <reason>`, handled by `story-revise`.
 
 **A reader's report** ("is it any good?", "be a reader"): read as a skeptical reader and report in six short parts: where I got bored, where I got confused, where I stopped believing it, what I saw coming too early, what worked, and the one passage I would read aloud to someone beside the one I skimmed, both quoted. Give only the three biggest problems, each with a one-line example. Then the twist test: what you think the story's biggest secret is and how sure you are, and which clue gave it away if you guessed it early. Run the craft checks silently to find the problems; say them in the reader's words. Do not save a file unless the writer asks for one.
 
@@ -832,7 +816,7 @@ A chapter can be free of every fault above and still read as written by nobody. 
 - **Range.** Is everything quiet, oblique, and controlled?
 - **Across chapters.** Does this chapter open and close the way the last ones did, and lean on the same devices?
 
-Quote the passage a reader would skim and the passage that is most alive, and say whether the chapter's turn is the alive one. A flat-prose finding names the passage and what is missing from it. Its fix is to write the passage again from inside the character, never a list of words to swap. If the project's voice file asks for a narrator who stays outside the characters, that is the style and not a finding.
+Quote the passage a reader would skim and the passage that is most alive, and say whether the chapter's turn is the alive one. When an earlier version of the chapter exists in `work/drafts/_previous/`, read it too and say what it had that this version lacks. A flat-prose finding names the passage and what is missing from it. Its fix is to write the passage again from inside the character, never a list of words to swap. If the project's voice file asks for a narrator who stays outside the characters, that is the style and not a finding.
 
 #### Talking to the writer
 
@@ -1006,6 +990,7 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `prose.craft.08` Do the scenes differ in temperature, and does anyone say or do something blunt, funny, ugly, or unplanned?
 - `prose.craft.09` Against the earlier chapters, does this one open and close in a different way, and avoid leaning on the same devices?
 - `prose.craft.10` Which passage would a reader skim, and which is most alive? Quote both. Is the chapter's key moment the alive one?
+- `prose.craft.11` What would a reader repeat to someone (a joke, an edged line, an exact odd detail)? Quote them. Against an earlier version, is anything of that kind gone with nothing as alive in its place?
 - `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
 - `prose.tells.02` A closer that explains the beat the scene already showed.
 - `prose.tells.03` An aphorism in the narration in place of the character's actual state.
@@ -1074,36 +1059,28 @@ Writing a card is housekeeping, not a fix. When you had to open a chapter becaus
 
 #### Revising
 
+A revision that fixes structure and correctness can strip out the personality, and a chapter that is correct and lifeless is worse than the one you started with. So every revision does these steps, in order:
+
 1. **Keep the earlier version.** Copy the chapter to `work/drafts/_previous/` with a version number before changing it. Never overwrite the only copy.
-2. Work in priority order, must-fix first.
-3. Change as little as the finding needs. Keep the voice and the settled facts. If a fix needs a new fact, queue it as pending; never write it into `kb/`.
-4. **A flat passage is the exception to changing little.** When the finding is that a passage has no mind in it, a generic detail, a line that states nothing, or the same weight as everything around it, swapping words will not fix it, because the passage was never imagined. Go back into the moment: what the viewpoint character wants, what they see, what they think it means, what they have wrong. Then write that passage again whole, with the same events and facts, at about the same length, in the project's voice. Leave the rest of the chapter alone.
-5. In the check report, delete each finding once it is fixed. A finding you or the writer decide not to fix becomes `[resolved] declined: <reason>`. Only a finding deferred to later stays `[open]`, with "deferred" and why. Delete the report file when no findings are left.
-6. **Re-check your own new text** against the finding that prompted it and with the craft checks below. Do not swap one habit for a close cousin of it, such as replacing a named emotion with a stock gesture or a report from the body, or a cut explanation with a comparison. Run `habits.py` from the `story-check` skill folder (full path, no `cd`) on the revised chapter and compare its counts with the earlier version's: a revision that removes one habit and doubles another has not helped.
-7. Set the chapter's status line to `<!-- status: draft -->` (or `awaiting check-in` inside autopilot). Never remove a chapter's status line yourself; only the writer's word does that.
-8. Replace the chapter's copy in `work/drafts/_delivered/` with the text you are handing over.
-9. Rewrite the chapter's card (see Chapter cards in `story-continue`) if it has one, or if the story has five or more chapters.
+2. **List what is alive, before changing anything.** Read the chapter for what a reader would repeat to someone: jokes, lines with an edge, the exact odd detail, a character's particular way of talking, a passage with momentum. Write the list down, quoting each. This is the keep list. Also on it, unless a finding shows one failing at its own job: dialogue and its rhythm, inner thoughts, digressive texture, deliberate ambiguity or silence, repetition that carries rhythm.
+3. **Fix in priority order, must-fix first, changing as little as each finding needs.** Keep the voice and the settled facts. A fix that needs a new fact queues it as pending; never write it into `kb/`. You may fix wording, punctuation, and paragraph breaks freely. Never compress concrete material into summary.
+4. **A flat passage is written again whole.** When the finding is that a passage has no mind in it, a generic detail, a line that states nothing, or the same weight as everything around it, swapping words will not help, because the passage was never imagined. Go back into the moment (what the viewpoint character wants, sees, thinks it means, has wrong) and write that passage again, with the same events and facts, at about the same length. How it is written is your judgment. The rest of the chapter stays.
+5. **A whole-chapter rewrite happens only when the writer asks for one.** Then the keep list matters most: build the new chapter around those lines, and add to them. The aim of a rewrite is everything the old chapter had, plus what it lacked. That is not a licence to add length: stay inside the chapter's length range, or within about a tenth of the old length if no range is set, and if what you added will not fit, say what you would cut and let the writer choose.
+6. **Compare what was gained and what was lost.** Read the old and new versions side by side. For each line on the keep list: is it still there, or replaced by something at least as alive? Put back anything that was lost for nothing. Then ask the same of the chapter as a whole: is it as funny, as sharp, as strange, as much itself as before? If the new version is better built and duller, it is not finished. Then read the new version straight through once: a line carried over or put back has to fit what now surrounds it, and one that repeats a point already made comes out.
+7. **Re-check your own new text** against the finding that prompted it and the craft checks below. Do not swap one habit for its cousin (a named emotion for a body report, a cut explanation for a comparison). Run `habits.py` from the `story-check` skill folder (full path, no `cd`) on both versions and compare.
+8. **Housekeeping.** In the check report, delete each fixed finding; one you or the writer decline becomes `[resolved] declined: <reason>`; only a deferred one stays `[open]`, with why. Delete the report when it is empty. Set the status line to `<!-- status: draft -->` (or `awaiting check-in` inside autopilot) and never remove it yourself. Replace the chapter's copy in `work/drafts/_delivered/` with what you hand over. Rewrite its card (see Chapter cards in `story-continue`) if it has one or the story has five or more chapters.
 
-#### Protect style-bearing material
-
-Some of what looks like slack is the voice. Leave these alone unless a finding shows one failing at its own job:
-
-- dialogue, including its rhythm and what it leaves unsaid
-- inner thoughts
-- digressive texture and observational detail
-- deliberate ambiguity, silence, or flirtation
-- repetition that carries rhythm
-
-You may fix wording, punctuation, transcription noise, and paragraph breaks. Never compress concrete material into summary, and never "tighten" a passage by replacing its specific detail with a general statement. When a fix would remove protected material, say which one and what the fix gains, and let the writer decide.
+When a fix would cost something on the keep list, say which line and what the fix gains, and let the writer decide.
 
 #### Handing over
 
-Say what changed and what did not, and offer another check. Repeat check and revise until the writer says the chapter is done; never decide that yourself.
+Say what changed, what did not, and **what was lost**: any line from the keep list that did not survive, and why. Offer another check. Repeat check and revise until the writer says the chapter is done; never decide that yourself.
 
 #### Rules
 
 - Never delete the earlier version.
 - Never flatten concrete detail into summary.
+- Never hand over a revision without the keep list checked against it.
 - Never delete a finding you did not fix.
 - Report what the revision does, not that it is better.
 
@@ -1123,6 +1100,7 @@ Apply each check that fits this story. In the files you write (beats, reports, n
 - `prose.craft.03` How is each strong feeling carried? If mostly by labels or body reports (chest, breath, pulse, stomach), find what the feeling makes this character notice, avoid, or do.
 - `prose.craft.05` Does any sentence or image sound meaningful without stating anything exact? Say what it literally claims or what a reader would picture.
 - `prose.craft.07` Is description built from what is present and what happens, or from denials and reflex comparisons?
+- `prose.craft.11` What would a reader repeat to someone (a joke, an edged line, an exact odd detail)? Quote them. Against an earlier version, is anything of that kind gone with nothing as alive in its place?
 - `prose.tells.01` Not X but Y: a contrast that denies something nobody claimed.
 - `prose.tells.02` A closer that explains the beat the scene already showed.
 - `prose.tells.03` An aphorism in the narration in place of the character's actual state.
@@ -4171,6 +4149,8 @@ A device that works once wears out by the third use. Compare the chapter with th
 
 Polishing words does not fix a passage that was never imagined. Go back into the moment: what does the character want here, what do they see, what do they think it means, what are they wrong about? Then write the passage again whole, with the same events and facts, at about the same length. Do not decorate the old sentences.
 
+Before reworking anything, note what in it is already alive (a joke, a line with an edge, an odd exact detail) and carry it over. Structure and correctness are easy to add and personality is easy to lose; a rework that comes out better built and duller has gone backward.
+
 #### Checks
 
 - `prose.craft.01` For each scene, where on the page does the viewpoint character want, judge, or think something through? A scene of only actions, objects, and speech reads as filmed.
@@ -4183,10 +4163,12 @@ Polishing words does not fix a passage that was never imagined. Go back into the
 - `prose.craft.08` Do the scenes differ in temperature, and does anyone say or do something blunt, funny, ugly, or unplanned?
 - `prose.craft.09` Against the earlier chapters, does this one open and close in a different way, and avoid leaning on the same devices?
 - `prose.craft.10` Which passage would a reader skim, and which is most alive? Quote both. Is the chapter's key moment the alive one?
+- `prose.craft.11` What would a reader repeat to someone (a joke, an edged line, an exact odd detail)? Quote them. Against an earlier version, is anything of that kind gone with nothing as alive in its place?
 
 #### Cautions and exceptions
 
 - A deliberately external style is legitimate: hard-boiled narration, fable, a storyteller who stays outside, a minimalism the writer chose. Its life then comes from selection and voice, so the checks on detail, exactness, and proportion still apply and `prose.craft.01` does not.
+- These are ways of seeing a draft, not rules for writing one. A writer who knows why a habit deadens a page can break any of them on purpose.
 - None of this is a quota. One thought where it counts, one detail that works. A thought in every paragraph and a striking detail in every sentence is a new default.
 - The writer's voice file and their own pages come before anything here.
 - This is line-level craft from common editing practice, not from the lecture series behind the plot and character frameworks.
